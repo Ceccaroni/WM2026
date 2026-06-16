@@ -2,6 +2,17 @@
 
 > Chronologisches Log aller Arbeitsblöcke, neueste oben — inkl. Verifikationsdetails, Quellen und Begründungen („warum ist X so gebaut?"). Wird beim Sessionstart NICHT gelesen; nur bei Detailfragen gezielt hier nachschlagen. Übergabe-Dokument: STATUS.md.
 
+### PWA-Deploy live auf GitHub Pages (16.06.; Auslöser: Adrian „GitHub-Pages-Deploy")
+
+**Ergebnis:** PWA ist öffentlich erreichbar unter **https://ceccaroni.github.io/WM2026/** (HTTPS erzwungen) — damit erstmals echter iPhone-Install + Service-Worker/Offline möglich (LAN-http hatte keinen SW).
+
+- **Repo:** Arbeitsverzeichnis war kein Git-Repo → `git init -b main`, erster Commit (1323 Dateien). **Öffentliches** Repo `Ceccaroni/WM2026` (Adrian-Entscheid: Account ist Free-Plan → Pages nur für public Repos; der Seed ist über die Pages-URL ohnehin öffentlich, schon abgesegnet). Vor dem Push: Pfad-Hygiene + Secret-Scan (Tokens/Keys/PrivateKeys/Publish-Credentials) — sauber. Repo-Name = `WM2026`, damit Pages-URL-Subpfad zur eingebackenen `base '/WM2026/'` passt.
+- **.gitignore erweitert:** zusätzlich `dist-web/` (50 MB Build-Output, fehlte!), `*.tsbuildinfo`, **`src/web/seed-state.json`** (generiertes Artefakt aus dem Mac-Store — gehört nicht in den Source-Branch, wird bei jedem `build:web` frisch erzeugt) und `/index.js` (verirrtes Electron-Main-Bundle im Root; korrekt ist `out/main/index.js`). `build/` (Icon-Assets, 2.5 MB) bleibt committet. `dist/` (772 MB .dmg) war schon ignoriert.
+- **Deploy-Mechanik (NEU, wiederverwendbar):** `scripts/deploy-web.mjs` + Scripts `deploy:web` / `publish:web`. **Warum lokal statt CI:** der Web-Seed kommt aus dem führenden Mac-Store — ein Actions-Runner hat ihn NICHT, kann also nicht bauen. Daher: lokal `npm run build:web`, dann den fertigen `dist-web/` als **Orphan-Commit force-pushen in `gh-pages`** (Deploy-Artefakt-Branch, keine Historie nötig). Script setzt `.nojekyll` (sonst schluckt Jekyll evtl. Dateien), zieht die Remote-URL aus `origin`, räumt das temporäre `.git` in dist-web wieder weg. **Künftiges Tipp-Update online bringen: `npm run publish:web`** (kettet Build + Deploy; analog zur OTA-`publish:update` für die Electron-App).
+- **Pages aktiviert** via API (`gh api … /pages`, source = gh-pages/root, `https_enforced:true`); erster Build „built" ohne Fehler.
+- **Verifiziert (Artefakt-Ebene, real per HTTP):** Hauptseite 200 (`<title>WM26 Tipp`), die im HTML referenzierten `assets/index-*.js` + `*.css` 200, `manifest.webmanifest` (start_url/scope `.` → relativ, respektiert Subpfad), `sw.js` (precacht App-Shell), `icon-192/512.png` + `apple-touch-icon.png` (für iOS-Homescreen) je 200.
+- 🔴 **NICHT verifiziert (braucht Adrian am iPhone):** Install zum Homescreen, Offline-Funktion (SW erst über https aktiv), Layout-Sichtung Hochformat aller Screens, Flip-Bug (Safari-3D). Reine Erreichbarkeit ≠ echter Nutzerfall.
+
 ### PWA fürs iPhone — Phase 1 gebaut (16.06.; Auslöser: Adrian „PWA jetzt bauen, aber sauber planen erst"; nach Verwurf der Bracket-Minimap)
 
 **Ziel/Entscheidungen:** Renderer als eigenständige **statische PWA** (GitHub Pages, `base '/WM2026/'`), **kein Backend** (ESPN CORS-offen, in dieser Session am Endpunkt erneut bestätigt: Scoreboard+Summary `access-control-allow-origin: *`). News-Feeds + fixturedownload fallen im Web weg (kein CORS-Header). Plan: `~/.claude/plans/sorted-imagining-quill.md`.
