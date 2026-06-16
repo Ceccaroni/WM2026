@@ -10,6 +10,8 @@
     "build": "electron-vite build",
     "seed:web": "node scripts/build-web-seed.mjs",
     "build:web": "node scripts/build-web-seed.mjs && vite build --config vite.web.config.ts",
+    "deploy:web": "node scripts/deploy-web.mjs",
+    "publish:web": "npm run build:web && npm run deploy:web",
     "preview:web": "vite preview --config vite.web.config.ts --host",
     "typecheck": "tsc --noEmit -p tsconfig.web.json && tsc --noEmit -p tsconfig.node.json",
     "data:schedule": "node scripts/build-schedule.mjs",
