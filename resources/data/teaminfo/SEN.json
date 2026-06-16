@@ -1,0 +1,40 @@
+{
+  "id": "SEN",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 14,
+  "wcRecord": "4. Teilnahme · bestes Ergebnis: Viertelfinale 2002",
+  "coach": {
+    "name": "Pape Thiaw",
+    "since": "2024"
+  },
+  "stars": [
+    {
+      "name": "Sadio Mané",
+      "club": "Al-Nassr",
+      "role": "Sturm & Leitfigur"
+    },
+    {
+      "name": "Kalidou Koulibaly",
+      "club": "Al-Hilal",
+      "role": "Kapitän & Innenverteidigung"
+    },
+    {
+      "name": "Pape Matar Sarr",
+      "club": "Tottenham Hotspur",
+      "role": "Zentrales Mittelfeld"
+    },
+    {
+      "name": "Nicolas Jackson",
+      "club": "FC Bayern München (Leihe von Chelsea)",
+      "role": "Sturm"
+    }
+  ],
+  "form": "Beim Afrika-Cup im Januar auf dem Platz bis in den Final ungeschlagen, der Titel ging aber am grünen Tisch verloren. Im März 2:0 gegen Peru und 3:1 gegen Gambia; in der WM-Vorbereitung 2:3 gegen Gastgeber USA (Mané-Doppelpack, 31. Mai) und 0:0 gegen Saudi-Arabien (9. Juni).",
+  "quali": "Ungeschlagen als Sieger der CAF-Gruppe B vor der DR Kongo: 7 Siege, 3 Remis, nur 3 Gegentore in 10 Spielen – Schlüsselmoment war das 3:2 nach 0:2-Rückstand in Kinshasa.",
+  "storylines": [
+    "Afrika-Cup-Final-Eklat: Nach Thiaws Walk-off im Final gegen Marokko wurde Senegal der auf dem Platz gewonnene Titel aberkannt (3:0-Forfait für Marokko) – der Fall liegt vor dem CAS",
+    "Kapitän Koulibaly (34) nach Oberschenkel-Muskelriss seit April zurück im Training – Wettlauf zur Fitness für den Auftakt gegen Frankreich am 16. Juni",
+    "Jackson flog in der Generalprobe gegen Saudi-Arabien mit Gelb-Rot vom Platz, ist für den WM-Auftakt aber nicht gesperrt",
+    "Mané (34) in Topform als emotionaler Leader – Doppelpack gegen die USA in der WM-Vorbereitung"
+  ]
+}

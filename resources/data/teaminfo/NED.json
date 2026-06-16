@@ -1,0 +1,40 @@
+{
+  "id": "NED",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 7,
+  "wcRecord": "12. Teilnahme · 3× Vize-Weltmeister (1974, 1978, 2010)",
+  "coach": {
+    "name": "Ronald Koeman",
+    "since": "2023"
+  },
+  "stars": [
+    {
+      "name": "Virgil van Dijk",
+      "club": "FC Liverpool",
+      "role": "Kapitän & Innenverteidigung"
+    },
+    {
+      "name": "Frenkie de Jong",
+      "club": "FC Barcelona",
+      "role": "Zentrales Mittelfeld"
+    },
+    {
+      "name": "Cody Gakpo",
+      "club": "FC Liverpool",
+      "role": "Flügel"
+    },
+    {
+      "name": "Memphis Depay",
+      "club": "Corinthians",
+      "role": "Sturm"
+    }
+  ],
+  "form": "Holprige Generalprobe: Im März nur 1:1 gegen Ecuador (lange in Unterzahl nach Rot gegen Dumfries), am 3. Juni folgte eine 0:1-Blamage gegen Algerien in Rotterdam, ehe ein mühevolles 2:1 gegen Usbekistan am 8. Juni etwas Beruhigung brachte.",
+  "quali": "Ungeschlagen als Sieger der UEFA-Gruppe G (6 Siege, 2 Remis gegen Polen, 27:4 Tore); das 4:0 gegen Litauen am letzten Spieltag im November 2025 fixierte Platz 1.",
+  "storylines": [
+    "Xavi Simons fehlt mit Kreuzbandriss, dazu fallen die Abwehr-Stammkräfte De Ligt und De Vrij verletzt aus",
+    "Jurriën Timber musste kurz vor dem Turnier verletzt Forfait geben — Geertruida rückte nach",
+    "Die Nichtnominierung von Jeremie Frimpong sorgt für die größte Kaderdebatte",
+    "Rekordtorschütze Depay jagt den ersten Titel — dreimal verlor die Elftal bereits ein WM-Finale"
+  ]
+}

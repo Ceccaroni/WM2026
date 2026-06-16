@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Fahad Talib",
+    "born": "1994-10-21",
+    "caps": 21,
+    "goals": 0,
+    "club": "Al-Talaba"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Rebin Sulaka",
+    "born": "1992-04-12",
+    "caps": 56,
+    "goals": 1,
+    "club": "Port"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Hussein Ali",
+    "born": "2002-03-01",
+    "caps": 27,
+    "goals": 1,
+    "club": "Pogoń Szczecin"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Zaid Tahseen",
+    "born": "2001-01-29",
+    "caps": 28,
+    "goals": 1,
+    "club": "Pakhtakor"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Akam Hashim",
+    "born": "1998-08-16",
+    "caps": 14,
+    "goals": 1,
+    "club": "Al-Zawraa"
+  },
+  {
+    "no": 6,
+    "pos": "AB",
+    "name": "Manaf Younis",
+    "born": "1996-11-16",
+    "caps": 34,
+    "goals": 1,
+    "club": "Al-Shorta"
+  },
+  {
+    "no": 7,
+    "pos": "MF",
+    "name": "Youssef Amyn",
+    "born": "2003-08-21",
+    "caps": 27,
+    "goals": 2,
+    "club": "AEK Larnaca"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Ibrahim Bayesh",
+    "born": "2000-05-01",
+    "caps": 76,
+    "goals": 8,
+    "club": "Al Dhafra"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Ali Al-Hamadi",
+    "born": "2002-03-01",
+    "caps": 20,
+    "goals": 5,
+    "club": "Luton Town"
+  },
+  {
+    "no": 10,
+    "pos": "ST",
+    "name": "Mohanad Ali",
+    "born": "2000-06-20",
+    "caps": 72,
+    "goals": 27,
+    "club": "Dibba"
+  },
+  {
+    "no": 11,
+    "pos": "ST",
+    "name": "Ahmed Qasem",
+    "born": "2003-07-12",
+    "caps": 3,
+    "goals": 0,
+    "club": "Nashville SC"
+  },
+  {
+    "no": 12,
+    "pos": "TW",
+    "name": "Jalal Hassan",
+    "born": "1991-05-18",
+    "caps": 102,
+    "goals": 0,
+    "club": "Al-Zawraa",
+    "captain": true
+  },
+  {
+    "no": 13,
+    "pos": "ST",
+    "name": "Ali Yousif",
+    "born": "1996-01-19",
+    "caps": 7,
+    "goals": 1,
+    "club": "Al-Talaba"
+  },
+  {
+    "no": 14,
+    "pos": "MF",
+    "name": "Zidane Iqbal",
+    "born": "2003-04-27",
+    "caps": 25,
+    "goals": 2,
+    "club": "Utrecht"
+  },
+  {
+    "no": 15,
+    "pos": "AB",
+    "name": "Ahmed Maknzi",
+    "born": "2001-09-24",
+    "caps": 7,
+    "goals": 0,
+    "club": "Al-Karma"
+  },
+  {
+    "no": 16,
+    "pos": "MF",
+    "name": "Amir Al-Ammari",
+    "born": "1997-07-27",
+    "caps": 51,
+    "goals": 3,
+    "club": "Cracovia"
+  },
+  {
+    "no": 17,
+    "pos": "ST",
+    "name": "Ali Jasim",
+    "born": "2004-01-20",
+    "caps": 36,
+    "goals": 2,
+    "club": "Al-Najma"
+  },
+  {
+    "no": 18,
+    "pos": "ST",
+    "name": "Aymen Hussein",
+    "born": "1996-03-22",
+    "caps": 95,
+    "goals": 33,
+    "club": "Al-Karma"
+  },
+  {
+    "no": 19,
+    "pos": "MF",
+    "name": "Kevin Yakob",
+    "born": "2000-10-10",
+    "caps": 9,
+    "goals": 0,
+    "club": "AGF"
+  },
+  {
+    "no": 20,
+    "pos": "MF",
+    "name": "Aimar Sher",
+    "born": "2002-12-20",
+    "caps": 7,
+    "goals": 0,
+    "club": "Sarpsborg 08"
+  },
+  {
+    "no": 21,
+    "pos": "ST",
+    "name": "Marko Farji",
+    "born": "2004-03-16",
+    "caps": 12,
+    "goals": 0,
+    "club": "Venezia"
+  },
+  {
+    "no": 22,
+    "pos": "TW",
+    "name": "Ahmed Basil",
+    "born": "1996-08-19",
+    "caps": 16,
+    "goals": 0,
+    "club": "Al-Shorta"
+  },
+  {
+    "no": 23,
+    "pos": "AB",
+    "name": "Merchas Doski",
+    "born": "1999-12-07",
+    "caps": 31,
+    "goals": 1,
+    "club": "Viktoria Plzeň"
+  },
+  {
+    "no": 24,
+    "pos": "MF",
+    "name": "Zaid Ismail",
+    "born": "2002-01-03",
+    "caps": 6,
+    "goals": 0,
+    "club": "Al-Talaba"
+  },
+  {
+    "no": 25,
+    "pos": "AB",
+    "name": "Mustafa Saadoon",
+    "born": "2001-05-25",
+    "caps": 17,
+    "goals": 0,
+    "club": "Al-Shorta"
+  },
+  {
+    "no": 26,
+    "pos": "AB",
+    "name": "Frans Putros",
+    "born": "1993-07-14",
+    "caps": 28,
+    "goals": 0,
+    "club": "Persib"
+  }
+]

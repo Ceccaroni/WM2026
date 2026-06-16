@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Melvin Mastil",
+    "born": "2000-02-19",
+    "caps": 1,
+    "goals": 0,
+    "club": "Stade Nyonnais"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Aïssa Mandi",
+    "born": "1991-10-22",
+    "caps": 117,
+    "goals": 7,
+    "club": "Lille"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Achref Abada",
+    "born": "1999-06-15",
+    "caps": 7,
+    "goals": 1,
+    "club": "USM Alger"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Mohamed Amine Tougai",
+    "born": "2000-01-22",
+    "caps": 29,
+    "goals": 2,
+    "club": "Espérance de Tunis"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Zineddine Belaïd",
+    "born": "1999-03-20",
+    "caps": 10,
+    "goals": 1,
+    "club": "JS Kabylie"
+  },
+  {
+    "no": 6,
+    "pos": "MF",
+    "name": "Ramiz Zerrouki",
+    "born": "1998-05-26",
+    "caps": 52,
+    "goals": 3,
+    "club": "Twente"
+  },
+  {
+    "no": 7,
+    "pos": "ST",
+    "name": "Riyad Mahrez",
+    "born": "1991-02-21",
+    "caps": 114,
+    "goals": 38,
+    "club": "Al-Ahli",
+    "captain": true
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Houssem Aouar",
+    "born": "1998-06-30",
+    "caps": 20,
+    "goals": 6,
+    "club": "Al-Ittihad"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Amine Gouiri",
+    "born": "2000-02-16",
+    "caps": 22,
+    "goals": 8,
+    "club": "Marseille"
+  },
+  {
+    "no": 10,
+    "pos": "MF",
+    "name": "Farès Chaïbi",
+    "born": "2002-11-28",
+    "caps": 29,
+    "goals": 3,
+    "club": "Eintracht Frankfurt"
+  },
+  {
+    "no": 11,
+    "pos": "ST",
+    "name": "Anis Hadj Moussa",
+    "born": "2002-02-11",
+    "caps": 14,
+    "goals": 1,
+    "club": "Feyenoord"
+  },
+  {
+    "no": 12,
+    "pos": "ST",
+    "name": "Nadhir Benbouali",
+    "born": "2000-04-17",
+    "caps": 3,
+    "goals": 1,
+    "club": "Győri ETO"
+  },
+  {
+    "no": 13,
+    "pos": "AB",
+    "name": "Jaouen Hadjam",
+    "born": "2003-03-26",
+    "caps": 17,
+    "goals": 3,
+    "club": "Young Boys"
+  },
+  {
+    "no": 14,
+    "pos": "MF",
+    "name": "Hicham Boudaoui",
+    "born": "1999-09-23",
+    "caps": 32,
+    "goals": 0,
+    "club": "Nice"
+  },
+  {
+    "no": 15,
+    "pos": "AB",
+    "name": "Rayan Aït-Nouri",
+    "born": "2001-06-06",
+    "caps": 28,
+    "goals": 0,
+    "club": "Manchester City"
+  },
+  {
+    "no": 16,
+    "pos": "TW",
+    "name": "Oussama Benbot",
+    "born": "1994-10-11",
+    "caps": 2,
+    "goals": 0,
+    "club": "USM Alger"
+  },
+  {
+    "no": 17,
+    "pos": "AB",
+    "name": "Rafik Belghali",
+    "born": "2002-06-07",
+    "caps": 12,
+    "goals": 1,
+    "club": "Hellas Verona"
+  },
+  {
+    "no": 18,
+    "pos": "ST",
+    "name": "Mohamed Amoura",
+    "born": "2000-05-09",
+    "caps": 45,
+    "goals": 19,
+    "club": "VfL Wolfsburg"
+  },
+  {
+    "no": 19,
+    "pos": "MF",
+    "name": "Nabil Bentaleb",
+    "born": "1994-11-24",
+    "caps": 59,
+    "goals": 6,
+    "club": "Lille"
+  },
+  {
+    "no": 20,
+    "pos": "ST",
+    "name": "Adil Boulbina",
+    "born": "2003-05-02",
+    "caps": 11,
+    "goals": 6,
+    "club": "Al-Duhail"
+  },
+  {
+    "no": 21,
+    "pos": "AB",
+    "name": "Ramy Bensebaini",
+    "born": "1995-04-16",
+    "caps": 81,
+    "goals": 7,
+    "club": "Borussia Dortmund"
+  },
+  {
+    "no": 22,
+    "pos": "MF",
+    "name": "Ibrahim Maza",
+    "born": "2005-11-24",
+    "caps": 16,
+    "goals": 2,
+    "club": "Bayer Leverkusen"
+  },
+  {
+    "no": 23,
+    "pos": "TW",
+    "name": "Luca Zidane",
+    "born": "1998-05-13",
+    "caps": 7,
+    "goals": 0,
+    "club": "Granada"
+  },
+  {
+    "no": 24,
+    "pos": "MF",
+    "name": "Yacine Titraoui",
+    "born": "2003-07-26",
+    "caps": 5,
+    "goals": 0,
+    "club": "Charleroi"
+  },
+  {
+    "no": 25,
+    "pos": "ST",
+    "name": "Farès Ghedjemis",
+    "born": "2002-09-06",
+    "caps": 1,
+    "goals": 1,
+    "club": "Frosinone"
+  },
+  {
+    "no": 26,
+    "pos": "AB",
+    "name": "Samir Chergui",
+    "born": "1999-02-06",
+    "caps": 4,
+    "goals": 0,
+    "club": "Paris FC"
+  }
+]

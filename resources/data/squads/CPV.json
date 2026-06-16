@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Vozinha",
+    "born": "1986-06-03",
+    "caps": 90,
+    "goals": 0,
+    "club": "Chaves"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Stopira",
+    "born": "1988-05-20",
+    "caps": 61,
+    "goals": 4,
+    "club": "Torreense"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Diney",
+    "born": "1995-01-17",
+    "caps": 32,
+    "goals": 2,
+    "club": "Al Bataeh"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Roberto Lopes",
+    "born": "1992-06-17",
+    "caps": 45,
+    "goals": 0,
+    "club": "Shamrock Rovers"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Logan Costa",
+    "born": "2001-04-01",
+    "caps": 28,
+    "goals": 0,
+    "club": "Villarreal"
+  },
+  {
+    "no": 6,
+    "pos": "MF",
+    "name": "Kevin Pina",
+    "born": "1997-01-27",
+    "caps": 31,
+    "goals": 3,
+    "club": "Krasnodar"
+  },
+  {
+    "no": 7,
+    "pos": "MF",
+    "name": "Jovane Cabral",
+    "born": "1998-06-14",
+    "caps": 29,
+    "goals": 3,
+    "club": "Estrela Amadora"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "João Paulo",
+    "born": "1998-05-26",
+    "caps": 41,
+    "goals": 1,
+    "club": "FCSB"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Gilson Benchimol",
+    "born": "2001-12-29",
+    "caps": 21,
+    "goals": 6,
+    "club": "Akron Tolyatti"
+  },
+  {
+    "no": 10,
+    "pos": "MF",
+    "name": "Jamiro Monteiro",
+    "born": "1993-11-23",
+    "caps": 55,
+    "goals": 5,
+    "club": "PEC Zwolle"
+  },
+  {
+    "no": 11,
+    "pos": "MF",
+    "name": "Garry Rodrigues",
+    "born": "1990-11-27",
+    "caps": 61,
+    "goals": 10,
+    "club": "Apollon Limassol"
+  },
+  {
+    "no": 12,
+    "pos": "TW",
+    "name": "Márcio Rosa",
+    "born": "1997-02-23",
+    "caps": 11,
+    "goals": 0,
+    "club": "Montana"
+  },
+  {
+    "no": 13,
+    "pos": "AB",
+    "name": "Sidny Lopes Cabral",
+    "born": "2002-09-18",
+    "caps": 11,
+    "goals": 3,
+    "club": "Benfica"
+  },
+  {
+    "no": 14,
+    "pos": "MF",
+    "name": "Deroy Duarte",
+    "born": "1999-07-04",
+    "caps": 33,
+    "goals": 0,
+    "club": "Ludogorets Razgrad"
+  },
+  {
+    "no": 15,
+    "pos": "MF",
+    "name": "Laros Duarte",
+    "born": "1997-02-28",
+    "caps": 20,
+    "goals": 1,
+    "club": "Puskás Akadémia"
+  },
+  {
+    "no": 16,
+    "pos": "MF",
+    "name": "Yannick Semedo",
+    "born": "1995-12-29",
+    "caps": 11,
+    "goals": 1,
+    "club": "Farense"
+  },
+  {
+    "no": 17,
+    "pos": "MF",
+    "name": "Willy Semedo",
+    "born": "1994-04-27",
+    "caps": 38,
+    "goals": 3,
+    "club": "Omonia"
+  },
+  {
+    "no": 18,
+    "pos": "MF",
+    "name": "Telmo Arcanjo",
+    "born": "2001-06-21",
+    "caps": 16,
+    "goals": 1,
+    "club": "Vitória de Guimarães"
+  },
+  {
+    "no": 19,
+    "pos": "ST",
+    "name": "Dailon Livramento",
+    "born": "2001-05-04",
+    "caps": 22,
+    "goals": 7,
+    "club": "Casa Pia"
+  },
+  {
+    "no": 20,
+    "pos": "ST",
+    "name": "Ryan Mendes",
+    "born": "1990-01-08",
+    "caps": 98,
+    "goals": 22,
+    "club": "Iğdır",
+    "captain": true
+  },
+  {
+    "no": 21,
+    "pos": "MF",
+    "name": "Nuno da Costa",
+    "born": "1991-02-10",
+    "caps": 9,
+    "goals": 2,
+    "club": "İstanbul Başakşehir"
+  },
+  {
+    "no": 22,
+    "pos": "AB",
+    "name": "Steven Moreira",
+    "born": "1994-08-13",
+    "caps": 20,
+    "goals": 0,
+    "club": "Columbus Crew"
+  },
+  {
+    "no": 23,
+    "pos": "TW",
+    "name": "CJ dos Santos",
+    "born": "2000-08-24",
+    "caps": 1,
+    "goals": 0,
+    "club": "San Diego FC"
+  },
+  {
+    "no": 24,
+    "pos": "AB",
+    "name": "Wagner Pina",
+    "born": "2002-11-03",
+    "caps": 14,
+    "goals": 0,
+    "club": "Trabzonspor"
+  },
+  {
+    "no": 25,
+    "pos": "AB",
+    "name": "Kelvin Pires",
+    "born": "2000-06-05",
+    "caps": 6,
+    "goals": 1,
+    "club": "SJK"
+  },
+  {
+    "no": 26,
+    "pos": "MF",
+    "name": "Hélio Varela",
+    "born": "2002-05-03",
+    "caps": 21,
+    "goals": 0,
+    "club": "Maccabi Tel Aviv"
+  }
+]

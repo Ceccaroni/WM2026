@@ -1,0 +1,40 @@
+{
+  "id": "RSA",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 60,
+  "wcRecord": "4. Teilnahme (1998, 2002, 2010) · nie über die Gruppenphase hinaus",
+  "coach": {
+    "name": "Hugo Broos",
+    "since": "2021"
+  },
+  "stars": [
+    {
+      "name": "Ronwen Williams",
+      "club": "Mamelodi Sundowns",
+      "role": "Kapitän & Torwart"
+    },
+    {
+      "name": "Teboho Mokoena",
+      "club": "Mamelodi Sundowns",
+      "role": "Zentrales Mittelfeld"
+    },
+    {
+      "name": "Lyle Foster",
+      "club": "Burnley FC",
+      "role": "Sturm"
+    },
+    {
+      "name": "Relebohile Mofokeng",
+      "club": "Orlando Pirates",
+      "role": "Flügel"
+    }
+  ],
+  "form": "Seit fünf Spielen sieglos: Nach dem Achtelfinal-Aus am Afrika-Cup gegen Kamerun (1:2) folgten im März ein 1:1 und eine Niederlage gegen Panama, Ende Mai ein 0:0 gegen Nicaragua (Foster verschoss einen Penalty) und am 6. Juni ein 1:1 gegen Jamaika in Pachuca – Foster traf im Geisterspiel hinter verschlossenen Türen.",
+  "quali": "Sieger der CAF-Gruppe C mit 18 Punkten vor Nigeria und Benin (je 17) und damit direkt qualifiziert – trotz Forfait-0:3 am grünen Tisch, weil der gesperrte Mokoena gegen Lesotho eingesetzt worden war.",
+  "storylines": [
+    "Erste WM seit der Heim-WM 2010 – und Bafana Bafana eröffnet das Turnier am 11. Juni gegen Gastgeber Mexiko im Estadio Azteca",
+    "Letzter Tanz: Die WM ist das erklärte letzte Engagement der Trainerkarriere von Hugo Broos (74)",
+    "Kurioses Geisterspiel gegen Jamaika ohne Fans und Medien – das korrekte Resultat (1:1) klärte der Verband erst am Tag danach",
+    "Pirates-Juwel Relebohile Mofokeng weckt europäische Begehrlichkeiten – nach der WM winkt ein Transfer von über 100 Millionen Rand"
+  ]
+}

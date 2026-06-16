@@ -1,0 +1,40 @@
+{
+  "id": "ALG",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 28,
+  "wcRecord": "5. Teilnahme · zuletzt 2014",
+  "coach": {
+    "name": "Vladimir Petković",
+    "since": "2024"
+  },
+  "stars": [
+    {
+      "name": "Riyad Mahrez",
+      "club": "Al-Ahli (Saudi-Arabien)",
+      "role": "Kapitän & Flügel"
+    },
+    {
+      "name": "Mohamed Amoura",
+      "club": "VfL Wolfsburg",
+      "role": "Sturm"
+    },
+    {
+      "name": "Rayan Aït-Nouri",
+      "club": "Manchester City",
+      "role": "Linksverteidigung"
+    },
+    {
+      "name": "Ibrahim Maza",
+      "club": "Bayer Leverkusen",
+      "role": "Offensives Mittelfeld"
+    }
+  ],
+  "form": "Topform: vier Spiele in Serie ohne Gegentor – im März 7:0 gegen Guatemala und 0:0 gegen Uruguay, am 3. Juni der 1:0-Coup in Rotterdam gegen die Niederlande (Hadj Moussa, 86.), zum Abschluss am 10. Juni 4:0 gegen Bolivien. Beim Afrika-Cup zuvor Gruppensieger, dann im Viertelfinale 0:2 gegen Nigeria ausgeschieden (Januar 2026).",
+  "quali": "Souveräner Sieger der CAF-Gruppe G mit 25 Punkten (8 Siege, 1 Remis, 1 Niederlage) – erste WM-Qualifikation seit 2014. Amoura war mit 10 Treffern bester Torschütze der gesamten Afrika-Quali.",
+  "storylines": [
+    "Mahrez' letzter grosser Auftritt: Mit 35 führt der Kapitän (113 Länderspiele) Algerien in sein finales Turnier – «Wir sind hier, um Spuren zu hinterlassen»",
+    "Rückkehr nach 12 Jahren: Erste WM seit 2014, als Algerien im Achtelfinale Deutschland forderte – das Achtelfinale ist die Messlatte",
+    "Luca Zidane: Der Sohn von Zinédine Zidane (Granada) steht als Torwart im WM-Kader – eine der Geschichten des Turniers; Bennacer wurde dagegen nicht nominiert",
+    "Petković-Effekt: 21 Siege in 28 Spielen seit 2024 – der Verband verlängerte unmittelbar vor der Abreise bis 2028; Auftakt am 16. Juni gegen Weltmeister Argentinien"
+  ]
+}

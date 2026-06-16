@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Matěj Kovář",
+    "born": "2000-05-17",
+    "caps": 20,
+    "goals": 0,
+    "club": "PSV Eindhoven"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "David Zima",
+    "born": "2000-11-08",
+    "caps": 25,
+    "goals": 1,
+    "club": "Slavia Prague"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Tomáš Holeš",
+    "born": "1993-03-31",
+    "caps": 41,
+    "goals": 2,
+    "club": "Slavia Prague"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Robin Hranáč",
+    "born": "2000-01-29",
+    "caps": 14,
+    "goals": 1,
+    "club": "TSG Hoffenheim"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Vladimír Coufal",
+    "born": "1992-08-22",
+    "caps": 62,
+    "goals": 2,
+    "club": "TSG Hoffenheim"
+  },
+  {
+    "no": 6,
+    "pos": "AB",
+    "name": "Štěpán Chaloupek",
+    "born": "2003-03-08",
+    "caps": 5,
+    "goals": 0,
+    "club": "Slavia Prague"
+  },
+  {
+    "no": 7,
+    "pos": "AB",
+    "name": "Ladislav Krejčí",
+    "born": "1999-04-20",
+    "caps": 27,
+    "goals": 5,
+    "club": "Wolverhampton Wanderers",
+    "captain": true
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Vladimír Darida",
+    "born": "1990-08-08",
+    "caps": 79,
+    "goals": 8,
+    "club": "Hradec Králové"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Adam Hložek",
+    "born": "2002-07-25",
+    "caps": 43,
+    "goals": 5,
+    "club": "TSG Hoffenheim"
+  },
+  {
+    "no": 10,
+    "pos": "ST",
+    "name": "Patrik Schick",
+    "born": "1996-01-24",
+    "caps": 53,
+    "goals": 26,
+    "club": "Bayer Leverkusen"
+  },
+  {
+    "no": 11,
+    "pos": "ST",
+    "name": "Jan Kuchta",
+    "born": "1997-01-08",
+    "caps": 31,
+    "goals": 3,
+    "club": "Sparta Prague"
+  },
+  {
+    "no": 12,
+    "pos": "MF",
+    "name": "Lukáš Červ",
+    "born": "2001-04-10",
+    "caps": 17,
+    "goals": 2,
+    "club": "Viktoria Plzeň"
+  },
+  {
+    "no": 13,
+    "pos": "ST",
+    "name": "Mojmír Chytil",
+    "born": "1999-04-29",
+    "caps": 22,
+    "goals": 6,
+    "club": "Slavia Prague"
+  },
+  {
+    "no": 14,
+    "pos": "AB",
+    "name": "David Jurásek",
+    "born": "2000-08-07",
+    "caps": 18,
+    "goals": 1,
+    "club": "Slavia Prague"
+  },
+  {
+    "no": 15,
+    "pos": "ST",
+    "name": "Pavel Šulc",
+    "born": "2000-12-29",
+    "caps": 21,
+    "goals": 5,
+    "club": "Lyon"
+  },
+  {
+    "no": 16,
+    "pos": "TW",
+    "name": "Jindřich Staněk",
+    "born": "1996-04-27",
+    "caps": 14,
+    "goals": 0,
+    "club": "Slavia Prague"
+  },
+  {
+    "no": 17,
+    "pos": "MF",
+    "name": "Lukáš Provod",
+    "born": "1996-10-23",
+    "caps": 38,
+    "goals": 3,
+    "club": "Slavia Prague"
+  },
+  {
+    "no": 18,
+    "pos": "MF",
+    "name": "Michal Sadílek",
+    "born": "1999-05-31",
+    "caps": 35,
+    "goals": 1,
+    "club": "Slavia Prague"
+  },
+  {
+    "no": 19,
+    "pos": "ST",
+    "name": "Tomáš Chorý",
+    "born": "1995-01-26",
+    "caps": 22,
+    "goals": 7,
+    "club": "Slavia Prague"
+  },
+  {
+    "no": 20,
+    "pos": "AB",
+    "name": "Jaroslav Zelený",
+    "born": "1992-08-20",
+    "caps": 23,
+    "goals": 0,
+    "club": "Sparta Prague"
+  },
+  {
+    "no": 21,
+    "pos": "AB",
+    "name": "David Douděra",
+    "born": "1998-05-31",
+    "caps": 17,
+    "goals": 2,
+    "club": "Slavia Prague"
+  },
+  {
+    "no": 22,
+    "pos": "MF",
+    "name": "Tomáš Souček",
+    "born": "1995-02-27",
+    "caps": 90,
+    "goals": 17,
+    "club": "West Ham United"
+  },
+  {
+    "no": 23,
+    "pos": "TW",
+    "name": "Lukáš Horníček",
+    "born": "2002-07-13",
+    "caps": 1,
+    "goals": 0,
+    "club": "Braga"
+  },
+  {
+    "no": 24,
+    "pos": "MF",
+    "name": "Alexandr Sojka",
+    "born": "2003-04-02",
+    "caps": 2,
+    "goals": 0,
+    "club": "Viktoria Plzeň"
+  },
+  {
+    "no": 25,
+    "pos": "MF",
+    "name": "Hugo Sochůrek",
+    "born": "2008-06-07",
+    "caps": 1,
+    "goals": 0,
+    "club": "Sparta Prague"
+  },
+  {
+    "no": 26,
+    "pos": "ST",
+    "name": "Denis Višinský",
+    "born": "2003-03-21",
+    "caps": 2,
+    "goals": 1,
+    "club": "Viktoria Plzeň"
+  }
+]

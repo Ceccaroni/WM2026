@@ -1,0 +1,40 @@
+{
+  "id": "IRQ",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 57,
+  "wcRecord": "2. Teilnahme · zuletzt 1986",
+  "coach": {
+    "name": "Graham Arnold",
+    "since": "2025"
+  },
+  "stars": [
+    {
+      "name": "Ali Al-Hamadi",
+      "club": "Ipswich Town",
+      "role": "Sturm"
+    },
+    {
+      "name": "Aymen Hussein",
+      "club": "Al-Karma",
+      "role": "Sturm"
+    },
+    {
+      "name": "Zidane Iqbal",
+      "club": "FC Utrecht",
+      "role": "Zentrales Mittelfeld"
+    },
+    {
+      "name": "Jalal Hassan",
+      "club": "Al-Zawraa",
+      "role": "Kapitän & Torwart"
+    }
+  ],
+  "form": "Im März der historische Playoff-Triumph: 2:1 gegen Bolivien in Monterrey (Tore Al-Hamadi und Aymen Hussein). Die WM-Vorbereitung verlief ordentlich: 1:0 gegen Andorra in Girona (29.5.) und ein starkes 1:1 gegen Spanien (4.6.) zum Abschluss.",
+  "quali": "Langer Weg über die Playoffs: Im AFC-Playoff gegen die VAE rettete Amir Al-Ammaris Elfmeter in der 17. Minute der Nachspielzeit das 2:1 in Basra. Im interkontinentalen Playoff folgte am 31.3.2026 das 2:1 gegen Bolivien – Irak sicherte sich als 48. und letztes Team das WM-Ticket.",
+  "storylines": [
+    "Erste WM seit 1986 – nach 40 Jahren Wartezeit; Bagdad feierte mit Feuerwerk, die Regierung rief zwei Tage Staatsfeiertag aus",
+    "Der Elfmeter von Amir Al-Ammari in der 107. Minute gegen die VAE ist bereits Quali-Folklore",
+    "Graham Arnold, Ex-Australien-Coach, übernahm im Mai 2025 mitten in der Trainerkrise und führte das Team durch die Playoffs",
+    "WM-Auftakt ausgerechnet gegen Mitaufsteiger Norwegen am 16. Juni in Foxborough – danach warten Senegal und Frankreich"
+  ]
+}

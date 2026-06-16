@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Alisson",
+    "born": "1992-10-02",
+    "caps": 78,
+    "goals": 0,
+    "club": "Liverpool"
+  },
+  {
+    "no": 2,
+    "pos": "MF",
+    "name": "Éderson Silva",
+    "born": "1999-07-07",
+    "caps": 3,
+    "goals": 0,
+    "club": "Atalanta"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Gabriel Magalhães",
+    "born": "1997-12-19",
+    "caps": 17,
+    "goals": 1,
+    "club": "Arsenal"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Marquinhos",
+    "born": "1994-05-14",
+    "caps": 105,
+    "goals": 7,
+    "club": "Paris Saint-Germain",
+    "captain": true
+  },
+  {
+    "no": 5,
+    "pos": "MF",
+    "name": "Casemiro",
+    "born": "1992-02-23",
+    "caps": 86,
+    "goals": 9,
+    "club": "Manchester United"
+  },
+  {
+    "no": 6,
+    "pos": "AB",
+    "name": "Alex Sandro",
+    "born": "1991-01-26",
+    "caps": 45,
+    "goals": 2,
+    "club": "Flamengo"
+  },
+  {
+    "no": 7,
+    "pos": "ST",
+    "name": "Vinícius Júnior",
+    "born": "2000-07-12",
+    "caps": 49,
+    "goals": 9,
+    "club": "Real Madrid"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Bruno Guimarães",
+    "born": "1997-11-16",
+    "caps": 43,
+    "goals": 3,
+    "club": "Newcastle United"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Matheus Cunha",
+    "born": "1999-05-27",
+    "caps": 23,
+    "goals": 1,
+    "club": "Manchester United"
+  },
+  {
+    "no": 10,
+    "pos": "ST",
+    "name": "Neymar",
+    "born": "1992-02-05",
+    "caps": 128,
+    "goals": 79,
+    "club": "Santos"
+  },
+  {
+    "no": 11,
+    "pos": "ST",
+    "name": "Raphinha",
+    "born": "1996-12-14",
+    "caps": 39,
+    "goals": 11,
+    "club": "Barcelona"
+  },
+  {
+    "no": 12,
+    "pos": "TW",
+    "name": "Weverton",
+    "born": "1987-12-13",
+    "caps": 11,
+    "goals": 0,
+    "club": "Grêmio"
+  },
+  {
+    "no": 13,
+    "pos": "AB",
+    "name": "Danilo Luiz",
+    "born": "1991-07-15",
+    "caps": 70,
+    "goals": 1,
+    "club": "Flamengo"
+  },
+  {
+    "no": 14,
+    "pos": "AB",
+    "name": "Bremer",
+    "born": "1997-03-18",
+    "caps": 8,
+    "goals": 1,
+    "club": "Juventus"
+  },
+  {
+    "no": 15,
+    "pos": "AB",
+    "name": "Léo Pereira",
+    "born": "1996-01-31",
+    "caps": 4,
+    "goals": 0,
+    "club": "Flamengo"
+  },
+  {
+    "no": 16,
+    "pos": "AB",
+    "name": "Douglas Santos",
+    "born": "1994-03-22",
+    "caps": 7,
+    "goals": 0,
+    "club": "Zenit Saint Petersburg"
+  },
+  {
+    "no": 17,
+    "pos": "MF",
+    "name": "Fabinho",
+    "born": "1993-10-23",
+    "caps": 33,
+    "goals": 0,
+    "club": "Al-Ittihad"
+  },
+  {
+    "no": 18,
+    "pos": "MF",
+    "name": "Danilo Santos",
+    "born": "2001-04-29",
+    "caps": 4,
+    "goals": 2,
+    "club": "Botafogo"
+  },
+  {
+    "no": 19,
+    "pos": "ST",
+    "name": "Endrick",
+    "born": "2006-07-21",
+    "caps": 17,
+    "goals": 4,
+    "club": "Lyon"
+  },
+  {
+    "no": 20,
+    "pos": "MF",
+    "name": "Lucas Paquetá",
+    "born": "1997-08-27",
+    "caps": 63,
+    "goals": 13,
+    "club": "Flamengo"
+  },
+  {
+    "no": 21,
+    "pos": "ST",
+    "name": "Luiz Henrique",
+    "born": "2001-01-02",
+    "caps": 15,
+    "goals": 2,
+    "club": "Zenit Saint Petersburg"
+  },
+  {
+    "no": 22,
+    "pos": "ST",
+    "name": "Gabriel Martinelli",
+    "born": "2001-06-18",
+    "caps": 23,
+    "goals": 4,
+    "club": "Arsenal"
+  },
+  {
+    "no": 23,
+    "pos": "TW",
+    "name": "Ederson Moraes",
+    "born": "1993-08-17",
+    "caps": 32,
+    "goals": 0,
+    "club": "Fenerbahçe"
+  },
+  {
+    "no": 24,
+    "pos": "AB",
+    "name": "Roger Ibañez",
+    "born": "1998-11-23",
+    "caps": 7,
+    "goals": 0,
+    "club": "Al-Ahli"
+  },
+  {
+    "no": 25,
+    "pos": "ST",
+    "name": "Igor Thiago",
+    "born": "2001-06-26",
+    "caps": 4,
+    "goals": 2,
+    "club": "Brentford"
+  },
+  {
+    "no": 26,
+    "pos": "ST",
+    "name": "Rayan",
+    "born": "2006-08-03",
+    "caps": 2,
+    "goals": 1,
+    "club": "Bournemouth"
+  }
+]

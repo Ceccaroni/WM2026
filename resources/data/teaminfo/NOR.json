@@ -1,0 +1,40 @@
+{
+  "id": "NOR",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 31,
+  "wcRecord": "4. Teilnahme · zuletzt 1998",
+  "coach": {
+    "name": "Ståle Solbakken",
+    "since": "2020"
+  },
+  "stars": [
+    {
+      "name": "Erling Haaland",
+      "club": "Manchester City",
+      "role": "Sturm"
+    },
+    {
+      "name": "Martin Ødegaard",
+      "club": "Arsenal",
+      "role": "Kapitän & Offensives Mittelfeld"
+    },
+    {
+      "name": "Alexander Sørloth",
+      "club": "Atlético Madrid",
+      "role": "Sturm"
+    },
+    {
+      "name": "Antonio Nusa",
+      "club": "RB Leipzig",
+      "role": "Flügel"
+    }
+  ],
+  "form": "Durchwachsener März ohne den verletzten Ødegaard: 1:2 gegen die Niederlande (27.3.) und 0:0 gegen die Schweiz (31.3.). Im Juni stimmte die Richtung wieder: 3:1 gegen Schweden (1.6.) und ein 1:1 gegen Marokko (7.6.), bei dem der zurückgekehrte Ødegaard den Ausgleich erzielte.",
+  "quali": "Makellose UEFA-Gruppe I: acht Siege aus acht Spielen, 37:5 Tore – inklusive Doppelsieg über Italien (3:0 in Oslo, 4:1 in Mailand). Haaland traf 16-mal und stellte damit Lewandowskis Rekord für eine WM-Quali ein.",
+  "storylines": [
+    "Erste WM seit 1998 – nach 28 Jahren Wartezeit, qualifiziert mit perfekter Bilanz an Italien vorbei",
+    "Haalands Rekord-Quali (16 Tore in 8 Spielen) macht Norwegen zum gefährlichsten Aussenseiter des Turniers",
+    "Ødegaard rechtzeitig fit: nach Knieverletzung und mehreren Pausen führte er Arsenal als Kapitän noch zum ersten Premier-League-Titel seit 22 Jahren",
+    "Kaderverkündung am 21. Mai per Videobotschaft von König Harald V. – die WM als nationales Projekt; in der Hammergruppe warten Frankreich und Senegal"
+  ]
+}

@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Nawaf Al-Aqidi",
+    "born": "2000-05-10",
+    "caps": 24,
+    "goals": 0,
+    "club": "Al-Nassr"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Ali Majrashi",
+    "born": "1999-10-02",
+    "caps": 21,
+    "goals": 0,
+    "club": "Al-Ahli"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Ali Lajami",
+    "born": "1996-04-24",
+    "caps": 24,
+    "goals": 1,
+    "club": "Al-Hilal"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Abdulelah Al-Amri",
+    "born": "1997-01-15",
+    "caps": 44,
+    "goals": 1,
+    "club": "Al-Nassr"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Hassan Al-Tambakti",
+    "born": "1999-02-09",
+    "caps": 54,
+    "goals": 1,
+    "club": "Al-Hilal"
+  },
+  {
+    "no": 6,
+    "pos": "MF",
+    "name": "Nasser Al-Dawsari",
+    "born": "1998-12-19",
+    "caps": 47,
+    "goals": 1,
+    "club": "Al-Hilal"
+  },
+  {
+    "no": 7,
+    "pos": "MF",
+    "name": "Musab Al-Juwayr",
+    "born": "2003-06-20",
+    "caps": 37,
+    "goals": 6,
+    "club": "Al-Qadsiah"
+  },
+  {
+    "no": 8,
+    "pos": "ST",
+    "name": "Ayman Yahya",
+    "born": "2001-05-14",
+    "caps": 26,
+    "goals": 0,
+    "club": "Al-Nassr"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Firas Al-Buraikan",
+    "born": "2000-05-14",
+    "caps": 72,
+    "goals": 16,
+    "club": "Al-Ahli"
+  },
+  {
+    "no": 10,
+    "pos": "ST",
+    "name": "Salem Al-Dawsari",
+    "born": "1991-08-19",
+    "caps": 111,
+    "goals": 27,
+    "club": "Al-Hilal",
+    "captain": true
+  },
+  {
+    "no": 11,
+    "pos": "ST",
+    "name": "Saleh Al-Shehri",
+    "born": "1993-11-01",
+    "caps": 59,
+    "goals": 17,
+    "club": "Al-Ittihad"
+  },
+  {
+    "no": 12,
+    "pos": "AB",
+    "name": "Saud Abdulhamid",
+    "born": "1999-07-18",
+    "caps": 55,
+    "goals": 1,
+    "club": "Lens"
+  },
+  {
+    "no": 13,
+    "pos": "AB",
+    "name": "Nawaf Boushal",
+    "born": "1999-09-16",
+    "caps": 27,
+    "goals": 0,
+    "club": "Al-Nassr"
+  },
+  {
+    "no": 14,
+    "pos": "AB",
+    "name": "Hassan Kadesh",
+    "born": "1992-09-26",
+    "caps": 21,
+    "goals": 2,
+    "club": "Al-Ittihad"
+  },
+  {
+    "no": 15,
+    "pos": "MF",
+    "name": "Abdullah Al-Khaibari",
+    "born": "1996-08-16",
+    "caps": 42,
+    "goals": 0,
+    "club": "Al-Nassr"
+  },
+  {
+    "no": 16,
+    "pos": "MF",
+    "name": "Ziyad Al-Johani",
+    "born": "2001-11-11",
+    "caps": 12,
+    "goals": 0,
+    "club": "Al-Ahli"
+  },
+  {
+    "no": 17,
+    "pos": "ST",
+    "name": "Khalid Al-Ghannam",
+    "born": "2000-11-08",
+    "caps": 7,
+    "goals": 0,
+    "club": "Al-Ettifaq"
+  },
+  {
+    "no": 18,
+    "pos": "MF",
+    "name": "Alaa Al-Hejji",
+    "born": "1995-12-03",
+    "caps": 3,
+    "goals": 0,
+    "club": "Neom"
+  },
+  {
+    "no": 19,
+    "pos": "ST",
+    "name": "Abdullah Al-Hamdan",
+    "born": "1999-09-13",
+    "caps": 52,
+    "goals": 13,
+    "club": "Al-Nassr"
+  },
+  {
+    "no": 20,
+    "pos": "ST",
+    "name": "Sultan Mandash",
+    "born": "1994-10-17",
+    "caps": 7,
+    "goals": 2,
+    "club": "Al-Hilal"
+  },
+  {
+    "no": 21,
+    "pos": "TW",
+    "name": "Mohammed Al-Owais",
+    "born": "1991-10-10",
+    "caps": 65,
+    "goals": 0,
+    "club": "Al-Ula"
+  },
+  {
+    "no": 22,
+    "pos": "TW",
+    "name": "Ahmed Al-Kassar",
+    "born": "1991-05-08",
+    "caps": 9,
+    "goals": 0,
+    "club": "Al-Qadsiah"
+  },
+  {
+    "no": 23,
+    "pos": "MF",
+    "name": "Mohamed Kanno",
+    "born": "1994-09-22",
+    "caps": 79,
+    "goals": 8,
+    "club": "Al-Hilal"
+  },
+  {
+    "no": 24,
+    "pos": "AB",
+    "name": "Moteb Al-Harbi",
+    "born": "2000-02-20",
+    "caps": 13,
+    "goals": 0,
+    "club": "Al-Hilal"
+  },
+  {
+    "no": 25,
+    "pos": "AB",
+    "name": "Jehad Thakri",
+    "born": "2001-07-21",
+    "caps": 8,
+    "goals": 0,
+    "club": "Al-Qadsiah"
+  },
+  {
+    "no": 26,
+    "pos": "AB",
+    "name": "Mohammed Abu Al-Shamat",
+    "born": "2002-08-11",
+    "caps": 8,
+    "goals": 0,
+    "club": "Al-Qadsiah"
+  }
+]

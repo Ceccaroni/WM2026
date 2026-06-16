@@ -1,0 +1,40 @@
+{
+  "id": "COL",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 13,
+  "wcRecord": "7. Teilnahme · Viertelfinale 2014",
+  "coach": {
+    "name": "Néstor Lorenzo",
+    "since": "2022"
+  },
+  "stars": [
+    {
+      "name": "Luis Díaz",
+      "club": "Bayern München",
+      "role": "Flügel"
+    },
+    {
+      "name": "James Rodríguez",
+      "club": "Minnesota United",
+      "role": "Kapitän & Offensives Mittelfeld"
+    },
+    {
+      "name": "Richard Ríos",
+      "club": "Benfica",
+      "role": "Zentrales Mittelfeld"
+    },
+    {
+      "name": "Jhon Arias",
+      "club": "Palmeiras",
+      "role": "Flügel"
+    }
+  ],
+  "form": "Durchzogene März-Tests mit Niederlagen gegen Kroatien (1:2 in Orlando) und Frankreich (1:3), dann aber eine überzeugende Juni-Vorbereitung: 3:1 gegen Costa Rica in Bogotá (u. a. Tor von Luis Díaz) und 2:0 gegen Jordanien am 7. Juni — mit James Rodríguez als auffälligstem Akteur.",
+  "quali": "Direkt qualifiziert als Dritter der CONMEBOL-Quali mit 28 Punkten (7 Siege, 7 Remis, 4 Niederlagen) hinter Argentinien und Ecuador — die Rückkehr auf die WM-Bühne nach dem verpassten Turnier 2022.",
+  "storylines": [
+    "Luis Díaz kommt in Topform: Meister und Pokalsieger in seiner Debütsaison mit Bayern München",
+    "James Rodríguez (34) verliess Minnesota United Mitte Mai für die WM-Vorbereitung — der Klub zog die Vertragsoption nicht, nach dem Turnier wird über den Rücktritt spekuliert",
+    "Routinier Juan Guillermo Cuadrado wurde trotz starker Saison bei Pisa nicht nominiert",
+    "Erste WM seit 2018: Eine ganze Generation um Ríos, Arias und Castaño gibt ihr WM-Debüt"
+  ]
+}

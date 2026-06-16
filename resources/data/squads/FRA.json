@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Brice Samba",
+    "born": "1994-04-25",
+    "caps": 4,
+    "goals": 0,
+    "club": "Rennes"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Malo Gusto",
+    "born": "2003-05-19",
+    "caps": 11,
+    "goals": 0,
+    "club": "Chelsea"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Lucas Digne",
+    "born": "1993-07-20",
+    "caps": 58,
+    "goals": 0,
+    "club": "Aston Villa"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Dayot Upamecano",
+    "born": "1998-10-27",
+    "caps": 38,
+    "goals": 2,
+    "club": "Bayern Munich"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Jules Koundé",
+    "born": "1998-11-12",
+    "caps": 48,
+    "goals": 0,
+    "club": "Barcelona"
+  },
+  {
+    "no": 6,
+    "pos": "MF",
+    "name": "Manu Koné",
+    "born": "2001-05-17",
+    "caps": 14,
+    "goals": 0,
+    "club": "Roma"
+  },
+  {
+    "no": 7,
+    "pos": "ST",
+    "name": "Ousmane Dembélé",
+    "born": "1997-05-15",
+    "caps": 59,
+    "goals": 7,
+    "club": "Paris Saint-Germain"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Aurélien Tchouaméni",
+    "born": "2000-01-27",
+    "caps": 46,
+    "goals": 3,
+    "club": "Real Madrid"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Marcus Thuram",
+    "born": "1997-08-06",
+    "caps": 34,
+    "goals": 3,
+    "club": "Inter Milan"
+  },
+  {
+    "no": 10,
+    "pos": "ST",
+    "name": "Kylian Mbappé",
+    "born": "1998-12-20",
+    "caps": 98,
+    "goals": 56,
+    "club": "Real Madrid",
+    "captain": true
+  },
+  {
+    "no": 11,
+    "pos": "ST",
+    "name": "Michael Olise",
+    "born": "2001-12-12",
+    "caps": 17,
+    "goals": 7,
+    "club": "Bayern Munich"
+  },
+  {
+    "no": 12,
+    "pos": "ST",
+    "name": "Bradley Barcola",
+    "born": "2002-09-02",
+    "caps": 20,
+    "goals": 3,
+    "club": "Paris Saint-Germain"
+  },
+  {
+    "no": 13,
+    "pos": "MF",
+    "name": "N'Golo Kanté",
+    "born": "1991-03-29",
+    "caps": 69,
+    "goals": 2,
+    "club": "Fenerbahçe"
+  },
+  {
+    "no": 14,
+    "pos": "MF",
+    "name": "Adrien Rabiot",
+    "born": "1995-04-03",
+    "caps": 59,
+    "goals": 7,
+    "club": "Milan"
+  },
+  {
+    "no": 15,
+    "pos": "AB",
+    "name": "Ibrahima Konaté",
+    "born": "1999-05-25",
+    "caps": 28,
+    "goals": 0,
+    "club": "Liverpool"
+  },
+  {
+    "no": 16,
+    "pos": "TW",
+    "name": "Mike Maignan",
+    "born": "1995-07-03",
+    "caps": 40,
+    "goals": 0,
+    "club": "Milan"
+  },
+  {
+    "no": 17,
+    "pos": "AB",
+    "name": "William Saliba",
+    "born": "2001-03-24",
+    "caps": 32,
+    "goals": 0,
+    "club": "Arsenal"
+  },
+  {
+    "no": 18,
+    "pos": "MF",
+    "name": "Warren Zaïre-Emery",
+    "born": "2006-03-08",
+    "caps": 11,
+    "goals": 1,
+    "club": "Paris Saint-Germain"
+  },
+  {
+    "no": 19,
+    "pos": "AB",
+    "name": "Théo Hernandez",
+    "born": "1997-10-06",
+    "caps": 44,
+    "goals": 2,
+    "club": "Al-Hilal"
+  },
+  {
+    "no": 20,
+    "pos": "ST",
+    "name": "Désiré Doué",
+    "born": "2005-06-03",
+    "caps": 7,
+    "goals": 2,
+    "club": "Paris Saint-Germain"
+  },
+  {
+    "no": 21,
+    "pos": "AB",
+    "name": "Lucas Hernandez",
+    "born": "1996-02-14",
+    "caps": 42,
+    "goals": 0,
+    "club": "Paris Saint-Germain"
+  },
+  {
+    "no": 22,
+    "pos": "ST",
+    "name": "Jean-Philippe Mateta",
+    "born": "1997-06-28",
+    "caps": 4,
+    "goals": 2,
+    "club": "Crystal Palace"
+  },
+  {
+    "no": 23,
+    "pos": "TW",
+    "name": "Robin Risser",
+    "born": "2004-12-02",
+    "caps": 0,
+    "goals": 0,
+    "club": "Lens"
+  },
+  {
+    "no": 24,
+    "pos": "MF",
+    "name": "Rayan Cherki",
+    "born": "2003-08-17",
+    "caps": 7,
+    "goals": 2,
+    "club": "Manchester City"
+  },
+  {
+    "no": 25,
+    "pos": "MF",
+    "name": "Maghnes Akliouche",
+    "born": "2002-02-25",
+    "caps": 9,
+    "goals": 1,
+    "club": "Monaco"
+  },
+  {
+    "no": 26,
+    "pos": "AB",
+    "name": "Maxence Lacroix",
+    "born": "2000-04-06",
+    "caps": 4,
+    "goals": 0,
+    "club": "Crystal Palace"
+  }
+]

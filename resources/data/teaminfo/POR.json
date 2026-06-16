@@ -1,0 +1,40 @@
+{
+  "id": "POR",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 5,
+  "wcRecord": "9. Teilnahme · WM-Dritter 1966",
+  "coach": {
+    "name": "Roberto Martínez",
+    "since": "2023"
+  },
+  "stars": [
+    {
+      "name": "Cristiano Ronaldo",
+      "club": "Al-Nassr",
+      "role": "Kapitän & Sturm"
+    },
+    {
+      "name": "Bruno Fernandes",
+      "club": "Manchester United",
+      "role": "Offensives Mittelfeld"
+    },
+    {
+      "name": "Vitinha",
+      "club": "Paris Saint-Germain",
+      "role": "Zentrales Mittelfeld"
+    },
+    {
+      "name": "Nuno Mendes",
+      "club": "Paris Saint-Germain",
+      "role": "Linksverteidigung"
+    }
+  ],
+  "form": "Ungeschlagen durch die Vorbereitung: Im März 0:0 gegen Mexiko im wiedereröffneten Aztekenstadion und 2:0 gegen Co-Gastgeber USA in Atlanta. Die Generalprobe am 10. Juni in Leiria gewann Portugal 2:1 gegen Nigeria — Pedro Neto traf früh, Joker Francisco Conceição erzielte den Siegtreffer. Ronaldo reist mit dem frisch gewonnenen Saudi-Meistertitel mit Al-Nassr an.",
+  "quali": "Direkt qualifiziert als Sieger der UEFA-Gruppe F vor Irland, Ungarn und Armenien — besiegelt mit einem 9:1-Kantersieg gegen Armenien im November 2025 (je drei Tore von Bruno Fernandes und João Neves).",
+  "storylines": [
+    "Cristiano Ronaldos sechste WM — Rekord für einen Spieler — und laut eigener Aussage vom November 2025 'definitiv' seine letzte",
+    "Als amtierender Nations-League-Sieger und Nummer 5 der Welt zählt Portugal zum engeren Favoritenkreis",
+    "Keine Verletzungssorgen, nur Workload-Management: Martínez schonte Ronaldo und Nuno Mendes im letzten Test gegen Nigeria gezielt",
+    "Rafael Leãos schwankende Form bleibt das grösste Fragezeichen im Starensemble"
+  ]
+}

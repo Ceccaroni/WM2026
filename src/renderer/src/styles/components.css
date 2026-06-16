@@ -1,0 +1,5027 @@
+/* ---------- Sidebar-Zusätze ---------- */
+.sidebar__spacer {
+  flex: 1;
+}
+
+.sidebar__profile {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-weight: 600 !important;
+}
+
+.sidebar__dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.85);
+  flex-shrink: 0;
+}
+
+/* ---------- Gold-Foil-Text ---------- */
+.foil {
+  background: linear-gradient(115deg, var(--foil-gold-dark), var(--foil-gold) 30%, var(--foil-gold-light) 50%, var(--foil-gold) 70%, var(--foil-gold-dark));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* ---------- Filter (Spielplan) ---------- */
+.filters {
+  display: flex;
+  gap: var(--space-2);
+  margin-bottom: var(--space-6);
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  padding: var(--space-2) 0;
+  background: linear-gradient(var(--stage) 80%, transparent);
+}
+
+.filters select {
+  appearance: none;
+  background: var(--stage-raised);
+  color: var(--text-on-dark);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  padding: 8px 28px 8px 12px;
+  font: 500 13px var(--font-ui);
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%239aa3b2' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  cursor: pointer;
+}
+
+.filters__today {
+  border: 1px solid var(--foil-gold);
+  background: transparent;
+  color: var(--foil-gold-light);
+  border-radius: 8px;
+  padding: 8px 14px;
+  font: 600 13px var(--font-ui);
+  cursor: pointer;
+}
+
+.filters__today:hover {
+  background: rgba(212, 175, 55, 0.12);
+}
+
+.filters__ics {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  color: var(--text-on-dark-soft);
+  border-radius: 8px;
+  padding: 8px 14px;
+  font: 600 13px var(--font-ui);
+  cursor: pointer;
+}
+
+.filters__ics:hover {
+  border-color: rgba(255, 255, 255, 0.45);
+  color: var(--text-on-dark);
+}
+
+/* ---------- Spielplan: Tage & Karten ---------- */
+.day {
+  margin-bottom: var(--space-8);
+}
+
+.dayhead {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-3);
+  margin-bottom: var(--space-3);
+}
+
+.dayhead h2 {
+  font-family: var(--font-display);
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.dayhead__count {
+  color: var(--text-on-dark-soft);
+  font-size: 12px;
+}
+
+.dayhead__done {
+  margin-left: auto;
+  padding: 0;
+  background: none;
+  border: none;
+  color: var(--text-on-dark-soft);
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.dayhead__done:hover {
+  color: var(--text-on-dark);
+  text-decoration: underline;
+}
+
+.day__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  gap: var(--space-3);
+}
+
+.matchcard {
+  position: relative;
+  background: var(--stage-raised);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-card);
+  padding: var(--space-4) var(--space-4) var(--space-3);
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.matchcard:hover {
+  transform: translateY(-2px);
+  border-color: rgba(212, 175, 55, 0.45);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+.matchcard--past {
+  opacity: 0.62;
+}
+
+.matchcard__num {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  font: 600 10px var(--font-score);
+  color: var(--text-on-dark-soft);
+  letter-spacing: 0.08em;
+}
+
+.matchcard__num::before {
+  content: 'Nº ';
+}
+
+.matchcard__teams {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+}
+
+.matchcard__team {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.matchcard__team--home {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.matchcard__name {
+  font: 600 14px var(--font-ui);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.matchcard__name--tbd {
+  color: var(--text-on-dark-soft);
+  font-weight: 500;
+  font-size: 12.5px;
+}
+
+.matchcard__time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.1;
+  padding: 4px 10px;
+  border-radius: 8px;
+  background: rgba(11, 95, 165, 0.25);
+}
+
+.matchcard__time strong {
+  font: 600 17px var(--font-score);
+  letter-spacing: 0.02em;
+}
+
+.matchcard__time small {
+  font-size: 9px;
+  color: var(--text-on-dark-soft);
+  letter-spacing: 0.1em;
+}
+
+.matchcard__meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: 11.5px;
+  color: var(--text-on-dark-soft);
+}
+
+.matchcard__venue {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+}
+
+/* ---------- Badges ---------- */
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font: 600 10.5px var(--font-ui);
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+.badge--group {
+  background: rgba(191, 224, 245, 0.14);
+  color: var(--panini-babyblue);
+}
+
+.badge--round {
+  background: rgba(230, 46, 107, 0.16);
+  color: #ff7ba6;
+}
+
+/* Auf hellen Albumseiten brauchen die Badges kräftige Tinte statt Pastell */
+.album .badge--group,
+.papercard .badge--group {
+  background: rgba(11, 95, 165, 0.1);
+  color: var(--panini-blue);
+}
+
+.album .badge--round,
+.papercard .badge--round {
+  background: rgba(230, 46, 107, 0.09);
+  color: var(--accent-magenta);
+}
+
+.badge--tip {
+  border: 1px solid var(--foil-gold);
+  color: var(--foil-gold-light);
+}
+
+.badge--today {
+  background: var(--foil-gold);
+  color: #2a2008;
+}
+
+/* ---------- Flaggen-Sticker ---------- */
+.flagbadge {
+  display: inline-flex;
+  border-radius: 4px;
+  background: #fff;
+  padding: 2px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+  flex-shrink: 0;
+}
+
+.flagbadge .fi {
+  width: 24px;
+  line-height: 18px;
+  border-radius: 2px;
+}
+
+.flagbadge--lg .fi {
+  width: 33px;
+  line-height: 25px;
+}
+
+.flagbadge--sm .fi {
+  width: 18px;
+  line-height: 13px;
+}
+
+.flagbadge--xl .fi {
+  width: 64px;
+  line-height: 48px;
+  border-radius: 3px;
+}
+
+.flagbadge--empty {
+  background: repeating-linear-gradient(45deg, #d8d8d8 0 4px, #c6c6c6 4px 8px);
+}
+
+/* Platzhalter-Sticker für offene KO-Slots: Gruppenbuchstabe bzw. Spielnummer */
+.flagbadge--slot {
+  background: linear-gradient(135deg, #134a78, var(--panini-blue) 55%, #2a7cc4);
+}
+
+.flagbadge--slot .flagbadge__q {
+  color: var(--panini-babyblue);
+}
+
+.flagbadge__q {
+  width: 24px;
+  height: 18px;
+  display: grid;
+  place-items: center;
+  font: 700 12px var(--font-score);
+  color: #8a8a8a;
+  letter-spacing: 0.02em;
+}
+
+.flagbadge--lg .flagbadge__q {
+  width: 33px;
+  height: 25px;
+  font-size: 15px;
+}
+
+.flagbadge--xl .flagbadge__q {
+  width: 64px;
+  height: 48px;
+  font-size: 24px;
+}
+
+/* ---------- Gruppen-Chips ---------- */
+.groupchips {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  margin: var(--space-4) 0 var(--space-6);
+}
+
+.groupchip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  min-width: 52px;
+  padding: 7px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: var(--stage-raised);
+  color: var(--text-on-dark);
+  font: 700 15px var(--font-score);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.groupchip small {
+  font: 500 9.5px var(--font-ui);
+  color: var(--text-on-dark-soft);
+}
+
+.groupchip:hover {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.groupchip--active {
+  background: var(--panini-blue);
+  border-color: var(--panini-blue);
+}
+
+.groupchip--active small {
+  color: var(--panini-babyblue);
+}
+
+.groupchip--done {
+  border-color: var(--foil-gold);
+}
+
+.groupchip--done small {
+  color: var(--foil-gold-light);
+}
+
+.groupchips__div {
+  width: 1px;
+  align-self: stretch;
+  background: rgba(255, 255, 255, 0.15);
+  margin: 2px var(--space-1);
+}
+
+.groupchip--ko {
+  font-size: 13px;
+  letter-spacing: 0.03em;
+}
+
+/* ---------- Gruppentabelle (Album-Optik) ---------- */
+.grouptable {
+  width: 100%;
+  border-collapse: collapse;
+  font: 500 13px var(--font-ui);
+}
+
+.grouptable th {
+  text-align: left;
+  font: 600 10px var(--font-ui);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-soft);
+  padding: 4px 8px;
+  border-bottom: 2px solid var(--paper-shade);
+}
+
+.grouptable td {
+  padding: 6px 8px;
+  border-bottom: 1px dashed var(--paper-shade);
+  font-variant-numeric: tabular-nums;
+}
+
+.grouptable__teamcol {
+  width: 55%;
+}
+
+.grouptable td.grouptable__teamcol {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-weight: 600;
+}
+
+.grouptable__row--in td:first-child {
+  box-shadow: inset 3px 0 0 var(--pitch-green);
+}
+
+.grouptable__row--maybe td:first-child {
+  box-shadow: inset 3px 0 0 var(--foil-gold);
+}
+
+.grouptable__pts {
+  font: 600 15px var(--font-score);
+}
+
+.grouptable__coin {
+  font-size: 11px;
+  opacity: 0.6;
+  cursor: help;
+}
+
+/* ---------- KO: Weiterkommen-Auswahl ---------- */
+.advpick {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 4px 0 6px 150px;
+  font: 600 11px var(--font-ui);
+  color: var(--ink-soft);
+}
+
+.advpick--open {
+  color: var(--accent-magenta);
+}
+
+.advpick__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid var(--paper-shade);
+  background: #fff;
+  border-radius: 999px;
+  padding: 3px 10px;
+  font: 700 11px var(--font-score);
+  letter-spacing: 0.05em;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.advpick__btn--active {
+  border-color: var(--foil-gold-dark);
+  background: linear-gradient(120deg, var(--foil-gold-light), var(--foil-gold));
+}
+
+/* ---------- KO-Tipp-Hilfe (Form & Quoten) ---------- */
+.kotip + .kotip {
+  border-top: 1px dashed var(--paper-shade);
+}
+
+.kohelp-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 var(--space-2) 150px;
+  border: 0;
+  background: transparent;
+  padding: 2px 0;
+  font: 600 11px var(--font-ui);
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+
+.kohelp-toggle:hover {
+  color: var(--panini-blue);
+}
+
+.kohelp-toggle__chev {
+  font-size: 14px;
+  line-height: 1;
+  transition: transform 0.15s;
+}
+
+.kohelp-toggle__chev--open {
+  transform: rotate(90deg);
+}
+
+.kohelp {
+  margin: 0 0 var(--space-3) 150px;
+  padding: var(--space-3);
+  border: 1px dashed var(--paper-shade);
+  border-radius: var(--radius-sticker);
+  background: rgba(11, 95, 165, 0.04);
+}
+
+.kohelp__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-4);
+}
+
+.kohelp__side {
+  min-width: 0;
+}
+
+.kohelp__side--tbd {
+  display: grid;
+  place-items: center;
+  padding: var(--space-4);
+  border: 1px dashed var(--paper-shade);
+  border-radius: var(--radius-sticker);
+  font: 600 12px var(--font-ui);
+  color: var(--ink-soft);
+}
+
+.kohelp__head {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-2);
+}
+
+.kohelp__head strong {
+  font: 700 14px var(--font-ui);
+}
+
+.kohelp__origin {
+  margin-left: auto;
+  font: 600 10px var(--font-ui);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--ink-soft);
+}
+
+.kohelp__odds {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: var(--space-2);
+  padding-top: var(--space-2);
+  border-top: 1px dashed var(--paper-shade);
+  font: 600 10px var(--font-ui);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+}
+
+.kohelp__odds strong {
+  font: 700 18px var(--font-score);
+  color: var(--ink);
+}
+
+.kohelp__fav {
+  margin-top: var(--space-3);
+  padding-top: var(--space-3);
+  border-top: 2px solid var(--paper-shade);
+  text-align: center;
+  font: 700 12px var(--font-ui);
+  letter-spacing: 0.03em;
+  color: var(--panini-blue);
+}
+
+.grouptable__row--you {
+  background: rgba(11, 95, 165, 0.1);
+}
+
+.grouptable__row--you td {
+  font-weight: 700;
+}
+
+@media (max-width: 680px) {
+  .kohelp,
+  .kohelp-toggle {
+    margin-left: var(--space-3);
+  }
+  .kohelp__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------- Beste Dritte ---------- */
+.thirdsstrip {
+  margin: var(--space-2) 0 var(--space-4);
+  padding-bottom: var(--space-3);
+  border-bottom: 2px solid var(--paper-shade);
+}
+
+.thirdsstrip h3 {
+  font: 600 11px var(--font-ui);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink-soft);
+  margin: var(--space-2) 0;
+}
+
+.thirdsstrip__row {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.thirdchip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--paper-shade);
+  background: #fff;
+  opacity: 0.55;
+}
+
+.thirdchip small {
+  font: 700 10px var(--font-score);
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+}
+
+.thirdchip--in {
+  opacity: 1;
+  border-color: var(--foil-gold-dark);
+  box-shadow: 0 0 0 1px var(--foil-gold);
+}
+
+.notice {
+  font: 500 12px var(--font-ui);
+  color: var(--ink-soft);
+  background: rgba(11, 95, 165, 0.07);
+  border-left: 3px solid var(--panini-blue);
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin: var(--space-3) 0;
+}
+
+.screen > .notice {
+  color: var(--text-on-dark-soft);
+  background: rgba(11, 95, 165, 0.18);
+  max-width: 720px;
+}
+
+/* Warn-Variante (Bernstein): „Daten veraltet" u. Ä. — auffälliger als der blaue Hinweis */
+.notice--warn {
+  border-left-color: var(--signal-amber);
+  background: rgba(224, 151, 42, 0.1);
+}
+
+.screen > .notice--warn {
+  color: var(--text-on-dark);
+  background: rgba(224, 151, 42, 0.18);
+}
+
+/* ---------- Weltmeister-Banner ---------- */
+.champbanner {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  margin-top: var(--space-4);
+  padding: var(--space-4);
+  border-radius: var(--radius-sticker);
+  background:
+    linear-gradient(120deg, rgba(212, 175, 55, 0.18), transparent 60%),
+    #fff;
+  border: 2px solid var(--foil-gold);
+}
+
+.champbanner small {
+  display: block;
+  font: 600 10px var(--font-ui);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--ink-soft);
+}
+
+.champbanner strong {
+  font-family: var(--font-display);
+  font-size: 30px;
+  letter-spacing: 0.04em;
+}
+
+/* ---------- Formkurve (Rangliste) ---------- */
+.spark {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+}
+
+.spark__col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  min-width: 0;
+}
+
+.spark__val {
+  font: 600 11px var(--font-score);
+  color: var(--text-on-dark);
+  font-variant-numeric: tabular-nums;
+  min-height: 13px;
+}
+
+.spark__bar {
+  width: 100%;
+  max-width: 64px;
+  border-radius: 3px 3px 0 0;
+  background: linear-gradient(180deg, var(--panini-babyblue), var(--panini-blue));
+  min-height: 3px;
+}
+
+.spark__cap {
+  font: 600 9px var(--font-ui);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-on-dark-soft);
+}
+
+/* ---------- Turnierbaum ---------- */
+.bracket__bar {
+  display: flex;
+  gap: var(--space-1);
+  margin-bottom: var(--space-2);
+}
+
+.bracket__zoom {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: transparent;
+  color: var(--text-on-dark-soft);
+  border-radius: 7px;
+  padding: 4px 10px;
+  font: 600 11px var(--font-ui);
+  cursor: pointer;
+}
+
+.bracket__zoom--active {
+  background: var(--panini-blue);
+  border-color: var(--panini-blue);
+  color: var(--text-on-dark);
+}
+
+/* Kompaktmodus: ganzer Baum ohne Scrollen */
+.bracket--compact {
+  min-height: 460px;
+}
+
+.bracket--compact .bnode {
+  width: 84px;
+  padding: 3px 5px;
+}
+
+.bracket--compact .bnode__nr {
+  font-size: 7.5px;
+  margin-bottom: 1px;
+}
+
+.bracket--compact .bnode__code,
+.bracket--compact .bnode__score {
+  font-size: 10px;
+}
+
+.bracket--compact .bnode__team {
+  gap: 4px;
+  padding: 1px 0;
+}
+
+.bracket--compact .flagbadge--sm .fi,
+.bracket--compact .flagbadge--sm .flagbadge__q {
+  width: 14px;
+  line-height: 10px;
+  height: 10px;
+  font-size: 8px;
+}
+
+.bracket--compact .champ {
+  padding: var(--space-2);
+}
+
+.bracket--compact .champ strong {
+  font-size: 12px;
+}
+.bracket {
+  position: relative;
+  display: flex;
+  gap: var(--space-2);
+  align-items: stretch;
+  overflow-x: auto;
+  padding-bottom: var(--space-4);
+  min-height: 560px;
+}
+
+/* Connector-Linien (SVG-Overlay, von BracketTree vermessen) */
+.bracket__lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.bracket__line {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.2);
+  stroke-width: 1.5;
+}
+
+.bracket__line--gold {
+  stroke: var(--foil-gold);
+  stroke-width: 2;
+  opacity: 0.75;
+}
+
+.bracket__col {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.bracket__col--mid {
+  justify-content: center;
+  gap: var(--space-4);
+  padding: 0 var(--space-2);
+}
+
+.bnode {
+  background: var(--stage-raised);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 4px 6px;
+  width: 118px;
+}
+
+.bnode--final {
+  border-color: var(--foil-gold);
+  box-shadow: 0 0 18px rgba(212, 175, 55, 0.25);
+}
+
+.bnode--third {
+  opacity: 0.75;
+}
+
+.bnode__nr {
+  display: block;
+  font: 600 8.5px var(--font-score);
+  letter-spacing: 0.1em;
+  color: var(--text-on-dark-soft);
+  margin-bottom: 2px;
+}
+
+.bnode--final .bnode__nr {
+  color: var(--foil-gold-light);
+}
+
+.bnode__team {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 0;
+  opacity: 0.7;
+}
+
+.bnode__team--winner {
+  opacity: 1;
+}
+
+.bnode__team--winner .bnode__code {
+  color: var(--foil-gold-light);
+  font-weight: 700;
+}
+
+.bnode__code {
+  font: 600 11px var(--font-score);
+  letter-spacing: 0.06em;
+  flex: 1;
+}
+
+.bnode__score {
+  font: 600 11px var(--font-score);
+  font-variant-numeric: tabular-nums;
+  color: var(--text-on-dark-soft);
+}
+
+.champ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  text-align: center;
+  padding: var(--space-3);
+  border-radius: var(--radius-sticker);
+  border: 1px dashed rgba(255, 255, 255, 0.25);
+}
+
+.champ--set {
+  border: 2px solid var(--foil-gold);
+  background: linear-gradient(160deg, rgba(212, 175, 55, 0.2), transparent);
+}
+
+.champ strong {
+  font-family: var(--font-display);
+  font-size: 15px;
+  letter-spacing: 0.04em;
+}
+
+.champ small {
+  font: 600 9px var(--font-ui);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-on-dark-soft);
+}
+
+/* ---------- Albumseite (Meine Tipps) ---------- */
+.album {
+  background: var(--paper);
+  color: var(--ink);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-sticker);
+  padding: var(--space-6) var(--space-6) var(--space-4);
+  max-width: 860px;
+}
+
+.album__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  border-bottom: 2px solid var(--paper-shade);
+  padding-bottom: var(--space-4);
+  margin-bottom: var(--space-2);
+}
+
+.album__head h2 {
+  font-family: var(--font-display);
+  font-size: 30px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.album__teams {
+  display: flex;
+  gap: var(--space-3);
+}
+
+.album__sticker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  font: 600 10.5px var(--font-score);
+  color: var(--ink-soft);
+  letter-spacing: 0.06em;
+}
+
+.album__matchday h3 {
+  font: 600 12px var(--font-ui);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink-soft);
+  margin: var(--space-4) 0 var(--space-2);
+}
+
+/* ---------- Tipp-Zeile ---------- */
+.tiprow {
+  display: grid;
+  grid-template-columns: 150px 1fr auto 1fr 28px;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-2) var(--space-2);
+  border-radius: var(--radius-sticker);
+  border: 1px dashed transparent;
+}
+
+.tiprow:hover {
+  background: rgba(11, 95, 165, 0.05);
+}
+
+.tiprow + .tiprow {
+  border-top: 1px dashed var(--paper-shade);
+  border-radius: 0;
+}
+
+.tiprow__info {
+  display: flex;
+  flex-direction: column;
+  font: 500 11px var(--font-ui);
+  color: var(--ink-soft);
+  line-height: 1.4;
+}
+
+.tiprow__info strong {
+  color: var(--ink);
+  font-family: var(--font-score);
+}
+
+.tiprow__team {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.tiprow__team--home {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.tiprow__name {
+  font: 600 14px var(--font-ui);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tiprow__score {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.tiprow__colon {
+  font: 700 18px var(--font-score);
+  color: var(--ink-soft);
+}
+
+.tiprow--locked .stepper button {
+  visibility: hidden;
+}
+
+.tiprow--missed {
+  background: repeating-linear-gradient(45deg, transparent 0 6px, rgba(0, 0, 0, 0.04) 6px 12px);
+}
+
+.tiprow__state {
+  display: grid;
+  place-items: center;
+}
+
+.tiprow__clear {
+  border: 0;
+  background: transparent;
+  color: var(--ink-soft);
+  font-size: 13px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.tiprow:hover .tiprow__clear {
+  opacity: 1;
+}
+
+.tiprow__sealed,
+.tiprow__missedlabel {
+  font: 600 9px var(--font-ui);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--ink-soft);
+  writing-mode: vertical-rl;
+}
+
+.tiprow__missedlabel {
+  color: var(--accent-magenta);
+}
+
+/* ---------- ScoreStepper ---------- */
+.stepper {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.stepper button {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 1px solid var(--paper-shade);
+  background: #fff;
+  color: var(--ink);
+  font: 600 13px var(--font-ui);
+  line-height: 1;
+  cursor: pointer;
+  transition: background 0.12s, border-color 0.12s;
+}
+
+.stepper button:hover:not(:disabled) {
+  background: var(--panini-babyblue);
+  border-color: var(--panini-blue);
+}
+
+.stepper button:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.stepper__value {
+  min-width: 30px;
+  text-align: center;
+  font: 600 22px var(--font-score);
+  font-variant-numeric: tabular-nums;
+  background: #fff;
+  border: 1px solid var(--paper-shade);
+  border-radius: 6px;
+  padding: 1px 4px;
+}
+
+.stepper--empty .stepper__value {
+  color: #b9b2a4;
+}
+
+/* ---------- Live: GlassHUD ---------- */
+.glasshud {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-2) var(--space-4);
+  margin-bottom: var(--space-4);
+  border-radius: var(--radius-card);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(22, 27, 35, 0.62);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.glasshud__live {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font: 700 12px var(--font-ui);
+  color: var(--live-red);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.glasshud__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--live-red);
+  animation: livepulse 1.6s ease-in-out infinite;
+}
+
+@keyframes livepulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(229, 72, 77, 0.55);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(229, 72, 77, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .glasshud__dot {
+    animation: none;
+  }
+}
+
+.glasshud__pts {
+  font: 500 13px var(--font-ui);
+  color: var(--text-on-dark-soft);
+}
+
+.glasshud__pts strong {
+  font: 600 20px var(--font-score);
+  color: var(--foil-gold-light);
+  margin-right: 4px;
+  font-variant-numeric: tabular-nums;
+}
+
+.glasshud__spacer {
+  flex: 1;
+}
+
+.glasshud__stand {
+  font: 500 12px var(--font-ui);
+  color: var(--text-on-dark-soft);
+  font-variant-numeric: tabular-nums;
+}
+
+.glasshud__stand--stale {
+  color: var(--foil-gold);
+}
+
+.glasshud__refresh {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  color: var(--text-on-dark);
+  border-radius: 8px;
+  padding: 6px 12px;
+  font: 600 12px var(--font-ui);
+  cursor: pointer;
+  transition: border-color 0.15s;
+}
+
+/* Tor-Alarm-Schalter: dezent solange aus, blau wenn scharf */
+.glasshud__alarm {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  color: var(--text-on-dark-soft);
+  border-radius: 8px;
+  padding: 6px 12px;
+  font: 600 12px var(--font-ui);
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.glasshud__alarm--on {
+  border-color: var(--panini-blue);
+  background: rgba(11, 95, 165, 0.25);
+  color: var(--text-on-dark);
+}
+
+.glasshud__refresh:hover:not(:disabled) {
+  border-color: rgba(255, 255, 255, 0.45);
+}
+
+.glasshud__refresh:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* ---------- Heute / Tipp-Wächter ---------- */
+.heute__next {
+  font: 500 13px var(--font-ui);
+  color: var(--text-on-dark-soft);
+}
+
+.heute__next strong {
+  font: 600 16px var(--font-score);
+  color: var(--text-on-dark);
+  margin: 0 2px;
+}
+
+.tipalert {
+  display: block;
+  width: 100%;
+  max-width: 860px;
+  text-align: left;
+  margin-bottom: var(--space-4);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-card);
+  border: 1px solid rgba(230, 46, 107, 0.6);
+  background: rgba(230, 46, 107, 0.12);
+  color: var(--text-on-dark);
+  font: 600 13px var(--font-ui);
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.tipalert:hover {
+  background: rgba(230, 46, 107, 0.2);
+  border-color: var(--accent-magenta);
+}
+
+/* KO-Aufruf: Chance statt Warnung — gold */
+.tipalert--gold {
+  border-color: rgba(212, 175, 55, 0.65);
+  background: rgba(212, 175, 55, 0.1);
+}
+
+.tipalert--gold:hover {
+  background: rgba(212, 175, 55, 0.18);
+  border-color: var(--foil-gold);
+}
+
+.navbadge {
+  float: right;
+  min-width: 18px;
+  text-align: center;
+  padding: 1px 5px;
+  border-radius: 999px;
+  background: var(--live-red);
+  color: #fff;
+  font: 700 10.5px var(--font-score);
+}
+
+/* ---------- Live: Ergebniszeilen ---------- */
+.liverows {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  max-width: 860px;
+}
+
+.liverow {
+  display: grid;
+  grid-template-columns: 130px 1fr auto 1fr 150px;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-card);
+  background: var(--stage-raised);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Live-Spiel: holografischer Multicolor-Rand — zitiert die WM-2026-Broadcast-
+   Optik, baut aber auf unserem eigenen Foil-Vokabular auf (foil.css, gleiche
+   Gelb/Cyan/Lila/Pink-Palette). Nur diese eine Karte; der Score-Block bleibt rot
+   (trägt Status + Minute). research/design.md §3. */
+@property --live-holo-angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: true;
+}
+
+@keyframes liveholo-spin {
+  to {
+    --live-holo-angle: 360deg;
+  }
+}
+
+.liverow--live {
+  position: relative;
+  border: 2px solid transparent;
+  background:
+    linear-gradient(var(--stage-raised), var(--stage-raised)) padding-box,
+    conic-gradient(
+      from var(--live-holo-angle),
+      #ffde78,
+      #00ffe7,
+      #a050ff,
+      #ff40aa,
+      #ffde78
+    ) border-box;
+  animation: liveholo-spin 7s linear infinite;
+}
+
+/* Mittelweg: klarer bunter Rand + dezenter mehrfarbiger Schein nach außen —
+   sichtbar, dass „da läuft was", aber kein TV-Neon-Wulst. ::after erbt den
+   animierten Winkel (inherits: true), läuft also synchron zum Rand. */
+.liverow--live::after {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  z-index: -1;
+  border-radius: inherit;
+  background: conic-gradient(
+    from var(--live-holo-angle),
+    #ffde78,
+    #00ffe7,
+    #a050ff,
+    #ff40aa,
+    #ffde78
+  );
+  filter: blur(11px);
+  opacity: 0.32;
+  pointer-events: none;
+}
+
+/* Klickbare Live-Karte (Heute): Gradient-Rand behalten statt hellem Hover-Border,
+   Schein als Klick-Feedback leicht hoch */
+.liverow.liverow--live:hover {
+  border-color: transparent;
+}
+
+.liverow--live:hover::after {
+  opacity: 0.46;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .liverow--live {
+    animation: none;
+  }
+}
+
+.liverow__info {
+  display: flex;
+  flex-direction: column;
+  font: 500 11.5px var(--font-ui);
+  color: var(--text-on-dark-soft);
+  line-height: 1.45;
+}
+
+.liverow__info strong {
+  color: var(--text-on-dark);
+  font-family: var(--font-score);
+}
+
+.liverow__team {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.liverow__team--home {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.liverow__name {
+  font: 600 14px var(--font-ui);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.liverow__name--winner {
+  color: var(--foil-gold-light);
+}
+
+.liverow__score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.1;
+  min-width: 76px;
+  padding: 5px 12px;
+  border-radius: 10px;
+  background: rgba(11, 95, 165, 0.25);
+}
+
+.liverow__score strong {
+  font: 600 24px var(--font-score);
+  letter-spacing: 0.04em;
+  font-variant-numeric: tabular-nums;
+}
+
+.liverow__score small {
+  font: 600 9.5px var(--font-ui);
+  color: var(--text-on-dark-soft);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.liverow--live .liverow__score {
+  background: rgba(229, 72, 77, 0.18);
+}
+
+.liverow--live .liverow__score small {
+  color: var(--live-red);
+}
+
+/* Unterbrochenes Spiel (Gewitter o. Ä.): Holo-Rand stehen lassen statt 2 h drehen,
+   Minute → „Unterbrochen" in Bernstein. Score bleibt sichtbar. */
+.liverow--delayed {
+  animation: none;
+}
+
+.liverow--delayed::after {
+  opacity: 0.14;
+}
+
+.liverow--delayed .liverow__score small {
+  color: var(--signal-amber);
+}
+
+.liverow__score--pre {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.liverow__score--pre strong {
+  font-size: 17px;
+  color: var(--text-on-dark-soft);
+}
+
+/* Verschoben/abgesagt: Bernstein-Hinweis statt (nun bedeutungsloser) Anstoßzeit */
+.liverow__score--postponed strong {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--signal-amber);
+}
+
+.liverow__tip {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--space-2);
+}
+
+.liverow__tiplabel {
+  font: 600 11.5px var(--font-ui);
+  color: var(--text-on-dark-soft);
+  white-space: nowrap;
+}
+
+.liverow__notip {
+  font: 500 11px var(--font-ui);
+  color: var(--text-on-dark-soft);
+  opacity: 0.6;
+}
+
+.ptspill {
+  min-width: 34px;
+  text-align: center;
+  padding: 3px 8px;
+  border-radius: 999px;
+  font: 700 13px var(--font-score);
+  font-variant-numeric: tabular-nums;
+  background: rgba(31, 138, 76, 0.25);
+  color: #6fd098;
+}
+
+.ptspill--zero {
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text-on-dark-soft);
+}
+
+.ptspill--exact {
+  background: linear-gradient(115deg, var(--foil-gold-dark), var(--foil-gold) 45%, var(--foil-gold-light) 60%, var(--foil-gold));
+  color: #2a2008;
+}
+
+.ptspill--live {
+  background: transparent;
+  border: 1px dashed rgba(255, 255, 255, 0.35);
+  color: var(--text-on-dark);
+}
+
+/* ---------- Tipp-Vergleich („Was hat Reto getippt?") ---------- */
+.liverow--expandable {
+  cursor: pointer;
+}
+
+.liverow--expandable:hover {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.liverow__chev {
+  display: inline-block;
+  margin-left: var(--space-2);
+  color: var(--text-on-dark-soft);
+  font: 600 16px var(--font-ui);
+  transition: transform 0.2s;
+}
+
+.liverow__chev--open {
+  transform: rotate(90deg);
+}
+
+/* ---------- Verbandswappen als eingeklebtes Panini-Bild ---------- */
+.crest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  width: 92px;
+  height: 104px;
+  padding: 8px;
+  background: #fdfdf8; /* Sticker-Weiß */
+  border-radius: 8px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+}
+
+.crest__img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Fallback-Wappen: Schildform mit Flagge + Trigramm-Band */
+.crest__shield {
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+  clip-path: polygon(0 0, 100% 0, 100% 62%, 50% 100%, 0 62%);
+  border-radius: 4px 4px 0 0;
+}
+
+.crest__flag {
+  display: block;
+  width: 100% !important;
+  height: 100%;
+  background-size: cover !important;
+  background-position: center;
+}
+
+.crest__tag {
+  font: 700 11px var(--font-score);
+  letter-spacing: 0.12em;
+  color: #163a5e;
+}
+
+/* auf der Team-Detailseite: rechts oben „eingeklebt" */
+.teamdetail {
+  position: relative;
+}
+
+.teamdetail__crest {
+  position: absolute;
+  top: 18px;
+  right: 22px;
+  transform: rotate(3.5deg);
+  z-index: 2;
+}
+
+/* WM-26-Emblem im Heute-Titel (PD-Variante ohne Pokal; schwarz → invertiert) */
+.heute__title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.heute__emblem {
+  height: 44px;
+  filter: invert(1);
+  opacity: 0.9;
+}
+
+/* ---------- Erfolgs-Sticker (Rubrik Erfolge) ---------- */
+.stickergrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: var(--space-3);
+  max-width: 900px;
+  margin-bottom: var(--space-3);
+}
+
+.achsticker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-1);
+  padding: var(--space-4) var(--space-3);
+  border-radius: var(--radius-sticker);
+  min-height: 150px;
+}
+
+.achsticker--earned {
+  background: linear-gradient(160deg, #20262f, #161b23 60%);
+  border: 2px solid var(--foil-gold);
+  box-shadow: 0 0 18px rgba(212, 175, 55, 0.18);
+}
+
+/* offene Slots = fehlende Sticker im Heft */
+.achsticker--open {
+  border: 2px dashed rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.achsticker__icon {
+  font-size: 34px;
+  line-height: 1.2;
+}
+
+.achsticker__icon--dim {
+  filter: grayscale(1);
+  opacity: 0.45;
+}
+
+.achsticker__title {
+  font-family: var(--font-display);
+  font-size: 15px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.achsticker--open .achsticker__title {
+  color: var(--text-on-dark-soft);
+}
+
+.achsticker__desc {
+  font: 500 11px var(--font-ui);
+  color: var(--text-on-dark-soft);
+  line-height: 1.45;
+}
+
+.achsticker__progress {
+  width: 80%;
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  height: 6px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.08);
+  position: relative;
+}
+
+.achsticker__bar {
+  height: 100%;
+  border-radius: 3px;
+  background: linear-gradient(90deg, var(--panini-blue), var(--panini-babyblue));
+}
+
+.achsticker__progress small {
+  position: absolute;
+  right: -6px;
+  top: 8px;
+  font: 600 10px var(--font-score);
+  color: var(--text-on-dark-soft);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------- „Stand jetzt"-Umschalter (Live-Tabellen/-Baum) ---------- */
+.projbar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+}
+
+.projbar__chip {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: transparent;
+  color: var(--text-on-dark-soft);
+  border-radius: 999px;
+  padding: 5px 14px;
+  font: 600 12px var(--font-ui);
+  cursor: pointer;
+}
+
+.projbar__chip--active {
+  background: var(--panini-blue);
+  border-color: var(--panini-blue);
+  color: var(--text-on-dark);
+}
+
+.projbar small {
+  font: 500 11px var(--font-ui);
+  color: var(--text-on-dark-soft);
+}
+
+/* ---------- Spielereignisse (Tore/Platzverweise) unter der Ergebniszeile ---------- */
+.liverow__events {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-1) var(--space-6);
+  margin: 2px var(--space-2) var(--space-1);
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-top: 0;
+  border-radius: 0 0 var(--radius-card) var(--radius-card);
+  background: rgba(22, 27, 35, 0.6);
+}
+
+.liverow__evcol {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.liverow__evcol--home {
+  align-items: flex-end;
+}
+
+.liverow__evcol--away {
+  align-items: flex-start;
+}
+
+.liverow__ev {
+  font: 500 12px var(--font-ui);
+  color: var(--text-on-dark-soft);
+  background: none;
+  border: 0;
+  padding: 1px 0;
+  text-align: inherit;
+}
+
+.liverow__ev small {
+  font: 600 10px var(--font-score);
+  color: var(--text-on-dark-soft);
+  opacity: 0.7;
+  font-variant-numeric: tabular-nums;
+}
+
+.liverow__ev--card {
+  cursor: pointer;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.25);
+}
+
+.liverow__ev--card:hover {
+  color: var(--text-on-dark);
+  border-bottom-color: var(--panini-babyblue);
+}
+
+/* ---------- PlayerPeek: Panini-Karte als Overlay (Klick auf Torschützen) ---------- */
+.peek {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  display: grid;
+  place-items: center;
+  background: rgba(8, 10, 14, 0.72);
+  backdrop-filter: blur(3px);
+  animation: peekfade 0.18s ease-out;
+}
+
+@keyframes peekfade {
+  from {
+    opacity: 0;
+  }
+}
+
+.peek__card {
+  width: 240px;
+  filter: drop-shadow(0 18px 44px rgba(0, 0, 0, 0.6));
+}
+
+/* „Was ist neu" — Albumseite über der App nach einem Update */
+.whatsnew {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  display: grid;
+  place-items: center;
+  padding: var(--space-6);
+  background: rgba(8, 10, 14, 0.74);
+  backdrop-filter: blur(4px);
+  animation: peekfade 0.2s ease-out;
+}
+
+.whatsnew__card {
+  width: min(460px, 100%);
+  max-height: 86vh;
+  overflow-y: auto;
+  padding: var(--space-6) var(--space-6) var(--space-4);
+  background: var(--paper);
+  border-radius: var(--radius-card);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55);
+  animation: whatsnewpop 0.22s ease-out;
+}
+
+@keyframes whatsnewpop {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.98);
+  }
+}
+
+.whatsnew__head {
+  text-align: center;
+  padding-bottom: var(--space-3);
+  margin-bottom: var(--space-3);
+  border-bottom: 1px dashed var(--paper-shade);
+}
+
+.whatsnew__kicker {
+  display: block;
+  font: 600 11px var(--font-score);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-bottom: 2px;
+}
+
+.whatsnew__title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 40px;
+  line-height: 1.05;
+  letter-spacing: 0.01em;
+}
+
+.whatsnew__body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.whatsnew__relh {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  margin: 0 0 var(--space-2);
+  font: 700 16px var(--font-ui);
+  color: var(--ink);
+}
+
+.whatsnew__ver {
+  flex: none;
+  padding: 2px 8px;
+  border-radius: var(--radius-sticker);
+  background: var(--panini-blue);
+  color: #fff;
+  font: 700 12px var(--font-score);
+  letter-spacing: 0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+.whatsnew__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.whatsnew__list li {
+  position: relative;
+  padding-left: 20px;
+  font: 400 13.5px var(--font-ui);
+  line-height: 1.4;
+  color: var(--ink);
+}
+
+.whatsnew__list li::before {
+  content: '⚽';
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 11px;
+  opacity: 0.65;
+}
+
+.whatsnew__ok {
+  width: 100%;
+  margin-top: var(--space-4);
+}
+
+/* Start-Intro — Bill Shanklys Zitat auf schwarzem Grund, schwillt an und fadet weg */
+.intro {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  padding: var(--space-8) var(--space-6);
+  background: #05070a;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 1.2s ease;
+  /* eigene Compositor-Ebene: der Start-Render der App dahinter darf die Fades nicht stocken lassen */
+  will-change: opacity;
+  transform: translateZ(0);
+}
+
+.intro--leaving {
+  opacity: 0;
+}
+
+.intro__quote {
+  margin: 0;
+  max-width: 720px;
+  text-align: center;
+}
+
+.intro__text {
+  margin: 0;
+  font: 300 clamp(21px, 2.9vw, 31px) var(--font-ui);
+  line-height: 1.5;
+  letter-spacing: 0.005em;
+  color: #f2f4f8;
+  opacity: 0;
+  animation: introrise 2.8s 0.3s ease-out forwards;
+  will-change: opacity, transform;
+}
+
+.intro__cite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  margin-top: var(--space-6);
+  font-style: normal;
+  opacity: 0;
+  animation: introfade 2s 2.7s ease-out forwards;
+  will-change: opacity;
+}
+
+.intro__author {
+  font: 600 14px var(--font-score);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+.intro__note {
+  font: 400 12px var(--font-ui);
+  letter-spacing: 0.02em;
+  color: rgba(242, 244, 248, 0.4);
+}
+
+.intro__skip {
+  position: fixed;
+  bottom: var(--space-6);
+  left: 0;
+  right: 0;
+  text-align: center;
+  font: 500 10.5px var(--font-ui);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(242, 244, 248, 0.28);
+  opacity: 0;
+  animation: introfade 1.5s 4s ease-out forwards;
+}
+
+@keyframes introrise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes introfade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Torschützen — Torjägerliste, Goldener Schuh an der Spitze */
+.scorers {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  max-width: 540px;
+}
+
+.scorer {
+  display: grid;
+  grid-template-columns: 30px 44px 1fr auto auto;
+  align-items: center;
+  gap: var(--space-3);
+  width: 100%;
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--paper-shade);
+  border-radius: var(--radius-sticker);
+  background: #fff;
+  text-align: left;
+  color: var(--ink);
+}
+
+button.scorer {
+  cursor: pointer;
+  transition: border-color 0.12s ease, box-shadow 0.12s ease;
+}
+
+button.scorer:hover {
+  border-color: var(--panini-blue);
+  box-shadow: 0 2px 10px rgba(11, 95, 165, 0.18);
+}
+
+.scorer--lead {
+  border-color: var(--foil-gold);
+  background: linear-gradient(120deg, #fff8e1, #fff);
+  box-shadow: 0 1px 6px rgba(212, 175, 55, 0.35);
+}
+
+.scorer__rank {
+  font: 700 15px var(--font-score);
+  color: var(--ink-soft);
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.scorer--lead .scorer__rank {
+  font-size: 19px;
+}
+
+.scorer__face {
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  background: var(--paper-shade);
+}
+
+.scorer__face img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.scorer__initials {
+  font: 700 14px var(--font-score);
+  color: var(--ink-soft);
+}
+
+.scorer__id {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.scorer__name {
+  font: 600 14.5px var(--font-ui);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.scorer__id small {
+  font: 500 11.5px var(--font-ui);
+  color: var(--ink-soft);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.scorer__goals {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  min-width: 50px;
+}
+
+.scorer__goals strong {
+  font: 700 20px var(--font-score);
+  font-variant-numeric: tabular-nums;
+  color: var(--panini-blue);
+  line-height: 1;
+}
+
+.scorer--lead .scorer__goals strong {
+  color: var(--foil-gold-dark);
+}
+
+.scorer__goals small {
+  font: 600 10px var(--font-score);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+/* Belohnungs-Moment — Gold-Konfetti + Glückwunsch bei exaktem Tipp */
+.reward {
+  position: fixed;
+  inset: 0;
+  z-index: 85;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.reward__confetti {
+  position: absolute;
+  inset: 0;
+}
+
+.reward__bit {
+  position: absolute;
+  top: -24px;
+  width: 9px;
+  height: 13px;
+  border-radius: 1px;
+  opacity: 0;
+  animation-name: confettifall;
+  animation-timing-function: cubic-bezier(0.3, 0.5, 0.6, 1);
+  animation-iteration-count: 1;
+}
+
+.reward__bit--0 {
+  background: var(--foil-gold);
+}
+.reward__bit--1 {
+  background: var(--foil-gold-light);
+}
+.reward__bit--2 {
+  background: #fff;
+}
+
+@keyframes confettifall {
+  0% {
+    transform: translateY(0) translateX(0) rotate(0deg);
+    opacity: 0;
+  }
+  8% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(102vh) translateX(var(--drift, 0)) rotate(680deg);
+    opacity: 0;
+  }
+}
+
+.reward__card {
+  position: absolute;
+  top: 24%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: var(--space-4) var(--space-8);
+  background: var(--paper);
+  border-radius: var(--radius-card);
+  border: 1.5px solid var(--foil-gold);
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.45), 0 0 0 1px rgba(212, 175, 55, 0.25);
+  text-align: center;
+  animation: rewardpop 0.4s cubic-bezier(0.2, 1.3, 0.5, 1) both;
+}
+
+@keyframes rewardpop {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(12px) scale(0.9);
+  }
+}
+
+.reward__icon {
+  font-size: 30px;
+  line-height: 1;
+}
+
+.reward__head {
+  font: 400 26px var(--font-display);
+  letter-spacing: 0.02em;
+  margin-top: 2px;
+}
+
+.reward__match {
+  font: 600 15px var(--font-score);
+  font-variant-numeric: tabular-nums;
+  color: var(--ink);
+  letter-spacing: 0.01em;
+}
+
+.reward__pts {
+  font: 600 11px var(--font-score);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--foil-gold-dark);
+}
+
+.cmp {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) var(--space-4);
+  margin: 2px var(--space-2) var(--space-1);
+  padding: var(--space-2) var(--space-4) var(--space-3);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-top: 0;
+  border-radius: 0 0 var(--radius-card) var(--radius-card);
+  background: rgba(22, 27, 35, 0.6);
+}
+
+.cmp__row {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 3px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  font: 500 12px var(--font-ui);
+  color: var(--text-on-dark);
+}
+
+.cmp__row--me {
+  border-color: rgba(212, 175, 55, 0.55);
+}
+
+.cmp__name {
+  color: var(--text-on-dark-soft);
+}
+
+.cmp__tip {
+  font: 600 13px var(--font-score);
+  font-variant-numeric: tabular-nums;
+}
+
+.cmp__tip small {
+  font: 500 10.5px var(--font-ui);
+  color: var(--text-on-dark-soft);
+}
+
+.cmp__hidden {
+  font: 500 11px var(--font-ui);
+  color: var(--text-on-dark-soft);
+  opacity: 0.75;
+}
+
+.cmp__note {
+  width: 100%;
+  font: 500 10.5px var(--font-ui);
+  color: var(--text-on-dark-soft);
+}
+
+/* ---------- Live: echte Tabellen ---------- */
+.livetables {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  gap: var(--space-3);
+  max-width: 1100px;
+}
+
+.papercard {
+  background: var(--paper);
+  color: var(--ink);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-sticker);
+  padding: var(--space-3) var(--space-4) var(--space-4);
+}
+
+.papercard h3 {
+  font-family: var(--font-display);
+  font-size: 17px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: var(--space-1) 0 var(--space-2);
+}
+
+/* ---------- Punktesystem-Erklärung (Rangliste) ---------- */
+.rules__toggle {
+  margin-bottom: var(--space-4);
+}
+
+.rules__toggle--open {
+  border-color: var(--foil-gold);
+  color: var(--foil-gold-light);
+}
+
+.rules {
+  max-width: 860px;
+  margin-bottom: var(--space-6);
+}
+
+.rules h3 {
+  font-family: var(--font-display);
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: var(--space-1) 0 var(--space-3);
+}
+
+.rules__cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-6);
+}
+
+.rules h4 {
+  font: 600 11px var(--font-ui);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-soft);
+  margin: 0 0 var(--space-2);
+  border-bottom: 2px solid var(--paper-shade);
+  padding-bottom: var(--space-2);
+}
+
+.rules ul {
+  list-style: none;
+  margin: 0 0 var(--space-3);
+  padding: 0;
+}
+
+.rules li {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  font: 500 13px/1.5 var(--font-ui);
+  padding: 5px 0;
+}
+
+.rules li + li {
+  border-top: 1px dashed var(--paper-shade);
+}
+
+.rules__pill {
+  flex-shrink: 0;
+  min-width: 38px;
+  text-align: center;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--panini-blue);
+  color: #fff;
+  font: 700 13px var(--font-score);
+  font-variant-numeric: tabular-nums;
+}
+
+.rules__pill--gold {
+  background: linear-gradient(115deg, var(--foil-gold-dark), var(--foil-gold) 45%, var(--foil-gold-light) 60%, var(--foil-gold));
+  color: #2a2008;
+}
+
+.rules__intro {
+  font: 500 12.5px/1.5 var(--font-ui);
+  margin: 0 0 var(--space-2);
+}
+
+.rules__note {
+  font: 500 11.5px/1.55 var(--font-ui);
+  color: var(--ink-soft);
+  background: rgba(11, 95, 165, 0.06);
+  border-left: 3px solid var(--panini-blue);
+  border-radius: 4px;
+  padding: 7px 10px;
+  margin: 0;
+}
+
+.rules__note + .rules__note {
+  margin-top: var(--space-2);
+}
+
+.rules__note--gold {
+  background: rgba(212, 175, 55, 0.1);
+  border-left-color: var(--foil-gold);
+  color: var(--ink);
+}
+
+/* ---------- Rangliste ---------- */
+.boardhint {
+  font: 500 12px/1.55 var(--font-ui);
+  color: var(--text-on-dark-soft);
+  max-width: 720px;
+  margin: calc(-1 * var(--space-2)) 0 var(--space-3);
+}
+
+.leaderboard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  max-width: 860px;
+}
+
+.lbrow {
+  display: grid;
+  grid-template-columns: 44px 16px 1fr auto 64px;
+  align-items: center;
+  gap: var(--space-3);
+  width: 100%;
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-card);
+  background: var(--stage-raised);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--text-on-dark);
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.15s;
+}
+
+.lbrow:hover {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.lbrow--first {
+  border-color: var(--foil-gold);
+  background: linear-gradient(120deg, rgba(212, 175, 55, 0.12), var(--stage-raised) 55%);
+}
+
+/* Platz-1-Zeile im HoloSticker: der Glow liegt auf dem Wrapper, weil
+   overflow:hidden des Foil-Layers den Button-Schatten kappen würde */
+.lbholo {
+  border-radius: var(--radius-card);
+  box-shadow: 0 0 18px rgba(212, 175, 55, 0.15);
+  transition: box-shadow 0.3s ease;
+}
+
+.tiltscene:hover .lbholo {
+  box-shadow: 0 0 28px rgba(212, 175, 55, 0.4);
+}
+
+.lbrow--me:not(.lbrow--first) {
+  border-color: rgba(11, 95, 165, 0.7);
+}
+
+.lbrow__rank {
+  font: 700 24px var(--font-score);
+  text-align: center;
+  color: var(--text-on-dark-soft);
+  font-variant-numeric: tabular-nums;
+}
+
+.lbrow__dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.85);
+}
+
+.lbrow__name {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  font: 600 15px var(--font-ui);
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lbrow__name small {
+  font: 500 10px var(--font-ui);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-on-dark-soft);
+}
+
+.lbrow__chips {
+  font: 500 12px var(--font-ui);
+  color: var(--text-on-dark-soft);
+  white-space: nowrap;
+}
+
+.lbrow__total {
+  font: 700 26px var(--font-score);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.lbdetail {
+  margin: 2px var(--space-2) var(--space-2);
+  padding: var(--space-3) var(--space-4);
+  border-radius: 0 0 var(--radius-card) var(--radius-card);
+  background: rgba(22, 27, 35, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-top: 0;
+}
+
+.lbdetail__rounds {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-bottom: var(--space-2);
+}
+
+.lbdetail__round {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  font: 500 11px var(--font-ui);
+  color: var(--text-on-dark-soft);
+}
+
+.lbdetail__round strong {
+  font: 600 13px var(--font-score);
+  color: var(--text-on-dark);
+  font-variant-numeric: tabular-nums;
+}
+
+.lbdetail__round--zero {
+  opacity: 0.5;
+}
+
+.lbdetail__boni {
+  font: 500 12px var(--font-ui);
+  color: var(--foil-gold-light);
+}
+
+/* ---------- Teams-Galerie ---------- */
+.teamgroup {
+  margin-bottom: var(--space-4);
+}
+
+.teamgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: var(--space-3);
+  max-width: 900px;
+}
+
+.teamsticker {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-4) var(--space-3);
+  background: var(--stage-raised);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-sticker);
+  text-align: center;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+  color: var(--text-on-dark);
+  font: inherit;
+  cursor: pointer;
+}
+
+.teamsticker:hover {
+  transform: translateY(-3px) rotate(-0.5deg);
+  border-color: rgba(212, 175, 55, 0.5);
+}
+
+/* Shine-Sweep beim Hover — erster Glossy-Vorgeschmack */
+.teamsticker::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(105deg, transparent 40%, rgba(255, 255, 255, 0.18) 50%, transparent 60%);
+  transform: translateX(-120%);
+}
+
+.teamsticker:hover::after {
+  transition: transform 0.55s ease;
+  transform: translateX(120%);
+}
+
+.teamsticker strong {
+  font: 600 13.5px var(--font-ui);
+  line-height: 1.25;
+}
+
+.teamsticker small {
+  font: 600 10px var(--font-score);
+  letter-spacing: 0.12em;
+  color: var(--text-on-dark-soft);
+}
+
+/* ---------- Stadien ---------- */
+.stadiumgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+  gap: var(--space-4);
+  max-width: 1240px;
+  margin-bottom: var(--space-6);
+}
+
+.sectiontitle .flagbadge {
+  vertical-align: -3px;
+  margin-right: 6px;
+}
+
+/* Stadion-Karte als drehbarer Panini-Sticker: vorne Infos, hinten Foto + Lage */
+.flipcard {
+  perspective: 1400px;
+  cursor: pointer;
+}
+
+.flipcard__inner {
+  position: relative;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.65s cubic-bezier(0.35, 0.1, 0.2, 1);
+  /* Compositing-Layer schon vor dem ersten Flip — sonst baut der Browser ihn
+     beim Klick auf (Jank am Animationsstart, „hängt ganz kurz") */
+  will-change: transform;
+}
+
+.flipcard--flipped .flipcard__inner {
+  transform: rotateY(180deg);
+}
+
+.flipcard__front,
+.flipcard__back {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.flipcard__front {
+  position: relative;
+  height: 100%;
+}
+
+.flipcard__back {
+  position: absolute;
+  inset: 0;
+  /* translateZ(0): eigener Layer für die Rückseite — Foto/Lagekarte werden beim
+     Mount dekodiert und gerastert statt synchron beim ersten Flip */
+  transform: rotateY(180deg) translateZ(0);
+  overflow: hidden;
+}
+
+.flipcard__hint {
+  position: absolute;
+  right: 10px;
+  bottom: 6px;
+  font-size: 15px;
+  color: var(--ink-soft);
+  opacity: 0.4;
+  transition: opacity 0.15s, transform 0.3s;
+}
+
+.flipcard:hover .flipcard__hint {
+  opacity: 0.95;
+  transform: rotate(180deg);
+}
+
+.flipcard__photo {
+  margin: var(--space-2) 0 0;
+  flex: 1.15;
+  min-height: 120px;
+  border-radius: var(--radius-sticker);
+  overflow: hidden;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.flipcard__photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Lagekarte Nordamerika */
+.venuemap {
+  flex: 1;
+  min-height: 140px;
+  width: 100%;
+  margin-top: var(--space-2);
+  background: #fdfaf3;
+  border: 1px solid var(--paper-shade);
+  border-radius: var(--radius-sticker);
+}
+
+.venuemap__land {
+  fill: #e8e0cb;
+  stroke: rgba(26, 29, 34, 0.28);
+  stroke-width: 1.5;
+}
+
+.venuemap__dot {
+  fill: var(--panini-blue);
+  opacity: 0.55;
+}
+
+.venuemap__halo {
+  fill: rgba(212, 175, 55, 0.3);
+}
+
+.venuemap__sel {
+  fill: var(--foil-gold);
+  stroke: var(--foil-gold-dark);
+  stroke-width: 2.5;
+}
+
+.venuemap__label {
+  font: 600 27px var(--font-score);
+  letter-spacing: 0.03em;
+  fill: var(--ink);
+  paint-order: stroke;
+  stroke: #fdfaf3;
+  stroke-width: 6;
+}
+
+.stadiumcard {
+  display: flex;
+  flex-direction: column;
+}
+
+.stadiumcard--final {
+  box-shadow: var(--shadow-sticker), 0 0 0 2px var(--foil-gold);
+}
+
+.stadiumcard__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.stadiumcard__head h3 {
+  margin: var(--space-1) 0 0;
+  font-size: 19px;
+}
+
+.stadiumcard__head .badge {
+  margin-top: var(--space-1);
+}
+
+.stadiumcard__fifa {
+  display: block;
+  font: 500 10.5px var(--font-ui);
+  color: var(--ink-soft);
+  margin-top: 2px;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.stadiumcard__meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font: 500 12px var(--font-ui);
+  color: var(--ink-soft);
+  margin: var(--space-2) 0 var(--space-1);
+}
+
+.stadiumcard__dot {
+  opacity: 0.5;
+}
+
+.stadiumcard__blurb {
+  font: 400 12.5px/1.55 var(--font-ui);
+  margin: var(--space-2) 0;
+}
+
+.stadiumcard__facts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.stadiumcard__facts li {
+  font: 500 10.5px var(--font-ui);
+  color: var(--ink-soft);
+  background: rgba(11, 95, 165, 0.07);
+  border: 1px solid var(--paper-shade);
+  border-radius: 999px;
+  padding: 3px 9px;
+}
+
+/* Datumsstempel kuratierter Inhalte (Stadien + Teams) */
+.stand {
+  display: block;
+  font: 500 10px var(--font-ui);
+  color: var(--ink-soft);
+  opacity: 0.75;
+  margin-top: var(--space-2);
+}
+
+.stadiumcard__matchtitle {
+  font: 600 10.5px var(--font-ui);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink-soft);
+  margin: var(--space-3) 0 var(--space-1);
+  border-top: 2px solid var(--paper-shade);
+  padding-top: var(--space-3);
+}
+
+.stadiumcard__matches {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Kompakte Spielzeile auf Papierseiten (Stadion-Karten, Team-Seiten) */
+.minirow {
+  display: grid;
+  grid-template-columns: 92px 1fr auto;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 5px 0;
+  font: 500 12.5px var(--font-ui);
+}
+
+.minirow--venue {
+  grid-template-columns: 92px 1fr minmax(120px, auto) auto;
+}
+
+.minirow + .minirow {
+  border-top: 1px dashed var(--paper-shade);
+}
+
+.minirow > small {
+  font: 600 11px var(--font-score);
+  color: var(--ink-soft);
+  letter-spacing: 0.03em;
+  font-variant-numeric: tabular-nums;
+}
+
+.minirow__pairing {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  font-weight: 600;
+}
+
+.minirow__pairing > span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.minirow__mid {
+  color: var(--ink-soft);
+  font-family: var(--font-score);
+  font-variant-numeric: tabular-nums;
+  flex-shrink: 0;
+}
+
+.minirow__mid--live {
+  color: var(--live-red);
+  font-weight: 700;
+}
+
+.minirow__tbd {
+  color: var(--ink-soft);
+  font-weight: 500;
+  font-size: 11.5px;
+}
+
+.minirow__venue {
+  font: 500 11px var(--font-ui);
+  color: var(--ink-soft);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: right;
+}
+
+/* ---------- Team-Detailseite ---------- */
+.teamdetail__back {
+  margin-bottom: var(--space-4);
+}
+
+.teamdetail__head {
+  display: flex;
+  gap: var(--space-6);
+  align-items: flex-start;
+  border-bottom: 2px solid var(--paper-shade);
+  padding-bottom: var(--space-4);
+  margin-bottom: var(--space-4);
+}
+
+/* Großer Panini-Sticker: Babyblau, große „26" hinter der Flagge, blauer Datenbalken */
+.teamhero {
+  width: 212px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-6) var(--space-3) var(--space-3);
+  background: linear-gradient(160deg, #d9ecf9, var(--panini-babyblue) 55%, #a6d2ee);
+  border: var(--sticker-border) solid #fff;
+  box-shadow: var(--shadow-sticker);
+}
+
+.teamhero__no {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  font: 600 11px var(--font-score);
+  letter-spacing: 0.08em;
+  color: rgba(14, 17, 22, 0.5);
+}
+
+.teamhero__26 {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font-display);
+  font-size: 200px;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.65);
+  pointer-events: none;
+  user-select: none;
+}
+
+.teamhero__flag {
+  position: relative;
+  width: 116px;
+  height: 87px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  background-size: cover;
+}
+
+.teamhero__bar {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  background: var(--panini-blue);
+  color: #fff;
+  font: 600 12.5px var(--font-score);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 5px 4px;
+}
+
+.teamdetail__title h2 {
+  font-family: var(--font-display);
+  font-size: 42px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: var(--space-2) 0 var(--space-2);
+}
+
+.teamdetail__badges {
+  display: flex;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+}
+
+.badge--rank {
+  border: 1px solid var(--panini-blue);
+  color: var(--panini-blue);
+}
+
+.teamdetail__record {
+  font: 600 13px var(--font-score);
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+  margin: 0 0 var(--space-2);
+}
+
+.teamdetail__coach {
+  font: 500 13px var(--font-ui);
+  margin: 0;
+}
+
+.teamdetail__coach small {
+  color: var(--ink-soft);
+}
+
+.teamdetail__cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-6);
+}
+
+.teamdetail__cols p {
+  font: 400 12.5px/1.6 var(--font-ui);
+  margin: 0 0 var(--space-3);
+}
+
+.teamdetail__h {
+  font: 600 10.5px var(--font-ui);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink-soft);
+  margin: var(--space-4) 0 var(--space-2);
+}
+
+.teamdetail__stories {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.teamdetail__stories li {
+  font: 400 12.5px/1.55 var(--font-ui);
+  padding-left: 14px;
+  position: relative;
+  margin-bottom: var(--space-2);
+}
+
+.teamdetail__stories li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--accent-magenta);
+}
+
+.stargrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
+  gap: var(--space-3);
+}
+
+.stargrid .tiltscene {
+  height: 100%;
+}
+
+/* Panini-Spielerkarte: weißer Rand, Babyblau, Foto, blauer Datenbalken — Holo via .holo */
+.playercard {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: linear-gradient(165deg, #dcedf9, var(--panini-babyblue) 60%, #a6d2ee);
+  border: 4px solid #fff;
+  box-shadow: var(--shadow-sticker);
+}
+
+.playercard__no {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  z-index: 1;
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.85);
+  font: 700 9px var(--font-score);
+  letter-spacing: 0.08em;
+  color: var(--ink-soft);
+}
+
+.playercard__photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 5 / 5.4;
+  object-fit: cover;
+  object-position: top center;
+}
+
+/* Fallback ohne Foto: große „26" + Initialen — Panini-Look bleibt erhalten */
+.playercard__photo--fallback {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+.playercard__26 {
+  position: absolute;
+  font-family: var(--font-display);
+  font-size: 110px;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.6);
+  user-select: none;
+}
+
+.playercard__initials {
+  position: relative;
+  font-family: var(--font-display);
+  font-size: 44px;
+  color: var(--panini-blue);
+  text-shadow: 0 2px 0 rgba(255, 255, 255, 0.7);
+}
+
+.playercard__bar {
+  background: var(--panini-blue);
+  color: #fff;
+  text-align: center;
+  font: 600 10.5px var(--font-score);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 4px 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.playercard__meta {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  flex: 1;
+  justify-content: center;
+  text-align: center;
+  padding: 5px 6px 7px;
+  font: 600 9.5px var(--font-ui);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink);
+}
+
+.playercard__meta small {
+  font: 500 9.5px var(--font-ui);
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--ink-soft);
+}
+
+/* ---------- Kader-Unterseite ---------- */
+.teamdetail__heroside {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  flex-shrink: 0;
+}
+
+.squadbtn {
+  border: 0;
+  border-radius: 8px;
+  background: var(--panini-blue);
+  color: #fff;
+  padding: 9px 12px;
+  font: 600 12.5px var(--font-ui);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.squadbtn:hover {
+  background: #0d6fc0;
+}
+
+.squadhead {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  border-bottom: 2px solid var(--paper-shade);
+  padding-bottom: var(--space-4);
+}
+
+.squadhead h2 {
+  font-family: var(--font-display);
+  font-size: 32px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.squadhead small {
+  font: 500 11.5px var(--font-ui);
+  color: var(--ink-soft);
+}
+
+.stargrid--squad {
+  grid-template-columns: repeat(auto-fill, minmax(142px, 1fr));
+}
+
+.stargrid--squad .flipcard,
+.stargrid--squad .flipcard__inner,
+.flipcard__front .tiltscene {
+  height: 100%;
+}
+
+/* Gedrehte Kader-Karte kommt vergrößert „näher" — Fakten bleiben lesbar */
+.stargrid--squad .flipcard {
+  position: relative;
+}
+
+.stargrid--squad .flipcard--flipped {
+  z-index: 6;
+}
+
+.stargrid--squad .flipcard--flipped .flipcard__inner {
+  transform: rotateY(180deg) scale(1.5);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
+  border-radius: var(--radius-sticker);
+}
+
+/* Karten-Rückseite: Fakten im Panini-Rahmen */
+.playercard--back {
+  justify-content: flex-end;
+}
+
+.playercard__backno {
+  position: absolute;
+  top: -6px;
+  right: 6px;
+  font-family: var(--font-display);
+  font-size: 64px;
+  color: rgba(255, 255, 255, 0.7);
+  user-select: none;
+}
+
+.playercard__facts {
+  list-style: none;
+  margin: 0;
+  padding: var(--space-2) var(--space-2) var(--space-2);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 3px;
+}
+
+.playercard__facts li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-2);
+  border-bottom: 1px dashed rgba(11, 95, 165, 0.25);
+  padding-bottom: 2px;
+}
+
+.playercard__facts small {
+  font: 600 8px var(--font-ui);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+  flex-shrink: 0;
+}
+
+.playercard__facts strong {
+  font: 600 10.5px var(--font-ui);
+  color: var(--ink);
+  text-align: right;
+}
+
+.playercard__factsub {
+  font: 500 9px var(--font-ui);
+  color: var(--ink-soft);
+}
+
+.teamdetail__matches {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* News auf der Team-Seite: aufklappbare Meldungen, komplett in der App lesbar */
+.newslist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.newslist li + li {
+  border-top: 1px dashed var(--paper-shade);
+}
+
+.newslist__head {
+  display: grid;
+  grid-template-columns: 1fr auto 14px;
+  align-items: baseline;
+  gap: var(--space-3);
+  width: 100%;
+  padding: 7px 2px;
+  border: 0;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+  color: var(--ink);
+}
+
+.newslist__head:hover .newslist__title {
+  color: var(--panini-blue);
+}
+
+.newslist__title {
+  font: 600 12.5px/1.45 var(--font-ui);
+}
+
+.newslist__head small {
+  font: 500 10.5px var(--font-ui);
+  color: var(--ink-soft);
+  white-space: nowrap;
+}
+
+.newslist__chev {
+  color: var(--ink-soft);
+  font: 600 14px var(--font-ui);
+  transition: transform 0.2s;
+}
+
+.newslist__chev--open {
+  transform: rotate(90deg);
+}
+
+.newslist__item--open {
+  background: rgba(11, 95, 165, 0.05);
+  border-radius: var(--radius-sticker);
+}
+
+.newslist__body {
+  margin: 0;
+  padding: 0 26px 10px 2px;
+  font: 400 12.5px/1.6 var(--font-ui);
+}
+
+.newslist__body small {
+  display: block;
+  margin-top: 6px;
+  font: 500 10px var(--font-ui);
+  color: var(--ink-soft);
+}
+
+.newslist__refresh {
+  margin-left: var(--space-2);
+  border: 1px solid var(--paper-shade);
+  background: #fff;
+  color: var(--ink-soft);
+  border-radius: 6px;
+  padding: 1px 7px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.newslist__refresh:hover:not(:disabled) {
+  color: var(--ink);
+  border-color: var(--ink-soft);
+}
+
+.newslist__hint {
+  font: 500 12px var(--font-ui);
+  color: var(--ink-soft);
+}
+
+.oddsbanner {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-3);
+  margin-top: var(--space-6);
+  padding: var(--space-3) var(--space-4);
+  border: 2px solid var(--foil-gold);
+  border-radius: var(--radius-sticker);
+  background: linear-gradient(120deg, rgba(212, 175, 55, 0.14), transparent 60%), #fff;
+}
+
+.oddsbanner__label {
+  font: 600 10.5px var(--font-ui);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink-soft);
+}
+
+.oddsbanner strong {
+  font: 400 30px var(--font-display);
+  letter-spacing: 0.02em;
+}
+
+.oddsbanner small {
+  font: 500 11px var(--font-ui);
+  color: var(--ink-soft);
+}
+
+/* ---------- Profile ---------- */
+.profilegrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: var(--space-3);
+  margin: var(--space-4) 0;
+  max-width: 760px;
+}
+
+.profilecard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-2);
+  background: var(--stage-raised);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-card);
+  padding: var(--space-4);
+}
+
+.profilecard--active {
+  border-color: var(--foil-gold);
+}
+
+.profilecard__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font: 700 14px var(--font-ui);
+}
+
+.profilecard__name {
+  font: 600 15px var(--font-ui);
+}
+
+.profilecard__meta {
+  font-size: 11.5px;
+  color: var(--text-on-dark-soft);
+}
+
+.sectiontitle {
+  font-family: var(--font-display);
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: var(--space-8) 0 var(--space-3);
+}
+
+.profileform {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.profileform input {
+  background: var(--stage-raised);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  color: var(--text-on-dark);
+  padding: 9px 12px;
+  font: 500 14px var(--font-ui);
+  width: 200px;
+}
+
+.profileform input:focus {
+  outline: none;
+  border-color: var(--panini-blue);
+}
+
+.profileform__colors {
+  display: flex;
+  gap: 6px;
+}
+
+.swatch {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.swatch--active {
+  border-color: #fff;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
+}
+
+.btn {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  color: var(--text-on-dark);
+  border-radius: 8px;
+  padding: 9px 16px;
+  font: 600 13px var(--font-ui);
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.btn:hover:not(:disabled) {
+  border-color: rgba(255, 255, 255, 0.45);
+}
+
+.btn--primary {
+  background: var(--panini-blue);
+  border-color: var(--panini-blue);
+}
+
+.btn--primary:hover:not(:disabled) {
+  background: #0d6fc0;
+}
+
+.btn:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.exchange {
+  display: flex;
+  gap: var(--space-3);
+}
+
+.statusline {
+  color: var(--foil-gold-light);
+  font-size: 13px;
+  margin-top: var(--space-3);
+}
+
+/* ---------- Update-Banner ---------- */
+.updatebanner {
+  position: fixed;
+  right: var(--space-6);
+  bottom: var(--space-6);
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  max-width: 320px;
+  padding: var(--space-4);
+  border-radius: var(--radius-card);
+  border: 1px solid var(--foil-gold);
+  background: rgba(22, 27, 35, 0.92);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+}
+
+.updatebanner strong {
+  font-family: var(--font-display);
+  font-size: 18px;
+  letter-spacing: 0.03em;
+}
+
+.updatebanner span {
+  font: 500 12px var(--font-ui);
+  color: var(--text-on-dark);
+}
+
+.updatebanner__hint {
+  color: var(--text-on-dark-soft) !important;
+  font-size: 11px !important;
+}
+
+.updatebanner__actions {
+  display: flex;
+  gap: var(--space-2);
+  margin-top: var(--space-1);
+}
+
+/* ---------- Onboarding ---------- */
+.onboarding {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(800px 400px at 70% -10%, rgba(11, 95, 165, 0.35), transparent),
+    radial-gradient(600px 300px at 20% 110%, rgba(230, 46, 107, 0.18), transparent),
+    var(--stage);
+}
+
+.onboarding__card {
+  background: var(--stage-raised);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  padding: var(--space-8);
+  max-width: 460px;
+  text-align: center;
+  box-shadow: var(--shadow-sticker);
+}
+
+.onboarding__card h1 {
+  font-family: var(--font-display);
+  font-size: 44px;
+  letter-spacing: 0.04em;
+  margin: 0 0 var(--space-3);
+}
+
+.onboarding__card p {
+  color: var(--text-on-dark-soft);
+  line-height: 1.55;
+  margin-bottom: var(--space-6);
+}
+
+.onboarding .profileform {
+  justify-content: center;
+}
+
+/* ---------- Turnier-Chronik: Albumseite pro Turniertag ---------- */
+.chronikpage {
+  margin-bottom: var(--space-8);
+}
+
+.chronikpage__sub {
+  font: 500 13px var(--font-ui);
+  color: var(--ink-soft);
+  margin: 2px 0 0;
+}
+
+.chronikpage__running {
+  color: var(--live-red);
+  font-weight: 600;
+}
+
+/* Seitenzahl als Sticker-Nº (wie album__sticker, mit großer Tageszahl) */
+.chronikpage__no {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--panini-blue);
+  color: #fff;
+  font: 400 20px var(--font-display);
+  border: 3px solid #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.chronikpage__summary {
+  font: 600 12px var(--font-score);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin: var(--space-2) 0 var(--space-3);
+}
+
+.chronikpage__h {
+  font: 600 12px var(--font-ui);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink-soft);
+  margin: var(--space-6) 0 var(--space-2);
+}
+
+.chronikpage__matches {
+  display: flex;
+  flex-direction: column;
+}
+
+.chronikmatch + .chronikmatch {
+  border-top: 1px dashed var(--paper-shade);
+}
+
+.chronikmatch {
+  padding: var(--space-2) 0;
+}
+
+.chronikmatch--open {
+  opacity: 0.65;
+}
+
+.chronikmatch__row {
+  display: grid;
+  grid-template-columns: 120px 1fr auto 1fr 120px;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.chronikmatch__info {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.chronikmatch__info small {
+  font: 600 11px var(--font-score);
+  color: var(--ink-soft);
+  letter-spacing: 0.03em;
+}
+
+.chronikmatch__city {
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chronikmatch__team {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.chronikmatch__team--home {
+  justify-content: flex-end;
+}
+
+.chronikmatch__name {
+  font: 600 14.5px var(--font-ui);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chronikmatch__name--winner {
+  color: var(--foil-gold-dark);
+  font-weight: 700;
+}
+
+.chronikmatch__score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 64px;
+}
+
+.chronikmatch__score strong {
+  font: 600 22px var(--font-score);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+}
+
+.chronikmatch__score small {
+  font: 600 10px var(--font-score);
+  color: var(--ink-soft);
+  letter-spacing: 0.05em;
+}
+
+.chronikmatch__score--live strong,
+.chronikmatch__score--live small {
+  color: var(--live-red);
+}
+
+.chronikmatch__score--pre strong {
+  font-size: 15px;
+  color: var(--ink-soft);
+}
+
+.chronikmatch__events {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-1) var(--space-6);
+  padding: var(--space-1) 124px 2px;
+}
+
+.chronikmatch__evcol {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.chronikmatch__evcol--home {
+  align-items: flex-end;
+}
+
+.chronikmatch__evcol--away {
+  align-items: flex-start;
+}
+
+.chronikev {
+  font: 500 12px var(--font-ui);
+  color: var(--ink-soft);
+  background: none;
+  border: 0;
+  padding: 0;
+  text-align: inherit;
+}
+
+.chronikev small {
+  font: 600 10px var(--font-score);
+  font-variant-numeric: tabular-nums;
+  opacity: 0.75;
+}
+
+.chronikev--card {
+  cursor: pointer;
+  border-bottom: 1px dashed rgba(26, 29, 34, 0.3);
+}
+
+.chronikev--card:hover {
+  color: var(--ink);
+  border-bottom-color: var(--panini-blue);
+}
+
+/* Tipp-Vergleich je beendetem Spiel — wer was getippt und dafür geholt hat */
+.chroniktips {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  max-width: 340px;
+  margin: var(--space-2) auto 2px;
+}
+
+.chroniktips__row {
+  display: grid;
+  grid-template-columns: 12px 1fr auto auto;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 3px var(--space-2);
+  border-radius: var(--radius-sticker);
+  font: 500 12px var(--font-ui);
+  color: var(--ink);
+}
+
+.chroniktips__row--me {
+  background: rgba(11, 95, 165, 0.08);
+}
+
+.chroniktips__row--me .chroniktips__name {
+  font-weight: 700;
+}
+
+.chroniktips__name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chroniktips__tip {
+  font: 600 12.5px var(--font-score);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+  color: var(--ink-soft);
+}
+
+.chroniktips__tip--none {
+  opacity: 0.5;
+}
+
+.chroniktips__pts {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 5px;
+  justify-self: end;
+}
+
+.chroniktips__pts strong {
+  font: 700 12.5px var(--font-score);
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-soft);
+}
+
+.chroniktips__pts small {
+  font: 600 9.5px var(--font-score);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.chroniktips__pts--best strong {
+  color: var(--foil-gold-dark);
+}
+
+.chroniktips__pts--best small {
+  color: var(--foil-gold-dark);
+}
+
+.chroniktips__pts--zero {
+  opacity: 0.5;
+}
+
+/* Tagespunkte-Chips — Tagessieger mit Gold-Krönchen */
+.chronikpts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.chronikpts__chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--paper-shade);
+  background: #fff;
+  font: 500 12.5px var(--font-ui);
+  color: var(--ink);
+}
+
+.chronikpts__chip strong {
+  font: 700 13px var(--font-score);
+  font-variant-numeric: tabular-nums;
+}
+
+.chronikpts__chip small {
+  font: 500 11px var(--font-ui);
+  color: var(--ink-soft);
+}
+
+.chronikpts__chip--win {
+  border-color: var(--foil-gold);
+  background: linear-gradient(120deg, #fff8e1, #fff);
+  box-shadow: 0 1px 4px rgba(212, 175, 55, 0.35);
+}
+
+.chronikpts__chip--win strong {
+  color: var(--foil-gold-dark);
+}
+
+.chronikpts__chip--zero {
+  opacity: 0.55;
+}
+
+.chronikpts__crown {
+  font-size: 12px;
+}
+
+/* Stand nach Tag n — kompakte Papier-Rangliste mit Bewegungspfeilen */
+.chronikstand {
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+}
+
+.chronikstand__row {
+  display: grid;
+  grid-template-columns: 24px 28px 14px 1fr auto;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 5px var(--space-2);
+  border-radius: var(--radius-sticker);
+  font: 500 13px var(--font-ui);
+}
+
+.chronikstand__row--first {
+  background: linear-gradient(120deg, rgba(212, 175, 55, 0.14), transparent 70%);
+}
+
+.chronikstand__row--first .chronikstand__rank,
+.chronikstand__row--first .chronikstand__total {
+  color: var(--foil-gold-dark);
+}
+
+.chronikstand__rank {
+  font: 700 14px var(--font-score);
+  color: var(--ink-soft);
+  text-align: center;
+}
+
+.chronikstand__move {
+  font: 700 10.5px var(--font-score);
+  color: var(--ink-soft);
+  text-align: center;
+}
+
+.chronikstand__move--up {
+  color: var(--pitch-green);
+}
+
+.chronikstand__move--down {
+  color: var(--live-red);
+}
+
+.chronikstand__name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chronikstand__total {
+  font: 700 15px var(--font-score);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Chips-Leiste + PDF-Button nebeneinander */
+.chronikbar {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+}
+
+.chronikbar .groupchips {
+  flex: 1;
+}
+
+.chronikbar .filters__ics {
+  margin-top: var(--space-4);
+}
+
+/* ---------- Chronik-PDF: Print-Modus (printToPDF) zeigt NUR Deckblatt + Tagesseiten ---------- */
+.chronikprint {
+  display: none;
+}
+
+.chronikcover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 92vh;
+  color: var(--ink);
+}
+
+.chronikcover img {
+  width: 150px;
+  margin-bottom: var(--space-6);
+}
+
+.chronikcover h2 {
+  font-family: var(--font-display);
+  font-size: 52px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 0 0 var(--space-3);
+}
+
+.chronikcover p {
+  font: 500 16px var(--font-ui);
+  margin: 0 0 var(--space-8);
+}
+
+.chronikcover small {
+  font: 600 11px var(--font-score);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+@media print {
+  html,
+  body,
+  #root,
+  .app,
+  .screen {
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  html,
+  body {
+    background: #fff;
+  }
+
+  .sidebar,
+  .updatebanner {
+    display: none !important;
+  }
+
+  .app {
+    display: block;
+  }
+
+  .screen {
+    padding: 0;
+  }
+
+  /* Auf Papier existiert nur die Chronik — der Rest der App bleibt am Bildschirm */
+  .screen > *:not(.chronikprint) {
+    display: none !important;
+  }
+
+  .chronikprint {
+    display: block;
+  }
+
+  .chronikcover {
+    break-after: page;
+  }
+
+  .chronikprint .chronikpage {
+    box-shadow: none;
+    max-width: none;
+    margin: 0;
+    min-height: 92vh; /* die Albumseite füllt das A4-Blatt */
+    break-after: page;
+  }
+
+  .chronikprint .chronikpage:last-child {
+    break-after: auto;
+  }
+
+  /* A4 ist schmaler als die Bildschirmseite — Randspalten verkleinern und lange
+     Team-/Stadtnamen (Bosnien-Herzegowina) umbrechen statt abschneiden */
+  .chronikmatch__row {
+    grid-template-columns: 100px 1fr auto 1fr 100px;
+  }
+
+  .chronikmatch__name {
+    font-size: 13.5px;
+    line-height: 1.15;
+    white-space: normal;
+  }
+
+  .chronikmatch__city {
+    white-space: normal;
+  }
+
+  /* keine Klick-Andeutung im PDF */
+  .chronikev--card {
+    border-bottom: 0;
+  }
+}
+
+/* Martin-Spezial: humorvoller Einblender im „Nachtipp-Fenster" (nur in der Sonder-Build) */
+.martinnote {
+  position: fixed;
+  top: var(--space-4);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 80;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  width: min(560px, calc(100vw - var(--space-8)));
+  padding: var(--space-3) var(--space-4);
+  background: linear-gradient(118deg, var(--panini-blue), #073f6f);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-sticker);
+  color: var(--text-on-dark);
+  animation: martinnote-pop 0.35s ease-out;
+}
+
+.martinnote__paw {
+  font-size: 22px;
+  line-height: 1.2;
+  flex: none;
+}
+
+.martinnote__text {
+  flex: 1;
+}
+
+.martinnote__text strong {
+  display: block;
+  font-size: 14px;
+  margin-bottom: var(--space-1);
+}
+
+.martinnote__text p {
+  margin: 0;
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--text-on-dark-soft);
+}
+
+.martinnote__text em {
+  font-style: normal;
+  color: var(--foil-gold-light);
+}
+
+.martinnote__close {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.18);
+  color: var(--text-on-dark);
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.18s ease;
+}
+
+.martinnote__close:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+@keyframes martinnote-pop {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-12px);
+  }
+}
+
+/* ===== Siegerehrung — Zeremonie-Screen (Podest, Konfetti, Gold für den Tippkönig) ===== */
+
+/* dev/shot-only Vorschau-Leiste (im Release tree-geshaket) */
+.cer-devbar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-4);
+  padding: var(--space-2) var(--space-3);
+  border: 1px dashed var(--signal-amber);
+  border-radius: var(--radius-sticker);
+  font: 600 11px var(--font-score);
+  letter-spacing: 0.04em;
+  color: var(--signal-amber);
+}
+.cer-devbar button {
+  font: 600 11px var(--font-score);
+  padding: 2px var(--space-2);
+  border-radius: 6px;
+  border: 1px solid var(--signal-amber);
+  background: transparent;
+  color: var(--signal-amber);
+  cursor: pointer;
+}
+.cer-devbar button.active {
+  background: var(--signal-amber);
+  color: var(--stage);
+}
+
+/* Dauer-Konfetti (nutzt das confettifall-Keyframe des Belohnungs-Moments) */
+.cer-confetti {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  overflow: hidden;
+}
+.cer-bit {
+  position: absolute;
+  top: -24px;
+  width: 9px;
+  height: 13px;
+  border-radius: 1px;
+  opacity: 0;
+  animation-name: confettifall;
+  animation-timing-function: cubic-bezier(0.3, 0.5, 0.6, 1);
+  animation-iteration-count: infinite;
+}
+.cer-bit--0 {
+  background: var(--foil-gold);
+}
+.cer-bit--1 {
+  background: var(--foil-gold-light);
+}
+.cer-bit--2 {
+  background: #fff;
+}
+@media (prefers-reduced-motion: reduce) {
+  .cer-confetti {
+    display: none;
+  }
+}
+
+@keyframes cer-pop {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.96);
+  }
+}
+
+/* Vorfreude-Bühne vor dem Finale */
+.cer-teaser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  margin: var(--space-6) auto var(--space-8);
+  padding: var(--space-8);
+  text-align: center;
+  max-width: 540px;
+  background: radial-gradient(circle at 50% 0%, rgba(212, 175, 55, 0.1), transparent 70%);
+}
+.cer-cup {
+  font-size: 56px;
+  line-height: 1;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.4));
+}
+.cer-teaser__head {
+  font: 400 34px var(--font-display);
+  letter-spacing: 0.02em;
+}
+.cer-teaser__sub {
+  font: 500 14px var(--font-ui);
+  color: var(--text-on-dark-soft);
+  max-width: 46ch;
+}
+.cer-countdown {
+  display: flex;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+.cer-cd-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 64px;
+  padding: var(--space-2) var(--space-3);
+  background: var(--stage-raised);
+  border-radius: var(--radius-sticker);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+.cer-cd-num {
+  font: 400 32px var(--font-display);
+  color: var(--text-on-dark);
+  font-variant-numeric: tabular-nums;
+}
+.cer-cd-lab {
+  font: 600 10px var(--font-score);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-on-dark-soft);
+}
+
+/* Weltmeister-Banner */
+.cer-champ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  margin: var(--space-6) auto;
+  padding: var(--space-6) var(--space-8);
+  background: radial-gradient(circle at 50% 0%, rgba(212, 175, 55, 0.14), transparent 70%), var(--stage-raised);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  border-radius: var(--radius-card);
+  max-width: 480px;
+  text-align: center;
+}
+.cer-champ__label {
+  font: 600 11px var(--font-score);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-on-dark-soft);
+}
+.cer-champ__team {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+.cer-champ__name {
+  font: 400 32px var(--font-display);
+  letter-spacing: 0.02em;
+}
+.cer-champ__tips {
+  font: 600 13px var(--font-score);
+  color: var(--foil-gold-light);
+}
+.cer-champ__tips--miss {
+  color: var(--text-on-dark-soft);
+}
+.cer-champ__pending {
+  font: 600 14px var(--font-ui);
+  color: var(--text-on-dark-soft);
+}
+
+/* Triple-Superscreen */
+.cer-super {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-1);
+  margin: var(--space-4) auto var(--space-6);
+  padding: var(--space-4) var(--space-8);
+  background: linear-gradient(120deg, rgba(230, 46, 107, 0.18), rgba(212, 175, 55, 0.18));
+  border: 1px solid var(--foil-gold);
+  border-radius: var(--radius-card);
+  max-width: 540px;
+  text-align: center;
+  animation: cer-pop 0.5s cubic-bezier(0.2, 1.3, 0.5, 1) both;
+}
+.cer-super__crown {
+  font-size: 42px;
+  line-height: 1;
+}
+.cer-super__head {
+  font: 400 30px var(--font-display);
+  letter-spacing: 0.03em;
+}
+.cer-super__sub {
+  font: 500 13px var(--font-ui);
+  color: var(--text-on-dark);
+  max-width: 42ch;
+}
+
+/* Podest 2 · 1 · 3 */
+.podest {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--space-3);
+  margin: var(--space-6) 0;
+}
+.podest__col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 31%;
+  max-width: 210px;
+}
+.podest__holo {
+  width: 100%;
+}
+.podest__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  width: 100%;
+  background: var(--paper);
+  border-radius: var(--radius-card);
+  padding: var(--space-3) var(--space-2) var(--space-4);
+  box-shadow: var(--shadow-sticker);
+  text-align: center;
+}
+.podest__card--1 {
+  padding-top: var(--space-4);
+  border: 1.5px solid var(--foil-gold);
+}
+.podest__medal {
+  font-size: 26px;
+  line-height: 1;
+}
+.podest__card--1 .podest__medal {
+  font-size: 34px;
+}
+.podest__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.podest__name {
+  font: 600 14px var(--font-ui);
+  color: var(--ink);
+}
+.podest__card--1 .podest__name {
+  font-size: 16px;
+}
+.podest__pts {
+  font: 400 30px var(--font-display);
+  color: var(--ink);
+  letter-spacing: 0.02em;
+}
+.podest__card--1 .podest__pts {
+  font-size: 40px;
+}
+.podest__sub {
+  font: 600 10px var(--font-score);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.podest__base {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 400 22px var(--font-display);
+  color: var(--text-on-dark-soft);
+  background: var(--stage-raised);
+  border-radius: 0 0 6px 6px;
+  margin-top: var(--space-1);
+}
+.podest__base--1 {
+  height: 64px;
+  background: linear-gradient(180deg, var(--foil-gold-dark), #5a4413);
+  color: var(--foil-gold-light);
+}
+.podest__base--2 {
+  height: 44px;
+}
+.podest__base--3 {
+  height: 30px;
+}
+
+/* Rang 4+ unter dem Podest */
+.cer-rest {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  margin-top: var(--space-3);
+  max-width: 440px;
+}
+.cer-restrow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-2) var(--space-3);
+  background: var(--stage-raised);
+  border-radius: var(--radius-sticker);
+}
+.cer-restrow--me {
+  outline: 1px solid var(--panini-blue);
+}
+.cer-restrow__rank {
+  font: 600 14px var(--font-score);
+  color: var(--text-on-dark-soft);
+  min-width: 18px;
+}
+.cer-restrow__name {
+  flex: 1;
+  font: 600 14px var(--font-ui);
+  color: var(--text-on-dark);
+}
+.cer-restrow__pts {
+  font: 600 16px var(--font-score);
+  color: var(--text-on-dark);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Kleine Sieger (nur Haupt / nur KO) */
+.cer-minis {
+  display: flex;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+  margin: var(--space-4) 0 var(--space-6);
+}
+.cer-mini {
+  flex: 1;
+  min-width: 210px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding: var(--space-4);
+  background: var(--stage-raised);
+  border-radius: var(--radius-card);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+.cer-mini__title {
+  font: 600 11px var(--font-score);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-on-dark-soft);
+}
+.cer-mini__name {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font: 600 17px var(--font-ui);
+  color: var(--text-on-dark);
+}
+.cer-mini__pts {
+  font: 400 22px var(--font-display);
+  color: var(--foil-gold-light);
+}
+.cer-mini__empty {
+  font: 500 13px var(--font-ui);
+  color: var(--text-on-dark-soft);
+}
+
+/* ===== Aufstellungs-Spielfeld (FormationPitch) ===========================
+   Beide Startelfen auf einem Flutlicht-Rasen; Spieler-Sticker im Panini-Look. */
+.pitch {
+  margin-top: var(--space-3);
+  background: var(--stage-raised);
+  border-radius: var(--radius-card);
+  padding: var(--space-3);
+}
+
+.pitch__heads {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+}
+
+.pitch__title {
+  font: 400 13px var(--font-display);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-on-dark-soft);
+}
+
+.pitch__head {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.pitch__head--right {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.pitch__headtext {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+  min-width: 0;
+}
+
+.pitch__headtext strong {
+  font: 600 15px var(--font-score);
+  color: var(--text-on-dark);
+}
+
+.pitch__headtext small {
+  font: 500 12px var(--font-score);
+  letter-spacing: 0.14em;
+  color: var(--text-on-dark-soft);
+}
+
+.pitch__field {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  aspect-ratio: 10 / 13.2;
+  border-radius: var(--radius-sticker);
+  overflow: hidden;
+  box-shadow: var(--shadow-sticker);
+  /* Mähstreifen quer + Rasenverlauf */
+  background:
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.05) 0 7.14%, rgba(0, 0, 0, 0.05) 7.14% 14.28%),
+    linear-gradient(180deg, #228a4f 0%, #1b6f3e 100%);
+}
+
+.pitch__lines {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.pitch__lines rect,
+.pitch__lines line,
+.pitch__lines circle {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.5);
+  stroke-width: 0.5;
+  vector-effect: non-scaling-stroke;
+}
+
+.pitch__lines .pitch__spot {
+  fill: rgba(255, 255, 255, 0.65);
+  stroke: none;
+}
+
+.pitch__slot {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: max-content;
+}
+
+/* Ausgewechselte als kleine „gefächerte" Karte knapp über/​auf dem aktuellen Spieler —
+   bleibt im Slot-Footprint, statt in die Nachbarreihe zu ragen. */
+.pitch__gone {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  margin-bottom: -11px;
+  pointer-events: none;
+}
+
+.pitch__player--compact {
+  gap: 0;
+}
+
+.pitch__player--compact .pitch__num {
+  width: 18px;
+  height: 18px;
+  font-size: 9.5px;
+  border-width: 1.5px;
+}
+
+.pitch__player--compact .pitch__pname {
+  max-width: 60px;
+  padding: 0 3px;
+  font-size: 7.5px;
+  background: none;
+  color: var(--text-on-dark-soft);
+}
+
+/* Klick auf die kleine Ghost-Karte bleibt erlaubt (Panini-Karte des Ausgewechselten). */
+.pitch__gone .pitch__player--card {
+  pointer-events: auto;
+}
+
+.pitch__player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--text-on-dark);
+  cursor: default;
+}
+
+.pitch__player--card {
+  cursor: pointer;
+}
+
+.pitch__num {
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  font: 600 13px var(--font-score);
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.92);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
+  transition: transform 0.12s ease, border-color 0.12s ease;
+}
+
+.pitch__player--home .pitch__num {
+  background: var(--panini-blue);
+}
+
+.pitch__player--away .pitch__num {
+  background: var(--accent-magenta);
+}
+
+.pitch__player--card:hover .pitch__num {
+  transform: scale(1.14);
+  border-color: var(--foil-gold-light);
+}
+
+.pitch__pname {
+  max-width: 76px;
+  padding: 1px 4px;
+  border-radius: 4px;
+  font: 600 9.5px var(--font-ui);
+  line-height: 1.15;
+  text-align: center;
+  /* lange Namen (z. B. „K. De Bruyne") brechen auf 2 Zeilen, statt mit „…" abgeschnitten zu werden */
+  overflow-wrap: break-word;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.28);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.85);
+}
+
+/* Ausgewechselt: Spieler gedimmt, aber das rote ▼-Badge bleibt voll lesbar. */
+.pitch__player--out .pitch__num,
+.pitch__player--out .pitch__pname {
+  opacity: 0.42;
+}
+
+/* Rein-/Raus-Pfeil mit Minute (Slot + Bank) */
+.pitch__arrow {
+  display: inline-block;
+  padding: 1px 3px;
+  border-radius: 3px;
+  font: 700 9px var(--font-score);
+  line-height: 1.1;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.pitch__arrow--in {
+  background: var(--pitch-green);
+}
+
+.pitch__arrow--out {
+  background: var(--live-red);
+}
+
+/* ===== Bank: komplette Ersatzbank, Heim links / Auswärts rechts ===== */
+.pitch__bench {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-4);
+  margin-top: var(--space-3);
+}
+
+.pitch__benchcol {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+  flex: 1;
+}
+
+.pitch__benchcol--away {
+  align-items: flex-end;
+  text-align: right;
+}
+
+.pitch__benchlbl {
+  margin-bottom: 2px;
+  font: 500 11px var(--font-score);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-on-dark-soft);
+}
+
+.pitch__coach {
+  margin-bottom: 4px;
+  font: 600 12px var(--font-ui);
+  color: var(--text-on-dark);
+}
+
+.pitch__coachlbl {
+  font: 500 9px var(--font-score);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-on-dark-soft);
+}
+
+.pitch__benchitem {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font: 500 12px var(--font-ui);
+  color: var(--text-on-dark);
+  cursor: default;
+}
+
+.pitch__benchcol--away .pitch__benchitem {
+  flex-direction: row-reverse;
+}
+
+.pitch__benchitem--card {
+  cursor: pointer;
+}
+
+.pitch__benchitem--card:hover .pitch__benchname {
+  color: var(--foil-gold-light);
+}
+
+.pitch__benchno {
+  min-width: 18px;
+  font-family: var(--font-score);
+  color: var(--text-on-dark-soft);
+  text-align: center;
+}
+
+.pitch__benchname {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  transition: color 0.12s ease;
+}
+
+/* ============================================================================
+   Schmaler Viewport (PWA-Hochformat, ~360 px): exakt auf die Gerätebreite.
+   Steht am Dateiende, damit diese Regeln die Basis-Grids überschreiben (CSS-
+   Kaskade: spätere Regel gleicher Spezifität gewinnt). Am Desktop/Electron
+   (breites Fenster) greift nichts davon — dort bleibt alles wie gehabt.
+   ========================================================================== */
+@media (max-width: 680px) {
+  /* Sicherheitsnetz: keine Seite seitlich schiebbar, Medien nie breiter als der Schirm. */
+  .screen {
+    overflow-x: hidden;
+  }
+  .screen img,
+  .screen svg {
+    max-width: 100%;
+  }
+
+  /* Karten-Grids → volle Breite (auto-fill mit min ≥ Viewport würde sonst überlaufen). */
+  .day__grid,
+  .livetables,
+  .stadiumgrid,
+  .profilegrid {
+    grid-template-columns: 1fr;
+  }
+  /* Kleine Galerien → zwei schmale Spalten (minmax(0,…) erlaubt Schrumpfen). */
+  .stickergrid,
+  .teamgrid,
+  .stargrid,
+  .stargrid--squad {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  /* Match-Zeilen (Live/Tipps/Chronik): NICHT stapeln, sondern umbrechen —
+     Info oben, Heim–Score–Auswärts in der Mitte, Tipp/Status unten. Per nth-child,
+     also unabhängig von den (je Screen anderen) Klassennamen; alle drei haben dieselbe
+     Kinderfolge: 1=Info, 2=Heim, 3=Score, 4=Auswärts, 5=Tipp/Status/Pad. */
+  .liverow,
+  .tiprow,
+  .chronikmatch__row {
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    grid-template-areas:
+      'info  info  info'
+      'home  score away'
+      'extra extra extra';
+    column-gap: var(--space-2);
+    row-gap: var(--space-1);
+    padding: var(--space-3);
+    align-items: center;
+  }
+  .liverow > :nth-child(1),
+  .tiprow > :nth-child(1),
+  .chronikmatch__row > :nth-child(1) {
+    grid-area: info;
+    justify-self: start;
+  }
+  .liverow > :nth-child(2),
+  .tiprow > :nth-child(2),
+  .chronikmatch__row > :nth-child(2) {
+    grid-area: home;
+    min-width: 0;
+    justify-self: end;
+  }
+  .liverow > :nth-child(3),
+  .tiprow > :nth-child(3),
+  .chronikmatch__row > :nth-child(3) {
+    grid-area: score;
+  }
+  .liverow > :nth-child(4),
+  .tiprow > :nth-child(4),
+  .chronikmatch__row > :nth-child(4) {
+    grid-area: away;
+    min-width: 0;
+    justify-self: start;
+  }
+  .liverow > :nth-child(5),
+  .tiprow > :nth-child(5),
+  .chronikmatch__row > :nth-child(5) {
+    grid-area: extra;
+  }
+  /* Team-Namen dürfen kürzen statt schieben. */
+  .liverow__name,
+  .tiprow__name,
+  .chronikmatch__name {
+    min-width: 0;
+  }
+  /* Event-Spalten (Heim/Auswärts) schrumpfbar statt überlaufend. */
+  .liverow__events,
+  .chronikmatch__events {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+
+  /* Venue-Mini-Zeile: starre minmax(120px)-Spalte flexibel machen. */
+  .minirow--venue {
+    grid-template-columns: 76px minmax(0, 1fr) auto auto;
+  }
+  .minirow--venue > * {
+    min-width: 0;
+  }
+
+  /* Siegerehrungs-Mini-Karten: volle Breite statt 210 px Mindestbreite. */
+  .cer-mini {
+    min-width: 0;
+  }
+
+  /* Heute-Vorschau & Spielplan-Karten: Mittel-/Namensspalten dürfen schrumpfen. */
+  .matchcard__teams {
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  }
+  .matchcard__name {
+    min-width: 0;
+  }
+
+  /* Mannschaftsseite: Kopf vertikal stapeln, Wappen & Infos sichtbar halten. */
+  .teamdetail__head {
+    flex-direction: column;
+    gap: var(--space-4);
+    align-items: flex-start;
+  }
+  .teamhero {
+    width: 160px;
+  }
+  .teamhero__flag {
+    width: 96px;
+    height: 72px;
+  }
+  .teamdetail__title {
+    width: 100%;
+  }
+  .teamdetail__title h2 {
+    font-size: 28px;
+  }
+  /* Verbandswappen war absolut oben-rechts → mobil in den Fluss holen, sonst überdeckt/weg. */
+  .teamdetail__crest {
+    position: static;
+    transform: none;
+    margin-bottom: var(--space-2);
+  }
+  .teamdetail__cols {
+    grid-template-columns: 1fr;
+  }
+
+  /* Rangliste-Zeilen: schmalere feste Spalten. */
+  .lbrow {
+    grid-template-columns: 28px 1fr auto 44px;
+    gap: var(--space-2);
+    padding: var(--space-2) var(--space-3);
+  }
+
+  /* Gruppentabellen: kompakter, damit sie in die Breite passen. */
+  .grouptable {
+    font-size: 12px;
+  }
+  .grouptable th,
+  .grouptable td {
+    padding: 3px 4px;
+  }
+
+  /* News-Liste: kompakter Kopf. */
+  .newslist__head {
+    gap: var(--space-2);
+  }
+
+  /* Spielerkarten-Flip (Safari/iOS): der Vorderseite eine EIGENE 3D-Ebene geben, sonst
+     scheint ihre gespiegelte Rückseite (Spielerbild) während der Drehung durch. */
+  .flipcard__front {
+    transform: rotateY(0deg) translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+}

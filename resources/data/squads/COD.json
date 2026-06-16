@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Lionel Mpasi",
+    "born": "1994-08-01",
+    "caps": 29,
+    "goals": 0,
+    "club": "Le Havre"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Aaron Wan-Bissaka",
+    "born": "1997-11-26",
+    "caps": 12,
+    "goals": 0,
+    "club": "West Ham United"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Steve Kapuadi",
+    "born": "1998-04-30",
+    "caps": 4,
+    "goals": 0,
+    "club": "Widzew Łódź"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Axel Tuanzebe",
+    "born": "1997-11-14",
+    "caps": 14,
+    "goals": 1,
+    "club": "Burnley"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Dylan Batubinsika",
+    "born": "1996-02-15",
+    "caps": 14,
+    "goals": 1,
+    "club": "AEL"
+  },
+  {
+    "no": 6,
+    "pos": "MF",
+    "name": "Ngal'ayel Mukau",
+    "born": "2004-11-03",
+    "caps": 14,
+    "goals": 0,
+    "club": "Lille"
+  },
+  {
+    "no": 7,
+    "pos": "MF",
+    "name": "Nathanaël Mbuku",
+    "born": "2002-03-16",
+    "caps": 19,
+    "goals": 2,
+    "club": "Montpellier"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Samuel Moutoussamy",
+    "born": "1996-08-12",
+    "caps": 58,
+    "goals": 0,
+    "club": "Atromitos"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Brian Cipenga",
+    "born": "1998-03-11",
+    "caps": 8,
+    "goals": 0,
+    "club": "Castellón"
+  },
+  {
+    "no": 10,
+    "pos": "MF",
+    "name": "Théo Bongonda",
+    "born": "1995-11-20",
+    "caps": 38,
+    "goals": 7,
+    "club": "Spartak Moscow"
+  },
+  {
+    "no": 11,
+    "pos": "ST",
+    "name": "Gaël Kakuta",
+    "born": "1991-06-21",
+    "caps": 31,
+    "goals": 5,
+    "club": "AEL"
+  },
+  {
+    "no": 12,
+    "pos": "AB",
+    "name": "Joris Kayembe",
+    "born": "1994-08-08",
+    "caps": 26,
+    "goals": 1,
+    "club": "Genk"
+  },
+  {
+    "no": 13,
+    "pos": "ST",
+    "name": "Meschak Elia",
+    "born": "1997-08-06",
+    "caps": 69,
+    "goals": 12,
+    "club": "Alanyaspor"
+  },
+  {
+    "no": 14,
+    "pos": "MF",
+    "name": "Noah Sadiki",
+    "born": "2004-12-17",
+    "caps": 20,
+    "goals": 0,
+    "club": "Sunderland"
+  },
+  {
+    "no": 15,
+    "pos": "MF",
+    "name": "Aaron Tshibola",
+    "born": "1995-01-02",
+    "caps": 17,
+    "goals": 1,
+    "club": "Kilmarnock"
+  },
+  {
+    "no": 16,
+    "pos": "TW",
+    "name": "Timothy Fayulu",
+    "born": "1999-07-24",
+    "caps": 3,
+    "goals": 0,
+    "club": "Noah"
+  },
+  {
+    "no": 17,
+    "pos": "ST",
+    "name": "Cédric Bakambu",
+    "born": "1991-04-11",
+    "caps": 70,
+    "goals": 21,
+    "club": "Real Betis"
+  },
+  {
+    "no": 18,
+    "pos": "MF",
+    "name": "Charles Pickel",
+    "born": "1997-05-15",
+    "caps": 34,
+    "goals": 1,
+    "club": "Espanyol"
+  },
+  {
+    "no": 19,
+    "pos": "ST",
+    "name": "Fiston Mayele",
+    "born": "1994-06-24",
+    "caps": 37,
+    "goals": 6,
+    "club": "Pyramids"
+  },
+  {
+    "no": 20,
+    "pos": "ST",
+    "name": "Yoane Wissa",
+    "born": "1996-09-03",
+    "caps": 38,
+    "goals": 9,
+    "club": "Newcastle United"
+  },
+  {
+    "no": 21,
+    "pos": "TW",
+    "name": "Matthieu Epolo",
+    "born": "2005-01-15",
+    "caps": 1,
+    "goals": 0,
+    "club": "Standard Liège"
+  },
+  {
+    "no": 22,
+    "pos": "AB",
+    "name": "Chancel Mbemba",
+    "born": "1994-08-08",
+    "caps": 109,
+    "goals": 7,
+    "club": "Lille",
+    "captain": true
+  },
+  {
+    "no": 23,
+    "pos": "ST",
+    "name": "Simon Banza",
+    "born": "1996-08-13",
+    "caps": 15,
+    "goals": 2,
+    "club": "Al Jazira"
+  },
+  {
+    "no": 24,
+    "pos": "AB",
+    "name": "Gédéon Kalulu",
+    "born": "1997-08-29",
+    "caps": 28,
+    "goals": 0,
+    "club": "Aris Limassol"
+  },
+  {
+    "no": 25,
+    "pos": "MF",
+    "name": "Edo Kayembe",
+    "born": "1998-06-03",
+    "caps": 43,
+    "goals": 2,
+    "club": "Watford"
+  },
+  {
+    "no": 26,
+    "pos": "AB",
+    "name": "Arthur Masuaku",
+    "born": "1993-11-07",
+    "caps": 45,
+    "goals": 4,
+    "club": "Lens"
+  }
+]

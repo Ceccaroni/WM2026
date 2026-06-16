@@ -1,0 +1,40 @@
+{
+  "id": "HAI",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 83,
+  "wcRecord": "2. Teilnahme · zuletzt 1974",
+  "coach": {
+    "name": "Sébastien Migné",
+    "since": "2024"
+  },
+  "stars": [
+    {
+      "name": "Wilson Isidor",
+      "club": "AFC Sunderland",
+      "role": "Sturm"
+    },
+    {
+      "name": "Duckens Nazon",
+      "club": "Esteghlal FC",
+      "role": "Sturm"
+    },
+    {
+      "name": "Jean-Ricner Bellegarde",
+      "club": "Wolverhampton Wanderers",
+      "role": "Offensives Mittelfeld"
+    },
+    {
+      "name": "Danley Jean Jacques",
+      "club": "Philadelphia Union",
+      "role": "Defensives Mittelfeld"
+    }
+  ],
+  "form": "Im März 0:1 gegen Tunesien und 1:1 gegen Island in Toronto (später Ausgleich von Isidor, sein erstes Länderspieltor). Anfang Juni folgte ein rauschendes 4:0 gegen Neuseeland in Fort Lauderdale, ehe es gegen Peru ein 1:2 gab – Haiti führte durch Isidor bis zur 81. Minute.",
+  "quali": "Sensationeller Sieger der CONCACAF-Finalrunden-Gruppe C vor Honduras und Costa Rica – besiegelt durch ein 2:0 gegen Nicaragua am letzten Spieltag. Alle 'Heimspiele' fanden wegen der Bandengewalt im Exil auf Curaçao statt; Rekordtorschütze Nazon traf sechsmal.",
+  "storylines": [
+    "Erste WM seit 1974 – qualifiziert ohne ein einziges Heimspiel im eigenen Land: Das krisengeschüttelte Haiti spielte komplett im Exil",
+    "Premier-League-Verstärkung in letzter Minute: Isidor (Sunderland) und Bellegarde (Wolves) wechselten erst 2026 zum haitianischen Verband",
+    "Rekordtorschütze Nazon (44 Tore) floh nach Kriegsausbruch im Februar aus dem Iran, wo er bei Esteghlal unter Vertrag steht",
+    "Die WM-Teilnahme gilt als Hoffnungssymbol für ein Land in der Bandengewalt-Krise – der Kader besteht fast komplett aus Diaspora-Spielern"
+  ]
+}

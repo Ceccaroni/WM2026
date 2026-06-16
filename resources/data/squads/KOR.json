@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Kim Seung-gyu",
+    "born": "1990-09-30",
+    "caps": 87,
+    "goals": 0,
+    "club": "FC Tokyo"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Lee Han-beom",
+    "born": "2002-06-17",
+    "caps": 8,
+    "goals": 0,
+    "club": "Midtjylland"
+  },
+  {
+    "no": 3,
+    "pos": "MF",
+    "name": "Lee Gi-hyuk",
+    "born": "2000-07-07",
+    "caps": 3,
+    "goals": 0,
+    "club": "Gangwon FC"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Kim Min-jae",
+    "born": "1996-11-15",
+    "caps": 79,
+    "goals": 4,
+    "club": "Bayern Munich"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Kim Tae-hyeon",
+    "born": "2000-09-17",
+    "caps": 7,
+    "goals": 0,
+    "club": "Kashima Antlers"
+  },
+  {
+    "no": 6,
+    "pos": "MF",
+    "name": "Hwang In-beom",
+    "born": "1996-09-20",
+    "caps": 73,
+    "goals": 6,
+    "club": "Feyenoord"
+  },
+  {
+    "no": 7,
+    "pos": "ST",
+    "name": "Son Heung-min",
+    "born": "1992-07-08",
+    "caps": 144,
+    "goals": 56,
+    "club": "Los Angeles FC",
+    "captain": true
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Paik Seung-ho",
+    "born": "1997-03-17",
+    "caps": 27,
+    "goals": 3,
+    "club": "Birmingham City"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Cho Gue-sung",
+    "born": "1998-01-25",
+    "caps": 44,
+    "goals": 12,
+    "club": "Midtjylland"
+  },
+  {
+    "no": 10,
+    "pos": "MF",
+    "name": "Lee Jae-sung",
+    "born": "1992-08-10",
+    "caps": 105,
+    "goals": 15,
+    "club": "Mainz 05"
+  },
+  {
+    "no": 11,
+    "pos": "MF",
+    "name": "Hwang Hee-chan",
+    "born": "1996-01-26",
+    "caps": 79,
+    "goals": 17,
+    "club": "Wolverhampton Wanderers"
+  },
+  {
+    "no": 12,
+    "pos": "TW",
+    "name": "Song Bum-keun",
+    "born": "1997-10-15",
+    "caps": 3,
+    "goals": 0,
+    "club": "Jeonbuk Hyundai Motors"
+  },
+  {
+    "no": 13,
+    "pos": "AB",
+    "name": "Lee Tae-seok",
+    "born": "2002-07-28",
+    "caps": 15,
+    "goals": 1,
+    "club": "Austria Wien"
+  },
+  {
+    "no": 14,
+    "pos": "AB",
+    "name": "Cho Wi-je",
+    "born": "2001-08-25",
+    "caps": 1,
+    "goals": 0,
+    "club": "Jeonbuk Hyundai Motors"
+  },
+  {
+    "no": 15,
+    "pos": "AB",
+    "name": "Kim Moon-hwan",
+    "born": "1995-08-01",
+    "caps": 35,
+    "goals": 0,
+    "club": "Daejeon Hana Citizen"
+  },
+  {
+    "no": 16,
+    "pos": "AB",
+    "name": "Park Jin-seob",
+    "born": "1995-10-23",
+    "caps": 14,
+    "goals": 1,
+    "club": "Zhejiang"
+  },
+  {
+    "no": 17,
+    "pos": "MF",
+    "name": "Bae Jun-ho",
+    "born": "2003-08-21",
+    "caps": 13,
+    "goals": 2,
+    "club": "Stoke City"
+  },
+  {
+    "no": 18,
+    "pos": "ST",
+    "name": "Oh Hyeon-gyu",
+    "born": "2001-04-12",
+    "caps": 27,
+    "goals": 6,
+    "club": "Beşiktaş"
+  },
+  {
+    "no": 19,
+    "pos": "MF",
+    "name": "Lee Kang-in",
+    "born": "2001-02-19",
+    "caps": 47,
+    "goals": 11,
+    "club": "Paris Saint-Germain"
+  },
+  {
+    "no": 20,
+    "pos": "MF",
+    "name": "Yang Hyun-jun",
+    "born": "2002-05-25",
+    "caps": 9,
+    "goals": 0,
+    "club": "Celtic"
+  },
+  {
+    "no": 21,
+    "pos": "TW",
+    "name": "Jo Hyeon-woo",
+    "born": "1991-09-25",
+    "caps": 48,
+    "goals": 0,
+    "club": "Ulsan HD"
+  },
+  {
+    "no": 22,
+    "pos": "AB",
+    "name": "Seol Young-woo",
+    "born": "1998-12-05",
+    "caps": 34,
+    "goals": 0,
+    "club": "Red Star Belgrade"
+  },
+  {
+    "no": 23,
+    "pos": "AB",
+    "name": "Jens Castrop",
+    "born": "2003-07-29",
+    "caps": 7,
+    "goals": 0,
+    "club": "Borussia Mönchengladbach"
+  },
+  {
+    "no": 24,
+    "pos": "MF",
+    "name": "Kim Jin-gyu",
+    "born": "1997-02-24",
+    "caps": 22,
+    "goals": 3,
+    "club": "Jeonbuk Hyundai Motors"
+  },
+  {
+    "no": 25,
+    "pos": "MF",
+    "name": "Eom Ji-sung",
+    "born": "2002-05-09",
+    "caps": 9,
+    "goals": 2,
+    "club": "Swansea City"
+  },
+  {
+    "no": 26,
+    "pos": "MF",
+    "name": "Lee Dong-gyeong",
+    "born": "1997-09-20",
+    "caps": 18,
+    "goals": 4,
+    "club": "Ulsan HD"
+  }
+]

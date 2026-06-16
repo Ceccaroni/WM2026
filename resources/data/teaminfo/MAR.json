@@ -1,0 +1,40 @@
+{
+  "id": "MAR",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 8,
+  "wcRecord": "7. Teilnahme · 4. Platz 2022 als bestes Ergebnis",
+  "coach": {
+    "name": "Mohamed Ouahbi",
+    "since": "2026"
+  },
+  "stars": [
+    {
+      "name": "Achraf Hakimi",
+      "club": "Paris Saint-Germain",
+      "role": "Kapitän & Rechtsverteidigung"
+    },
+    {
+      "name": "Brahim Díaz",
+      "club": "Real Madrid",
+      "role": "Flügel"
+    },
+    {
+      "name": "Yassine Bounou",
+      "club": "Al-Hilal",
+      "role": "Torwart"
+    },
+    {
+      "name": "Ismael Saibari",
+      "club": "PSV Eindhoven",
+      "role": "Offensives Mittelfeld"
+    }
+  ],
+  "form": "Das Heim-Afrika-Cup-Finale im Januar verlor Marokko auf dem Platz 0:1 n.V. gegen Senegal, wurde aber im März nach Senegals Platz-Protest per 3:0-Wertung zum Sieger erklärt – zweiter Titel nach 1976. Unter dem neuen Coach Ouahbi ungeschlagen: 1:1 gegen Ecuador und 2:1 gegen Paraguay im März, im Juni 4:0 gegen Madagaskar und 1:1 gegen Norwegen (Tor: Brahim Díaz).",
+  "quali": "Makelloser Sieger der CAF-Gruppe E: acht Siege aus acht Spielen, damit direkt qualifiziert.",
+  "storylines": [
+    "Trainerbeben drei Monate vor der WM: Regragui trat nach dem Afrika-Cup-Finale zurück, U20-Weltmeister-Coach Ouahbi übernahm Anfang März",
+    "Der Afrika-Cup-Titel kam am grünen Tisch: Die CAF wertete das Finale nach Senegals Platz-Protest mit 3:0 für Marokko – Senegal zieht vor den CAS",
+    "Verletzungssorgen: Aguerd und Ezzalzouli mussten ersetzt werden, Mazraoui (Schulter) ist für den Auftakt gegen Brasilien fraglich",
+    "Ouahbi verzichtet auf WM-Held Youssef En-Nesyri – Abkehr vom klassischen Mittelstürmer-Spiel"
+  ]
+}

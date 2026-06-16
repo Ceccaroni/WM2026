@@ -1,0 +1,40 @@
+{
+  "id": "SUI",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 19,
+  "wcRecord": "13. Teilnahme · Viertelfinale 1934, 1938 & 1954",
+  "coach": {
+    "name": "Murat Yakin",
+    "since": "2021"
+  },
+  "stars": [
+    {
+      "name": "Granit Xhaka",
+      "club": "AFC Sunderland",
+      "role": "Kapitän & defensives Mittelfeld"
+    },
+    {
+      "name": "Manuel Akanji",
+      "club": "Inter Mailand",
+      "role": "Innenverteidigung"
+    },
+    {
+      "name": "Gregor Kobel",
+      "club": "Borussia Dortmund",
+      "role": "Torwart"
+    },
+    {
+      "name": "Breel Embolo",
+      "club": "Stade Rennes",
+      "role": "Sturm"
+    }
+  ],
+  "form": "Im März eine wilde 3:4-Niederlage gegen Deutschland und ein 0:0 gegen Norwegen. In der WM-Vorbereitung folgte ein 4:1 gegen Jordanien in St. Gallen (31. Mai); die Hauptprobe gegen Australien in San Diego (6. Juni) glückte mit einem zähen 1:1 nur halb.",
+  "quali": "Souveräner Sieger der UEFA-Gruppe B mit Schweden, Slowenien und Kosovo: ungeschlagen mit 4 Siegen und 2 Unentschieden (14 Punkte, Torverhältnis 14:2); das Ticket wurde am letzten Spieltag mit dem 1:1 im Kosovo gelöst.",
+  "storylines": [
+    "Erste WM mit Gregor Kobel als Nummer 1: Nach Yann Sommers Nati-Rücktritt tritt der Dortmund-Goalie endgültig aus dessen Schatten",
+    "Rekordnationalspieler Granit Xhaka (144 Länderspiele, Stand April 2026) führt die Nati in seine vierte WM",
+    "Manuel Akanji kurz vor der WM fest zu Inter Mailand gewechselt (Kaufpflicht griff im Mai 2026 nach dem Scudetto) – er reist als italienischer Meister an",
+    "Topgesetzt in Gruppe B: Auftakt am 13. Juni gegen Katar, danach das Duell mit Co-Gastgeber Kanada – Quali-Toptorschütze Embolo (4 Tore) soll vorne liefern"
+  ]
+}

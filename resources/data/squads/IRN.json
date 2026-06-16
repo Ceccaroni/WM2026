@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Alireza Beiranvand",
+    "born": "1992-09-21",
+    "caps": 86,
+    "goals": 0,
+    "club": "Tractor"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Saleh Hardani",
+    "born": "1998-12-26",
+    "caps": 18,
+    "goals": 1,
+    "club": "Esteghlal"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Ehsan Hajsafi",
+    "born": "1990-02-25",
+    "caps": 146,
+    "goals": 7,
+    "club": "Sepahan",
+    "captain": true
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Shojae Khalilzadeh",
+    "born": "1989-05-14",
+    "caps": 58,
+    "goals": 2,
+    "club": "Tractor"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Milad Mohammadi",
+    "born": "1993-09-29",
+    "caps": 76,
+    "goals": 1,
+    "club": "Persepolis"
+  },
+  {
+    "no": 6,
+    "pos": "MF",
+    "name": "Saeid Ezatolahi",
+    "born": "1996-10-01",
+    "caps": 83,
+    "goals": 2,
+    "club": "Shabab Al Ahli"
+  },
+  {
+    "no": 7,
+    "pos": "MF",
+    "name": "Alireza Jahanbakhsh",
+    "born": "1993-08-11",
+    "caps": 98,
+    "goals": 17,
+    "club": "Dender"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Mohammad Mohebi",
+    "born": "1998-12-20",
+    "caps": 36,
+    "goals": 14,
+    "club": "Rostov"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Mehdi Taremi",
+    "born": "1992-07-18",
+    "caps": 105,
+    "goals": 60,
+    "club": "Olympiacos"
+  },
+  {
+    "no": 10,
+    "pos": "ST",
+    "name": "Mehdi Ghayedi",
+    "born": "1998-12-05",
+    "caps": 30,
+    "goals": 10,
+    "club": "Al Nasr"
+  },
+  {
+    "no": 11,
+    "pos": "ST",
+    "name": "Ali Alipour",
+    "born": "1995-11-11",
+    "caps": 14,
+    "goals": 1,
+    "club": "Persepolis"
+  },
+  {
+    "no": 12,
+    "pos": "TW",
+    "name": "Payam Niazmand",
+    "born": "1995-04-06",
+    "caps": 15,
+    "goals": 0,
+    "club": "Persepolis"
+  },
+  {
+    "no": 13,
+    "pos": "AB",
+    "name": "Hossein Kanaanizadegan",
+    "born": "1994-03-23",
+    "caps": 65,
+    "goals": 6,
+    "club": "Persepolis"
+  },
+  {
+    "no": 14,
+    "pos": "MF",
+    "name": "Saman Ghoddos",
+    "born": "1993-09-06",
+    "caps": 68,
+    "goals": 3,
+    "club": "Kalba"
+  },
+  {
+    "no": 15,
+    "pos": "MF",
+    "name": "Rouzbeh Cheshmi",
+    "born": "1993-07-24",
+    "caps": 40,
+    "goals": 3,
+    "club": "Esteghlal"
+  },
+  {
+    "no": 16,
+    "pos": "MF",
+    "name": "Mehdi Torabi",
+    "born": "1994-09-10",
+    "caps": 52,
+    "goals": 7,
+    "club": "Tractor"
+  },
+  {
+    "no": 17,
+    "pos": "AB",
+    "name": "Aria Yousefi",
+    "born": "2002-04-22",
+    "caps": 14,
+    "goals": 1,
+    "club": "Sepahan"
+  },
+  {
+    "no": 18,
+    "pos": "ST",
+    "name": "Amirhossein Hosseinzadeh",
+    "born": "2000-10-30",
+    "caps": 18,
+    "goals": 5,
+    "club": "Tractor"
+  },
+  {
+    "no": 19,
+    "pos": "AB",
+    "name": "Ali Nemati",
+    "born": "1996-02-08",
+    "caps": 17,
+    "goals": 0,
+    "club": "Foolad"
+  },
+  {
+    "no": 20,
+    "pos": "ST",
+    "name": "Shahriyar Moghanlou",
+    "born": "1994-12-21",
+    "caps": 21,
+    "goals": 2,
+    "club": "Kalba"
+  },
+  {
+    "no": 21,
+    "pos": "MF",
+    "name": "Mohammad Ghorbani",
+    "born": "2001-10-07",
+    "caps": 16,
+    "goals": 0,
+    "club": "Al Wahda"
+  },
+  {
+    "no": 22,
+    "pos": "TW",
+    "name": "Hossein Hosseini",
+    "born": "1992-06-30",
+    "caps": 13,
+    "goals": 0,
+    "club": "Sepahan"
+  },
+  {
+    "no": 23,
+    "pos": "AB",
+    "name": "Ramin Rezaeian",
+    "born": "1990-03-21",
+    "caps": 74,
+    "goals": 8,
+    "club": "Foolad"
+  },
+  {
+    "no": 24,
+    "pos": "ST",
+    "name": "Dennis Eckert",
+    "born": "1997-01-09",
+    "caps": 0,
+    "goals": 0,
+    "club": "Standard Liège"
+  },
+  {
+    "no": 25,
+    "pos": "AB",
+    "name": "Danial Eiri",
+    "born": "2003-10-26",
+    "caps": 0,
+    "goals": 0,
+    "club": "Malavan"
+  },
+  {
+    "no": 26,
+    "pos": "MF",
+    "name": "Amirmohammad Razzaghinia",
+    "born": "2006-04-11",
+    "caps": 4,
+    "goals": 0,
+    "club": "Esteghlal"
+  }
+]

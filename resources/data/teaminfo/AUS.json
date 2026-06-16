@@ -1,0 +1,40 @@
+{
+  "id": "AUS",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 27,
+  "wcRecord": "7. Teilnahme · Achtelfinale 2006 und 2022",
+  "coach": {
+    "name": "Tony Popovic",
+    "since": "2024"
+  },
+  "stars": [
+    {
+      "name": "Mat Ryan",
+      "club": "Levante UD",
+      "role": "Kapitän & Torwart"
+    },
+    {
+      "name": "Jackson Irvine",
+      "club": "FC St. Pauli",
+      "role": "Zentrales Mittelfeld"
+    },
+    {
+      "name": "Harry Souttar",
+      "club": "Leicester City",
+      "role": "Innenverteidigung"
+    },
+    {
+      "name": "Nestory Irankunda",
+      "club": "FC Watford",
+      "role": "Flügel"
+    }
+  ],
+  "form": "Im März-Fenster gab es bei der FIFA Series ein mühsames 1:0 gegen Kamerun und ein 5:1 gegen Curaçao. In der WM-Vorbereitung verlor das Team am 30. Mai im Rose Bowl 0:1 gegen Co-Gastgeber Mexiko (Kopfball Vázquez) und holte am 6. Juni in San Diego ein 1:1 gegen die Schweiz – Debütant Tete Yengi glich aus.",
+  "quali": "Direkt qualifiziert als Zweiter der dritten AFC-Runde (Gruppe C) hinter Japan – sechste WM-Teilnahme in Folge, entscheidend waren im Juni 2025 das 1:0 gegen Japan und der Sieg in Saudi-Arabien.",
+  "storylines": [
+    "Schock vor dem Turnier: Riley McGree verletzte sich im Playoff-Finale mit Middlesbrough und verpasst die WM",
+    "Mat Ryan und Mathew Leckie stellen mit ihrer vierten WM den Nationalrekord von Tim Cahill und Mark Milligan ein",
+    "Umbruch: 17 der 26 Kaderspieler stehen erstmals in einem WM-Aufgebot, darunter Debütant Tete Yengi mit Tor im letzten Test",
+    "Watford-Youngster Nestory Irankunda drängt nach starkem Auftritt beim 5:1 gegen Curaçao in die Startelf"
+  ]
+}

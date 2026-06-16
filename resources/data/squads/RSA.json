@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Ronwen Williams",
+    "born": "1992-01-21",
+    "caps": 62,
+    "goals": 0,
+    "club": "Mamelodi Sundowns",
+    "captain": true
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Thabang Matuludi",
+    "born": "1999-01-14",
+    "caps": 3,
+    "goals": 0,
+    "club": "Polokwane City"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Khulumani Ndamane",
+    "born": "2004-02-05",
+    "caps": 5,
+    "goals": 0,
+    "club": "Mamelodi Sundowns"
+  },
+  {
+    "no": 4,
+    "pos": "MF",
+    "name": "Teboho Mokoena",
+    "born": "1997-01-24",
+    "caps": 51,
+    "goals": 9,
+    "club": "Mamelodi Sundowns"
+  },
+  {
+    "no": 5,
+    "pos": "MF",
+    "name": "Thalente Mbatha",
+    "born": "2000-03-06",
+    "caps": 15,
+    "goals": 3,
+    "club": "Orlando Pirates"
+  },
+  {
+    "no": 6,
+    "pos": "AB",
+    "name": "Aubrey Modiba",
+    "born": "1995-07-22",
+    "caps": 44,
+    "goals": 3,
+    "club": "Mamelodi Sundowns"
+  },
+  {
+    "no": 7,
+    "pos": "ST",
+    "name": "Oswin Appollis",
+    "born": "2001-08-25",
+    "caps": 26,
+    "goals": 8,
+    "club": "Orlando Pirates"
+  },
+  {
+    "no": 8,
+    "pos": "ST",
+    "name": "Tshepang Moremi",
+    "born": "2000-10-02",
+    "caps": 10,
+    "goals": 1,
+    "club": "Orlando Pirates"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Lyle Foster",
+    "born": "2000-09-03",
+    "caps": 27,
+    "goals": 10,
+    "club": "Burnley"
+  },
+  {
+    "no": 10,
+    "pos": "ST",
+    "name": "Relebohile Mofokeng",
+    "born": "2004-10-23",
+    "caps": 13,
+    "goals": 0,
+    "club": "Orlando Pirates"
+  },
+  {
+    "no": 11,
+    "pos": "MF",
+    "name": "Themba Zwane",
+    "born": "1989-08-03",
+    "caps": 54,
+    "goals": 12,
+    "club": "Mamelodi Sundowns"
+  },
+  {
+    "no": 12,
+    "pos": "ST",
+    "name": "Thapelo Maseko",
+    "born": "2003-11-11",
+    "caps": 10,
+    "goals": 1,
+    "club": "AEL Limassol"
+  },
+  {
+    "no": 13,
+    "pos": "MF",
+    "name": "Sphephelo Sithole",
+    "born": "1999-03-03",
+    "caps": 28,
+    "goals": 1,
+    "club": "Tondela"
+  },
+  {
+    "no": 14,
+    "pos": "AB",
+    "name": "Mbekezeli Mbokazi",
+    "born": "2005-09-19",
+    "caps": 10,
+    "goals": 1,
+    "club": "Chicago Fire FC"
+  },
+  {
+    "no": 15,
+    "pos": "ST",
+    "name": "Iqraam Rayners",
+    "born": "1995-12-19",
+    "caps": 14,
+    "goals": 4,
+    "club": "Mamelodi Sundowns"
+  },
+  {
+    "no": 16,
+    "pos": "TW",
+    "name": "Sipho Chaine",
+    "born": "1996-12-14",
+    "caps": 4,
+    "goals": 0,
+    "club": "Orlando Pirates"
+  },
+  {
+    "no": 17,
+    "pos": "ST",
+    "name": "Evidence Makgopa",
+    "born": "2000-06-05",
+    "caps": 26,
+    "goals": 6,
+    "club": "Orlando Pirates"
+  },
+  {
+    "no": 18,
+    "pos": "AB",
+    "name": "Samukele Kabini",
+    "born": "2004-03-15",
+    "caps": 6,
+    "goals": 0,
+    "club": "Molde"
+  },
+  {
+    "no": 19,
+    "pos": "AB",
+    "name": "Nkosinathi Sibisi",
+    "born": "1995-09-22",
+    "caps": 20,
+    "goals": 0,
+    "club": "Orlando Pirates"
+  },
+  {
+    "no": 20,
+    "pos": "AB",
+    "name": "Khuliso Mudau",
+    "born": "1995-04-26",
+    "caps": 32,
+    "goals": 1,
+    "club": "Mamelodi Sundowns"
+  },
+  {
+    "no": 21,
+    "pos": "AB",
+    "name": "Ime Okon",
+    "born": "2004-02-20",
+    "caps": 8,
+    "goals": 1,
+    "club": "Hannover 96"
+  },
+  {
+    "no": 22,
+    "pos": "TW",
+    "name": "Ricardo Goss",
+    "born": "1994-04-02",
+    "caps": 5,
+    "goals": 0,
+    "club": "Siwelele"
+  },
+  {
+    "no": 23,
+    "pos": "MF",
+    "name": "Jayden Adams",
+    "born": "2001-05-05",
+    "caps": 5,
+    "goals": 0,
+    "club": "Mamelodi Sundowns"
+  },
+  {
+    "no": 24,
+    "pos": "AB",
+    "name": "Olwethu Makhanya",
+    "born": "2004-04-30",
+    "caps": 1,
+    "goals": 0,
+    "club": "Philadelphia Union"
+  },
+  {
+    "no": 25,
+    "pos": "ST",
+    "name": "Kamogelo Sebelebele",
+    "born": "2002-07-21",
+    "caps": 3,
+    "goals": 0,
+    "club": "Orlando Pirates"
+  },
+  {
+    "no": 26,
+    "pos": "AB",
+    "name": "Bradley Cross",
+    "born": "2001-01-30",
+    "caps": 1,
+    "goals": 0,
+    "club": "Kaizer Chiefs"
+  }
+]

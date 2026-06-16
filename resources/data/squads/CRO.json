@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Dominik Livaković",
+    "born": "1995-01-09",
+    "caps": 75,
+    "goals": 0,
+    "club": "Dinamo Zagreb"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Josip Stanišić",
+    "born": "2000-04-02",
+    "caps": 31,
+    "goals": 0,
+    "club": "Bayern Munich"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Marin Pongračić",
+    "born": "1997-09-11",
+    "caps": 20,
+    "goals": 0,
+    "club": "Fiorentina"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Joško Gvardiol",
+    "born": "2002-01-23",
+    "caps": 48,
+    "goals": 4,
+    "club": "Manchester City"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Duje Ćaleta-Car",
+    "born": "1996-09-17",
+    "caps": 38,
+    "goals": 1,
+    "club": "Real Sociedad"
+  },
+  {
+    "no": 6,
+    "pos": "AB",
+    "name": "Josip Šutalo",
+    "born": "2000-02-28",
+    "caps": 33,
+    "goals": 0,
+    "club": "Ajax"
+  },
+  {
+    "no": 7,
+    "pos": "MF",
+    "name": "Nikola Moro",
+    "born": "1998-03-12",
+    "caps": 10,
+    "goals": 0,
+    "club": "Bologna"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Mateo Kovačić",
+    "born": "1994-05-06",
+    "caps": 113,
+    "goals": 5,
+    "club": "Manchester City"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Andrej Kramarić",
+    "born": "1991-06-19",
+    "caps": 116,
+    "goals": 36,
+    "club": "TSG Hoffenheim"
+  },
+  {
+    "no": 10,
+    "pos": "MF",
+    "name": "Luka Modrić",
+    "born": "1985-09-09",
+    "caps": 198,
+    "goals": 29,
+    "club": "Milan",
+    "captain": true
+  },
+  {
+    "no": 11,
+    "pos": "ST",
+    "name": "Ante Budimir",
+    "born": "1991-07-22",
+    "caps": 38,
+    "goals": 6,
+    "club": "Osasuna"
+  },
+  {
+    "no": 12,
+    "pos": "TW",
+    "name": "Ivor Pandur",
+    "born": "2000-03-25",
+    "caps": 0,
+    "goals": 0,
+    "club": "Hull City"
+  },
+  {
+    "no": 13,
+    "pos": "MF",
+    "name": "Nikola Vlašić",
+    "born": "1997-10-04",
+    "caps": 63,
+    "goals": 10,
+    "club": "Torino"
+  },
+  {
+    "no": 14,
+    "pos": "ST",
+    "name": "Ivan Perišić",
+    "born": "1989-02-02",
+    "caps": 154,
+    "goals": 38,
+    "club": "PSV Eindhoven"
+  },
+  {
+    "no": 15,
+    "pos": "MF",
+    "name": "Mario Pašalić",
+    "born": "1995-02-09",
+    "caps": 85,
+    "goals": 12,
+    "club": "Atalanta"
+  },
+  {
+    "no": 16,
+    "pos": "MF",
+    "name": "Martin Baturina",
+    "born": "2003-02-16",
+    "caps": 19,
+    "goals": 1,
+    "club": "Como"
+  },
+  {
+    "no": 17,
+    "pos": "MF",
+    "name": "Petar Sučić",
+    "born": "2003-10-25",
+    "caps": 17,
+    "goals": 1,
+    "club": "Inter Milan"
+  },
+  {
+    "no": 18,
+    "pos": "AB",
+    "name": "Kristijan Jakić",
+    "born": "1997-05-14",
+    "caps": 17,
+    "goals": 2,
+    "club": "FC Augsburg"
+  },
+  {
+    "no": 19,
+    "pos": "MF",
+    "name": "Toni Fruk",
+    "born": "2001-03-09",
+    "caps": 7,
+    "goals": 1,
+    "club": "Rijeka"
+  },
+  {
+    "no": 20,
+    "pos": "ST",
+    "name": "Igor Matanović",
+    "born": "2003-03-31",
+    "caps": 9,
+    "goals": 2,
+    "club": "SC Freiburg"
+  },
+  {
+    "no": 21,
+    "pos": "MF",
+    "name": "Luka Sučić",
+    "born": "2002-09-08",
+    "caps": 21,
+    "goals": 1,
+    "club": "Real Sociedad"
+  },
+  {
+    "no": 22,
+    "pos": "AB",
+    "name": "Luka Vušković",
+    "born": "2007-02-24",
+    "caps": 5,
+    "goals": 1,
+    "club": "Hamburger SV"
+  },
+  {
+    "no": 23,
+    "pos": "TW",
+    "name": "Dominik Kotarski",
+    "born": "2000-02-10",
+    "caps": 4,
+    "goals": 0,
+    "club": "Copenhagen"
+  },
+  {
+    "no": 24,
+    "pos": "ST",
+    "name": "Marco Pašalić",
+    "born": "2000-09-14",
+    "caps": 15,
+    "goals": 1,
+    "club": "Orlando City SC"
+  },
+  {
+    "no": 25,
+    "pos": "AB",
+    "name": "Martin Erlić",
+    "born": "1998-01-24",
+    "caps": 13,
+    "goals": 1,
+    "club": "Midtjylland"
+  },
+  {
+    "no": 26,
+    "pos": "ST",
+    "name": "Petar Musa",
+    "born": "1998-03-04",
+    "caps": 11,
+    "goals": 1,
+    "club": "FC Dallas"
+  }
+]

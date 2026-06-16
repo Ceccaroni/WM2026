@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Gatito Fernández",
+    "born": "1988-03-29",
+    "caps": 31,
+    "goals": 0,
+    "club": "Cerro Porteño"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Gustavo Velázquez",
+    "born": "1991-04-17",
+    "caps": 13,
+    "goals": 1,
+    "club": "Cerro Porteño"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Omar Alderete",
+    "born": "1996-12-26",
+    "caps": 36,
+    "goals": 3,
+    "club": "Sunderland"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Juan José Cáceres",
+    "born": "2000-06-01",
+    "caps": 17,
+    "goals": 0,
+    "club": "Dynamo Moscow"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Fabián Balbuena",
+    "born": "1991-08-23",
+    "caps": 48,
+    "goals": 2,
+    "club": "Grêmio"
+  },
+  {
+    "no": 6,
+    "pos": "AB",
+    "name": "Júnior Alonso",
+    "born": "1993-02-09",
+    "caps": 71,
+    "goals": 3,
+    "club": "Atlético Mineiro"
+  },
+  {
+    "no": 7,
+    "pos": "MF",
+    "name": "Ramón Sosa",
+    "born": "1999-08-31",
+    "caps": 29,
+    "goals": 1,
+    "club": "Palmeiras"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Diego Gómez",
+    "born": "2003-03-27",
+    "caps": 24,
+    "goals": 3,
+    "club": "Brighton & Hove Albion"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Antonio Sanabria",
+    "born": "1996-03-04",
+    "caps": 48,
+    "goals": 7,
+    "club": "Cremonese"
+  },
+  {
+    "no": 10,
+    "pos": "MF",
+    "name": "Miguel Almirón",
+    "born": "1994-02-10",
+    "caps": 76,
+    "goals": 10,
+    "club": "Atlanta United FC"
+  },
+  {
+    "no": 11,
+    "pos": "MF",
+    "name": "Maurício",
+    "born": "2001-06-22",
+    "caps": 3,
+    "goals": 0,
+    "club": "Palmeiras"
+  },
+  {
+    "no": 12,
+    "pos": "TW",
+    "name": "Orlando Gill",
+    "born": "2000-06-11",
+    "caps": 6,
+    "goals": 0,
+    "club": "San Lorenzo"
+  },
+  {
+    "no": 13,
+    "pos": "AB",
+    "name": "José Canale",
+    "born": "1996-07-20",
+    "caps": 2,
+    "goals": 0,
+    "club": "Lanús"
+  },
+  {
+    "no": 14,
+    "pos": "MF",
+    "name": "Andrés Cubas",
+    "born": "1996-05-11",
+    "caps": 33,
+    "goals": 0,
+    "club": "Vancouver Whitecaps FC"
+  },
+  {
+    "no": 15,
+    "pos": "AB",
+    "name": "Gustavo Gómez",
+    "born": "1993-05-06",
+    "caps": 89,
+    "goals": 4,
+    "club": "Palmeiras",
+    "captain": true
+  },
+  {
+    "no": 16,
+    "pos": "MF",
+    "name": "Damián Bobadilla",
+    "born": "2001-07-11",
+    "caps": 19,
+    "goals": 1,
+    "club": "São Paulo"
+  },
+  {
+    "no": 17,
+    "pos": "ST",
+    "name": "Kaku",
+    "born": "1995-01-11",
+    "caps": 33,
+    "goals": 6,
+    "club": "Al Ain"
+  },
+  {
+    "no": 18,
+    "pos": "ST",
+    "name": "Álex Arce",
+    "born": "1995-06-16",
+    "caps": 15,
+    "goals": 1,
+    "club": "Independiente Rivadavia"
+  },
+  {
+    "no": 19,
+    "pos": "ST",
+    "name": "Julio Enciso",
+    "born": "2004-01-23",
+    "caps": 32,
+    "goals": 4,
+    "club": "Strasbourg"
+  },
+  {
+    "no": 20,
+    "pos": "MF",
+    "name": "Braian Ojeda",
+    "born": "2000-06-27",
+    "caps": 17,
+    "goals": 0,
+    "club": "Orlando City SC"
+  },
+  {
+    "no": 21,
+    "pos": "ST",
+    "name": "Gabriel Ávalos",
+    "born": "1991-07-09",
+    "caps": 23,
+    "goals": 2,
+    "club": "Independiente"
+  },
+  {
+    "no": 22,
+    "pos": "TW",
+    "name": "Gastón Olveira",
+    "born": "1993-04-21",
+    "caps": 1,
+    "goals": 0,
+    "club": "Olimpia"
+  },
+  {
+    "no": 23,
+    "pos": "MF",
+    "name": "Matías Galarza",
+    "born": "2002-02-11",
+    "caps": 15,
+    "goals": 3,
+    "club": "Atlanta United FC"
+  },
+  {
+    "no": 24,
+    "pos": "MF",
+    "name": "Gustavo Caballero",
+    "born": "2001-09-21",
+    "caps": 2,
+    "goals": 1,
+    "club": "Portsmouth"
+  },
+  {
+    "no": 25,
+    "pos": "ST",
+    "name": "Isidro Pitta",
+    "born": "1999-08-14",
+    "caps": 5,
+    "goals": 0,
+    "club": "Red Bull Bragantino"
+  },
+  {
+    "no": 26,
+    "pos": "AB",
+    "name": "Alexandro Maidana",
+    "born": "2005-07-26",
+    "caps": 2,
+    "goals": 1,
+    "club": "Talleres"
+  }
+]

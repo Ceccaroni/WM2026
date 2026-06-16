@@ -1,0 +1,40 @@
+{
+  "id": "BEL",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 9,
+  "wcRecord": "15. Teilnahme · Dritter 2018",
+  "coach": {
+    "name": "Rudi Garcia",
+    "since": "2025"
+  },
+  "stars": [
+    {
+      "name": "Kevin De Bruyne",
+      "club": "SSC Neapel",
+      "role": "Offensives Mittelfeld"
+    },
+    {
+      "name": "Thibaut Courtois",
+      "club": "Real Madrid",
+      "role": "Torwart"
+    },
+    {
+      "name": "Jérémy Doku",
+      "club": "Manchester City",
+      "role": "Flügel"
+    },
+    {
+      "name": "Youri Tielemans",
+      "club": "Aston Villa",
+      "role": "Kapitän & Mittelfeld"
+    }
+  ],
+  "form": "2026 noch ungeschlagen: Im März 5:2 gegen Co-Gastgeber USA und 1:1 in Mexiko, in der direkten WM-Vorbereitung 2:0 gegen Kroatien (2. Juni, Tore Tielemans und Lukaku) und 5:0 gegen Tunesien (6. Juni). Vor allem Doku präsentierte sich beim Tunesien-Spiel mit zwei Vorlagen in Turnierform.",
+  "quali": "Als ungeschlagener Sieger der UEFA-Gruppe J direkt qualifiziert: 18 Punkte aus 8 Spielen (5 Siege, 3 Remis) bei 29:7 Toren, vor Wales und Nordmazedonien.",
+  "storylines": [
+    "De Bruynes letzte WM: Der 34-Jährige war bei Napoli fast fünf Monate verletzt (Oktober 2025 bis März 2026), meldete sich aber rechtzeitig fit",
+    "Lukaku-Wette von Garcia: Belgiens Rekordtorschütze stand wegen einer Hamstring-Verletzung nur rund 60 Pflichtspielminuten in der Saison auf dem Platz – traf aber prompt beim 2:0 gegen Kroatien",
+    "Aufreger der Kader-Nominierung am 15. Mai: Quali-Topscorer Malick Fofana (6 Tore) wurde aussortiert",
+    "Doku-Schreck kurz vor dem Auftakt: Trainingsabbruch wegen Atemproblemen am 10. Juni, Einsatz gegen Ägypten laut Team aber nicht gefährdet"
+  ]
+}

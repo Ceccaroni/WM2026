@@ -1,0 +1,40 @@
+{
+  "id": "TUR",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 22,
+  "wcRecord": "3. Teilnahme · WM-Dritter 2002",
+  "coach": {
+    "name": "Vincenzo Montella",
+    "since": "2023"
+  },
+  "stars": [
+    {
+      "name": "Hakan Çalhanoğlu",
+      "club": "Inter Mailand",
+      "role": "Kapitän & Zentrales Mittelfeld"
+    },
+    {
+      "name": "Arda Güler",
+      "club": "Real Madrid",
+      "role": "Offensives Mittelfeld"
+    },
+    {
+      "name": "Kenan Yıldız",
+      "club": "Juventus Turin",
+      "role": "Flügel"
+    },
+    {
+      "name": "Kerem Aktürkoğlu",
+      "club": "Fenerbahçe",
+      "role": "Flügel"
+    }
+  ],
+  "form": "Im März zwei nervenstarke 1:0-Playoff-Siege gegen Rumänien und im Kosovo. Die Juni-Generalproben liefen rund: 4:0 gegen Nordmazedonien in Istanbul und 2:1 gegen Venezuela in Fort Lauderdale, bei dem Barış Alper Yılmaz traf und Porto-Stürmer Deniz Gül erneut in der Startelf stand.",
+  "quali": "In der UEFA-Gruppe E Zweiter hinter Spanien (inklusive 0:6 in Konya und 2:2 in Sevilla). In den Playoffs im März 2026 folgten ein 1:0 gegen Rumänien (Kadıoğlu) und das entscheidende 1:0 im Kosovo durch Aktürkoğlu am 31. März.",
+  "storylines": [
+    "Erste WM seit 2002 – nach 24 Jahren Absenz kehrt der damalige WM-Dritte zurück",
+    "Playoff-Drama im März: zwei 1:0-Siege gegen Rumänien und Kosovo brachten das Ticket",
+    "Zittern um den Kapitän: Çalhanoğlu (Wadenprobleme seit Mai) stieg erst kurz vor dem Auftakt wieder voll ins Teamtraining ein",
+    "Güler und Yıldız gelten als goldenes Duo der neuen Generation – Porto-Stürmer Deniz Gül spielte sich in den Tests als Neuner fest"
+  ]
+}

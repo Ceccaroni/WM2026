@@ -1,0 +1,42 @@
+{
+  "name": "wm26-tipp",
+  "productName": "WM26 Tipp",
+  "version": "1.8.11",
+  "description": "WM 2026 Durchtipp-App im Panini-Stil — lokal, mehrere Tipper, Austausch per Datei, Live-Ergebnisse online.",
+  "private": true,
+  "main": "./out/main/index.js",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "seed:web": "node scripts/build-web-seed.mjs",
+    "build:web": "node scripts/build-web-seed.mjs && vite build --config vite.web.config.ts",
+    "preview:web": "vite preview --config vite.web.config.ts --host",
+    "typecheck": "tsc --noEmit -p tsconfig.web.json && tsc --noEmit -p tsconfig.node.json",
+    "data:schedule": "node scripts/build-schedule.mjs",
+    "test:scoring": "esbuild scripts/test-scoring.ts --bundle --format=cjs --platform=node --alias:@data=./resources/data --outfile=node_modules/.tmp/test-scoring.cjs --log-level=error && node node_modules/.tmp/test-scoring.cjs",
+    "test:news": "esbuild scripts/test-news.ts --bundle --format=cjs --platform=node --outfile=node_modules/.tmp/test-news.cjs --log-level=error && node node_modules/.tmp/test-news.cjs",
+    "publish:update": "node scripts/publish-update.mjs",
+    "icon": "electron scripts/make-icon.mjs",
+    "dist": "electron-vite build && electron-builder --mac --arm64",
+    "dist:intel": "electron-vite build && electron-builder --mac --x64"
+  },
+  "dependencies": {
+    "flag-icons": "^7.0.0",
+    "motion": "^12.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "electron": "^37.0.0",
+    "electron-builder": "^26.0.0",
+    "electron-vite": "^4.0.0",
+    "typescript": "^5.8.0",
+    "vite": "^7.0.0",
+    "vite-plugin-pwa": "^1.3.0"
+  }
+}

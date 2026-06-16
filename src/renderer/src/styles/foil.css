@@ -1,0 +1,97 @@
+/* Glossy-/Holo-Effekte (research/design.md §3, Vorbild pokemon-cards-css):
+   pointer-getriebener Foil-Layer + Glare + 3D-Tilt. Die Custom Properties
+   --px/--py (Pointer in %) und --tilt-x/--tilt-y setzt components/HoloSticker.tsx. */
+
+.tiltscene {
+  perspective: 900px;
+}
+
+.holo {
+  position: relative;
+  border-radius: var(--radius-sticker);
+  overflow: hidden;
+  isolation: isolate; /* Blend-Modes bleiben im Sticker */
+  transform: rotateX(var(--tilt-x, 0deg)) rotateY(var(--tilt-y, 0deg)) translateZ(0);
+  transform-style: preserve-3d;
+  transition: transform 0.12s ease-out;
+  will-change: transform;
+}
+
+/* sanftes Zurückfedern, wenn der Pointer den Sticker verlässt */
+.tiltscene:not(:hover) .holo {
+  transform: rotateX(0) rotateY(0);
+  transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* Regenbogen-Folie, wandert mit der Maus */
+.holo::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+    115deg,
+    transparent 20%,
+    rgba(255, 222, 120, 0.7) 34%,
+    rgba(160, 80, 255, 0.55) 42%,
+    rgba(0, 255, 231, 0.55) 50%,
+    rgba(255, 64, 170, 0.55) 58%,
+    transparent 78%
+  );
+  background-size: 280% 280%;
+  background-position: calc(var(--px, 50) * 1%) calc(var(--py, 50) * 1%);
+  mix-blend-mode: color-dodge;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.tiltscene:hover .holo::before {
+  opacity: var(--foil-opacity, 0.55);
+}
+
+/* Glare: weicher Lichtpunkt unter dem Pointer */
+.holo::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: radial-gradient(
+    circle at calc(var(--px, 50) * 1%) calc(var(--py, 50) * 1%),
+    rgba(255, 255, 255, 0.45),
+    transparent 55%
+  );
+  mix-blend-mode: overlay;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.tiltscene:hover .holo::after {
+  opacity: 0.8;
+}
+
+/* Gold-Variante (Belohnung): warme Folie statt Regenbogen */
+.holo--gold::before {
+  background: linear-gradient(
+    115deg,
+    transparent 22%,
+    rgba(212, 175, 55, 0.65) 38%,
+    rgba(249, 226, 125, 0.85) 50%,
+    rgba(212, 175, 55, 0.65) 62%,
+    transparent 78%
+  );
+  background-size: 280% 280%;
+  background-position: calc(var(--px, 50) * 1%) calc(var(--py, 50) * 1%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .holo {
+    transform: none !important;
+  }
+
+  .holo::before,
+  .holo::after {
+    display: none;
+  }
+}

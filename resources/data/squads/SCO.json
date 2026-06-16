@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Angus Gunn",
+    "born": "1996-01-22",
+    "caps": 22,
+    "goals": 0,
+    "club": "Nottingham Forest"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Aaron Hickey",
+    "born": "2002-06-10",
+    "caps": 21,
+    "goals": 0,
+    "club": "Brentford"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Andy Robertson",
+    "born": "1994-03-11",
+    "caps": 94,
+    "goals": 4,
+    "club": "Liverpool",
+    "captain": true
+  },
+  {
+    "no": 4,
+    "pos": "MF",
+    "name": "Scott McTominay",
+    "born": "1996-12-08",
+    "caps": 70,
+    "goals": 15,
+    "club": "Napoli"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Grant Hanley",
+    "born": "1991-11-20",
+    "caps": 68,
+    "goals": 2,
+    "club": "Hibernian"
+  },
+  {
+    "no": 6,
+    "pos": "AB",
+    "name": "Kieran Tierney",
+    "born": "1997-06-05",
+    "caps": 56,
+    "goals": 2,
+    "club": "Celtic"
+  },
+  {
+    "no": 7,
+    "pos": "MF",
+    "name": "John McGinn",
+    "born": "1994-10-18",
+    "caps": 86,
+    "goals": 20,
+    "club": "Aston Villa"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Tyler Fletcher",
+    "born": "2007-03-19",
+    "caps": 2,
+    "goals": 0,
+    "club": "Manchester United"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Lyndon Dykes",
+    "born": "1995-10-07",
+    "caps": 51,
+    "goals": 10,
+    "club": "Charlton Athletic"
+  },
+  {
+    "no": 10,
+    "pos": "ST",
+    "name": "Ché Adams",
+    "born": "1996-07-13",
+    "caps": 47,
+    "goals": 13,
+    "club": "Torino"
+  },
+  {
+    "no": 11,
+    "pos": "MF",
+    "name": "Ryan Christie",
+    "born": "1995-02-22",
+    "caps": 68,
+    "goals": 10,
+    "club": "Bournemouth"
+  },
+  {
+    "no": 12,
+    "pos": "TW",
+    "name": "Liam Kelly",
+    "born": "1996-01-23",
+    "caps": 3,
+    "goals": 0,
+    "club": "Rangers"
+  },
+  {
+    "no": 13,
+    "pos": "AB",
+    "name": "Jack Hendry",
+    "born": "1995-05-07",
+    "caps": 38,
+    "goals": 3,
+    "club": "Al-Ettifaq"
+  },
+  {
+    "no": 14,
+    "pos": "ST",
+    "name": "Ross Stewart",
+    "born": "1996-07-11",
+    "caps": 3,
+    "goals": 0,
+    "club": "Southampton"
+  },
+  {
+    "no": 15,
+    "pos": "AB",
+    "name": "John Souttar",
+    "born": "1996-09-25",
+    "caps": 24,
+    "goals": 2,
+    "club": "Rangers"
+  },
+  {
+    "no": 16,
+    "pos": "AB",
+    "name": "Dominic Hyam",
+    "born": "1995-12-20",
+    "caps": 4,
+    "goals": 0,
+    "club": "Wrexham"
+  },
+  {
+    "no": 17,
+    "pos": "ST",
+    "name": "Ben Gannon-Doak",
+    "born": "2005-11-11",
+    "caps": 14,
+    "goals": 1,
+    "club": "Bournemouth"
+  },
+  {
+    "no": 18,
+    "pos": "ST",
+    "name": "George Hirst",
+    "born": "1999-02-15",
+    "caps": 10,
+    "goals": 1,
+    "club": "Ipswich Town"
+  },
+  {
+    "no": 19,
+    "pos": "MF",
+    "name": "Lewis Ferguson",
+    "born": "1999-08-24",
+    "caps": 24,
+    "goals": 1,
+    "club": "Bologna"
+  },
+  {
+    "no": 20,
+    "pos": "ST",
+    "name": "Lawrence Shankland",
+    "born": "1995-08-10",
+    "caps": 20,
+    "goals": 7,
+    "club": "Heart of Midlothian"
+  },
+  {
+    "no": 21,
+    "pos": "TW",
+    "name": "Craig Gordon",
+    "born": "1982-12-31",
+    "caps": 84,
+    "goals": 0,
+    "club": "Heart of Midlothian"
+  },
+  {
+    "no": 22,
+    "pos": "AB",
+    "name": "Nathan Patterson",
+    "born": "2001-10-16",
+    "caps": 26,
+    "goals": 1,
+    "club": "Everton"
+  },
+  {
+    "no": 23,
+    "pos": "MF",
+    "name": "Kenny McLean",
+    "born": "1992-01-08",
+    "caps": 58,
+    "goals": 3,
+    "club": "Norwich City"
+  },
+  {
+    "no": 24,
+    "pos": "AB",
+    "name": "Anthony Ralston",
+    "born": "1998-11-16",
+    "caps": 27,
+    "goals": 1,
+    "club": "Celtic"
+  },
+  {
+    "no": 25,
+    "pos": "ST",
+    "name": "Findlay Curtis",
+    "born": "2006-06-09",
+    "caps": 3,
+    "goals": 1,
+    "club": "Kilmarnock"
+  },
+  {
+    "no": 26,
+    "pos": "AB",
+    "name": "Scott McKenna",
+    "born": "1996-11-12",
+    "caps": 50,
+    "goals": 1,
+    "club": "Dinamo Zagreb"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "id": "PAN",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 33,
+  "wcRecord": "2. Teilnahme · Vorrunde 2018",
+  "coach": {
+    "name": "Thomas Christiansen",
+    "since": "2020"
+  },
+  "stars": [
+    {
+      "name": "Adalberto Carrasquilla",
+      "club": "Pumas UNAM",
+      "role": "Zentrales Mittelfeld"
+    },
+    {
+      "name": "Michael Amir Murillo",
+      "club": "Beşiktaş",
+      "role": "Rechtsverteidigung"
+    },
+    {
+      "name": "José Fajardo",
+      "club": "Universidad Católica (ECU)",
+      "role": "Sturm"
+    },
+    {
+      "name": "Orlando Mosquera",
+      "club": "Al-Fayha",
+      "role": "Torwart"
+    }
+  ],
+  "form": "Im März zwei ordentliche Auftritte gegen Südafrika: 1:1 in Durban und ein 2:1-Sieg in Kapstadt. Die Juni-Generalprobe im Maracanã ging 2:6 gegen Brasilien verloren (Murillo traf per Freistoss), danach gab es ein 4:2 gegen die Dominikanische Republik im heimischen Estadio Rommel Fernández.",
+  "quali": "Sieger der CONCACAF-Finalrunden-Gruppe A: Am dramatischen Schlusstag (18. November 2025) zog Panama mit einem 3:0 gegen El Salvador noch an Suriname vorbei und qualifizierte sich direkt.",
+  "storylines": [
+    "Erst die zweite WM-Teilnahme: 2018 in Russland blieb Panama punktlos — der erste WM-Punkt der Geschichte ist das erklärte Ziel",
+    "Quali-Drama als Nationalereignis: 3:0 gegen El Salvador am Schlusstag, während Guatemala parallel Suriname schlug — Panama sprang in letzter Minute an die Gruppenspitze",
+    "Abwehrchef Murillo wechselte im Februar 2026 nach einem Zerwürfnis bei Marseille zu Beşiktaş — jetzt ist er wieder Leistungsträger",
+    "Als Nummer 33 der Welt ist Panama das bestklassierte Team Zentralamerikas — Christiansen formt die Mannschaft bereits seit 2020"
+  ]
+}

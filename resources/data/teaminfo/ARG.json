@@ -1,0 +1,40 @@
+{
+  "id": "ARG",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 3,
+  "wcRecord": "19. Teilnahme · 3× Weltmeister (zuletzt 2022) · Titelverteidiger",
+  "coach": {
+    "name": "Lionel Scaloni",
+    "since": "2018"
+  },
+  "stars": [
+    {
+      "name": "Lionel Messi",
+      "club": "Inter Miami",
+      "role": "Kapitän & Sturm"
+    },
+    {
+      "name": "Julián Álvarez",
+      "club": "Atlético Madrid",
+      "role": "Sturm"
+    },
+    {
+      "name": "Enzo Fernández",
+      "club": "FC Chelsea",
+      "role": "Zentrales Mittelfeld"
+    },
+    {
+      "name": "Emiliano «Dibu» Martínez",
+      "club": "Aston Villa",
+      "role": "Torwart"
+    }
+  ],
+  "form": "Die für März geplante Finalissima gegen Spanien wurde abgesagt; stattdessen gab es in der Bombonera ein 2:1 gegen Mauretanien und ein 5:0 gegen Sambia. In der Juni-Vorbereitung folgten ein 2:0 gegen Honduras und ein 3:0 gegen Island – Messi traf in der Generalprobe nach Verletzungspause kurz nach der Einwechslung per Elfmeter. Vier Siege aus vier Spielen 2026, makellose Form.",
+  "quali": "Souveräner CONMEBOL-Tabellenerster mit 38 Punkten (12 Siege, 2 Remis, 4 Niederlagen) – zehn Punkte vor Ecuador; Messi war mit 8 Toren bester Torschütze der Südamerika-Quali.",
+  "storylines": [
+    "Messis sechste und wohl letzte WM – Rekord; er wird am 24. Juni während des Turniers 39 und sagt, er «geniesse jeden Moment»",
+    "Erste Titelverteidigung seit Brasilien 1962 als Ziel – 17 Weltmeister von Katar 2022 sind wieder im Kader",
+    "Transfer-Poker um Julián Álvarez überschattet die Vorbereitung: Barça buhlt, Atlético verlangt rund 150 Mio. Euro",
+    "Finalissima-Absage im März sorgte für Zoff zwischen UEFA und AFA – die Ersatz-Heimspiele wurden zur Messi-Abschiedsparty in der Bombonera"
+  ]
+}

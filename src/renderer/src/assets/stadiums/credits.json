@@ -1,0 +1,66 @@
+{
+  "mexico-city": {
+    "author": "ProtoplasmaKid",
+    "license": "CC BY 4.0"
+  },
+  "guadalajara": {
+    "author": "HugoGN12",
+    "license": "CC BY-SA 4.0"
+  },
+  "monterrey": {
+    "author": "Arne Müseler",
+    "license": "CC BY-SA 3.0 DE"
+  },
+  "toronto": {
+    "author": "Ken Lund",
+    "license": "CC BY-SA 2.0"
+  },
+  "vancouver": {
+    "author": "Quintin Soloviev",
+    "license": "CC BY 4.0"
+  },
+  "new-york-new-jersey": {
+    "author": "Anthony Quintano",
+    "license": "CC BY 2.0"
+  },
+  "dallas": {
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0"
+  },
+  "los-angeles": {
+    "author": "Ron Reiring",
+    "license": "CC BY 2.0"
+  },
+  "kansas-city": {
+    "author": "Ichabod",
+    "license": "CC BY-SA 3.0"
+  },
+  "san-francisco": {
+    "author": "U.S. Customs and Border Protection",
+    "license": "Public Domain"
+  },
+  "houston": {
+    "author": "Ozzy Trevino, U.S. CBP",
+    "license": "Public Domain"
+  },
+  "philadelphia": {
+    "author": "Ron Reiring",
+    "license": "CC BY 2.0"
+  },
+  "atlanta": {
+    "author": "BullDawg2021",
+    "license": "CC BY 4.0"
+  },
+  "seattle": {
+    "author": "SounderBruce",
+    "license": "CC BY-SA 4.0"
+  },
+  "miami": {
+    "author": "Eisenthesky Productions",
+    "license": "CC BY-SA 4.0"
+  },
+  "boston": {
+    "author": "Art N.",
+    "license": "CC BY 2.0"
+  }
+}

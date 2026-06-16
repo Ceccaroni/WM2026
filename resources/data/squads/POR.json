@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Diogo Costa",
+    "born": "1999-09-19",
+    "caps": 43,
+    "goals": 0,
+    "club": "Porto"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Nélson Semedo",
+    "born": "1993-11-16",
+    "caps": 50,
+    "goals": 0,
+    "club": "Fenerbahçe"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Rúben Dias",
+    "born": "1997-05-14",
+    "caps": 76,
+    "goals": 3,
+    "club": "Manchester City"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Tomás Araújo",
+    "born": "2002-05-16",
+    "caps": 5,
+    "goals": 0,
+    "club": "Benfica"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Diogo Dalot",
+    "born": "1999-03-18",
+    "caps": 35,
+    "goals": 3,
+    "club": "Manchester United"
+  },
+  {
+    "no": 6,
+    "pos": "MF",
+    "name": "Matheus Nunes",
+    "born": "1998-08-27",
+    "caps": 20,
+    "goals": 2,
+    "club": "Manchester City"
+  },
+  {
+    "no": 7,
+    "pos": "ST",
+    "name": "Cristiano Ronaldo",
+    "born": "1985-02-05",
+    "caps": 228,
+    "goals": 143,
+    "club": "Al-Nassr",
+    "captain": true
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Bruno Fernandes",
+    "born": "1994-09-08",
+    "caps": 89,
+    "goals": 29,
+    "club": "Manchester United"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Gonçalo Ramos",
+    "born": "2001-06-20",
+    "caps": 25,
+    "goals": 10,
+    "club": "Paris Saint-Germain"
+  },
+  {
+    "no": 10,
+    "pos": "MF",
+    "name": "Bernardo Silva",
+    "born": "1994-08-10",
+    "caps": 109,
+    "goals": 14,
+    "club": "Manchester City"
+  },
+  {
+    "no": 11,
+    "pos": "ST",
+    "name": "João Félix",
+    "born": "1999-11-10",
+    "caps": 54,
+    "goals": 12,
+    "club": "Al-Nassr"
+  },
+  {
+    "no": 12,
+    "pos": "TW",
+    "name": "José Sá",
+    "born": "1993-01-17",
+    "caps": 5,
+    "goals": 0,
+    "club": "Wolverhampton Wanderers"
+  },
+  {
+    "no": 13,
+    "pos": "AB",
+    "name": "Renato Veiga",
+    "born": "2003-07-29",
+    "caps": 13,
+    "goals": 1,
+    "club": "Villarreal"
+  },
+  {
+    "no": 14,
+    "pos": "AB",
+    "name": "Gonçalo Inácio",
+    "born": "2001-08-25",
+    "caps": 22,
+    "goals": 2,
+    "club": "Sporting CP"
+  },
+  {
+    "no": 15,
+    "pos": "MF",
+    "name": "João Neves",
+    "born": "2004-09-27",
+    "caps": 22,
+    "goals": 3,
+    "club": "Paris Saint-Germain"
+  },
+  {
+    "no": 16,
+    "pos": "ST",
+    "name": "Francisco Trincão",
+    "born": "1999-12-29",
+    "caps": 18,
+    "goals": 3,
+    "club": "Sporting CP"
+  },
+  {
+    "no": 17,
+    "pos": "ST",
+    "name": "Rafael Leão",
+    "born": "1999-06-10",
+    "caps": 44,
+    "goals": 5,
+    "club": "Milan"
+  },
+  {
+    "no": 18,
+    "pos": "ST",
+    "name": "Pedro Neto",
+    "born": "2000-03-09",
+    "caps": 25,
+    "goals": 3,
+    "club": "Chelsea"
+  },
+  {
+    "no": 19,
+    "pos": "ST",
+    "name": "Gonçalo Guedes",
+    "born": "1996-11-29",
+    "caps": 34,
+    "goals": 8,
+    "club": "Real Sociedad"
+  },
+  {
+    "no": 20,
+    "pos": "AB",
+    "name": "João Cancelo",
+    "born": "1994-05-27",
+    "caps": 68,
+    "goals": 12,
+    "club": "Barcelona"
+  },
+  {
+    "no": 21,
+    "pos": "MF",
+    "name": "Rúben Neves",
+    "born": "1997-03-13",
+    "caps": 67,
+    "goals": 1,
+    "club": "Al-Hilal"
+  },
+  {
+    "no": 22,
+    "pos": "TW",
+    "name": "Rui Silva",
+    "born": "1994-02-07",
+    "caps": 3,
+    "goals": 0,
+    "club": "Sporting CP"
+  },
+  {
+    "no": 23,
+    "pos": "MF",
+    "name": "Vitinha",
+    "born": "2000-02-13",
+    "caps": 38,
+    "goals": 0,
+    "club": "Paris Saint-Germain"
+  },
+  {
+    "no": 24,
+    "pos": "AB",
+    "name": "Samú Costa",
+    "born": "2000-11-27",
+    "caps": 6,
+    "goals": 0,
+    "club": "Mallorca"
+  },
+  {
+    "no": 25,
+    "pos": "AB",
+    "name": "Nuno Mendes",
+    "born": "2002-06-19",
+    "caps": 44,
+    "goals": 1,
+    "club": "Paris Saint-Germain"
+  },
+  {
+    "no": 26,
+    "pos": "ST",
+    "name": "Francisco Conceição",
+    "born": "2002-12-14",
+    "caps": 17,
+    "goals": 4,
+    "club": "Juventus"
+  }
+]

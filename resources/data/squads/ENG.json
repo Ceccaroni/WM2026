@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Jordan Pickford",
+    "born": "1994-03-07",
+    "caps": 84,
+    "goals": 0,
+    "club": "Everton"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Ezri Konsa",
+    "born": "1997-10-23",
+    "caps": 20,
+    "goals": 1,
+    "club": "Aston Villa"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Nico O'Reilly",
+    "born": "2005-03-21",
+    "caps": 5,
+    "goals": 0,
+    "club": "Manchester City"
+  },
+  {
+    "no": 4,
+    "pos": "MF",
+    "name": "Declan Rice",
+    "born": "1999-01-14",
+    "caps": 73,
+    "goals": 7,
+    "club": "Arsenal"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "John Stones",
+    "born": "1994-05-28",
+    "caps": 89,
+    "goals": 3,
+    "club": "Manchester City"
+  },
+  {
+    "no": 6,
+    "pos": "AB",
+    "name": "Marc Guéhi",
+    "born": "2000-07-13",
+    "caps": 29,
+    "goals": 1,
+    "club": "Manchester City"
+  },
+  {
+    "no": 7,
+    "pos": "ST",
+    "name": "Bukayo Saka",
+    "born": "2001-09-05",
+    "caps": 49,
+    "goals": 14,
+    "club": "Arsenal"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Elliot Anderson",
+    "born": "2002-11-06",
+    "caps": 9,
+    "goals": 0,
+    "club": "Nottingham Forest"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Harry Kane",
+    "born": "1993-07-28",
+    "caps": 114,
+    "goals": 79,
+    "club": "Bayern Munich",
+    "captain": true
+  },
+  {
+    "no": 10,
+    "pos": "MF",
+    "name": "Jude Bellingham",
+    "born": "2003-06-29",
+    "caps": 48,
+    "goals": 6,
+    "club": "Real Madrid"
+  },
+  {
+    "no": 11,
+    "pos": "ST",
+    "name": "Marcus Rashford",
+    "born": "1997-10-31",
+    "caps": 72,
+    "goals": 18,
+    "club": "Barcelona"
+  },
+  {
+    "no": 12,
+    "pos": "AB",
+    "name": "Tino Livramento",
+    "born": "2002-11-12",
+    "caps": 6,
+    "goals": 0,
+    "club": "Newcastle United"
+  },
+  {
+    "no": 13,
+    "pos": "TW",
+    "name": "Dean Henderson",
+    "born": "1997-03-12",
+    "caps": 5,
+    "goals": 0,
+    "club": "Crystal Palace"
+  },
+  {
+    "no": 14,
+    "pos": "MF",
+    "name": "Jordan Henderson",
+    "born": "1990-06-17",
+    "caps": 90,
+    "goals": 3,
+    "club": "Brentford"
+  },
+  {
+    "no": 15,
+    "pos": "AB",
+    "name": "Dan Burn",
+    "born": "1992-05-09",
+    "caps": 8,
+    "goals": 0,
+    "club": "Newcastle United"
+  },
+  {
+    "no": 16,
+    "pos": "MF",
+    "name": "Kobbie Mainoo",
+    "born": "2005-04-19",
+    "caps": 14,
+    "goals": 0,
+    "club": "Manchester United"
+  },
+  {
+    "no": 17,
+    "pos": "MF",
+    "name": "Morgan Rogers",
+    "born": "2002-07-26",
+    "caps": 15,
+    "goals": 1,
+    "club": "Aston Villa"
+  },
+  {
+    "no": 18,
+    "pos": "ST",
+    "name": "Anthony Gordon",
+    "born": "2001-02-24",
+    "caps": 19,
+    "goals": 3,
+    "club": "Newcastle United"
+  },
+  {
+    "no": 19,
+    "pos": "ST",
+    "name": "Ollie Watkins",
+    "born": "1995-12-30",
+    "caps": 22,
+    "goals": 7,
+    "club": "Aston Villa"
+  },
+  {
+    "no": 20,
+    "pos": "ST",
+    "name": "Noni Madueke",
+    "born": "2002-03-10",
+    "caps": 11,
+    "goals": 1,
+    "club": "Arsenal"
+  },
+  {
+    "no": 21,
+    "pos": "MF",
+    "name": "Eberechi Eze",
+    "born": "1998-06-29",
+    "caps": 17,
+    "goals": 3,
+    "club": "Arsenal"
+  },
+  {
+    "no": 22,
+    "pos": "ST",
+    "name": "Ivan Toney",
+    "born": "1996-03-16",
+    "caps": 8,
+    "goals": 1,
+    "club": "Al-Ahli"
+  },
+  {
+    "no": 23,
+    "pos": "TW",
+    "name": "James Trafford",
+    "born": "2002-10-10",
+    "caps": 2,
+    "goals": 0,
+    "club": "Manchester City"
+  },
+  {
+    "no": 24,
+    "pos": "AB",
+    "name": "Reece James",
+    "born": "1999-12-08",
+    "caps": 24,
+    "goals": 1,
+    "club": "Chelsea"
+  },
+  {
+    "no": 25,
+    "pos": "AB",
+    "name": "Djed Spence",
+    "born": "2000-08-09",
+    "caps": 6,
+    "goals": 0,
+    "club": "Tottenham Hotspur"
+  },
+  {
+    "no": 26,
+    "pos": "AB",
+    "name": "Jarell Quansah",
+    "born": "2003-01-29",
+    "caps": 3,
+    "goals": 0,
+    "club": "Bayer Leverkusen"
+  }
+]

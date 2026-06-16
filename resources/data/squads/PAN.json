@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Luis Mejía",
+    "born": "1991-03-16",
+    "caps": 56,
+    "goals": 0,
+    "club": "Nacional"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "César Blackman",
+    "born": "1998-04-02",
+    "caps": 40,
+    "goals": 3,
+    "club": "Slovan Bratislava"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "José Córdoba",
+    "born": "2001-06-03",
+    "caps": 32,
+    "goals": 1,
+    "club": "Norwich City"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Fidel Escobar",
+    "born": "1995-01-09",
+    "caps": 99,
+    "goals": 4,
+    "club": "Saprissa"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Edgardo Fariña",
+    "born": "2001-10-19",
+    "caps": 18,
+    "goals": 0,
+    "club": "Pari Nizhny Novgorod"
+  },
+  {
+    "no": 6,
+    "pos": "MF",
+    "name": "Cristian Martínez",
+    "born": "1997-02-06",
+    "caps": 66,
+    "goals": 2,
+    "club": "Ironi Kiryat Shmona"
+  },
+  {
+    "no": 7,
+    "pos": "MF",
+    "name": "José Luis Rodríguez",
+    "born": "1998-06-19",
+    "caps": 70,
+    "goals": 8,
+    "club": "Juárez"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Adalberto Carrasquilla",
+    "born": "1998-11-28",
+    "caps": 73,
+    "goals": 3,
+    "club": "UNAM"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Tomás Rodríguez",
+    "born": "1999-03-09",
+    "caps": 13,
+    "goals": 4,
+    "club": "Saprissa"
+  },
+  {
+    "no": 10,
+    "pos": "MF",
+    "name": "Ismael Díaz",
+    "born": "1997-05-12",
+    "caps": 57,
+    "goals": 17,
+    "club": "León"
+  },
+  {
+    "no": 11,
+    "pos": "MF",
+    "name": "Yoel Bárcenas",
+    "born": "1993-10-23",
+    "caps": 104,
+    "goals": 10,
+    "club": "Mazatlán"
+  },
+  {
+    "no": 12,
+    "pos": "TW",
+    "name": "César Samudio",
+    "born": "1994-02-23",
+    "caps": 5,
+    "goals": 0,
+    "club": "Marathón"
+  },
+  {
+    "no": 13,
+    "pos": "AB",
+    "name": "Jiovany Ramos",
+    "born": "1997-01-26",
+    "caps": 23,
+    "goals": 2,
+    "club": "Puerto Cabello"
+  },
+  {
+    "no": 14,
+    "pos": "AB",
+    "name": "Carlos Harvey",
+    "born": "2000-02-03",
+    "caps": 28,
+    "goals": 3,
+    "club": "Minnesota United FC"
+  },
+  {
+    "no": 15,
+    "pos": "AB",
+    "name": "Eric Davis",
+    "born": "1991-03-31",
+    "caps": 107,
+    "goals": 9,
+    "club": "Plaza Amador"
+  },
+  {
+    "no": 16,
+    "pos": "AB",
+    "name": "Andrés Andrade",
+    "born": "1998-10-16",
+    "caps": 50,
+    "goals": 1,
+    "club": "LASK"
+  },
+  {
+    "no": 17,
+    "pos": "ST",
+    "name": "José Fajardo",
+    "born": "1993-08-18",
+    "caps": 68,
+    "goals": 17,
+    "club": "Universidad Católica"
+  },
+  {
+    "no": 18,
+    "pos": "ST",
+    "name": "Cecilio Waterman",
+    "born": "1991-04-13",
+    "caps": 55,
+    "goals": 15,
+    "club": "Universidad de Concepción"
+  },
+  {
+    "no": 19,
+    "pos": "MF",
+    "name": "Alberto Quintero",
+    "born": "1987-12-18",
+    "caps": 141,
+    "goals": 7,
+    "club": "Plaza Amador"
+  },
+  {
+    "no": 20,
+    "pos": "MF",
+    "name": "Aníbal Godoy",
+    "born": "1990-02-10",
+    "caps": 159,
+    "goals": 4,
+    "club": "San Diego FC",
+    "captain": true
+  },
+  {
+    "no": 21,
+    "pos": "MF",
+    "name": "César Yanis",
+    "born": "1996-01-28",
+    "caps": 56,
+    "goals": 5,
+    "club": "Cobresal"
+  },
+  {
+    "no": 22,
+    "pos": "TW",
+    "name": "Orlando Mosquera",
+    "born": "1994-12-25",
+    "caps": 48,
+    "goals": 0,
+    "club": "Al-Fayha"
+  },
+  {
+    "no": 23,
+    "pos": "AB",
+    "name": "Michael Amir Murillo",
+    "born": "1996-02-11",
+    "caps": 94,
+    "goals": 9,
+    "club": "Beşiktaş"
+  },
+  {
+    "no": 24,
+    "pos": "ST",
+    "name": "Azarias Londoño",
+    "born": "2001-06-21",
+    "caps": 11,
+    "goals": 0,
+    "club": "Universidad Católica"
+  },
+  {
+    "no": 25,
+    "pos": "AB",
+    "name": "Roderick Miller",
+    "born": "1992-04-03",
+    "caps": 50,
+    "goals": 2,
+    "club": "Turan Tovuz"
+  },
+  {
+    "no": 26,
+    "pos": "AB",
+    "name": "Jorge Gutiérrez",
+    "born": "1998-09-01",
+    "caps": 18,
+    "goals": 0,
+    "club": "Deportivo La Guaira"
+  }
+]

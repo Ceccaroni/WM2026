@@ -1,0 +1,40 @@
+{
+  "id": "USA",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 16,
+  "wcRecord": "12. Teilnahme · Halbfinale 1930",
+  "coach": {
+    "name": "Mauricio Pochettino",
+    "since": "2024"
+  },
+  "stars": [
+    {
+      "name": "Christian Pulisic",
+      "club": "AC Mailand",
+      "role": "Flügel"
+    },
+    {
+      "name": "Weston McKennie",
+      "club": "Juventus Turin",
+      "role": "Zentrales Mittelfeld"
+    },
+    {
+      "name": "Malik Tillman",
+      "club": "Bayer Leverkusen",
+      "role": "Offensives Mittelfeld"
+    },
+    {
+      "name": "Tyler Adams",
+      "club": "AFC Bournemouth",
+      "role": "Defensives Mittelfeld"
+    }
+  ],
+  "form": "Durchwachsene Generalprobe: Im März setzte es in Atlanta deutliche Niederlagen gegen Belgien (2:5) und Portugal (0:2), Ende Mai folgte ein 3:2 gegen Senegal. Das Send-off-Spiel am 6. Juni in Chicago ging vor 63'636 Fans 1:2 gegen Deutschland verloren – Antonee Robinson glich per Traumvolley aus, doch Havertz und Sané trafen für die DFB-Elf.",
+  "quali": "Als Co-Gastgeber automatisch qualifiziert – keine Pflichtspiele in der Quali, Pochettino musste die Mannschaft über Freundschaftsspiele und den Gold Cup formen.",
+  "storylines": [
+    "Pulisic nach verletzungsgeprägter Milan-Saison mitten in der Formdebatte – ausgerechnet vor der Heim-WM",
+    "AC Milan umwirbt Pochettino – der Coach bekräftigt öffentlich sein Commitment zum US-Team bis zum WM-Ende",
+    "Kader-Wirbel: Gio Reyna nominiert, Publikumsliebling Diego Luna gestrichen",
+    "Innenverteidiger Chris Richards wurde nach Knöchel-Reha gerade rechtzeitig fit; 13 Spieler aus dem WM-Kader 2022 sind wieder dabei"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "CIV",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 34,
+  "wcRecord": "4. Teilnahme · nie über die Gruppenphase hinaus",
+  "coach": {
+    "name": "Emerse Faé",
+    "since": "2024"
+  },
+  "stars": [
+    {
+      "name": "Franck Kessié",
+      "club": "Al-Ahli",
+      "role": "Kapitän & Zentrales Mittelfeld"
+    },
+    {
+      "name": "Amad Diallo",
+      "club": "Manchester United",
+      "role": "Flügel"
+    },
+    {
+      "name": "Yan Diomande",
+      "club": "RB Leipzig",
+      "role": "Flügel"
+    },
+    {
+      "name": "Evan Ndicka",
+      "club": "AS Roma",
+      "role": "Innenverteidigung"
+    }
+  ],
+  "form": "Furiose WM-Vorbereitung: Im März gab es ein 4:0 gegen Südkorea und einen knappen Sieg gegen Schottland, Anfang Juni folgte der 2:1-Coup gegen Mitfavorit Frankreich in Nantes.",
+  "quali": "Ungeschlagen durch die CAF-Quali (8 Siege, 2 Remis) — ohne ein einziges Gegentor; das 3:0 gegen Kenia machte den Gruppensieg vor Gabun perfekt. Erste WM-Teilnahme seit 2014.",
+  "storylines": [
+    "2:1 gegen Frankreich kurz vor dem Turnier — die Elefanten gelten als gefährlichster Außenseiter Afrikas",
+    "Shootingstar Yan Diomande (19): Bundesliga-Rookie des Jahres bei RB Leipzig",
+    "Trainer Faé übernahm 2024 mitten im Afrika-Cup und gewann ihn — nun seine erste WM",
+    "Mit über 500 Mio. Euro Marktwert der wertvollste Afrika-Kader des Turniers; AFCON-Held Haller fehlt"
+  ]
+}

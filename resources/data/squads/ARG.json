@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Juan Musso",
+    "born": "1994-05-06",
+    "caps": 4,
+    "goals": 0,
+    "club": "Atlético Madrid"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Marcos Senesi",
+    "born": "1997-05-10",
+    "caps": 3,
+    "goals": 0,
+    "club": "Bournemouth"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Nicolás Tagliafico",
+    "born": "1992-08-31",
+    "caps": 76,
+    "goals": 1,
+    "club": "Lyon"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Gonzalo Montiel",
+    "born": "1997-01-01",
+    "caps": 39,
+    "goals": 2,
+    "club": "River Plate"
+  },
+  {
+    "no": 5,
+    "pos": "MF",
+    "name": "Leandro Paredes",
+    "born": "1994-06-29",
+    "caps": 77,
+    "goals": 5,
+    "club": "Boca Juniors"
+  },
+  {
+    "no": 6,
+    "pos": "AB",
+    "name": "Lisandro Martínez",
+    "born": "1998-01-18",
+    "caps": 28,
+    "goals": 1,
+    "club": "Manchester United"
+  },
+  {
+    "no": 7,
+    "pos": "MF",
+    "name": "Rodrigo De Paul",
+    "born": "1994-05-24",
+    "caps": 87,
+    "goals": 2,
+    "club": "Inter Miami CF"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Valentín Barco",
+    "born": "2004-07-23",
+    "caps": 4,
+    "goals": 2,
+    "club": "Strasbourg"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Julián Alvarez",
+    "born": "2000-01-31",
+    "caps": 51,
+    "goals": 14,
+    "club": "Atlético Madrid"
+  },
+  {
+    "no": 10,
+    "pos": "ST",
+    "name": "Lionel Messi",
+    "born": "1987-06-24",
+    "caps": 199,
+    "goals": 117,
+    "club": "Inter Miami CF",
+    "captain": true
+  },
+  {
+    "no": 11,
+    "pos": "MF",
+    "name": "Giovani Lo Celso",
+    "born": "1996-04-09",
+    "caps": 67,
+    "goals": 4,
+    "club": "Real Betis"
+  },
+  {
+    "no": 12,
+    "pos": "TW",
+    "name": "Gerónimo Rulli",
+    "born": "1992-05-20",
+    "caps": 8,
+    "goals": 0,
+    "club": "Marseille"
+  },
+  {
+    "no": 13,
+    "pos": "AB",
+    "name": "Cristian Romero",
+    "born": "1998-04-27",
+    "caps": 51,
+    "goals": 3,
+    "club": "Tottenham Hotspur"
+  },
+  {
+    "no": 14,
+    "pos": "MF",
+    "name": "Exequiel Palacios",
+    "born": "1998-10-05",
+    "caps": 40,
+    "goals": 0,
+    "club": "Bayer Leverkusen"
+  },
+  {
+    "no": 15,
+    "pos": "MF",
+    "name": "Nicolás González",
+    "born": "1998-04-06",
+    "caps": 51,
+    "goals": 6,
+    "club": "Atlético Madrid"
+  },
+  {
+    "no": 16,
+    "pos": "ST",
+    "name": "Thiago Almada",
+    "born": "2001-04-26",
+    "caps": 16,
+    "goals": 5,
+    "club": "Atlético Madrid"
+  },
+  {
+    "no": 17,
+    "pos": "ST",
+    "name": "Giuliano Simeone",
+    "born": "2002-12-18",
+    "caps": 13,
+    "goals": 2,
+    "club": "Atlético Madrid"
+  },
+  {
+    "no": 18,
+    "pos": "ST",
+    "name": "Nico Paz",
+    "born": "2004-09-08",
+    "caps": 9,
+    "goals": 1,
+    "club": "Como"
+  },
+  {
+    "no": 19,
+    "pos": "AB",
+    "name": "Nicolás Otamendi",
+    "born": "1988-02-12",
+    "caps": 132,
+    "goals": 8,
+    "club": "Benfica"
+  },
+  {
+    "no": 20,
+    "pos": "MF",
+    "name": "Alexis Mac Allister",
+    "born": "1998-12-24",
+    "caps": 46,
+    "goals": 6,
+    "club": "Liverpool"
+  },
+  {
+    "no": 21,
+    "pos": "ST",
+    "name": "José Manuel López",
+    "born": "2000-12-06",
+    "caps": 5,
+    "goals": 0,
+    "club": "Palmeiras"
+  },
+  {
+    "no": 22,
+    "pos": "ST",
+    "name": "Lautaro Martínez",
+    "born": "1997-08-22",
+    "caps": 77,
+    "goals": 37,
+    "club": "Inter Milan"
+  },
+  {
+    "no": 23,
+    "pos": "TW",
+    "name": "Emiliano Martínez",
+    "born": "1992-09-02",
+    "caps": 59,
+    "goals": 0,
+    "club": "Aston Villa"
+  },
+  {
+    "no": 24,
+    "pos": "MF",
+    "name": "Enzo Fernández",
+    "born": "2001-01-17",
+    "caps": 42,
+    "goals": 6,
+    "club": "Chelsea"
+  },
+  {
+    "no": 25,
+    "pos": "AB",
+    "name": "Facundo Medina",
+    "born": "1999-05-28",
+    "caps": 9,
+    "goals": 0,
+    "club": "Marseille"
+  },
+  {
+    "no": 26,
+    "pos": "AB",
+    "name": "Nahuel Molina",
+    "born": "1998-04-06",
+    "caps": 58,
+    "goals": 1,
+    "club": "Atlético Madrid"
+  }
+]

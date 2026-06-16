@@ -1,0 +1,47 @@
+/* Designsystem „Digitales Panini-Album bei Flutlicht" — Details: research/design.md */
+:root {
+  /* Bühne & Albumseiten */
+  --stage: #0e1116;
+  --stage-raised: #161b23;
+  --paper: #f6f1e7;
+  --paper-shade: #eae2d2;
+
+  /* Panini-Kernfarben */
+  --panini-blue: #0b5fa5;
+  --panini-babyblue: #bfe0f5;
+  --accent-magenta: #e62e6b;
+  --pitch-green: #1f8a4c;
+  --live-red: #e5484d;
+
+  /* Gold-Foil (nur als Belohnung einsetzen!) */
+  --foil-gold: #d4af37;
+  --foil-gold-light: #f9e27d;
+  --foil-gold-dark: #8c6a1d;
+
+  /* Signal/Warnung (Bernstein) — Hinweise wie „Daten veraltet" / „verschoben"; bewusst
+     orange-warm, klar getrennt vom metallischen Belohnungs-Gold */
+  --signal-amber: #e0972a;
+
+  /* Text */
+  --ink: #1a1d22;
+  --ink-soft: #5a6070;
+  --text-on-dark: #f2f4f8;
+  --text-on-dark-soft: #9aa3b2;
+
+  /* Typografie */
+  --font-display: 'Anton', 'Arial Narrow', sans-serif;
+  --font-score: 'Oswald', 'Avenir Next Condensed', sans-serif;
+  --font-ui: 'Inter', -apple-system, 'Helvetica Neue', sans-serif;
+
+  /* Raster & Sticker */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --radius-sticker: 10px;
+  --radius-card: 14px;
+  --sticker-border: 5px; /* der ikonische weiße Panini-Rand */
+  --shadow-sticker: 0 2px 6px rgba(0, 0, 0, 0.25), 0 12px 32px rgba(0, 0, 0, 0.18);
+}

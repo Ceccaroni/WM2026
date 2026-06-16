@@ -1,0 +1,25 @@
+# Unsignierte Verteilung ohne Apple Developer Account:
+# Ad-hoc-Signatur (identity "-") ist Pflicht — komplett unsignierte Apps meldet
+# macOS nach dem Download als "beschädigt". Details: research/tech-stack.md
+appId: ch.lanz.wm26tipp
+productName: WM26 Tipp
+directories:
+  output: dist
+  buildResources: build
+files:
+  - out/**
+extraResources:
+  - from: resources/data
+    to: data
+mac:
+  category: public.app-category.sports
+  identity: "-"
+  hardenedRuntime: false
+  gatekeeperAssess: false
+  notarize: false
+  target:
+    - target: dmg
+dmg:
+  sign: false
+  artifactName: ${productName}-${version}-${arch}.${ext}
+npmRebuild: false

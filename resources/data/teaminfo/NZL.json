@@ -1,0 +1,40 @@
+{
+  "id": "NZL",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 85,
+  "wcRecord": "3. Teilnahme · zuletzt 2010",
+  "coach": {
+    "name": "Darren Bazeley",
+    "since": "2023"
+  },
+  "stars": [
+    {
+      "name": "Chris Wood",
+      "club": "Nottingham Forest",
+      "role": "Kapitän & Sturm"
+    },
+    {
+      "name": "Liberato Cacace",
+      "club": "Wrexham",
+      "role": "Linksverteidigung"
+    },
+    {
+      "name": "Marko Stamenić",
+      "club": "Swansea City",
+      "role": "Zentrales Mittelfeld"
+    },
+    {
+      "name": "Tyler Bindon",
+      "club": "Nottingham Forest",
+      "role": "Innenverteidigung"
+    }
+  ],
+  "form": "Besorgniserregende Verfassung: Bei der FIFA Series im März in Auckland verlor Neuseeland 0:2 gegen Finnland, ehe ein 4:1 gegen Chile gelang. Die Juni-Generalproben misslangen komplett — 0:4-Debakel gegen Haiti in Fort Lauderdale und 0:1 gegen England (Kane-Kopfball) in Tampa.",
+  "quali": "Makellos durch die OFC-Qualifikation marschiert und am 24. März 2025 mit einem 3:0-Finalsieg gegen Neukaledonien im Eden Park das Ticket gelöst — die erste WM-Teilnahme seit 2010.",
+  "storylines": [
+    "Erste WM seit 16 Jahren — und mit Weltranglistenplatz 85 das am niedrigsten platzierte Team des gesamten Turniers",
+    "0:4-Klatsche gegen Haiti im ersten Juni-Test alarmiert kurz vor dem Auftakt gegen Iran",
+    "Kapitän Chris Wood (38) kommt nach einer Abstiegskampf-Saison mit Nottingham Forest und nur 7 Saisontoren zur WM",
+    "Noch nie ein WM-Spiel gewonnen — 2010 aber als einziges ungeschlagenes Team des Turniers ausgeschieden"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "_quelle": "FIFA World Cup 26 Regulations + Wikipedia knockout stage, kreuzverifiziert mit fixturedownload-Feed (research/wm2026-daten.md). Notation: 1A=Sieger Gruppe A, 2A=Zweiter, 3ABCDF=Dritter aus A/B/C/D/F, W73=Sieger Spiel 73, L101=Verlierer Spiel 101.",
+  "r32": [
+    { "match": 73, "home": "2A", "away": "2B" },
+    { "match": 74, "home": "1E", "away": "3ABCDF" },
+    { "match": 75, "home": "1F", "away": "2C" },
+    { "match": 76, "home": "1C", "away": "2F" },
+    { "match": 77, "home": "1I", "away": "3CDFGH" },
+    { "match": 78, "home": "2E", "away": "2I" },
+    { "match": 79, "home": "1A", "away": "3CEFHI" },
+    { "match": 80, "home": "1L", "away": "3EHIJK" },
+    { "match": 81, "home": "1D", "away": "3BEFIJ" },
+    { "match": 82, "home": "1G", "away": "3AEHIJ" },
+    { "match": 83, "home": "2K", "away": "2L" },
+    { "match": 84, "home": "1H", "away": "2J" },
+    { "match": 85, "home": "1B", "away": "3EFGIJ" },
+    { "match": 86, "home": "1J", "away": "2H" },
+    { "match": 87, "home": "1K", "away": "3DEIJL" },
+    { "match": 88, "home": "2D", "away": "2G" }
+  ],
+  "r16": [
+    { "match": 89, "home": "W74", "away": "W77" },
+    { "match": 90, "home": "W73", "away": "W75" },
+    { "match": 91, "home": "W76", "away": "W78" },
+    { "match": 92, "home": "W79", "away": "W80" },
+    { "match": 93, "home": "W83", "away": "W84" },
+    { "match": 94, "home": "W81", "away": "W82" },
+    { "match": 95, "home": "W86", "away": "W88" },
+    { "match": 96, "home": "W85", "away": "W87" }
+  ],
+  "qf": [
+    { "match": 97, "home": "W89", "away": "W90" },
+    { "match": 98, "home": "W93", "away": "W94" },
+    { "match": 99, "home": "W91", "away": "W92" },
+    { "match": 100, "home": "W95", "away": "W96" }
+  ],
+  "sf": [
+    { "match": 101, "home": "W97", "away": "W98" },
+    { "match": 102, "home": "W99", "away": "W100" }
+  ],
+  "third": { "match": 103, "home": "L101", "away": "L102" },
+  "final": { "match": 104, "home": "W101", "away": "W102" },
+  "thirdPlaceAllocation": {
+    "slots": {
+      "74": ["A", "B", "C", "D", "F"],
+      "77": ["C", "D", "F", "G", "H"],
+      "79": ["C", "E", "F", "H", "I"],
+      "80": ["E", "H", "I", "J", "K"],
+      "81": ["B", "E", "F", "I", "J"],
+      "82": ["A", "E", "H", "I", "J"],
+      "85": ["E", "F", "G", "I", "J"],
+      "87": ["D", "E", "I", "J", "L"]
+    },
+    "annexC": "siehe annexc.json — offizielle Tabelle (495 Kombinationen), extrahiert am 11.06.2026 aus den FIFA-Regularien (S. 81 ff.), validiert per scripts/validate-annexc.mjs"
+  }
+}

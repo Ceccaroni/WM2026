@@ -1,0 +1,69 @@
+<!doctype html>
+<!-- App-Icon-Vorlage (1024×1024, transparent) — gerendert von scripts/make-icon.mjs.
+     Design: Panini-Sticker bei Flutlicht, Apple-Squircle-Raster (824px, Radius ~22.5%). -->
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      @font-face {
+        font-family: 'Anton';
+        src: url('../src/renderer/src/assets/fonts/anton-400-latin.woff2') format('woff2');
+      }
+      * { margin: 0; padding: 0; }
+      html, body { background: transparent; width: 1024px; height: 1024px; overflow: hidden; }
+      .squircle {
+        position: absolute;
+        left: 100px;
+        top: 100px;
+        width: 824px;
+        height: 824px;
+        border-radius: 186px;
+        background:
+          radial-gradient(700px 420px at 68% -8%, rgba(11, 95, 165, 0.55), transparent),
+          radial-gradient(520px 320px at 18% 108%, rgba(230, 46, 107, 0.28), transparent),
+          #0e1116;
+        box-shadow: 0 18px 48px rgba(0, 0, 0, 0.35);
+        display: grid;
+        place-items: center;
+        overflow: hidden;
+      }
+      .sticker {
+        width: 470px;
+        height: 580px;
+        transform: rotate(-6deg);
+        border: 26px solid #fff;
+        border-radius: 30px;
+        background: linear-gradient(150deg, #134a78, #0b5fa5 55%, #2a7cc4);
+        box-shadow: 0 14px 40px rgba(0, 0, 0, 0.45);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 44px 0 0;
+        box-sizing: border-box;
+      }
+      .ball {
+        font-size: 300px;
+        line-height: 1.05;
+        filter: drop-shadow(0 10px 24px rgba(0, 0, 0, 0.4));
+      }
+      .band {
+        width: 100%;
+        padding: 14px 0 18px;
+        background: linear-gradient(115deg, #8c6a1d, #d4af37 35%, #f9e27d 52%, #d4af37 70%, #8c6a1d);
+        font: 400 118px 'Anton', sans-serif;
+        letter-spacing: 0.04em;
+        text-align: center;
+        color: #2a2008;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="squircle">
+      <div class="sticker">
+        <div class="ball">⚽</div>
+        <div class="band">WM26</div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+{
+  "id": "CUW",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 82,
+  "wcRecord": "WM-Debüt · kleinstes Teilnehmerland der WM-Geschichte",
+  "coach": {
+    "name": "Dick Advocaat",
+    "since": "2024"
+  },
+  "stars": [
+    {
+      "name": "Leandro Bacuna",
+      "club": "Iğdır FK",
+      "role": "Kapitän & Mittelfeld"
+    },
+    {
+      "name": "Tahith Chong",
+      "club": "Sheffield United",
+      "role": "Offensives Mittelfeld"
+    },
+    {
+      "name": "Juninho Bacuna",
+      "club": "FC Volendam",
+      "role": "Zentrales Mittelfeld"
+    },
+    {
+      "name": "Eloy Room",
+      "club": "Miami FC",
+      "role": "Torwart"
+    }
+  ],
+  "form": "Die Resultate seit der Qualifikation sind ernüchternd: 0:2 gegen China, 1:5 gegen Australien und 1:4 gegen Schottland. Immerhin gelang am 6. Juni zum Abschied ein 4:0 im Inselduell gegen Aruba.",
+  "quali": "Sensationell ungeschlagen durch die CONCACAF-Quali, unter anderem mit einem 7:0 gegen Bermuda und 5:1 gegen Haiti; das 0:0 in Jamaika im November 2025 machte den Gruppensieg und das historische WM-Ticket perfekt.",
+  "storylines": [
+    "Kleinste WM-Nation aller Zeiten: rund 160'000 Einwohner",
+    "Trainer-Wirrwarr: Advocaat trat im Februar aus familiären Gründen zurück, Nachfolger Rutten warf ebenfalls hin — im Mai kehrte Advocaat zurück und wird mit 78 der älteste WM-Coach der Geschichte",
+    "Fast der gesamte Kader wurde in den Niederlanden geboren und ausgebildet — Chong ist der einzige nicht dort geborene Spieler",
+    "WM-Auftakt ausgerechnet gegen Deutschland in Houston (14. Juni)"
+  ]
+}

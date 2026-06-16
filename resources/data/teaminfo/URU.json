@@ -1,0 +1,40 @@
+{
+  "id": "URU",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 17,
+  "wcRecord": "15. Teilnahme · Weltmeister 1930, 1950",
+  "coach": {
+    "name": "Marcelo Bielsa",
+    "since": "2023"
+  },
+  "stars": [
+    {
+      "name": "Federico Valverde",
+      "club": "Real Madrid",
+      "role": "Kapitän & Zentrales Mittelfeld"
+    },
+    {
+      "name": "Darwin Núñez",
+      "club": "Al-Hilal",
+      "role": "Sturm"
+    },
+    {
+      "name": "Ronald Araújo",
+      "club": "FC Barcelona",
+      "role": "Innenverteidigung"
+    },
+    {
+      "name": "Manuel Ugarte",
+      "club": "Manchester United",
+      "role": "Defensives Mittelfeld"
+    }
+  ],
+  "form": "Durchwachsene Generalprobe: Im März 1:1 gegen England in Wembley dank spätem Valverde-Elfmeter, danach 0:0 gegen Algerien in Turin. Auf Juni-Testspiele verzichtete Bielsa, die 1:5-Klatsche gegen die USA vom November 2025 wirkt noch nach.",
+  "quali": "Direkt qualifiziert als Vierter der CONMEBOL-Quali mit 28 Punkten (7 Siege, 7 Remis, 4 Niederlagen) hinter Argentinien, Ecuador und Brasilien.",
+  "storylines": [
+    "Bielsa blieb trotz Krisensitzung nach dem 1:5 gegen die USA im Amt — seine Mission endet laut eigener Aussage mit der WM",
+    "Ende einer Ära: Luis Suárez nicht nominiert — erstmals seit 2010 eine WM ohne ihn und Cavani",
+    "Darwin Núñez bei Al-Hilal seit Februar aussortiert (Benzema-Ankunft) und vor dem Absprung — kaum Spielpraxis vor der WM",
+    "Muslera kehrt aus dem Rücktritt zurück: fünfte WM und uruguayischer WM-Einsatzrekord"
+  ]
+}

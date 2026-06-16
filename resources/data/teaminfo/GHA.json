@@ -1,0 +1,40 @@
+{
+  "id": "GHA",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 74,
+  "wcRecord": "5. Teilnahme · Viertelfinale 2010",
+  "coach": {
+    "name": "Carlos Queiroz",
+    "since": "2026"
+  },
+  "stars": [
+    {
+      "name": "Antoine Semenyo",
+      "club": "Manchester City",
+      "role": "Flügel"
+    },
+    {
+      "name": "Thomas Partey",
+      "club": "Villarreal",
+      "role": "Defensives Mittelfeld"
+    },
+    {
+      "name": "Jordan Ayew",
+      "club": "Leicester City",
+      "role": "Kapitän & Sturm"
+    },
+    {
+      "name": "Iñaki Williams",
+      "club": "Athletic Bilbao",
+      "role": "Sturm"
+    }
+  ],
+  "form": "Turbulente Vorbereitung: Im März 1:2 in Stuttgart gegen Deutschland — Stunden danach wurde Otto Addo entlassen. Im Mai folgte ein 0:2 gegen Mexiko in Puebla, ehe Queiroz' Debüt am 2. Juni ein 1:1 gegen Wales in Cardiff brachte. Den Afrika-Cup 2025 in Marokko hatte Ghana zuvor erstmals seit 2004 verpasst.",
+  "quali": "Souveräner Sieger der CAF-Gruppe I: 25 Punkte aus 10 Spielen (8 Siege, 1 Remis, 1 Niederlage, 23:6 Tore); das WM-Ticket sicherte ein 1:0 gegen die Komoren im Oktober 2025 — Siegtorschütze Kudus.",
+  "storylines": [
+    "Trainer-Beben kurz vor der WM: Otto Addo am 30. März nach dem 1:2 gegen Deutschland entlassen — Routinier Carlos Queiroz (73) übernahm Mitte April, seine fünfte WM in Folge als Trainer",
+    "Bitterer Ausfall: Superstar Mohammed Kudus (Tottenham) fehlt nach Oberschenkelverletzung und Rückschlag in der Reha — ausgerechnet der Schütze des Quali-Siegtors",
+    "Semenyo als neue Galionsfigur: Im Januar 2026 für rund 64 Millionen Pfund von Bournemouth zu Manchester City gewechselt — Ghanas grösste Hoffnung",
+    "Radikaler Umbruch: 15 WM-Debütanten im Kader, André Ayew fehlt — Captain ist Rekordspieler Jordan Ayew"
+  ]
+}

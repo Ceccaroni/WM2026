@@ -1,0 +1,40 @@
+{
+  "id": "MEX",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 15,
+  "wcRecord": "18. Teilnahme · Viertelfinale 1970 & 1986",
+  "coach": {
+    "name": "Javier Aguirre",
+    "since": "2024"
+  },
+  "stars": [
+    {
+      "name": "Santiago Giménez",
+      "club": "AC Milan",
+      "role": "Sturm"
+    },
+    {
+      "name": "Edson Álvarez",
+      "club": "Fenerbahçe (Leihe von West Ham)",
+      "role": "Kapitän & defensives Mittelfeld"
+    },
+    {
+      "name": "Raúl Jiménez",
+      "club": "FC Fulham",
+      "role": "Sturm"
+    },
+    {
+      "name": "Gilberto Mora",
+      "club": "Club Tijuana",
+      "role": "Offensives Mittelfeld"
+    }
+  ],
+  "form": "2026 ungeschlagen: Im März 0:0 gegen Portugal und 1:1 gegen Belgien, danach Testsiege gegen Ghana (2:0) und Australien (1:0). Generalprobe geglückt – am 4. Juni 5:1 gegen Serbien in Toluca, mit Treffern von Vásquez, Raúl Jiménez und Chávez.",
+  "quali": "Als Co-Gastgeber automatisch qualifiziert – nach 1970 und 1986 ist Mexiko zum dritten Mal WM-Gastgeber.",
+  "storylines": [
+    "Eröffnungsspiel der WM am 11. Juni gegen Südafrika im Estadio Azteca – als erstes Stadion überhaupt Schauplatz von drei Weltmeisterschaften",
+    "Guillermo Ochoa (40) steht vor seiner Rekord-sechsten WM-Teilnahme",
+    "Das 17-jährige Juwel Gilberto Mora kann jüngster Mexikaner an einer WM werden – nach dreimonatiger Leistenverletzung rechtzeitig fit",
+    "Nur drei gelernte Innenverteidiger im Kader sorgen für Debatten; Henry Martín, Malagón und Huescas fehlen verletzt"
+  ]
+}

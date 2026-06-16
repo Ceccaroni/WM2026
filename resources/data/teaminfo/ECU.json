@@ -1,0 +1,40 @@
+{
+  "id": "ECU",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 23,
+  "wcRecord": "5. Teilnahme · bestes Ergebnis: Achtelfinale 2006",
+  "coach": {
+    "name": "Sebastián Beccacece",
+    "since": "2024"
+  },
+  "stars": [
+    {
+      "name": "Moisés Caicedo",
+      "club": "FC Chelsea",
+      "role": "Defensives Mittelfeld"
+    },
+    {
+      "name": "Willian Pacho",
+      "club": "Paris Saint-Germain",
+      "role": "Innenverteidigung"
+    },
+    {
+      "name": "Piero Hincapié",
+      "club": "FC Arsenal",
+      "role": "Innenverteidigung"
+    },
+    {
+      "name": "Enner Valencia",
+      "club": "CF Pachuca",
+      "role": "Kapitän & Sturm"
+    }
+  ],
+  "form": "Seit 19 Spielen ungeschlagen — die letzte Niederlage gab es im September 2024 gegen Brasilien. Im März trotzte La Tri den Niederlanden in Eindhoven ein 1:1 ab (Valencia-Elfmeter), die Generalprobe am 7. Juni wurde 3:0 gegen Guatemala gewonnen. Zwölf Zu-null-Spiele in der laufenden Serie unterstreichen die defensive Stabilität.",
+  "quali": "CONMEBOL-Zweiter hinter Argentinien mit 29 Punkten — trotz drei Punkten Abzug aus der Castillo-Affäre. Nur 5 Gegentore in 18 Spielen: die mit Abstand beste Abwehr Südamerikas.",
+  "storylines": [
+    "19 Spiele ungeschlagen — Statistiker führen Ecuador als Geheimfavoriten des Turniers",
+    "Pacho gewann mit PSG als erster Ecuadorianer die Champions League",
+    "Stürmer Leonardo Campana fehlt nach später Verletzung in der Vorbereitung",
+    "Kapitän und Rekordtorschütze Valencia (36) führt das Team bei seiner wohl letzten WM an"
+  ]
+}

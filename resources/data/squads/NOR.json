@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Ørjan Nyland",
+    "born": "1990-09-10",
+    "caps": 71,
+    "goals": 0,
+    "club": "Sevilla"
+  },
+  {
+    "no": 2,
+    "pos": "MF",
+    "name": "Morten Thorsby",
+    "born": "1996-05-05",
+    "caps": 31,
+    "goals": 0,
+    "club": "Cremonese"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Kristoffer Ajer",
+    "born": "1998-04-17",
+    "caps": 52,
+    "goals": 2,
+    "club": "Brentford"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Leo Østigård",
+    "born": "1999-11-28",
+    "caps": 38,
+    "goals": 1,
+    "club": "Genoa"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "David Møller Wolfe",
+    "born": "2002-04-23",
+    "caps": 22,
+    "goals": 1,
+    "club": "Wolverhampton Wanderers"
+  },
+  {
+    "no": 6,
+    "pos": "MF",
+    "name": "Patrick Berg",
+    "born": "1997-11-24",
+    "caps": 43,
+    "goals": 0,
+    "club": "Bodø/Glimt"
+  },
+  {
+    "no": 7,
+    "pos": "ST",
+    "name": "Alexander Sørloth",
+    "born": "1995-12-05",
+    "caps": 72,
+    "goals": 26,
+    "club": "Atlético Madrid"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Sander Berge",
+    "born": "1998-02-14",
+    "caps": 66,
+    "goals": 1,
+    "club": "Fulham"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Erling Haaland",
+    "born": "2000-07-21",
+    "caps": 50,
+    "goals": 55,
+    "club": "Manchester City"
+  },
+  {
+    "no": 10,
+    "pos": "MF",
+    "name": "Martin Ødegaard",
+    "born": "1998-12-17",
+    "caps": 68,
+    "goals": 5,
+    "club": "Arsenal",
+    "captain": true
+  },
+  {
+    "no": 11,
+    "pos": "ST",
+    "name": "Jørgen Strand Larsen",
+    "born": "2000-02-06",
+    "caps": 28,
+    "goals": 6,
+    "club": "Crystal Palace"
+  },
+  {
+    "no": 12,
+    "pos": "TW",
+    "name": "Sander Tangvik",
+    "born": "2002-11-29",
+    "caps": 0,
+    "goals": 0,
+    "club": "Hamburger SV"
+  },
+  {
+    "no": 13,
+    "pos": "TW",
+    "name": "Egil Selvik",
+    "born": "1997-07-30",
+    "caps": 7,
+    "goals": 0,
+    "club": "Watford"
+  },
+  {
+    "no": 14,
+    "pos": "MF",
+    "name": "Fredrik Aursnes",
+    "born": "1995-12-10",
+    "caps": 22,
+    "goals": 1,
+    "club": "Benfica"
+  },
+  {
+    "no": 15,
+    "pos": "AB",
+    "name": "Fredrik André Bjørkan",
+    "born": "1998-08-21",
+    "caps": 21,
+    "goals": 1,
+    "club": "Bodø/Glimt"
+  },
+  {
+    "no": 16,
+    "pos": "AB",
+    "name": "Marcus Holmgren Pedersen",
+    "born": "2000-07-16",
+    "caps": 32,
+    "goals": 0,
+    "club": "Torino"
+  },
+  {
+    "no": 17,
+    "pos": "AB",
+    "name": "Torbjørn Heggem",
+    "born": "1999-01-12",
+    "caps": 15,
+    "goals": 0,
+    "club": "Bologna"
+  },
+  {
+    "no": 18,
+    "pos": "MF",
+    "name": "Kristian Thorstvedt",
+    "born": "1999-03-13",
+    "caps": 37,
+    "goals": 4,
+    "club": "Sassuolo"
+  },
+  {
+    "no": 19,
+    "pos": "MF",
+    "name": "Thelo Aasgaard",
+    "born": "2002-05-02",
+    "caps": 8,
+    "goals": 5,
+    "club": "Rangers"
+  },
+  {
+    "no": 20,
+    "pos": "ST",
+    "name": "Antonio Nusa",
+    "born": "2005-04-17",
+    "caps": 24,
+    "goals": 8,
+    "club": "RB Leipzig"
+  },
+  {
+    "no": 21,
+    "pos": "MF",
+    "name": "Andreas Schjelderup",
+    "born": "2004-06-01",
+    "caps": 12,
+    "goals": 1,
+    "club": "Benfica"
+  },
+  {
+    "no": 22,
+    "pos": "MF",
+    "name": "Oscar Bobb",
+    "born": "2003-07-12",
+    "caps": 20,
+    "goals": 2,
+    "club": "Fulham"
+  },
+  {
+    "no": 23,
+    "pos": "MF",
+    "name": "Jens Petter Hauge",
+    "born": "1999-10-12",
+    "caps": 15,
+    "goals": 1,
+    "club": "Bodø/Glimt"
+  },
+  {
+    "no": 24,
+    "pos": "AB",
+    "name": "Sondre Langås",
+    "born": "2001-02-02",
+    "caps": 3,
+    "goals": 0,
+    "club": "Derby County"
+  },
+  {
+    "no": 25,
+    "pos": "AB",
+    "name": "Henrik Falchener",
+    "born": "2003-05-08",
+    "caps": 1,
+    "goals": 0,
+    "club": "Viking"
+  },
+  {
+    "no": 26,
+    "pos": "ST",
+    "name": "Julian Ryerson",
+    "born": "1997-11-17",
+    "caps": 43,
+    "goals": 1,
+    "club": "Borussia Dortmund"
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "David Ospina",
+    "born": "1988-08-31",
+    "caps": 130,
+    "goals": 0,
+    "club": "Atlético Nacional"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Daniel Muñoz",
+    "born": "1996-05-26",
+    "caps": 46,
+    "goals": 3,
+    "club": "Crystal Palace"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Jhon Lucumí",
+    "born": "1998-06-26",
+    "caps": 37,
+    "goals": 1,
+    "club": "Bologna"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Santiago Arias",
+    "born": "1992-01-13",
+    "caps": 68,
+    "goals": 0,
+    "club": "Independiente"
+  },
+  {
+    "no": 5,
+    "pos": "MF",
+    "name": "Kevin Castaño",
+    "born": "2000-09-29",
+    "caps": 25,
+    "goals": 0,
+    "club": "River Plate"
+  },
+  {
+    "no": 6,
+    "pos": "MF",
+    "name": "Richard Ríos",
+    "born": "2000-06-02",
+    "caps": 32,
+    "goals": 2,
+    "club": "Benfica"
+  },
+  {
+    "no": 7,
+    "pos": "ST",
+    "name": "Luis Díaz",
+    "born": "1997-01-13",
+    "caps": 74,
+    "goals": 22,
+    "club": "Bayern Munich"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Jorge Carrascal",
+    "born": "1998-05-25",
+    "caps": 24,
+    "goals": 2,
+    "club": "Flamengo"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Jhon Córdoba",
+    "born": "1993-05-11",
+    "caps": 21,
+    "goals": 6,
+    "club": "Krasnodar"
+  },
+  {
+    "no": 10,
+    "pos": "MF",
+    "name": "James Rodríguez",
+    "born": "1991-07-12",
+    "caps": 126,
+    "goals": 31,
+    "club": "Minnesota United FC",
+    "captain": true
+  },
+  {
+    "no": 11,
+    "pos": "MF",
+    "name": "Jhon Arias",
+    "born": "1997-09-21",
+    "caps": 38,
+    "goals": 6,
+    "club": "Palmeiras"
+  },
+  {
+    "no": 12,
+    "pos": "TW",
+    "name": "Camilo Vargas",
+    "born": "1989-03-09",
+    "caps": 42,
+    "goals": 0,
+    "club": "Atlas"
+  },
+  {
+    "no": 13,
+    "pos": "AB",
+    "name": "Yerry Mina",
+    "born": "1994-09-23",
+    "caps": 54,
+    "goals": 8,
+    "club": "Cagliari"
+  },
+  {
+    "no": 14,
+    "pos": "AB",
+    "name": "Gustavo Puerta",
+    "born": "2003-07-23",
+    "caps": 6,
+    "goals": 1,
+    "club": "Racing Santander"
+  },
+  {
+    "no": 15,
+    "pos": "MF",
+    "name": "Juan Portilla",
+    "born": "1998-09-12",
+    "caps": 10,
+    "goals": 0,
+    "club": "Athletico Paranaense"
+  },
+  {
+    "no": 16,
+    "pos": "MF",
+    "name": "Jefferson Lerma",
+    "born": "1994-10-25",
+    "caps": 65,
+    "goals": 5,
+    "club": "Crystal Palace"
+  },
+  {
+    "no": 17,
+    "pos": "AB",
+    "name": "Johan Mojica",
+    "born": "1992-08-21",
+    "caps": 45,
+    "goals": 1,
+    "club": "Mallorca"
+  },
+  {
+    "no": 18,
+    "pos": "AB",
+    "name": "Willer Ditta",
+    "born": "1998-01-23",
+    "caps": 5,
+    "goals": 0,
+    "club": "Cruz Azul"
+  },
+  {
+    "no": 19,
+    "pos": "ST",
+    "name": "Cucho Hernández",
+    "born": "1999-04-20",
+    "caps": 9,
+    "goals": 2,
+    "club": "Real Betis"
+  },
+  {
+    "no": 20,
+    "pos": "MF",
+    "name": "Juan Fernando Quintero",
+    "born": "1993-01-18",
+    "caps": 49,
+    "goals": 6,
+    "club": "River Plate"
+  },
+  {
+    "no": 21,
+    "pos": "ST",
+    "name": "Jaminton Campaz",
+    "born": "2000-05-24",
+    "caps": 10,
+    "goals": 1,
+    "club": "Rosario Central"
+  },
+  {
+    "no": 22,
+    "pos": "AB",
+    "name": "Deiver Machado",
+    "born": "1993-09-02",
+    "caps": 15,
+    "goals": 0,
+    "club": "Nantes"
+  },
+  {
+    "no": 23,
+    "pos": "AB",
+    "name": "Davinson Sánchez",
+    "born": "1996-06-12",
+    "caps": 79,
+    "goals": 4,
+    "club": "Galatasaray"
+  },
+  {
+    "no": 24,
+    "pos": "TW",
+    "name": "Álvaro Montero",
+    "born": "1995-03-29",
+    "caps": 12,
+    "goals": 0,
+    "club": "Vélez Sarsfield"
+  },
+  {
+    "no": 25,
+    "pos": "ST",
+    "name": "Luis Suárez",
+    "born": "1997-12-02",
+    "caps": 12,
+    "goals": 5,
+    "club": "Sporting CP"
+  },
+  {
+    "no": 26,
+    "pos": "ST",
+    "name": "Andrés Gómez",
+    "born": "2002-09-12",
+    "caps": 8,
+    "goals": 2,
+    "club": "Vasco da Gama"
+  }
+]

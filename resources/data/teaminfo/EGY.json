@@ -1,0 +1,40 @@
+{
+  "id": "EGY",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 29,
+  "wcRecord": "4. Teilnahme · zuletzt 2018",
+  "coach": {
+    "name": "Hossam Hassan",
+    "since": "2024"
+  },
+  "stars": [
+    {
+      "name": "Mohamed Salah",
+      "club": "vereinslos (Liverpool-Abgang)",
+      "role": "Kapitän & Flügel"
+    },
+    {
+      "name": "Omar Marmoush",
+      "club": "Manchester City",
+      "role": "Sturm"
+    },
+    {
+      "name": "Emam Ashour",
+      "club": "Al Ahly",
+      "role": "Offensives Mittelfeld"
+    },
+    {
+      "name": "Mohamed El Shenawy",
+      "club": "Al Ahly",
+      "role": "Torwart"
+    }
+  ],
+  "form": "Starke WM-Vorbereitung: Im März gewann Ägypten 4:0 gegen Saudi-Arabien und holte ein 0:0 gegen Spanien, im Juni folgten ein 1:0 gegen Russland und ein knappes 1:2 gegen Brasilien (Tor jeweils durch Mostafa Ziko). Beim Afrika-Cup in Marokko gab es dagegen einen Dämpfer: 0:1-Halbfinalniederlage gegen Senegal und am Ende nur Platz vier.",
+  "quali": "Souverän als Sieger der CAF-Gruppe A qualifiziert — eine nahezu makellose Kampagne, fixiert mit dem 3:0 gegen Dschibuti im Oktober 2025. Salah traf in neun Quali-Spielen neunmal.",
+  "storylines": [
+    "Salah reist vereinslos zur WM: Liverpool-Vertrag nach Streit mit Arne Slot vorzeitig aufgelöst, Zukunft offen (Fenerbahçe und Saudi-Klubs werben)",
+    "Afrika-Cup-Nachwehen: nur Platz vier in Marokko nach 0:1 im Halbfinale gegen Senegal",
+    "Wartet seit 1934 auf den allerersten WM-Sieg der Verbandsgeschichte",
+    "Marmoush kommt mit wenig Spielpraxis zur WM: nur 699 Liga-Minuten für Manchester City, dafür zwei Pokaltitel"
+  ]
+}

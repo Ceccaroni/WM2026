@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Mathew Ryan",
+    "born": "1992-04-08",
+    "caps": 104,
+    "goals": 0,
+    "club": "Levante",
+    "captain": true
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Miloš Degenek",
+    "born": "1994-04-28",
+    "caps": 57,
+    "goals": 1,
+    "club": "APOEL"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Alessandro Circati",
+    "born": "2003-10-10",
+    "caps": 13,
+    "goals": 1,
+    "club": "Parma"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Jacob Italiano",
+    "born": "2001-07-30",
+    "caps": 5,
+    "goals": 0,
+    "club": "Grazer AK"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Jordan Bos",
+    "born": "2002-10-29",
+    "caps": 27,
+    "goals": 4,
+    "club": "Feyenoord"
+  },
+  {
+    "no": 6,
+    "pos": "AB",
+    "name": "Jason Geria",
+    "born": "1993-05-10",
+    "caps": 14,
+    "goals": 0,
+    "club": "Albirex Niigata"
+  },
+  {
+    "no": 7,
+    "pos": "ST",
+    "name": "Mathew Leckie",
+    "born": "1991-02-04",
+    "caps": 80,
+    "goals": 14,
+    "club": "Melbourne City"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Connor Metcalfe",
+    "born": "1999-11-05",
+    "caps": 36,
+    "goals": 1,
+    "club": "FC St. Pauli"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Mohamed Touré",
+    "born": "2004-03-26",
+    "caps": 10,
+    "goals": 2,
+    "club": "Norwich City"
+  },
+  {
+    "no": 10,
+    "pos": "ST",
+    "name": "Ajdin Hrustic",
+    "born": "1996-07-05",
+    "caps": 37,
+    "goals": 4,
+    "club": "Heracles Almelo"
+  },
+  {
+    "no": 11,
+    "pos": "ST",
+    "name": "Awer Mabil",
+    "born": "1995-09-15",
+    "caps": 38,
+    "goals": 10,
+    "club": "Castellón"
+  },
+  {
+    "no": 12,
+    "pos": "TW",
+    "name": "Paul Izzo",
+    "born": "1995-01-06",
+    "caps": 4,
+    "goals": 0,
+    "club": "Randers"
+  },
+  {
+    "no": 13,
+    "pos": "MF",
+    "name": "Aiden O'Neill",
+    "born": "1998-07-04",
+    "caps": 31,
+    "goals": 0,
+    "club": "New York City FC"
+  },
+  {
+    "no": 14,
+    "pos": "MF",
+    "name": "Cammy Devlin",
+    "born": "1998-06-07",
+    "caps": 5,
+    "goals": 0,
+    "club": "Heart of Midlothian"
+  },
+  {
+    "no": 15,
+    "pos": "AB",
+    "name": "Kai Trewin",
+    "born": "2001-05-18",
+    "caps": 6,
+    "goals": 0,
+    "club": "New York City FC"
+  },
+  {
+    "no": 16,
+    "pos": "AB",
+    "name": "Aziz Behich",
+    "born": "1990-12-16",
+    "caps": 84,
+    "goals": 3,
+    "club": "Melbourne City"
+  },
+  {
+    "no": 17,
+    "pos": "ST",
+    "name": "Nestory Irankunda",
+    "born": "2006-02-09",
+    "caps": 15,
+    "goals": 5,
+    "club": "Watford"
+  },
+  {
+    "no": 18,
+    "pos": "TW",
+    "name": "Patrick Beach",
+    "born": "2003-08-06",
+    "caps": 2,
+    "goals": 0,
+    "club": "Melbourne City"
+  },
+  {
+    "no": 19,
+    "pos": "AB",
+    "name": "Harry Souttar",
+    "born": "1998-10-22",
+    "caps": 38,
+    "goals": 11,
+    "club": "Leicester City"
+  },
+  {
+    "no": 20,
+    "pos": "ST",
+    "name": "Cristian Volpato",
+    "born": "2003-11-15",
+    "caps": 1,
+    "goals": 0,
+    "club": "Sassuolo"
+  },
+  {
+    "no": 21,
+    "pos": "AB",
+    "name": "Cameron Burgess",
+    "born": "1995-10-21",
+    "caps": 27,
+    "goals": 0,
+    "club": "Swansea City"
+  },
+  {
+    "no": 22,
+    "pos": "MF",
+    "name": "Jackson Irvine",
+    "born": "1993-03-07",
+    "caps": 82,
+    "goals": 14,
+    "club": "FC St. Pauli"
+  },
+  {
+    "no": 23,
+    "pos": "ST",
+    "name": "Nishan Velupillay",
+    "born": "2001-05-07",
+    "caps": 7,
+    "goals": 3,
+    "club": "Melbourne Victory"
+  },
+  {
+    "no": 24,
+    "pos": "MF",
+    "name": "Paul Okon-Engstler",
+    "born": "2005-01-24",
+    "caps": 6,
+    "goals": 0,
+    "club": "Sydney FC"
+  },
+  {
+    "no": 25,
+    "pos": "AB",
+    "name": "Lucas Herrington",
+    "born": "2007-09-05",
+    "caps": 4,
+    "goals": 0,
+    "club": "Colorado Rapids"
+  },
+  {
+    "no": 26,
+    "pos": "ST",
+    "name": "Tete Yengi",
+    "born": "2000-11-28",
+    "caps": 1,
+    "goals": 1,
+    "club": "Machida Zelvia"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "id": "ENG",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 4,
+  "wcRecord": "17. Teilnahme · Weltmeister 1966",
+  "coach": {
+    "name": "Thomas Tuchel",
+    "since": "2025"
+  },
+  "stars": [
+    {
+      "name": "Harry Kane",
+      "club": "Bayern München",
+      "role": "Kapitän & Sturm"
+    },
+    {
+      "name": "Jude Bellingham",
+      "club": "Real Madrid",
+      "role": "Offensives Mittelfeld"
+    },
+    {
+      "name": "Bukayo Saka",
+      "club": "Arsenal",
+      "role": "Flügel"
+    },
+    {
+      "name": "Declan Rice",
+      "club": "Arsenal",
+      "role": "Defensives Mittelfeld"
+    }
+  ],
+  "form": "Die März-Tests dämpften die Euphorie: 1:1 gegen Uruguay und ein historisches 0:1 gegen Japan — die erste Niederlage Englands gegen ein asiatisches Team überhaupt. Im Juni stimmte die Richtung wieder: 1:0 gegen Neuseeland und zum Abschluss ein dominantes 3:0 gegen Costa Rica in Orlando.",
+  "quali": "Makellose Qualifikation in Gruppe K: 8 Siege aus 8 Spielen, 22:0 Tore — als einziges europäisches Team ohne Gegentor durch die gesamte Kampagne.",
+  "storylines": [
+    "Tuchels erstes grosses Turnier als England-Coach — der Auftrag: 60 Jahre nach 1966 endlich wieder der Titel",
+    "Harte Kaderentscheide: Foden, Palmer, Alexander-Arnold und Maguire fehlen im 26er-Aufgebot — dafür ist Al-Ahli-Stürmer Ivan Toney (32 Ligatore) überraschend dabei",
+    "Kane reist nach einer Saison mit über 50 Bayern-Toren in Topform an — die Zukunftsfrage in München liess er bis nach der WM offen",
+    "Auftakt gleich gegen Mitfavorit Kroatien am 17. Juni in Arlington/Dallas"
+  ]
+}

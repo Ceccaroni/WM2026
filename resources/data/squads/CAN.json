@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Dayne St. Clair",
+    "born": "1997-05-09",
+    "caps": 20,
+    "goals": 0,
+    "club": "Inter Miami CF"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Alistair Johnston",
+    "born": "1998-10-08",
+    "caps": 58,
+    "goals": 1,
+    "club": "Celtic"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Alfie Jones",
+    "born": "1997-10-07",
+    "caps": 2,
+    "goals": 0,
+    "club": "Middlesbrough"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Luc de Fougerolles",
+    "born": "2005-10-12",
+    "caps": 13,
+    "goals": 0,
+    "club": "Dender"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Joel Waterman",
+    "born": "1996-01-24",
+    "caps": 17,
+    "goals": 0,
+    "club": "Chicago Fire FC"
+  },
+  {
+    "no": 6,
+    "pos": "MF",
+    "name": "Mathieu Choinière",
+    "born": "1999-02-07",
+    "caps": 23,
+    "goals": 0,
+    "club": "Los Angeles FC"
+  },
+  {
+    "no": 7,
+    "pos": "MF",
+    "name": "Stephen Eustáquio",
+    "born": "1996-12-21",
+    "caps": 56,
+    "goals": 4,
+    "club": "Los Angeles FC"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Ismaël Koné",
+    "born": "2002-06-16",
+    "caps": 40,
+    "goals": 4,
+    "club": "Sassuolo"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Cyle Larin",
+    "born": "1995-04-17",
+    "caps": 90,
+    "goals": 30,
+    "club": "Southampton"
+  },
+  {
+    "no": 10,
+    "pos": "ST",
+    "name": "Jonathan David",
+    "born": "2000-01-14",
+    "caps": 77,
+    "goals": 39,
+    "club": "Juventus"
+  },
+  {
+    "no": 11,
+    "pos": "MF",
+    "name": "Liam Millar",
+    "born": "1999-09-27",
+    "caps": 41,
+    "goals": 1,
+    "club": "Hull City"
+  },
+  {
+    "no": 12,
+    "pos": "ST",
+    "name": "Tani Oluwaseyi",
+    "born": "2000-05-15",
+    "caps": 24,
+    "goals": 2,
+    "club": "Villarreal"
+  },
+  {
+    "no": 13,
+    "pos": "AB",
+    "name": "Derek Cornelius",
+    "born": "1997-11-25",
+    "caps": 44,
+    "goals": 1,
+    "club": "Rangers"
+  },
+  {
+    "no": 14,
+    "pos": "MF",
+    "name": "Jacob Shaffelburg",
+    "born": "1999-11-26",
+    "caps": 31,
+    "goals": 6,
+    "club": "Los Angeles FC"
+  },
+  {
+    "no": 15,
+    "pos": "AB",
+    "name": "Moïse Bombito",
+    "born": "2000-03-30",
+    "caps": 20,
+    "goals": 0,
+    "club": "Nice"
+  },
+  {
+    "no": 16,
+    "pos": "TW",
+    "name": "Maxime Crépeau",
+    "born": "1994-05-11",
+    "caps": 32,
+    "goals": 0,
+    "club": "Orlando City SC"
+  },
+  {
+    "no": 17,
+    "pos": "ST",
+    "name": "Tajon Buchanan",
+    "born": "1999-02-08",
+    "caps": 60,
+    "goals": 8,
+    "club": "Villarreal"
+  },
+  {
+    "no": 18,
+    "pos": "TW",
+    "name": "Owen Goodman",
+    "born": "2003-11-27",
+    "caps": 0,
+    "goals": 0,
+    "club": "Barnsley"
+  },
+  {
+    "no": 19,
+    "pos": "AB",
+    "name": "Alphonso Davies",
+    "born": "2000-11-02",
+    "caps": 58,
+    "goals": 15,
+    "club": "Bayern Munich",
+    "captain": true
+  },
+  {
+    "no": 20,
+    "pos": "ST",
+    "name": "Ali Ahmed",
+    "born": "2000-10-10",
+    "caps": 24,
+    "goals": 1,
+    "club": "Norwich City"
+  },
+  {
+    "no": 21,
+    "pos": "MF",
+    "name": "Jonathan Osorio",
+    "born": "1992-06-12",
+    "caps": 90,
+    "goals": 10,
+    "club": "Toronto FC"
+  },
+  {
+    "no": 22,
+    "pos": "AB",
+    "name": "Richie Laryea",
+    "born": "1995-01-07",
+    "caps": 75,
+    "goals": 1,
+    "club": "Toronto FC"
+  },
+  {
+    "no": 23,
+    "pos": "AB",
+    "name": "Niko Sigur",
+    "born": "2003-09-09",
+    "caps": 19,
+    "goals": 2,
+    "club": "Hajduk Split"
+  },
+  {
+    "no": 24,
+    "pos": "ST",
+    "name": "Promise David",
+    "born": "2001-07-03",
+    "caps": 10,
+    "goals": 3,
+    "club": "Union Saint-Gilloise"
+  },
+  {
+    "no": 25,
+    "pos": "MF",
+    "name": "Nathan Saliba",
+    "born": "2004-02-07",
+    "caps": 15,
+    "goals": 2,
+    "club": "Anderlecht"
+  },
+  {
+    "no": 26,
+    "pos": "ST",
+    "name": "Jayden Nelson",
+    "born": "2002-09-26",
+    "caps": 14,
+    "goals": 3,
+    "club": "Austin FC"
+  }
+]

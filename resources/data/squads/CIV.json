@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Yahia Fofana",
+    "born": "2000-08-21",
+    "caps": 35,
+    "goals": 0,
+    "club": "Çaykur Rizespor"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Ousmane Diomande",
+    "born": "2003-12-04",
+    "caps": 15,
+    "goals": 1,
+    "club": "Sporting CP"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Ghislain Konan",
+    "born": "1995-12-27",
+    "caps": 54,
+    "goals": 0,
+    "club": "Gil Vicente"
+  },
+  {
+    "no": 4,
+    "pos": "MF",
+    "name": "Jean Michaël Seri",
+    "born": "1991-07-19",
+    "caps": 65,
+    "goals": 4,
+    "club": "Maribor"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Wilfried Singo",
+    "born": "2000-12-25",
+    "caps": 34,
+    "goals": 1,
+    "club": "Galatasaray"
+  },
+  {
+    "no": 6,
+    "pos": "MF",
+    "name": "Seko Fofana",
+    "born": "1995-05-07",
+    "caps": 32,
+    "goals": 7,
+    "club": "Porto"
+  },
+  {
+    "no": 7,
+    "pos": "AB",
+    "name": "Odilon Kossounou",
+    "born": "2001-01-04",
+    "caps": 35,
+    "goals": 0,
+    "club": "Atalanta"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Franck Kessié",
+    "born": "1996-12-19",
+    "caps": 103,
+    "goals": 15,
+    "club": "Al-Ahli",
+    "captain": true
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Ange-Yoan Bonny",
+    "born": "2003-10-25",
+    "caps": 1,
+    "goals": 0,
+    "club": "Inter Milan"
+  },
+  {
+    "no": 10,
+    "pos": "ST",
+    "name": "Simon Adingra",
+    "born": "2002-01-01",
+    "caps": 29,
+    "goals": 5,
+    "club": "Monaco"
+  },
+  {
+    "no": 11,
+    "pos": "ST",
+    "name": "Yan Diomande",
+    "born": "2006-11-14",
+    "caps": 10,
+    "goals": 3,
+    "club": "RB Leipzig"
+  },
+  {
+    "no": 12,
+    "pos": "ST",
+    "name": "Elye Wahi",
+    "born": "2003-01-02",
+    "caps": 2,
+    "goals": 0,
+    "club": "Nice"
+  },
+  {
+    "no": 13,
+    "pos": "AB",
+    "name": "Christopher Opéri",
+    "born": "1997-04-29",
+    "caps": 12,
+    "goals": 0,
+    "club": "İstanbul Başakşehir"
+  },
+  {
+    "no": 14,
+    "pos": "ST",
+    "name": "Oumar Diakité",
+    "born": "2003-12-20",
+    "caps": 29,
+    "goals": 6,
+    "club": "Cercle Brugge"
+  },
+  {
+    "no": 15,
+    "pos": "ST",
+    "name": "Amad Diallo",
+    "born": "2002-07-11",
+    "caps": 19,
+    "goals": 6,
+    "club": "Manchester United"
+  },
+  {
+    "no": 16,
+    "pos": "TW",
+    "name": "Mohamed Koné",
+    "born": "2002-03-07",
+    "caps": 0,
+    "goals": 0,
+    "club": "Charleroi"
+  },
+  {
+    "no": 17,
+    "pos": "AB",
+    "name": "Guéla Doué",
+    "born": "2002-10-17",
+    "caps": 20,
+    "goals": 3,
+    "club": "Strasbourg"
+  },
+  {
+    "no": 18,
+    "pos": "MF",
+    "name": "Ibrahim Sangaré",
+    "born": "1997-12-02",
+    "caps": 58,
+    "goals": 12,
+    "club": "Nottingham Forest"
+  },
+  {
+    "no": 19,
+    "pos": "ST",
+    "name": "Nicolas Pépé",
+    "born": "1995-05-29",
+    "caps": 55,
+    "goals": 12,
+    "club": "Villarreal"
+  },
+  {
+    "no": 20,
+    "pos": "AB",
+    "name": "Emmanuel Agbadou",
+    "born": "1997-06-17",
+    "caps": 20,
+    "goals": 2,
+    "club": "Beşiktaş"
+  },
+  {
+    "no": 21,
+    "pos": "AB",
+    "name": "Evan Ndicka",
+    "born": "1999-08-20",
+    "caps": 28,
+    "goals": 0,
+    "club": "Roma"
+  },
+  {
+    "no": 22,
+    "pos": "ST",
+    "name": "Evann Guessand",
+    "born": "2001-07-01",
+    "caps": 21,
+    "goals": 4,
+    "club": "Crystal Palace"
+  },
+  {
+    "no": 23,
+    "pos": "TW",
+    "name": "Alban Lafont",
+    "born": "1999-01-23",
+    "caps": 4,
+    "goals": 0,
+    "club": "Panathinaikos"
+  },
+  {
+    "no": 24,
+    "pos": "ST",
+    "name": "Bazoumana Touré",
+    "born": "2006-03-02",
+    "caps": 6,
+    "goals": 2,
+    "club": "TSG Hoffenheim"
+  },
+  {
+    "no": 25,
+    "pos": "MF",
+    "name": "Parfait Guiagon",
+    "born": "2001-02-22",
+    "caps": 5,
+    "goals": 0,
+    "club": "Charleroi"
+  },
+  {
+    "no": 26,
+    "pos": "MF",
+    "name": "Christ Inao Oulaï",
+    "born": "2006-04-06",
+    "caps": 9,
+    "goals": 0,
+    "club": "Trabzonspor"
+  }
+]

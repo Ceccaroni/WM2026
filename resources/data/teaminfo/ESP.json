@@ -1,0 +1,40 @@
+{
+  "id": "ESP",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 2,
+  "wcRecord": "17. Teilnahme · Weltmeister 2010",
+  "coach": {
+    "name": "Luis de la Fuente",
+    "since": "2022"
+  },
+  "stars": [
+    {
+      "name": "Lamine Yamal",
+      "club": "FC Barcelona",
+      "role": "Rechter Flügel"
+    },
+    {
+      "name": "Rodri",
+      "club": "Manchester City",
+      "role": "Kapitän & Defensives Mittelfeld"
+    },
+    {
+      "name": "Pedri",
+      "club": "FC Barcelona",
+      "role": "Zentrales Mittelfeld"
+    },
+    {
+      "name": "Mikel Oyarzabal",
+      "club": "Real Sociedad",
+      "role": "Sturm"
+    }
+  ],
+  "form": "Seit über 30 Länderspielen ungeschlagen (Landesrekord). Im März 3:0 gegen Serbien und 0:0 gegen Ägypten — Ersatzspiele für die abgesagte Finalissima gegen Argentinien. In der Juni-Generalprobe erst ein zähes 1:1 gegen Irak in A Coruña, dann ein 3:1 gegen Peru in Puebla mit Toren von Oyarzabal und Pedri.",
+  "quali": "Ungeschlagen als Sieger der UEFA-Gruppe E qualifiziert: fünf Siege, ein Remis, 21:2 Tore — perfekt gemacht mit dem 2:2 gegen die Türkei im November 2025.",
+  "storylines": [
+    "Lamine Yamal nach Hamstring-Verletzung vom April nur mit Minutenlimit — Barça empfiehlt maximal 15 Minuten im Auftaktspiel",
+    "Rodri zurück nach Kreuzbandriss und Rückschlägen — der Ballon-d'Or-Sieger führt Spanien als Kapitän an",
+    "Kein einziger Real-Madrid-Spieler im Kader — die grosse Kontroverse der Nominierung",
+    "Finalissima gegen Argentinien im März wegen der Sicherheitslage in Katar abgesagt"
+  ]
+}

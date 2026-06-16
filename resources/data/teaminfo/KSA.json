@@ -1,0 +1,40 @@
+{
+  "id": "KSA",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 61,
+  "wcRecord": "7. Teilnahme · Achtelfinale 1994",
+  "coach": {
+    "name": "Georgios Donis",
+    "since": "2026"
+  },
+  "stars": [
+    {
+      "name": "Salem Al-Dawsari",
+      "club": "Al-Hilal",
+      "role": "Kapitän & Flügel"
+    },
+    {
+      "name": "Firas Al-Buraikan",
+      "club": "Al-Ahli",
+      "role": "Sturm"
+    },
+    {
+      "name": "Saud Abdulhamid",
+      "club": "RC Lens",
+      "role": "Rechtsverteidigung"
+    },
+    {
+      "name": "Mohamed Kanno",
+      "club": "Al-Hilal",
+      "role": "Defensives Mittelfeld"
+    }
+  ],
+  "form": "Turbulente Vorbereitung: Nach dem 0:4 gegen Ägypten (27. März) und dem 1:2 in Serbien (31. März) wurde Renard entlassen. Unter dem neuen Trainer Donis gab es ein 1:2 gegen Ecuador (31. Mai), ein 3:0 gegen Puerto Rico (6. Juni) und zuletzt ein achtbares 0:0 gegen Senegal (10. Juni).",
+  "quali": "Qualifiziert über die 4. AFC-Runde: Nach Platz drei in der Gruppe hinter Japan und Australien gewann Saudi-Arabien im Oktober 2025 das Heim-Miniturnier in Dschidda mit einem 3:2 gegen Indonesien (Al-Buraikan-Doppelpack) und einem 0:0 gegen den Irak.",
+  "storylines": [
+    "Trainerbeben kurz vor der WM: Renard nach den März-Pleiten am 17. April entlassen, der Grieche Georgios Donis erst 55 Tage vor dem Turnier installiert",
+    "Kader fast komplett aus der Saudi Pro League — einziger Legionär ist Saud Abdulhamid (Lens), Al-Hilal stellt allein sieben Spieler",
+    "Kapitän Al-Dawsari (108 Länderspiele) kommt als Asiens Fussballer des Jahres 2025 — der Held des 2:1 gegen Argentinien 2022 soll es nochmals richten",
+    "Generalprobe mit Druck: Als Gastgeber der WM 2034 steht Saudi-Arabien besonders im Schaufenster"
+  ]
+}

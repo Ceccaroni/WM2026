@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Bart Verbruggen",
+    "born": "2002-08-18",
+    "caps": 29,
+    "goals": 0,
+    "club": "Brighton & Hove Albion"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Lutsharel Geertruida",
+    "born": "2000-07-18",
+    "caps": 21,
+    "goals": 0,
+    "club": "Sunderland"
+  },
+  {
+    "no": 3,
+    "pos": "MF",
+    "name": "Marten de Roon",
+    "born": "1991-03-29",
+    "caps": 43,
+    "goals": 1,
+    "club": "Atalanta"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Virgil van Dijk",
+    "born": "1991-07-08",
+    "caps": 92,
+    "goals": 12,
+    "club": "Liverpool",
+    "captain": true
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Nathan Aké",
+    "born": "1995-02-18",
+    "caps": 59,
+    "goals": 5,
+    "club": "Manchester City"
+  },
+  {
+    "no": 6,
+    "pos": "AB",
+    "name": "Jan Paul van Hecke",
+    "born": "2000-06-08",
+    "caps": 12,
+    "goals": 0,
+    "club": "Brighton & Hove Albion"
+  },
+  {
+    "no": 7,
+    "pos": "MF",
+    "name": "Justin Kluivert",
+    "born": "1999-05-05",
+    "caps": 12,
+    "goals": 0,
+    "club": "Bournemouth"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Ryan Gravenberch",
+    "born": "2002-05-16",
+    "caps": 27,
+    "goals": 1,
+    "club": "Liverpool"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Wout Weghorst",
+    "born": "1992-08-07",
+    "caps": 52,
+    "goals": 14,
+    "club": "Ajax"
+  },
+  {
+    "no": 10,
+    "pos": "ST",
+    "name": "Memphis Depay",
+    "born": "1994-02-13",
+    "caps": 109,
+    "goals": 55,
+    "club": "Corinthians"
+  },
+  {
+    "no": 11,
+    "pos": "ST",
+    "name": "Cody Gakpo",
+    "born": "1999-05-07",
+    "caps": 50,
+    "goals": 21,
+    "club": "Liverpool"
+  },
+  {
+    "no": 12,
+    "pos": "AB",
+    "name": "Mats Wieffer",
+    "born": "1999-11-16",
+    "caps": 15,
+    "goals": 1,
+    "club": "Brighton & Hove Albion"
+  },
+  {
+    "no": 13,
+    "pos": "TW",
+    "name": "Robin Roefs",
+    "born": "2003-01-17",
+    "caps": 1,
+    "goals": 0,
+    "club": "Sunderland"
+  },
+  {
+    "no": 14,
+    "pos": "MF",
+    "name": "Tijjani Reijnders",
+    "born": "1998-07-29",
+    "caps": 32,
+    "goals": 7,
+    "club": "Manchester City"
+  },
+  {
+    "no": 15,
+    "pos": "AB",
+    "name": "Micky van de Ven",
+    "born": "2001-04-19",
+    "caps": 21,
+    "goals": 1,
+    "club": "Tottenham Hotspur"
+  },
+  {
+    "no": 16,
+    "pos": "MF",
+    "name": "Guus Til",
+    "born": "1997-12-22",
+    "caps": 7,
+    "goals": 1,
+    "club": "PSV Eindhoven"
+  },
+  {
+    "no": 17,
+    "pos": "ST",
+    "name": "Noa Lang",
+    "born": "1999-06-17",
+    "caps": 15,
+    "goals": 3,
+    "club": "Galatasaray"
+  },
+  {
+    "no": 18,
+    "pos": "ST",
+    "name": "Donyell Malen",
+    "born": "1999-01-19",
+    "caps": 53,
+    "goals": 13,
+    "club": "Roma"
+  },
+  {
+    "no": 19,
+    "pos": "ST",
+    "name": "Brian Brobbey",
+    "born": "2002-02-01",
+    "caps": 12,
+    "goals": 1,
+    "club": "Sunderland"
+  },
+  {
+    "no": 20,
+    "pos": "MF",
+    "name": "Teun Koopmeiners",
+    "born": "1998-02-28",
+    "caps": 28,
+    "goals": 3,
+    "club": "Juventus"
+  },
+  {
+    "no": 21,
+    "pos": "MF",
+    "name": "Frenkie de Jong",
+    "born": "1997-05-12",
+    "caps": 66,
+    "goals": 2,
+    "club": "Barcelona"
+  },
+  {
+    "no": 22,
+    "pos": "AB",
+    "name": "Denzel Dumfries",
+    "born": "1996-04-18",
+    "caps": 72,
+    "goals": 11,
+    "club": "Inter Milan"
+  },
+  {
+    "no": 23,
+    "pos": "TW",
+    "name": "Mark Flekken",
+    "born": "1993-06-13",
+    "caps": 12,
+    "goals": 0,
+    "club": "Bayer Leverkusen"
+  },
+  {
+    "no": 24,
+    "pos": "ST",
+    "name": "Crysencio Summerville",
+    "born": "2001-10-30",
+    "caps": 2,
+    "goals": 0,
+    "club": "West Ham United"
+  },
+  {
+    "no": 25,
+    "pos": "AB",
+    "name": "Jorrel Hato",
+    "born": "2006-03-07",
+    "caps": 8,
+    "goals": 0,
+    "club": "Chelsea"
+  },
+  {
+    "no": 26,
+    "pos": "MF",
+    "name": "Quinten Timber",
+    "born": "2001-06-17",
+    "caps": 11,
+    "goals": 1,
+    "club": "Marseille"
+  }
+]

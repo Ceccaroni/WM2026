@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Gregor Kobel",
+    "born": "1997-12-06",
+    "caps": 21,
+    "goals": 0,
+    "club": "Borussia Dortmund"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Miro Muheim",
+    "born": "1998-03-24",
+    "caps": 10,
+    "goals": 0,
+    "club": "Hamburger SV"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Silvan Widmer",
+    "born": "1993-03-05",
+    "caps": 60,
+    "goals": 5,
+    "club": "Mainz 05"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Nico Elvedi",
+    "born": "1996-09-30",
+    "caps": 67,
+    "goals": 3,
+    "club": "Borussia Mönchengladbach"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Manuel Akanji",
+    "born": "1995-07-19",
+    "caps": 81,
+    "goals": 4,
+    "club": "Inter Milan"
+  },
+  {
+    "no": 6,
+    "pos": "MF",
+    "name": "Denis Zakaria",
+    "born": "1996-11-20",
+    "caps": 65,
+    "goals": 3,
+    "club": "Monaco"
+  },
+  {
+    "no": 7,
+    "pos": "ST",
+    "name": "Breel Embolo",
+    "born": "1997-02-14",
+    "caps": 86,
+    "goals": 24,
+    "club": "Rennes"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Remo Freuler",
+    "born": "1992-04-15",
+    "caps": 88,
+    "goals": 11,
+    "club": "Bologna"
+  },
+  {
+    "no": 9,
+    "pos": "MF",
+    "name": "Johan Manzambi",
+    "born": "2005-10-14",
+    "caps": 12,
+    "goals": 3,
+    "club": "SC Freiburg"
+  },
+  {
+    "no": 10,
+    "pos": "MF",
+    "name": "Granit Xhaka",
+    "born": "1992-09-27",
+    "caps": 146,
+    "goals": 17,
+    "club": "Sunderland",
+    "captain": true
+  },
+  {
+    "no": 11,
+    "pos": "ST",
+    "name": "Dan Ndoye",
+    "born": "2000-10-25",
+    "caps": 31,
+    "goals": 8,
+    "club": "Nottingham Forest"
+  },
+  {
+    "no": 12,
+    "pos": "TW",
+    "name": "Yvon Mvogo",
+    "born": "1994-06-06",
+    "caps": 13,
+    "goals": 0,
+    "club": "Lorient"
+  },
+  {
+    "no": 13,
+    "pos": "AB",
+    "name": "Ricardo Rodriguez",
+    "born": "1992-08-25",
+    "caps": 138,
+    "goals": 9,
+    "club": "Real Betis"
+  },
+  {
+    "no": 14,
+    "pos": "MF",
+    "name": "Ardon Jashari",
+    "born": "2002-07-30",
+    "caps": 8,
+    "goals": 0,
+    "club": "Milan"
+  },
+  {
+    "no": 15,
+    "pos": "MF",
+    "name": "Djibril Sow",
+    "born": "1997-02-06",
+    "caps": 52,
+    "goals": 0,
+    "club": "Sevilla"
+  },
+  {
+    "no": 16,
+    "pos": "ST",
+    "name": "Christian Fassnacht",
+    "born": "1993-11-11",
+    "caps": 23,
+    "goals": 5,
+    "club": "Young Boys"
+  },
+  {
+    "no": 17,
+    "pos": "ST",
+    "name": "Rubén Vargas",
+    "born": "1998-08-05",
+    "caps": 61,
+    "goals": 11,
+    "club": "Sevilla"
+  },
+  {
+    "no": 18,
+    "pos": "AB",
+    "name": "Eray Cömert",
+    "born": "1998-02-04",
+    "caps": 22,
+    "goals": 0,
+    "club": "Valencia"
+  },
+  {
+    "no": 19,
+    "pos": "ST",
+    "name": "Noah Okafor",
+    "born": "2000-05-24",
+    "caps": 25,
+    "goals": 2,
+    "club": "Leeds United"
+  },
+  {
+    "no": 20,
+    "pos": "MF",
+    "name": "Michel Aebischer",
+    "born": "1997-01-06",
+    "caps": 40,
+    "goals": 2,
+    "club": "Pisa"
+  },
+  {
+    "no": 21,
+    "pos": "TW",
+    "name": "Marvin Keller",
+    "born": "2002-07-03",
+    "caps": 1,
+    "goals": 0,
+    "club": "Young Boys"
+  },
+  {
+    "no": 22,
+    "pos": "MF",
+    "name": "Fabian Rieder",
+    "born": "2002-02-16",
+    "caps": 28,
+    "goals": 1,
+    "club": "FC Augsburg"
+  },
+  {
+    "no": 23,
+    "pos": "ST",
+    "name": "Zeki Amdouni",
+    "born": "2000-12-04",
+    "caps": 29,
+    "goals": 11,
+    "club": "Burnley"
+  },
+  {
+    "no": 24,
+    "pos": "AB",
+    "name": "Aurèle Amenda",
+    "born": "2003-07-31",
+    "caps": 7,
+    "goals": 0,
+    "club": "Eintracht Frankfurt"
+  },
+  {
+    "no": 25,
+    "pos": "AB",
+    "name": "Luca Jaquez",
+    "born": "2003-06-02",
+    "caps": 3,
+    "goals": 0,
+    "club": "VfB Stuttgart"
+  },
+  {
+    "no": 26,
+    "pos": "ST",
+    "name": "Cedric Itten",
+    "born": "1996-12-27",
+    "caps": 15,
+    "goals": 5,
+    "club": "Fortuna Düsseldorf"
+  }
+]

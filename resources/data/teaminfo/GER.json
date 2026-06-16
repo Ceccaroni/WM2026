@@ -1,0 +1,40 @@
+{
+  "id": "GER",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 10,
+  "wcRecord": "21. Teilnahme · 4× Weltmeister (zuletzt 2014)",
+  "coach": {
+    "name": "Julian Nagelsmann",
+    "since": "2023"
+  },
+  "stars": [
+    {
+      "name": "Joshua Kimmich",
+      "club": "FC Bayern München",
+      "role": "Kapitän & Defensives Mittelfeld"
+    },
+    {
+      "name": "Florian Wirtz",
+      "club": "FC Liverpool",
+      "role": "Offensives Mittelfeld"
+    },
+    {
+      "name": "Jamal Musiala",
+      "club": "FC Bayern München",
+      "role": "Offensives Mittelfeld"
+    },
+    {
+      "name": "Nick Woltemade",
+      "club": "Newcastle United",
+      "role": "Sturm"
+    }
+  ],
+  "form": "2026 noch ungeschlagen: Im März gab es ein 4:3-Spektakel in Basel gegen die Schweiz und ein 2:1 gegen Ghana. Die Generalproben gelangen mit einem 4:0 gegen Finnland in Mainz (31. Mai, Undav-Doppelpack) und einem 2:1 gegen Gastgeber USA in Chicago (Tore: Havertz, Sané).",
+  "quali": "Gruppensieger der UEFA-Gruppe A trotz 0:2-Auftaktpleite in Bratislava; das abschließende 6:0 gegen die Slowakei in Leipzig sicherte im November 2025 das Direktticket.",
+  "storylines": [
+    "Neuer-Comeback mit 40: Nach ter Stegens Verletzung kehrt der Weltmeister-Keeper für eine fünfte WM in den Kader zurück",
+    "Musiala nach langer Verletzungspause rechtzeitig fit — traf zuletzt beim 4:0 gegen Finnland",
+    "Havertz nach 18 Monaten Verletzungsmisere zurück — Torschütze beim 2:1 gegen die USA",
+    "Toptalent Lennart Karl (18) fiel mit Muskelbündelriss aus, Assan Ouédraogo rückte ins Aufgebot nach"
+  ]
+}

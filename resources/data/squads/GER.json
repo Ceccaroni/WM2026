@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Manuel Neuer",
+    "born": "1986-03-27",
+    "caps": 124,
+    "goals": 0,
+    "club": "Bayern Munich"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Antonio Rüdiger",
+    "born": "1993-03-03",
+    "caps": 82,
+    "goals": 3,
+    "club": "Real Madrid"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Waldemar Anton",
+    "born": "1996-07-20",
+    "caps": 13,
+    "goals": 0,
+    "club": "Borussia Dortmund"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Jonathan Tah",
+    "born": "1996-02-11",
+    "caps": 47,
+    "goals": 1,
+    "club": "Bayern Munich"
+  },
+  {
+    "no": 5,
+    "pos": "MF",
+    "name": "Aleksandar Pavlović",
+    "born": "2004-05-03",
+    "caps": 11,
+    "goals": 1,
+    "club": "Bayern Munich"
+  },
+  {
+    "no": 6,
+    "pos": "AB",
+    "name": "Joshua Kimmich",
+    "born": "1995-02-08",
+    "caps": 110,
+    "goals": 10,
+    "club": "Bayern Munich",
+    "captain": true
+  },
+  {
+    "no": 7,
+    "pos": "ST",
+    "name": "Kai Havertz",
+    "born": "1999-06-11",
+    "caps": 58,
+    "goals": 22,
+    "club": "Arsenal"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Leon Goretzka",
+    "born": "1995-02-06",
+    "caps": 70,
+    "goals": 15,
+    "club": "Bayern Munich"
+  },
+  {
+    "no": 9,
+    "pos": "MF",
+    "name": "Jamie Leweling",
+    "born": "2001-02-26",
+    "caps": 5,
+    "goals": 1,
+    "club": "VfB Stuttgart"
+  },
+  {
+    "no": 10,
+    "pos": "MF",
+    "name": "Jamal Musiala",
+    "born": "2003-02-26",
+    "caps": 42,
+    "goals": 9,
+    "club": "Bayern Munich"
+  },
+  {
+    "no": 11,
+    "pos": "ST",
+    "name": "Nick Woltemade",
+    "born": "2002-02-14",
+    "caps": 11,
+    "goals": 4,
+    "club": "Newcastle United"
+  },
+  {
+    "no": 12,
+    "pos": "TW",
+    "name": "Oliver Baumann",
+    "born": "1990-06-02",
+    "caps": 13,
+    "goals": 0,
+    "club": "TSG Hoffenheim"
+  },
+  {
+    "no": 13,
+    "pos": "MF",
+    "name": "Pascal Groß",
+    "born": "1991-06-15",
+    "caps": 18,
+    "goals": 1,
+    "club": "Brighton & Hove Albion"
+  },
+  {
+    "no": 14,
+    "pos": "ST",
+    "name": "Maximilian Beier",
+    "born": "2002-10-17",
+    "caps": 9,
+    "goals": 0,
+    "club": "Borussia Dortmund"
+  },
+  {
+    "no": 15,
+    "pos": "AB",
+    "name": "Nico Schlotterbeck",
+    "born": "1999-12-01",
+    "caps": 27,
+    "goals": 0,
+    "club": "Borussia Dortmund"
+  },
+  {
+    "no": 16,
+    "pos": "MF",
+    "name": "Angelo Stiller",
+    "born": "2001-04-04",
+    "caps": 8,
+    "goals": 0,
+    "club": "VfB Stuttgart"
+  },
+  {
+    "no": 17,
+    "pos": "MF",
+    "name": "Florian Wirtz",
+    "born": "2003-05-03",
+    "caps": 41,
+    "goals": 11,
+    "club": "Liverpool"
+  },
+  {
+    "no": 18,
+    "pos": "AB",
+    "name": "Nathaniel Brown",
+    "born": "2003-06-16",
+    "caps": 5,
+    "goals": 0,
+    "club": "Eintracht Frankfurt"
+  },
+  {
+    "no": 19,
+    "pos": "MF",
+    "name": "Leroy Sané",
+    "born": "1996-01-11",
+    "caps": 76,
+    "goals": 17,
+    "club": "Galatasaray"
+  },
+  {
+    "no": 20,
+    "pos": "MF",
+    "name": "Nadiem Amiri",
+    "born": "1996-10-27",
+    "caps": 11,
+    "goals": 1,
+    "club": "Mainz 05"
+  },
+  {
+    "no": 21,
+    "pos": "TW",
+    "name": "Alexander Nübel",
+    "born": "1996-09-30",
+    "caps": 3,
+    "goals": 0,
+    "club": "VfB Stuttgart"
+  },
+  {
+    "no": 22,
+    "pos": "AB",
+    "name": "David Raum",
+    "born": "1998-04-22",
+    "caps": 37,
+    "goals": 1,
+    "club": "RB Leipzig"
+  },
+  {
+    "no": 23,
+    "pos": "MF",
+    "name": "Felix Nmecha",
+    "born": "2000-10-10",
+    "caps": 8,
+    "goals": 1,
+    "club": "Borussia Dortmund"
+  },
+  {
+    "no": 24,
+    "pos": "AB",
+    "name": "Malick Thiaw",
+    "born": "2001-08-08",
+    "caps": 5,
+    "goals": 0,
+    "club": "Newcastle United"
+  },
+  {
+    "no": 25,
+    "pos": "MF",
+    "name": "Assan Ouédraogo",
+    "born": "2006-05-09",
+    "caps": 1,
+    "goals": 1,
+    "club": "RB Leipzig"
+  },
+  {
+    "no": 26,
+    "pos": "ST",
+    "name": "Deniz Undav",
+    "born": "1996-07-19",
+    "caps": 9,
+    "goals": 6,
+    "club": "VfB Stuttgart"
+  }
+]

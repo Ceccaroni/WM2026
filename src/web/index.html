@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>WM26 Tipp</title>
+    <!-- iOS-PWA: als App vom Home-Bildschirm starten -->
+    <meta name="theme-color" content="#0b5fa5" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="WM26 Tipp" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <!-- Dunkler Start gegen weissen Flash vor dem Anpfiff-Screen; die App überschreibt das nach dem Mount. -->
+    <style>
+      html,
+      body {
+        margin: 0;
+        background: #0c0d10;
+      }
+    </style>
+    <!-- Web-Variante: anders als die Electron-CSP MUSS connect-src ESPN zulassen
+         (Ergebnisse/Aufstellungen werden hier im Browser gefetcht, nicht im Main). -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: blob:; connect-src 'self' https://site.api.espn.com"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./main.tsx"></script>
+  </body>
+</html>

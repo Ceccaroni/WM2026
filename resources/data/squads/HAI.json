@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Johny Placide",
+    "born": "1988-01-29",
+    "caps": 81,
+    "goals": 0,
+    "club": "Bastia",
+    "captain": true
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Carlens Arcus",
+    "born": "1996-06-28",
+    "caps": 53,
+    "goals": 1,
+    "club": "Angers"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Keeto Thermoncy",
+    "born": "2006-03-29",
+    "caps": 1,
+    "goals": 0,
+    "club": "Young Boys"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Ricardo Adé",
+    "born": "1990-05-21",
+    "caps": 59,
+    "goals": 2,
+    "club": "LDU Quito"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Hannes Delcroix",
+    "born": "1999-02-28",
+    "caps": 7,
+    "goals": 0,
+    "club": "Lugano"
+  },
+  {
+    "no": 6,
+    "pos": "MF",
+    "name": "Carl Sainté",
+    "born": "2002-08-09",
+    "caps": 26,
+    "goals": 0,
+    "club": "El Paso Locomotive FC"
+  },
+  {
+    "no": 7,
+    "pos": "ST",
+    "name": "Derrick Etienne Jr.",
+    "born": "1996-11-25",
+    "caps": 48,
+    "goals": 8,
+    "club": "Toronto FC"
+  },
+  {
+    "no": 8,
+    "pos": "AB",
+    "name": "Martin Expérience",
+    "born": "1999-03-09",
+    "caps": 21,
+    "goals": 0,
+    "club": "Nancy"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Duckens Nazon",
+    "born": "1994-04-07",
+    "caps": 78,
+    "goals": 44,
+    "club": "Esteghlal"
+  },
+  {
+    "no": 10,
+    "pos": "MF",
+    "name": "Jean-Ricner Bellegarde",
+    "born": "1998-06-27",
+    "caps": 10,
+    "goals": 0,
+    "club": "Wolverhampton Wanderers"
+  },
+  {
+    "no": 11,
+    "pos": "ST",
+    "name": "Louicius Deedson",
+    "born": "2001-02-11",
+    "caps": 32,
+    "goals": 10,
+    "club": "FC Dallas"
+  },
+  {
+    "no": 12,
+    "pos": "TW",
+    "name": "Alexandre Pierre",
+    "born": "2001-02-25",
+    "caps": 15,
+    "goals": 0,
+    "club": "Sochaux"
+  },
+  {
+    "no": 13,
+    "pos": "AB",
+    "name": "Duke Lacroix",
+    "born": "1993-10-14",
+    "caps": 16,
+    "goals": 3,
+    "club": "Colorado Springs Switchbacks FC"
+  },
+  {
+    "no": 14,
+    "pos": "AB",
+    "name": "Garven Metusala",
+    "born": "1999-12-31",
+    "caps": 16,
+    "goals": 0,
+    "club": "Colorado Springs Switchbacks FC"
+  },
+  {
+    "no": 15,
+    "pos": "ST",
+    "name": "Ruben Providence",
+    "born": "2001-07-07",
+    "caps": 15,
+    "goals": 3,
+    "club": "Almere City"
+  },
+  {
+    "no": 16,
+    "pos": "ST",
+    "name": "Lenny Joseph",
+    "born": "2000-10-12",
+    "caps": 2,
+    "goals": 1,
+    "club": "Ferencváros"
+  },
+  {
+    "no": 17,
+    "pos": "MF",
+    "name": "Danley Jean Jacques",
+    "born": "2000-05-20",
+    "caps": 30,
+    "goals": 6,
+    "club": "Philadelphia Union"
+  },
+  {
+    "no": 18,
+    "pos": "ST",
+    "name": "Wilson Isidor",
+    "born": "2000-08-27",
+    "caps": 4,
+    "goals": 2,
+    "club": "Sunderland"
+  },
+  {
+    "no": 19,
+    "pos": "ST",
+    "name": "Yassin Fortuné",
+    "born": "1999-01-30",
+    "caps": 4,
+    "goals": 0,
+    "club": "Vizela"
+  },
+  {
+    "no": 20,
+    "pos": "ST",
+    "name": "Frantzdy Pierrot",
+    "born": "1995-03-29",
+    "caps": 51,
+    "goals": 34,
+    "club": "Çaykur Rizespor"
+  },
+  {
+    "no": 21,
+    "pos": "ST",
+    "name": "Josué Casimir",
+    "born": "2001-09-24",
+    "caps": 7,
+    "goals": 0,
+    "club": "Auxerre"
+  },
+  {
+    "no": 22,
+    "pos": "AB",
+    "name": "Jean-Kévin Duverne",
+    "born": "1997-07-12",
+    "caps": 17,
+    "goals": 1,
+    "club": "Gent"
+  },
+  {
+    "no": 23,
+    "pos": "TW",
+    "name": "Josué Duverger",
+    "born": "2000-04-27",
+    "caps": 6,
+    "goals": 0,
+    "club": "Cosmos Koblenz"
+  },
+  {
+    "no": 24,
+    "pos": "AB",
+    "name": "Wilguens Paugain",
+    "born": "2001-08-24",
+    "caps": 8,
+    "goals": 0,
+    "club": "Zulte Waregem"
+  },
+  {
+    "no": 25,
+    "pos": "MF",
+    "name": "Dominique Simon",
+    "born": "2000-07-29",
+    "caps": 2,
+    "goals": 0,
+    "club": "Tatran Prešov"
+  },
+  {
+    "no": 26,
+    "pos": "MF",
+    "name": "Woodensky Pierre",
+    "born": "2004-12-30",
+    "caps": 1,
+    "goals": 0,
+    "club": "Violette"
+  }
+]

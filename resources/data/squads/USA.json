@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Matt Turner",
+    "born": "1994-06-24",
+    "caps": 54,
+    "goals": 0,
+    "club": "New England Revolution"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Sergiño Dest",
+    "born": "2000-11-03",
+    "caps": 39,
+    "goals": 3,
+    "club": "PSV Eindhoven"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Chris Richards",
+    "born": "2000-03-28",
+    "caps": 36,
+    "goals": 3,
+    "club": "Crystal Palace"
+  },
+  {
+    "no": 4,
+    "pos": "MF",
+    "name": "Tyler Adams",
+    "born": "1999-02-14",
+    "caps": 54,
+    "goals": 2,
+    "club": "Bournemouth"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Antonee Robinson",
+    "born": "1997-08-08",
+    "caps": 54,
+    "goals": 5,
+    "club": "Fulham"
+  },
+  {
+    "no": 6,
+    "pos": "AB",
+    "name": "Auston Trusty",
+    "born": "1998-08-12",
+    "caps": 8,
+    "goals": 0,
+    "club": "Celtic"
+  },
+  {
+    "no": 7,
+    "pos": "MF",
+    "name": "Giovanni Reyna",
+    "born": "2002-11-13",
+    "caps": 38,
+    "goals": 9,
+    "club": "Borussia Mönchengladbach"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Weston McKennie",
+    "born": "1998-08-28",
+    "caps": 66,
+    "goals": 12,
+    "club": "Juventus"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Ricardo Pepi",
+    "born": "2003-01-09",
+    "caps": 37,
+    "goals": 13,
+    "club": "PSV Eindhoven"
+  },
+  {
+    "no": 10,
+    "pos": "ST",
+    "name": "Christian Pulisic",
+    "born": "1998-09-18",
+    "caps": 86,
+    "goals": 33,
+    "club": "Milan"
+  },
+  {
+    "no": 11,
+    "pos": "ST",
+    "name": "Brenden Aaronson",
+    "born": "2000-10-22",
+    "caps": 58,
+    "goals": 9,
+    "club": "Leeds United"
+  },
+  {
+    "no": 12,
+    "pos": "AB",
+    "name": "Miles Robinson",
+    "born": "1997-03-14",
+    "caps": 40,
+    "goals": 3,
+    "club": "FC Cincinnati"
+  },
+  {
+    "no": 13,
+    "pos": "AB",
+    "name": "Tim Ream",
+    "born": "1987-10-05",
+    "caps": 82,
+    "goals": 1,
+    "club": "Charlotte FC",
+    "captain": true
+  },
+  {
+    "no": 14,
+    "pos": "MF",
+    "name": "Sebastian Berhalter",
+    "born": "2001-05-10",
+    "caps": 13,
+    "goals": 1,
+    "club": "Vancouver Whitecaps FC"
+  },
+  {
+    "no": 15,
+    "pos": "MF",
+    "name": "Cristian Roldan",
+    "born": "1995-06-03",
+    "caps": 47,
+    "goals": 0,
+    "club": "Seattle Sounders FC"
+  },
+  {
+    "no": 16,
+    "pos": "AB",
+    "name": "Alex Freeman",
+    "born": "2004-08-09",
+    "caps": 17,
+    "goals": 2,
+    "club": "Villarreal"
+  },
+  {
+    "no": 17,
+    "pos": "MF",
+    "name": "Malik Tillman",
+    "born": "2002-05-28",
+    "caps": 30,
+    "goals": 3,
+    "club": "Bayer Leverkusen"
+  },
+  {
+    "no": 18,
+    "pos": "AB",
+    "name": "Max Arfsten",
+    "born": "2001-04-19",
+    "caps": 20,
+    "goals": 1,
+    "club": "Columbus Crew"
+  },
+  {
+    "no": 19,
+    "pos": "ST",
+    "name": "Haji Wright",
+    "born": "1998-03-27",
+    "caps": 20,
+    "goals": 7,
+    "club": "Coventry City"
+  },
+  {
+    "no": 20,
+    "pos": "ST",
+    "name": "Folarin Balogun",
+    "born": "2001-07-03",
+    "caps": 27,
+    "goals": 9,
+    "club": "Monaco"
+  },
+  {
+    "no": 21,
+    "pos": "ST",
+    "name": "Timothy Weah",
+    "born": "2000-02-22",
+    "caps": 51,
+    "goals": 7,
+    "club": "Marseille"
+  },
+  {
+    "no": 22,
+    "pos": "AB",
+    "name": "Mark McKenzie",
+    "born": "1999-02-25",
+    "caps": 29,
+    "goals": 0,
+    "club": "Toulouse"
+  },
+  {
+    "no": 23,
+    "pos": "AB",
+    "name": "Joe Scally",
+    "born": "2002-12-31",
+    "caps": 26,
+    "goals": 0,
+    "club": "Borussia Mönchengladbach"
+  },
+  {
+    "no": 24,
+    "pos": "TW",
+    "name": "Matt Freese",
+    "born": "1998-09-02",
+    "caps": 15,
+    "goals": 0,
+    "club": "New York City FC"
+  },
+  {
+    "no": 25,
+    "pos": "TW",
+    "name": "Chris Brady",
+    "born": "2004-03-03",
+    "caps": 1,
+    "goals": 0,
+    "club": "Chicago Fire FC"
+  },
+  {
+    "no": 26,
+    "pos": "ST",
+    "name": "Alejandro Zendejas",
+    "born": "1998-02-07",
+    "caps": 14,
+    "goals": 2,
+    "club": "América"
+  }
+]

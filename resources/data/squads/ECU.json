@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Hernán Galíndez",
+    "born": "1987-03-30",
+    "caps": 35,
+    "goals": 0,
+    "club": "Huracán"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Félix Torres",
+    "born": "1997-01-11",
+    "caps": 49,
+    "goals": 5,
+    "club": "Internacional"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Piero Hincapié",
+    "born": "2002-01-09",
+    "caps": 52,
+    "goals": 3,
+    "club": "Arsenal"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Joel Ordóñez",
+    "born": "2004-04-21",
+    "caps": 17,
+    "goals": 0,
+    "club": "Club Brugge"
+  },
+  {
+    "no": 5,
+    "pos": "MF",
+    "name": "Jordy Alcívar",
+    "born": "1999-08-05",
+    "caps": 11,
+    "goals": 1,
+    "club": "Independiente del Valle"
+  },
+  {
+    "no": 6,
+    "pos": "AB",
+    "name": "Willian Pacho",
+    "born": "2001-10-16",
+    "caps": 34,
+    "goals": 2,
+    "club": "Paris Saint-Germain"
+  },
+  {
+    "no": 7,
+    "pos": "AB",
+    "name": "Pervis Estupiñán",
+    "born": "1998-01-21",
+    "caps": 54,
+    "goals": 5,
+    "club": "Milan"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Anthony Valencia",
+    "born": "2003-07-21",
+    "caps": 3,
+    "goals": 1,
+    "club": "Antwerp"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "John Yeboah",
+    "born": "2000-06-23",
+    "caps": 23,
+    "goals": 3,
+    "club": "Venezia"
+  },
+  {
+    "no": 10,
+    "pos": "MF",
+    "name": "Kendry Páez",
+    "born": "2007-05-04",
+    "caps": 26,
+    "goals": 2,
+    "club": "River Plate"
+  },
+  {
+    "no": 11,
+    "pos": "ST",
+    "name": "Kevin Rodríguez",
+    "born": "2000-03-04",
+    "caps": 31,
+    "goals": 2,
+    "club": "Union Saint-Gilloise"
+  },
+  {
+    "no": 12,
+    "pos": "TW",
+    "name": "Moisés Ramírez",
+    "born": "2000-09-09",
+    "caps": 7,
+    "goals": 0,
+    "club": "Kifisia"
+  },
+  {
+    "no": 13,
+    "pos": "ST",
+    "name": "Enner Valencia",
+    "born": "1989-11-04",
+    "caps": 105,
+    "goals": 49,
+    "club": "Pachuca",
+    "captain": true
+  },
+  {
+    "no": 14,
+    "pos": "MF",
+    "name": "Alan Minda",
+    "born": "2003-05-14",
+    "caps": 20,
+    "goals": 2,
+    "club": "Atlético Mineiro"
+  },
+  {
+    "no": 15,
+    "pos": "MF",
+    "name": "Pedro Vite",
+    "born": "2002-03-09",
+    "caps": 17,
+    "goals": 1,
+    "club": "Pumas"
+  },
+  {
+    "no": 16,
+    "pos": "ST",
+    "name": "Jordy Caicedo",
+    "born": "1997-11-18",
+    "caps": 20,
+    "goals": 4,
+    "club": "Huracán"
+  },
+  {
+    "no": 17,
+    "pos": "AB",
+    "name": "Ángelo Preciado",
+    "born": "1998-02-18",
+    "caps": 55,
+    "goals": 0,
+    "club": "Atlético Mineiro"
+  },
+  {
+    "no": 18,
+    "pos": "MF",
+    "name": "Denil Castillo",
+    "born": "2004-03-24",
+    "caps": 5,
+    "goals": 0,
+    "club": "Midtjylland"
+  },
+  {
+    "no": 19,
+    "pos": "ST",
+    "name": "Gonzalo Plata",
+    "born": "2000-11-01",
+    "caps": 50,
+    "goals": 8,
+    "club": "Flamengo"
+  },
+  {
+    "no": 20,
+    "pos": "ST",
+    "name": "Nilson Angulo",
+    "born": "2003-06-19",
+    "caps": 14,
+    "goals": 2,
+    "club": "Sunderland"
+  },
+  {
+    "no": 21,
+    "pos": "MF",
+    "name": "Alan Franco",
+    "born": "1998-08-21",
+    "caps": 58,
+    "goals": 1,
+    "club": "Atlético Mineiro"
+  },
+  {
+    "no": 22,
+    "pos": "TW",
+    "name": "Gonzalo Valle",
+    "born": "1996-02-28",
+    "caps": 4,
+    "goals": 0,
+    "club": "LDU Quito"
+  },
+  {
+    "no": 23,
+    "pos": "MF",
+    "name": "Moisés Caicedo",
+    "born": "2001-11-02",
+    "caps": 61,
+    "goals": 3,
+    "club": "Chelsea"
+  },
+  {
+    "no": 24,
+    "pos": "ST",
+    "name": "Jeremy Arévalo",
+    "born": "2005-03-19",
+    "caps": 4,
+    "goals": 0,
+    "club": "VfB Stuttgart"
+  },
+  {
+    "no": 25,
+    "pos": "AB",
+    "name": "Jackson Porozo",
+    "born": "2000-08-04",
+    "caps": 10,
+    "goals": 1,
+    "club": "Tijuana"
+  },
+  {
+    "no": 26,
+    "pos": "AB",
+    "name": "Yaimar Medina",
+    "born": "2004-11-05",
+    "caps": 6,
+    "goals": 0,
+    "club": "Genk"
+  }
+]

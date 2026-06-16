@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Max Crocombe",
+    "born": "1993-08-12",
+    "caps": 24,
+    "goals": 0,
+    "club": "Millwall"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Tim Payne",
+    "born": "1994-01-10",
+    "caps": 51,
+    "goals": 3,
+    "club": "Wellington Phoenix"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Francis de Vries",
+    "born": "1994-11-28",
+    "caps": 20,
+    "goals": 1,
+    "club": "Auckland FC"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Tyler Bindon",
+    "born": "2005-01-27",
+    "caps": 25,
+    "goals": 3,
+    "club": "Sheffield United"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Michael Boxall",
+    "born": "1988-08-18",
+    "caps": 63,
+    "goals": 1,
+    "club": "Minnesota United FC"
+  },
+  {
+    "no": 6,
+    "pos": "MF",
+    "name": "Joe Bell",
+    "born": "1999-04-27",
+    "caps": 32,
+    "goals": 1,
+    "club": "Viking"
+  },
+  {
+    "no": 7,
+    "pos": "MF",
+    "name": "Matthew Garbett",
+    "born": "2002-04-13",
+    "caps": 37,
+    "goals": 5,
+    "club": "Peterborough United"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Marko Stamenić",
+    "born": "2002-02-19",
+    "caps": 39,
+    "goals": 3,
+    "club": "Swansea City"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Chris Wood",
+    "born": "1991-12-07",
+    "caps": 90,
+    "goals": 45,
+    "club": "Nottingham Forest",
+    "captain": true
+  },
+  {
+    "no": 10,
+    "pos": "MF",
+    "name": "Sarpreet Singh",
+    "born": "1999-02-20",
+    "caps": 28,
+    "goals": 3,
+    "club": "Wellington Phoenix"
+  },
+  {
+    "no": 11,
+    "pos": "MF",
+    "name": "Elijah Just",
+    "born": "2000-05-01",
+    "caps": 44,
+    "goals": 9,
+    "club": "Motherwell"
+  },
+  {
+    "no": 12,
+    "pos": "TW",
+    "name": "Alex Paulsen",
+    "born": "2002-07-04",
+    "caps": 8,
+    "goals": 0,
+    "club": "Lechia Gdańsk"
+  },
+  {
+    "no": 13,
+    "pos": "AB",
+    "name": "Liberato Cacace",
+    "born": "2000-09-27",
+    "caps": 37,
+    "goals": 1,
+    "club": "Wrexham"
+  },
+  {
+    "no": 14,
+    "pos": "MF",
+    "name": "Alex Rufer",
+    "born": "1996-06-12",
+    "caps": 26,
+    "goals": 0,
+    "club": "Wellington Phoenix"
+  },
+  {
+    "no": 15,
+    "pos": "AB",
+    "name": "Nando Pijnaker",
+    "born": "1999-02-25",
+    "caps": 25,
+    "goals": 0,
+    "club": "Auckland FC"
+  },
+  {
+    "no": 16,
+    "pos": "AB",
+    "name": "Finn Surman",
+    "born": "2003-09-23",
+    "caps": 19,
+    "goals": 2,
+    "club": "Portland Timbers"
+  },
+  {
+    "no": 17,
+    "pos": "ST",
+    "name": "Kosta Barbarouses",
+    "born": "1990-02-19",
+    "caps": 76,
+    "goals": 10,
+    "club": "Western Sydney Wanderers"
+  },
+  {
+    "no": 18,
+    "pos": "ST",
+    "name": "Ben Waine",
+    "born": "2001-06-11",
+    "caps": 31,
+    "goals": 9,
+    "club": "Port Vale"
+  },
+  {
+    "no": 19,
+    "pos": "MF",
+    "name": "Ben Old",
+    "born": "2002-08-13",
+    "caps": 24,
+    "goals": 2,
+    "club": "Saint-Étienne"
+  },
+  {
+    "no": 20,
+    "pos": "MF",
+    "name": "Callum McCowatt",
+    "born": "1999-04-30",
+    "caps": 32,
+    "goals": 4,
+    "club": "Silkeborg"
+  },
+  {
+    "no": 21,
+    "pos": "ST",
+    "name": "Jesse Randall",
+    "born": "2002-08-19",
+    "caps": 11,
+    "goals": 2,
+    "club": "Auckland FC"
+  },
+  {
+    "no": 22,
+    "pos": "TW",
+    "name": "Michael Woud",
+    "born": "1999-01-16",
+    "caps": 6,
+    "goals": 0,
+    "club": "Auckland FC"
+  },
+  {
+    "no": 23,
+    "pos": "MF",
+    "name": "Ryan Thomas",
+    "born": "1994-12-20",
+    "caps": 25,
+    "goals": 3,
+    "club": "PEC Zwolle"
+  },
+  {
+    "no": 24,
+    "pos": "AB",
+    "name": "Callan Elliot",
+    "born": "1999-07-07",
+    "caps": 11,
+    "goals": 0,
+    "club": "Auckland FC"
+  },
+  {
+    "no": 25,
+    "pos": "MF",
+    "name": "Lachlan Bayliss",
+    "born": "2002-07-24",
+    "caps": 4,
+    "goals": 0,
+    "club": "Newcastle Jets"
+  },
+  {
+    "no": 26,
+    "pos": "AB",
+    "name": "Tommy Smith",
+    "born": "1990-03-31",
+    "caps": 56,
+    "goals": 2,
+    "club": "Braintree Town"
+  }
+]

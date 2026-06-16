@@ -1,0 +1,40 @@
+{
+  "id": "BRA",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 6,
+  "wcRecord": "23. Teilnahme · 5× Weltmeister (zuletzt 2002)",
+  "coach": {
+    "name": "Carlo Ancelotti",
+    "since": "2025"
+  },
+  "stars": [
+    {
+      "name": "Vinícius Júnior",
+      "club": "Real Madrid",
+      "role": "Flügel"
+    },
+    {
+      "name": "Raphinha",
+      "club": "FC Barcelona",
+      "role": "Flügel"
+    },
+    {
+      "name": "Neymar",
+      "club": "FC Santos",
+      "role": "Offensives Mittelfeld"
+    },
+    {
+      "name": "Marquinhos",
+      "club": "Paris Saint-Germain",
+      "role": "Kapitän & Innenverteidigung"
+    }
+  ],
+  "form": "Nach der 1:2-Niederlage gegen Frankreich Ende März folgte ein 3:1 gegen Kroatien in Orlando. Die Juni-Generalproben gewann die Seleção souverän: 6:2 gegen Panama im Maracanã und 2:1 gegen Ägypten am 6. Juni, als Joker Endrick kurz nach seiner Einwechslung das Siegtor erzielte.",
+  "quali": "Nur Fünfter der CONMEBOL-Quali mit 28 Punkten (8 Siege, 4 Remis, 6 Niederlagen); das Ticket stand bereits im Juni 2025 durch ein 1:0 gegen Paraguay in Ancelottis erstem Heimspiel fest.",
+  "storylines": [
+    "Neymar (34) steht trotz Wadenverletzung von Mitte Mai im 26er-Kader – sein Einsatz zum Auftakt gegen Marokko am 13. Juni ist offen",
+    "Ancelotti ist der erste ausländische Trainer Brasiliens bei einer WM – Mission 'Hexa', der erste Titel seit 2002",
+    "Rodrygo fehlt verletzt; die Streichungen von Thiago Silva (113 Länderspiele), Richarlison und Gabriel Jesus sorgten für heftige Debatten",
+    "Endrick (19) drängt nach starker Lyon-Leihe und dem Joker-Siegtor gegen Ägypten in die Startelf"
+  ]
+}

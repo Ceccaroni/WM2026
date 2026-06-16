@@ -1,0 +1,40 @@
+{
+  "id": "JPN",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 18,
+  "wcRecord": "8. Teilnahme · 4× Achtelfinale (zuletzt 2022)",
+  "coach": {
+    "name": "Hajime Moriyasu",
+    "since": "2018"
+  },
+  "stars": [
+    {
+      "name": "Wataru Endo",
+      "club": "FC Liverpool",
+      "role": "Kapitän & Defensives Mittelfeld"
+    },
+    {
+      "name": "Takefusa Kubo",
+      "club": "Real Sociedad",
+      "role": "Flügel"
+    },
+    {
+      "name": "Daichi Kamada",
+      "club": "Crystal Palace",
+      "role": "Offensives Mittelfeld"
+    },
+    {
+      "name": "Ayase Ueda",
+      "club": "Feyenoord Rotterdam",
+      "role": "Sturm"
+    }
+  ],
+  "form": "Beeindruckende Form: Im März gelangen Auswärtssiege in Schottland (1:0) und der historische 1:0-Erfolg in Wembley gegen England — Japan schlug die Three Lions als erstes asiatisches Team auswärts. Die Juni-Generalprobe gegen Island wurde 1:0 gewonnen.",
+  "quali": "Als weltweit erstes Team nach den Gastgebern qualifiziert: Das 2:0 gegen Bahrain im März 2025 sicherte vorzeitig den Sieg in der AFC-Gruppe C — die achte WM-Teilnahme in Serie.",
+  "storylines": [
+    "Wembley-Siegtorschütze Mitoma fehlt verletzt (Oberschenkel) — Moriyasu nennt es 'einen riesigen Schlag'",
+    "Auch Minamino fällt nach Kreuzbandriss aus",
+    "Nagatomo (39) steht als erster Asiate vor seiner fünften WM",
+    "Erklärtes Ziel: erstmals das Viertelfinale — viermal war bisher im Achtelfinale Schluss"
+  ]
+}

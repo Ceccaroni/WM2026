@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Yehvann Diouf",
+    "born": "1999-11-16",
+    "caps": 2,
+    "goals": 0,
+    "club": "Nice"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Mamadou Sarr",
+    "born": "2005-08-29",
+    "caps": 8,
+    "goals": 0,
+    "club": "Chelsea"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Kalidou Koulibaly",
+    "born": "1991-06-20",
+    "caps": 103,
+    "goals": 2,
+    "club": "Al-Hilal",
+    "captain": true
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Abdoulaye Seck",
+    "born": "1992-06-04",
+    "caps": 22,
+    "goals": 4,
+    "club": "Maccabi Haifa"
+  },
+  {
+    "no": 5,
+    "pos": "MF",
+    "name": "Idrissa Gueye",
+    "born": "1989-09-26",
+    "caps": 131,
+    "goals": 7,
+    "club": "Everton"
+  },
+  {
+    "no": 6,
+    "pos": "MF",
+    "name": "Pathé Ciss",
+    "born": "1994-03-16",
+    "caps": 30,
+    "goals": 0,
+    "club": "Rayo Vallecano"
+  },
+  {
+    "no": 7,
+    "pos": "ST",
+    "name": "Assane Diao",
+    "born": "2005-09-07",
+    "caps": 5,
+    "goals": 0,
+    "club": "Como"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Lamine Camara",
+    "born": "2004-01-01",
+    "caps": 33,
+    "goals": 7,
+    "club": "Monaco"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Bamba Dieng",
+    "born": "2000-03-23",
+    "caps": 23,
+    "goals": 2,
+    "club": "Lorient"
+  },
+  {
+    "no": 10,
+    "pos": "ST",
+    "name": "Sadio Mané",
+    "born": "1992-04-10",
+    "caps": 128,
+    "goals": 55,
+    "club": "Al-Nassr"
+  },
+  {
+    "no": 11,
+    "pos": "ST",
+    "name": "Nicolas Jackson",
+    "born": "2001-06-20",
+    "caps": 33,
+    "goals": 8,
+    "club": "Bayern Munich"
+  },
+  {
+    "no": 12,
+    "pos": "ST",
+    "name": "Cherif Ndiaye",
+    "born": "1996-01-23",
+    "caps": 19,
+    "goals": 4,
+    "club": "Samsunspor"
+  },
+  {
+    "no": 13,
+    "pos": "ST",
+    "name": "Iliman Ndiaye",
+    "born": "2000-03-06",
+    "caps": 40,
+    "goals": 4,
+    "club": "Everton"
+  },
+  {
+    "no": 14,
+    "pos": "AB",
+    "name": "Ismail Jakobs",
+    "born": "1999-08-17",
+    "caps": 30,
+    "goals": 0,
+    "club": "Galatasaray"
+  },
+  {
+    "no": 15,
+    "pos": "AB",
+    "name": "Krépin Diatta",
+    "born": "1999-02-25",
+    "caps": 61,
+    "goals": 2,
+    "club": "Monaco"
+  },
+  {
+    "no": 16,
+    "pos": "TW",
+    "name": "Édouard Mendy",
+    "born": "1992-03-01",
+    "caps": 57,
+    "goals": 0,
+    "club": "Al-Ahli"
+  },
+  {
+    "no": 17,
+    "pos": "MF",
+    "name": "Pape Matar Sarr",
+    "born": "2002-09-14",
+    "caps": 40,
+    "goals": 4,
+    "club": "Tottenham Hotspur"
+  },
+  {
+    "no": 18,
+    "pos": "ST",
+    "name": "Ismaïla Sarr",
+    "born": "1998-02-25",
+    "caps": 83,
+    "goals": 19,
+    "club": "Crystal Palace"
+  },
+  {
+    "no": 19,
+    "pos": "AB",
+    "name": "Moussa Niakhaté",
+    "born": "1996-03-08",
+    "caps": 31,
+    "goals": 0,
+    "club": "Lyon"
+  },
+  {
+    "no": 20,
+    "pos": "ST",
+    "name": "Ibrahim Mbaye",
+    "born": "2008-01-24",
+    "caps": 11,
+    "goals": 3,
+    "club": "Paris Saint-Germain"
+  },
+  {
+    "no": 21,
+    "pos": "MF",
+    "name": "Habib Diarra",
+    "born": "2004-01-03",
+    "caps": 21,
+    "goals": 4,
+    "club": "Sunderland"
+  },
+  {
+    "no": 22,
+    "pos": "MF",
+    "name": "Bara Sapoko Ndiaye",
+    "born": "2007-12-31",
+    "caps": 1,
+    "goals": 0,
+    "club": "Bayern Munich"
+  },
+  {
+    "no": 23,
+    "pos": "TW",
+    "name": "Mory Diaw",
+    "born": "1993-06-22",
+    "caps": 5,
+    "goals": 0,
+    "club": "Le Havre"
+  },
+  {
+    "no": 24,
+    "pos": "AB",
+    "name": "Antoine Mendy",
+    "born": "2004-05-27",
+    "caps": 7,
+    "goals": 0,
+    "club": "Nice"
+  },
+  {
+    "no": 25,
+    "pos": "AB",
+    "name": "El Hadji Malick Diouf",
+    "born": "2004-12-29",
+    "caps": 20,
+    "goals": 1,
+    "club": "West Ham United"
+  },
+  {
+    "no": 26,
+    "pos": "MF",
+    "name": "Pape Gueye",
+    "born": "1999-01-24",
+    "caps": 41,
+    "goals": 5,
+    "club": "Villarreal"
+  }
+]

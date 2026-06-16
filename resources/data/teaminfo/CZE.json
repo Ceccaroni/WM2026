@@ -1,0 +1,40 @@
+{
+  "id": "CZE",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 41,
+  "wcRecord": "2. Teilnahme als eigenständiger Staat (nach 2006) · als Tschechoslowakei WM-Finalist 1934 & 1962",
+  "coach": {
+    "name": "Miroslav Koubek",
+    "since": "2025"
+  },
+  "stars": [
+    {
+      "name": "Patrik Schick",
+      "club": "Bayer Leverkusen",
+      "role": "Sturm"
+    },
+    {
+      "name": "Tomáš Souček",
+      "club": "West Ham United",
+      "role": "Zentrales Mittelfeld"
+    },
+    {
+      "name": "Ladislav Krejčí",
+      "club": "Wolverhampton Wanderers",
+      "role": "Kapitän & Innenverteidigung"
+    },
+    {
+      "name": "Adam Hložek",
+      "club": "TSG Hoffenheim",
+      "role": "Zweite Spitze"
+    }
+  ],
+  "form": "Mit Schwung zur WM: Ende Mai 2:1 gegen Kosovo (Tore Ladra und Hložek), am 5. Juni 3:1 gegen Guatemala (Schick, Holeš, Višinský). Im März hatte sich das Team mit zwei Siegen im Penaltyschiessen durch die Playoffs gezittert.",
+  "quali": "Zweiter der UEFA-Gruppe L hinter Kroatien, dann Playoff-Drama im März in Prag: im Halbfinal 2:2 n.V. und 4:3 i.E. gegen Irland, im Final 2:2 n.V. und 3:1 i.E. gegen Dänemark – Goalie Kovář parierte dabei den Penalty von Dreyer.",
+  "storylines": [
+    "Doppeltes Penalty-Drama in den Playoffs gegen Irland und Dänemark – Goalie Matěj Kovář avancierte zum Helden der Nation",
+    "Erste WM-Endrunde seit 2006: Captain Krejčí und Co. beenden zwei Jahrzehnte des Wartens",
+    "Miroslav Koubek (74) ist der älteste Trainer des Turniers – er übernahm erst im Dezember 2025, nachdem Ivan Hašek nach der Niederlage auf den Färöern zurückgetreten war",
+    "Tottenham-Goalie Antonín Kinský fehlt nach schwacher Saison überraschend im Kader; dafür stellt Slavia Prag neun Spieler – 17 der 26 spielen in der heimischen Liga"
+  ]
+}

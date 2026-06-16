@@ -1,0 +1,40 @@
+{
+  "id": "AUT",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 24,
+  "wcRecord": "8. Teilnahme · Platz 3 als bestes Ergebnis (1954) · zuletzt 1998",
+  "coach": {
+    "name": "Ralf Rangnick",
+    "since": "2022"
+  },
+  "stars": [
+    {
+      "name": "David Alaba",
+      "club": "Real Madrid",
+      "role": "Kapitän & Innenverteidigung"
+    },
+    {
+      "name": "Marcel Sabitzer",
+      "club": "Borussia Dortmund",
+      "role": "Zentrales Mittelfeld"
+    },
+    {
+      "name": "Konrad Laimer",
+      "club": "FC Bayern München",
+      "role": "Mittelfeld"
+    },
+    {
+      "name": "Marko Arnautović",
+      "club": "Roter Stern Belgrad",
+      "role": "Sturm"
+    }
+  ],
+  "form": "Starkes Frühjahr: 5:1 gegen Ghana (27.3.) und 1:0 gegen Südkorea (31.3.). Die Generalprobe am 1. Juni in Wien wurde trotz früher Roter Karte gegen Laimer 1:0 gegen WM-Teilnehmer Tunesien gewonnen – Siegtor Sabitzer, spielerisch aber lange zäh. 2026 noch ungeschlagen.",
+  "quali": "UEFA-Gruppe H als Gruppensieger gewonnen: 19 Punkte (6 Siege, 1 Remis, 1 Niederlage, 22:4 Tore) vor Bosnien-Herzegowina – das Ticket war am 18.11.2025 durch ein 1:1 gegen Bosnien in Wien fix.",
+  "storylines": [
+    "Erste WM seit 1998 – der Rangnick-Effekt beendet 28 Jahre Wartezeit; 14 der 26 Kaderspieler kommen aus der deutschen Bundesliga",
+    "Schock kurz vor Abflug: Spielmacher Baumgartner fällt nach Muskelverletzung beim Aufwärmen des Tunesien-Tests für die WM aus – Ljubicic (Schalke) nachnominiert",
+    "Zittern um Alaba: Der Kapitän verpasste im US-Camp Trainings wegen Oberschenkelproblemen, das MRT blieb ohne Befund – einsatzbereit für den Auftakt gegen Jordanien (17.6.)",
+    "Gruppen-Kracher gegen Titelverteidiger Argentinien am 22. Juni in Dallas als Härtetest für die Achtelfinal-Ambitionen"
+  ]
+}

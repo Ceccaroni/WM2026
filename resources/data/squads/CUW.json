@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Eloy Room",
+    "born": "1989-02-06",
+    "caps": 71,
+    "goals": 0,
+    "club": "Miami FC"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Shurandy Sambo",
+    "born": "2001-08-19",
+    "caps": 8,
+    "goals": 0,
+    "club": "Sparta Rotterdam"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Juriën Gaari",
+    "born": "1993-12-23",
+    "caps": 60,
+    "goals": 1,
+    "club": "Abha"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Roshon van Eijma",
+    "born": "1998-06-09",
+    "caps": 28,
+    "goals": 1,
+    "club": "RKC Waalwijk"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Sherel Floranus",
+    "born": "1998-08-23",
+    "caps": 28,
+    "goals": 0,
+    "club": "PEC Zwolle"
+  },
+  {
+    "no": 6,
+    "pos": "MF",
+    "name": "Godfried Roemeratoe",
+    "born": "1999-08-19",
+    "caps": 28,
+    "goals": 1,
+    "club": "RKC Waalwijk"
+  },
+  {
+    "no": 7,
+    "pos": "MF",
+    "name": "Juninho Bacuna",
+    "born": "1997-08-07",
+    "caps": 49,
+    "goals": 15,
+    "club": "Volendam"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Livano Comenencia",
+    "born": "2004-02-03",
+    "caps": 20,
+    "goals": 2,
+    "club": "Zürich"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Jürgen Locadia",
+    "born": "1993-11-07",
+    "caps": 13,
+    "goals": 1,
+    "club": "Miami FC"
+  },
+  {
+    "no": 10,
+    "pos": "MF",
+    "name": "Leandro Bacuna",
+    "born": "1991-08-21",
+    "caps": 72,
+    "goals": 16,
+    "club": "Iğdır",
+    "captain": true
+  },
+  {
+    "no": 11,
+    "pos": "ST",
+    "name": "Jeremy Antonisse",
+    "born": "2002-03-29",
+    "caps": 27,
+    "goals": 4,
+    "club": "Kifisia"
+  },
+  {
+    "no": 12,
+    "pos": "ST",
+    "name": "Sontje Hansen",
+    "born": "2002-05-18",
+    "caps": 6,
+    "goals": 1,
+    "club": "Middlesbrough"
+  },
+  {
+    "no": 13,
+    "pos": "ST",
+    "name": "Tyrese Noslin",
+    "born": "2002-09-11",
+    "caps": 7,
+    "goals": 1,
+    "club": "Telstar"
+  },
+  {
+    "no": 14,
+    "pos": "ST",
+    "name": "Kenji Gorré",
+    "born": "1994-09-29",
+    "caps": 38,
+    "goals": 6,
+    "club": "Maccabi Haifa"
+  },
+  {
+    "no": 15,
+    "pos": "MF",
+    "name": "Ar'jany Martha",
+    "born": "2003-09-04",
+    "caps": 9,
+    "goals": 2,
+    "club": "Rotherham United"
+  },
+  {
+    "no": 16,
+    "pos": "ST",
+    "name": "Jearl Margaritha",
+    "born": "2000-04-10",
+    "caps": 22,
+    "goals": 5,
+    "club": "Beveren"
+  },
+  {
+    "no": 17,
+    "pos": "ST",
+    "name": "Brandley Kuwas",
+    "born": "1992-09-19",
+    "caps": 35,
+    "goals": 2,
+    "club": "Volendam"
+  },
+  {
+    "no": 18,
+    "pos": "AB",
+    "name": "Armando Obispo",
+    "born": "1999-03-05",
+    "caps": 6,
+    "goals": 0,
+    "club": "PSV Eindhoven"
+  },
+  {
+    "no": 19,
+    "pos": "ST",
+    "name": "Gervane Kastaneer",
+    "born": "1996-06-09",
+    "caps": 29,
+    "goals": 9,
+    "club": "Terengganu"
+  },
+  {
+    "no": 20,
+    "pos": "AB",
+    "name": "Joshua Brenet",
+    "born": "1994-03-20",
+    "caps": 18,
+    "goals": 2,
+    "club": "Kayserispor"
+  },
+  {
+    "no": 21,
+    "pos": "MF",
+    "name": "Tahith Chong",
+    "born": "1999-12-04",
+    "caps": 6,
+    "goals": 3,
+    "club": "Sheffield United"
+  },
+  {
+    "no": 22,
+    "pos": "MF",
+    "name": "Kevin Felida",
+    "born": "1999-11-11",
+    "caps": 19,
+    "goals": 1,
+    "club": "Den Bosch"
+  },
+  {
+    "no": 23,
+    "pos": "AB",
+    "name": "Riechedly Bazoer",
+    "born": "1996-10-12",
+    "caps": 5,
+    "goals": 0,
+    "club": "Konyaspor"
+  },
+  {
+    "no": 24,
+    "pos": "AB",
+    "name": "Deveron Fonville",
+    "born": "2003-05-16",
+    "caps": 2,
+    "goals": 0,
+    "club": "NEC"
+  },
+  {
+    "no": 25,
+    "pos": "TW",
+    "name": "Tyrick Bodak",
+    "born": "2002-05-15",
+    "caps": 4,
+    "goals": 0,
+    "club": "Telstar"
+  },
+  {
+    "no": 26,
+    "pos": "TW",
+    "name": "Trevor Doornbusch",
+    "born": "1999-07-06",
+    "caps": 8,
+    "goals": 0,
+    "club": "VVV-Venlo"
+  }
+]

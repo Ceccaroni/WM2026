@@ -1,0 +1,40 @@
+{
+  "id": "SCO",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 43,
+  "wcRecord": "9. Teilnahme · zuletzt 1998, nie über die Vorrunde hinaus",
+  "coach": {
+    "name": "Steve Clarke",
+    "since": "2019"
+  },
+  "stars": [
+    {
+      "name": "Scott McTominay",
+      "club": "SSC Neapel",
+      "role": "Offensives Mittelfeld"
+    },
+    {
+      "name": "Andy Robertson",
+      "club": "FC Liverpool",
+      "role": "Kapitän & Linksverteidigung"
+    },
+    {
+      "name": "John McGinn",
+      "club": "Aston Villa",
+      "role": "Zentrales Mittelfeld"
+    },
+    {
+      "name": "Lewis Ferguson",
+      "club": "FC Bologna",
+      "role": "Zentrales Mittelfeld"
+    }
+  ],
+  "form": "Holpriger März mit 0:1 gegen Japan im Hampden Park und 0:1 gegen die Elfenbeinküste. Die Generalproben saßen dafür: 4:1 gegen Curaçao und 4:0 gegen Bolivien am 6. Juni – mit Doppelpack von Che Adams und einem überragenden McTominay.",
+  "quali": "UEFA-Gruppe C vor Dänemark gewonnen – mit einem der dramatischsten Quali-Finals überhaupt: Am 18. November 2025 schlug Schottland Dänemark im Hampden Park 4:2, mit McTominay-Fallrückzieher in der 3. Minute und Nachspielzeit-Toren von Tierney und McLean (Heber von der Mittellinie).",
+  "storylines": [
+    "Erste WM seit 1998 – das 28-jährige Warten endete mit zwei Nachspielzeit-Toren gegen Dänemark",
+    "Billy Gilmour (Neapel) verletzte sich im Curaçao-Test am Knie und fehlt – nachnominiert wurde der 19-jährige Tyler Fletcher (Man United), Sohn von Darren Fletcher",
+    "Craig Gordon (43, Hearts) kann der zweitälteste WM-Spieler der Geschichte werden",
+    "Schottland hat noch nie eine WM-Vorrunde überstanden – Clarke peilt die Premiere an"
+  ]
+}

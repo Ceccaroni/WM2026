@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Nikola Vasilj",
+    "born": "1995-12-02",
+    "caps": 26,
+    "goals": 0,
+    "club": "FC St. Pauli"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Nihad Mujakić",
+    "born": "1998-04-15",
+    "caps": 12,
+    "goals": 1,
+    "club": "Gaziantep"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Dennis Hadžikadunić",
+    "born": "1998-07-09",
+    "caps": 32,
+    "goals": 0,
+    "club": "Sampdoria"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Tarik Muharemović",
+    "born": "2003-02-28",
+    "caps": 14,
+    "goals": 1,
+    "club": "Sassuolo"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Sead Kolašinac",
+    "born": "1993-06-20",
+    "caps": 65,
+    "goals": 0,
+    "club": "Atalanta"
+  },
+  {
+    "no": 6,
+    "pos": "MF",
+    "name": "Benjamin Tahirović",
+    "born": "2003-03-03",
+    "caps": 28,
+    "goals": 2,
+    "club": "Brøndby"
+  },
+  {
+    "no": 7,
+    "pos": "AB",
+    "name": "Amar Dedić",
+    "born": "2002-08-18",
+    "caps": 28,
+    "goals": 1,
+    "club": "Benfica"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Armin Gigović",
+    "born": "2002-04-06",
+    "caps": 20,
+    "goals": 1,
+    "club": "Young Boys"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Samed Baždar",
+    "born": "2004-01-31",
+    "caps": 13,
+    "goals": 1,
+    "club": "Jagiellonia Białystok"
+  },
+  {
+    "no": 10,
+    "pos": "ST",
+    "name": "Ermedin Demirović",
+    "born": "1998-03-25",
+    "caps": 40,
+    "goals": 4,
+    "club": "VfB Stuttgart"
+  },
+  {
+    "no": 11,
+    "pos": "ST",
+    "name": "Edin Džeko",
+    "born": "1986-03-17",
+    "caps": 148,
+    "goals": 73,
+    "club": "Schalke 04",
+    "captain": true
+  },
+  {
+    "no": 12,
+    "pos": "TW",
+    "name": "Mladen Jurkas",
+    "born": "2007-10-07",
+    "caps": 0,
+    "goals": 0,
+    "club": "Borac Banja Luka"
+  },
+  {
+    "no": 13,
+    "pos": "MF",
+    "name": "Ivan Bašić",
+    "born": "2002-04-30",
+    "caps": 17,
+    "goals": 0,
+    "club": "Astana"
+  },
+  {
+    "no": 14,
+    "pos": "MF",
+    "name": "Ivan Šunjić",
+    "born": "1996-10-09",
+    "caps": 11,
+    "goals": 0,
+    "club": "Pafos"
+  },
+  {
+    "no": 15,
+    "pos": "MF",
+    "name": "Amar Memić",
+    "born": "2001-01-20",
+    "caps": 13,
+    "goals": 1,
+    "club": "Viktoria Plzeň"
+  },
+  {
+    "no": 16,
+    "pos": "MF",
+    "name": "Amir Hadžiahmetović",
+    "born": "1997-03-08",
+    "caps": 36,
+    "goals": 0,
+    "club": "Hull City"
+  },
+  {
+    "no": 17,
+    "pos": "MF",
+    "name": "Dženis Burnić",
+    "born": "1998-05-22",
+    "caps": 20,
+    "goals": 0,
+    "club": "Karlsruher SC"
+  },
+  {
+    "no": 18,
+    "pos": "AB",
+    "name": "Nikola Katić",
+    "born": "1996-10-10",
+    "caps": 17,
+    "goals": 2,
+    "club": "Schalke 04"
+  },
+  {
+    "no": 19,
+    "pos": "ST",
+    "name": "Kerim Alajbegović",
+    "born": "2007-09-21",
+    "caps": 10,
+    "goals": 1,
+    "club": "Red Bull Salzburg"
+  },
+  {
+    "no": 20,
+    "pos": "ST",
+    "name": "Esmir Bajraktarević",
+    "born": "2005-03-10",
+    "caps": 16,
+    "goals": 1,
+    "club": "PSV Eindhoven"
+  },
+  {
+    "no": 21,
+    "pos": "AB",
+    "name": "Stjepan Radeljić",
+    "born": "1997-09-05",
+    "caps": 5,
+    "goals": 0,
+    "club": "Rijeka"
+  },
+  {
+    "no": 22,
+    "pos": "TW",
+    "name": "Martin Zlomislić",
+    "born": "1998-08-16",
+    "caps": 3,
+    "goals": 0,
+    "club": "Rijeka"
+  },
+  {
+    "no": 23,
+    "pos": "ST",
+    "name": "Haris Tabaković",
+    "born": "1994-06-20",
+    "caps": 10,
+    "goals": 4,
+    "club": "Borussia Mönchengladbach"
+  },
+  {
+    "no": 24,
+    "pos": "AB",
+    "name": "Arjan Malić",
+    "born": "2005-08-28",
+    "caps": 8,
+    "goals": 0,
+    "club": "Sturm Graz"
+  },
+  {
+    "no": 25,
+    "pos": "ST",
+    "name": "Jovo Lukić",
+    "born": "1998-11-28",
+    "caps": 3,
+    "goals": 0,
+    "club": "Universitatea Cluj"
+  },
+  {
+    "no": 26,
+    "pos": "MF",
+    "name": "Ermin Mahmić",
+    "born": "2005-03-14",
+    "caps": 2,
+    "goals": 0,
+    "club": "Slovan Liberec"
+  }
+]

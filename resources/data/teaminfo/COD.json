@@ -1,0 +1,40 @@
+{
+  "id": "COD",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 46,
+  "wcRecord": "2. Teilnahme · zuletzt 1974 als Zaire",
+  "coach": {
+    "name": "Sébastien Desabre",
+    "since": "2022"
+  },
+  "stars": [
+    {
+      "name": "Chancel Mbemba",
+      "club": "OSC Lille",
+      "role": "Kapitän & Innenverteidigung"
+    },
+    {
+      "name": "Yoane Wissa",
+      "club": "Newcastle United",
+      "role": "Sturm"
+    },
+    {
+      "name": "Cédric Bakambu",
+      "club": "Real Betis",
+      "role": "Sturm"
+    },
+    {
+      "name": "Fiston Mayele",
+      "club": "Pyramids FC",
+      "role": "Sturm"
+    }
+  ],
+  "form": "Im März 2026 erst ein 2:0 im Test gegen Bermuda (Mayele, Wissa), dann der historische Triumph im Interkontinental-Playoff: 1:0 nach Verlängerung gegen Jamaika in Guadalajara durch Tuanzebes Kopfball in der 100. Minute. Die Generalprobe am 9. Juni in Orléans ging 1:2 gegen Chile verloren.",
+  "quali": "Zweiter der CAF-Gruppe B (22 Punkte), dann Sieger des Afrika-Playoffs im November 2025: 1:0 gegen Kamerun durch Mbemba in der Nachspielzeit und 4:3 im Elfmeterschiessen gegen Nigeria nach 1:1. Im Interkontinental-Playoff im März 2026 folgte das entscheidende 1:0 n. V. gegen Jamaika.",
+  "storylines": [
+    "Rückkehr nach 52 Jahren: erste WM seit 1974, als das Land noch als Zaire antrat",
+    "Playoff-Drama pur: Joker-Torwart Timothy Fayulu wurde gegen Nigeria kurz vor dem Elfmeterschiessen eingewechselt und hielt zweimal, gegen Jamaika köpfte Axel Tuanzebe in Minute 100 zum WM-Ticket",
+    "Nationale Euphorie: Die Regierung erklärte den 1. April zum Feiertag, Präsident Tshisekedi ehrte die Spieler als Ritter des Nationalordens",
+    "Mehr als Sport: Im konfliktgeplagten Land gilt die Qualifikation als Symbol der Einheit — gefeiert wurde von Kinshasa bis Goma"
+  ]
+}

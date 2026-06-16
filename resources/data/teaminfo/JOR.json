@@ -1,0 +1,40 @@
+{
+  "id": "JOR",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 63,
+  "wcRecord": "WM-Debüt",
+  "coach": {
+    "name": "Jamal Sellami",
+    "since": "2024"
+  },
+  "stars": [
+    {
+      "name": "Musa Al-Taamari",
+      "club": "Stade Rennes",
+      "role": "Flügel"
+    },
+    {
+      "name": "Ali Olwan",
+      "club": "Al-Sailiya (Katar)",
+      "role": "Sturm"
+    },
+    {
+      "name": "Yazan Al-Arab",
+      "club": "FC Seoul",
+      "role": "Innenverteidigung"
+    },
+    {
+      "name": "Yazeed Abulaila",
+      "club": "Al-Hussein Irbid",
+      "role": "Torwart"
+    }
+  ],
+  "form": "Holprige Generalprobe: Im März 2:3 gegen Marokko und 2:2 gegen Costa Rica, dann klare Test-Niederlagen gegen die Schweiz (1:4, 31. Mai) und Kolumbien (0:2, 8. Juni in San Diego). Mutmacher bleibt der Lauf bis in den Arab-Cup-Final im Dezember 2025 (2:3 n.V. gegen Marokko).",
+  "quali": "Historische Erstqualifikation: Das 3:0 in Oman am 5. Juni 2025 – Olwan-Hattrick – sicherte den direkten WM-Platz als Zweiter der AFC-Gruppe B hinter Südkorea; die beste Quali-Kampagne der Verbandsgeschichte.",
+  "storylines": [
+    "WM-Debütant: Erste Teilnahme überhaupt – Kronprinz Hussein sass beim Quali-Coup in Maskat auf der Tribüne, das Königshaus inszeniert die WM als nationales Grossereignis",
+    "Prinz Alis Lebenswerk: Der Verbandspräsident nennt die Quali «Frucht von über zwei Jahrzehnten Arbeit» – die 2001 gegründeten Prince-Ali-Talentzentren bildeten das Gerüst dieser Generation",
+    "Sellamis Marokko-Blaupause: Der marokkanische Coach will Jordanien zum WM-Märchen à la Marokko 2022 führen – nach dem Arab-Cup-Finallauf erhielt er die jordanische Staatsbürgerschaft",
+    "Schwerer Verlust im Sturm: Yazan Al-Naimat fehlt nach Kreuzbandriss im Arab-Cup – «unersetzbar» laut Sellami; Quali-Held Olwan kehrte dafür rechtzeitig zurück"
+  ]
+}

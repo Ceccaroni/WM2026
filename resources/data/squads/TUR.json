@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Mert Günok",
+    "born": "1989-03-01",
+    "caps": 37,
+    "goals": 0,
+    "club": "Fenerbahçe"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Zeki Çelik",
+    "born": "1997-02-17",
+    "caps": 61,
+    "goals": 3,
+    "club": "Roma"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Merih Demiral",
+    "born": "1998-03-05",
+    "caps": 62,
+    "goals": 6,
+    "club": "Al-Ahli"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Çağlar Söyüncü",
+    "born": "1996-05-23",
+    "caps": 60,
+    "goals": 2,
+    "club": "Fenerbahçe"
+  },
+  {
+    "no": 5,
+    "pos": "MF",
+    "name": "Salih Özcan",
+    "born": "1998-01-11",
+    "caps": 30,
+    "goals": 1,
+    "club": "Borussia Dortmund"
+  },
+  {
+    "no": 6,
+    "pos": "MF",
+    "name": "Orkun Kökçü",
+    "born": "2000-12-29",
+    "caps": 50,
+    "goals": 4,
+    "club": "Beşiktaş"
+  },
+  {
+    "no": 7,
+    "pos": "ST",
+    "name": "Kerem Aktürkoğlu",
+    "born": "1998-10-21",
+    "caps": 52,
+    "goals": 15,
+    "club": "Fenerbahçe"
+  },
+  {
+    "no": 8,
+    "pos": "ST",
+    "name": "Arda Güler",
+    "born": "2005-02-25",
+    "caps": 29,
+    "goals": 6,
+    "club": "Real Madrid"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Deniz Gül",
+    "born": "2004-07-02",
+    "caps": 8,
+    "goals": 2,
+    "club": "Porto"
+  },
+  {
+    "no": 10,
+    "pos": "MF",
+    "name": "Hakan Çalhanoğlu",
+    "born": "1994-02-08",
+    "caps": 105,
+    "goals": 22,
+    "club": "Inter Milan",
+    "captain": true
+  },
+  {
+    "no": 11,
+    "pos": "ST",
+    "name": "Kenan Yıldız",
+    "born": "2005-05-04",
+    "caps": 28,
+    "goals": 5,
+    "club": "Juventus"
+  },
+  {
+    "no": 12,
+    "pos": "TW",
+    "name": "Altay Bayındır",
+    "born": "1998-04-14",
+    "caps": 12,
+    "goals": 0,
+    "club": "Manchester United"
+  },
+  {
+    "no": 13,
+    "pos": "AB",
+    "name": "Eren Elmalı",
+    "born": "2000-07-07",
+    "caps": 23,
+    "goals": 0,
+    "club": "Galatasaray"
+  },
+  {
+    "no": 14,
+    "pos": "AB",
+    "name": "Abdülkerim Bardakcı",
+    "born": "1994-09-07",
+    "caps": 27,
+    "goals": 2,
+    "club": "Galatasaray"
+  },
+  {
+    "no": 15,
+    "pos": "AB",
+    "name": "Ozan Kabak",
+    "born": "2000-03-25",
+    "caps": 30,
+    "goals": 2,
+    "club": "TSG Hoffenheim"
+  },
+  {
+    "no": 16,
+    "pos": "MF",
+    "name": "İsmail Yüksek",
+    "born": "1999-01-26",
+    "caps": 32,
+    "goals": 1,
+    "club": "Fenerbahçe"
+  },
+  {
+    "no": 17,
+    "pos": "ST",
+    "name": "İrfan Can Kahveci",
+    "born": "1995-07-15",
+    "caps": 47,
+    "goals": 6,
+    "club": "Kasımpaşa"
+  },
+  {
+    "no": 18,
+    "pos": "AB",
+    "name": "Mert Müldür",
+    "born": "1999-04-03",
+    "caps": 45,
+    "goals": 3,
+    "club": "Fenerbahçe"
+  },
+  {
+    "no": 19,
+    "pos": "ST",
+    "name": "Yunus Akgün",
+    "born": "2000-07-07",
+    "caps": 19,
+    "goals": 4,
+    "club": "Galatasaray"
+  },
+  {
+    "no": 20,
+    "pos": "AB",
+    "name": "Ferdi Kadıoğlu",
+    "born": "1999-10-07",
+    "caps": 30,
+    "goals": 2,
+    "club": "Brighton & Hove Albion"
+  },
+  {
+    "no": 21,
+    "pos": "ST",
+    "name": "Barış Alper Yılmaz",
+    "born": "2000-05-23",
+    "caps": 35,
+    "goals": 4,
+    "club": "Galatasaray"
+  },
+  {
+    "no": 22,
+    "pos": "MF",
+    "name": "Kaan Ayhan",
+    "born": "1994-11-10",
+    "caps": 73,
+    "goals": 5,
+    "club": "Galatasaray"
+  },
+  {
+    "no": 23,
+    "pos": "TW",
+    "name": "Uğurcan Çakır",
+    "born": "1996-04-05",
+    "caps": 39,
+    "goals": 0,
+    "club": "Galatasaray"
+  },
+  {
+    "no": 24,
+    "pos": "ST",
+    "name": "Oğuz Aydın",
+    "born": "2000-10-27",
+    "caps": 11,
+    "goals": 0,
+    "club": "Fenerbahçe"
+  },
+  {
+    "no": 25,
+    "pos": "AB",
+    "name": "Samet Akaydin",
+    "born": "1994-03-13",
+    "caps": 19,
+    "goals": 1,
+    "club": "Çaykur Rizespor"
+  },
+  {
+    "no": 26,
+    "pos": "ST",
+    "name": "Can Uzun",
+    "born": "2005-11-11",
+    "caps": 6,
+    "goals": 1,
+    "club": "Eintracht Frankfurt"
+  }
+]

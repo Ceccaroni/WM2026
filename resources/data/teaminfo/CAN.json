@@ -1,0 +1,40 @@
+{
+  "id": "CAN",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 30,
+  "wcRecord": "3. Teilnahme (1986, 2022) · noch nie ein WM-Spiel gewonnen",
+  "coach": {
+    "name": "Jesse Marsch",
+    "since": "2024"
+  },
+  "stars": [
+    {
+      "name": "Alphonso Davies",
+      "club": "Bayern München",
+      "role": "Kapitän & linke Aussenbahn"
+    },
+    {
+      "name": "Jonathan David",
+      "club": "Juventus Turin",
+      "role": "Sturm"
+    },
+    {
+      "name": "Tajon Buchanan",
+      "club": "FC Villarreal",
+      "role": "Flügel"
+    },
+    {
+      "name": "Stephen Eustáquio",
+      "club": "Los Angeles FC (Leihe vom FC Porto)",
+      "role": "Defensives Mittelfeld"
+    }
+  ],
+  "form": "Im März in Toronto 2:2 gegen Island (zwei David-Penaltys) und 0:0 gegen Tunesien – jeweils mit vielen Verletzten. Die Generalproben im Juni gelangen besser: 2:0 gegen Usbekistan in Edmonton (1. Juni, Tore Osorio und Nelson) und 1:1 gegen Irland in Montreal (5. Juni).",
+  "quali": "Als Co-Gastgeber automatisch qualifiziert – die erste Heim-WM der kanadischen Geschichte.",
+  "storylines": [
+    "Heim-WM-Euphorie: Auftakt am 12. Juni gegen Bosnien in Toronto – Kanada jagt den ersten WM-Sieg seiner Geschichte",
+    "Kapitän Alphonso Davies verpasst den Auftakt: Nach dem Kreuzband-Comeback bremst ihn eine Oberschenkelverletzung aus dem CL-Halbfinal (6. Mai); Marsch plant die Rückkehr ab dem 2. Spiel gegen Katar am 18. Juni",
+    "Marsch nennt es «die beste 26er-Gruppe, die Kanada je versammelt hat» – Kader-Präsentation spektakulär auf dem EdgeWalk des CN Tower",
+    "Rekordtorschütze Jonathan David (39 Länderspieltore) nach durchzogener erster Juventus-Saison (6 Serie-A-Tore) in der Bringschuld"
+  ]
+}

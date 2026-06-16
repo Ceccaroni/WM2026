@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Yassine Bounou",
+    "born": "1991-04-05",
+    "caps": 90,
+    "goals": 0,
+    "club": "Al-Hilal"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Achraf Hakimi",
+    "born": "1998-11-04",
+    "caps": 96,
+    "goals": 11,
+    "club": "Paris Saint-Germain",
+    "captain": true
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Noussair Mazraoui",
+    "born": "1997-11-14",
+    "caps": 45,
+    "goals": 2,
+    "club": "Manchester United"
+  },
+  {
+    "no": 4,
+    "pos": "MF",
+    "name": "Sofyan Amrabat",
+    "born": "1996-08-21",
+    "caps": 75,
+    "goals": 0,
+    "club": "Real Betis"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Marwane Saâdane",
+    "born": "1992-01-17",
+    "caps": 8,
+    "goals": 0,
+    "club": "Al-Fateh"
+  },
+  {
+    "no": 6,
+    "pos": "MF",
+    "name": "Ayyoub Bouaddi",
+    "born": "2007-10-02",
+    "caps": 3,
+    "goals": 0,
+    "club": "Lille"
+  },
+  {
+    "no": 7,
+    "pos": "MF",
+    "name": "Chemsdine Talbi",
+    "born": "2005-05-09",
+    "caps": 5,
+    "goals": 0,
+    "club": "Sunderland"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Azzedine Ounahi",
+    "born": "2000-04-19",
+    "caps": 49,
+    "goals": 9,
+    "club": "Girona"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Soufiane Rahimi",
+    "born": "1996-06-02",
+    "caps": 37,
+    "goals": 12,
+    "club": "Al Ain"
+  },
+  {
+    "no": 10,
+    "pos": "ST",
+    "name": "Brahim Díaz",
+    "born": "1999-08-03",
+    "caps": 26,
+    "goals": 14,
+    "club": "Real Madrid"
+  },
+  {
+    "no": 11,
+    "pos": "MF",
+    "name": "Ismael Saibari",
+    "born": "2001-01-28",
+    "caps": 31,
+    "goals": 9,
+    "club": "PSV Eindhoven"
+  },
+  {
+    "no": 12,
+    "pos": "TW",
+    "name": "Munir Mohamedi",
+    "born": "1989-05-10",
+    "caps": 53,
+    "goals": 0,
+    "club": "RS Berkane"
+  },
+  {
+    "no": 13,
+    "pos": "AB",
+    "name": "Zakaria El Ouahdi",
+    "born": "2001-12-31",
+    "caps": 3,
+    "goals": 0,
+    "club": "Genk"
+  },
+  {
+    "no": 14,
+    "pos": "AB",
+    "name": "Issa Diop",
+    "born": "1997-01-09",
+    "caps": 4,
+    "goals": 0,
+    "club": "Fulham"
+  },
+  {
+    "no": 15,
+    "pos": "MF",
+    "name": "Samir El Mourabet",
+    "born": "2005-10-06",
+    "caps": 4,
+    "goals": 0,
+    "club": "Strasbourg"
+  },
+  {
+    "no": 16,
+    "pos": "MF",
+    "name": "Gessime Yassine",
+    "born": "2005-11-22",
+    "caps": 5,
+    "goals": 0,
+    "club": "Strasbourg"
+  },
+  {
+    "no": 17,
+    "pos": "ST",
+    "name": "Amine Sbaï",
+    "born": "2000-11-05",
+    "caps": 2,
+    "goals": 0,
+    "club": "Angers"
+  },
+  {
+    "no": 18,
+    "pos": "AB",
+    "name": "Chadi Riad",
+    "born": "2003-06-17",
+    "caps": 6,
+    "goals": 1,
+    "club": "Crystal Palace"
+  },
+  {
+    "no": 19,
+    "pos": "AB",
+    "name": "Youssef Belammari",
+    "born": "1998-09-20",
+    "caps": 19,
+    "goals": 0,
+    "club": "Al Ahly"
+  },
+  {
+    "no": 20,
+    "pos": "ST",
+    "name": "Ayoub El Kaabi",
+    "born": "1993-06-25",
+    "caps": 71,
+    "goals": 35,
+    "club": "Olympiacos"
+  },
+  {
+    "no": 21,
+    "pos": "ST",
+    "name": "Ayoube Amaimouni",
+    "born": "2004-11-30",
+    "caps": 2,
+    "goals": 0,
+    "club": "Eintracht Frankfurt"
+  },
+  {
+    "no": 22,
+    "pos": "TW",
+    "name": "Ahmed Reda Tagnaouti",
+    "born": "1996-04-05",
+    "caps": 3,
+    "goals": 0,
+    "club": "AS FAR"
+  },
+  {
+    "no": 23,
+    "pos": "MF",
+    "name": "Bilal El Khannouss",
+    "born": "2004-05-10",
+    "caps": 37,
+    "goals": 3,
+    "club": "VfB Stuttgart"
+  },
+  {
+    "no": 24,
+    "pos": "MF",
+    "name": "Neil El Aynaoui",
+    "born": "2001-07-02",
+    "caps": 16,
+    "goals": 2,
+    "club": "Roma"
+  },
+  {
+    "no": 25,
+    "pos": "AB",
+    "name": "Redouane Halhal",
+    "born": "2003-03-05",
+    "caps": 3,
+    "goals": 0,
+    "club": "Mechelen"
+  },
+  {
+    "no": 26,
+    "pos": "AB",
+    "name": "Anass Salah-Eddine",
+    "born": "2002-01-18",
+    "caps": 9,
+    "goals": 0,
+    "club": "PSV Eindhoven"
+  }
+]

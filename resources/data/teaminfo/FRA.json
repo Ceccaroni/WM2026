@@ -1,0 +1,40 @@
+{
+  "id": "FRA",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 1,
+  "wcRecord": "17. Teilnahme · 2× Weltmeister (zuletzt 2018)",
+  "coach": {
+    "name": "Didier Deschamps",
+    "since": "2012"
+  },
+  "stars": [
+    {
+      "name": "Kylian Mbappé",
+      "club": "Real Madrid",
+      "role": "Kapitän & Sturm"
+    },
+    {
+      "name": "Ousmane Dembélé",
+      "club": "Paris Saint-Germain",
+      "role": "Sturm"
+    },
+    {
+      "name": "Michael Olise",
+      "club": "FC Bayern München",
+      "role": "Flügel"
+    },
+    {
+      "name": "William Saliba",
+      "club": "Arsenal",
+      "role": "Innenverteidigung"
+    }
+  ],
+  "form": "Im März Prestigesiege gegen Brasilien (2:1) und Kolumbien (3:1). Die WM-Vorbereitung begann mit einem Dämpfer: 1:2 gegen die Elfenbeinküste in Nantes (4. Juni), ehe die Generalprobe gegen Nordirland am 9. Juni mit 3:1 gewonnen wurde – Olise traf dreifach.",
+  "quali": "Souveräner Sieger der UEFA-Gruppe D vor der Ukraine: 5 Siege, 1 Remis, 16:4 Tore. Das Ticket wurde am 13. November 2025 mit einem 4:0 gegen die Ukraine gelöst.",
+  "storylines": [
+    "Deschamps' letztes Turnier nach 14 Jahren – Zinédine Zidane hat der FFF als Nachfolger bereits mündlich zugesagt",
+    "Dembélé reist als Ballon-d'Or-Sieger und frischgebackener Champions-League-Sieger an – PSG schlug Arsenal im Final im Elfmeterschiessen",
+    "Mbappé jagt Rekorde: 2 Tore fehlen zu Girouds Frankreich-Rekord (57), 5 Tore zu Kloses ewiger WM-Bestmarke (16)",
+    "Warnschuss in der Vorbereitung: 1:2 gegen die Elfenbeinküste – erste Testspielpleite auf dem Weg zum Turnier; Camavinga wurde nach Verletzungssaison aussortiert"
+  ]
+}

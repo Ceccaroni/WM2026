@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Yazeed Abulaila",
+    "born": "1993-01-08",
+    "caps": 76,
+    "goals": 0,
+    "club": "Al-Hussein"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Mohammad Abu Hashish",
+    "born": "1995-05-09",
+    "caps": 56,
+    "goals": 1,
+    "club": "Al-Karma"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Abdallah Nasib",
+    "born": "1994-02-25",
+    "caps": 65,
+    "goals": 3,
+    "club": "Al-Zawraa"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Husam Abu Dahab",
+    "born": "2000-05-13",
+    "caps": 18,
+    "goals": 0,
+    "club": "Al-Faisaly"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Yazan Al-Arab",
+    "born": "1996-01-31",
+    "caps": 80,
+    "goals": 3,
+    "club": "FC Seoul"
+  },
+  {
+    "no": 6,
+    "pos": "MF",
+    "name": "Amer Jamous",
+    "born": "2002-07-03",
+    "caps": 19,
+    "goals": 1,
+    "club": "Al-Zawraa"
+  },
+  {
+    "no": 7,
+    "pos": "ST",
+    "name": "Mohammad Abu Zrayq",
+    "born": "1997-12-30",
+    "caps": 41,
+    "goals": 5,
+    "club": "Raja Casablanca"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Noor Al-Rawabdeh",
+    "born": "1997-02-24",
+    "caps": 68,
+    "goals": 3,
+    "club": "Selangor"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Ali Olwan",
+    "born": "2000-03-26",
+    "caps": 66,
+    "goals": 29,
+    "club": "Al-Sailiya"
+  },
+  {
+    "no": 10,
+    "pos": "ST",
+    "name": "Musa Al-Taamari",
+    "born": "1997-06-10",
+    "caps": 92,
+    "goals": 24,
+    "club": "Rennes"
+  },
+  {
+    "no": 11,
+    "pos": "ST",
+    "name": "Odeh Al-Fakhouri",
+    "born": "2005-11-22",
+    "caps": 10,
+    "goals": 1,
+    "club": "Pyramids"
+  },
+  {
+    "no": 12,
+    "pos": "TW",
+    "name": "Nour Bani Attiah",
+    "born": "1993-01-25",
+    "caps": 5,
+    "goals": 0,
+    "club": "Al-Faisaly"
+  },
+  {
+    "no": 13,
+    "pos": "ST",
+    "name": "Mahmoud Al-Mardi",
+    "born": "1993-10-06",
+    "caps": 89,
+    "goals": 9,
+    "club": "Al-Hussein"
+  },
+  {
+    "no": 14,
+    "pos": "MF",
+    "name": "Rajaei Ayed",
+    "born": "1993-07-25",
+    "caps": 72,
+    "goals": 0,
+    "club": "Al-Hussein"
+  },
+  {
+    "no": 15,
+    "pos": "MF",
+    "name": "Ibrahim Sadeh",
+    "born": "2000-04-27",
+    "caps": 57,
+    "goals": 3,
+    "club": "Al-Karma"
+  },
+  {
+    "no": 16,
+    "pos": "AB",
+    "name": "Mo Abualnadi",
+    "born": "2001-02-08",
+    "caps": 18,
+    "goals": 0,
+    "club": "Selangor"
+  },
+  {
+    "no": 17,
+    "pos": "AB",
+    "name": "Salim Obaid",
+    "born": "1992-01-17",
+    "caps": 11,
+    "goals": 0,
+    "club": "Al-Hussein"
+  },
+  {
+    "no": 18,
+    "pos": "MF",
+    "name": "Mohammad Taha",
+    "born": "2005-07-13",
+    "caps": 2,
+    "goals": 0,
+    "club": "Al-Hussein"
+  },
+  {
+    "no": 19,
+    "pos": "AB",
+    "name": "Saed Al-Rosan",
+    "born": "1997-02-01",
+    "caps": 21,
+    "goals": 2,
+    "club": "Al-Hussein"
+  },
+  {
+    "no": 20,
+    "pos": "MF",
+    "name": "Mohannad Abu Taha",
+    "born": "2003-02-02",
+    "caps": 29,
+    "goals": 1,
+    "club": "Al-Quwa Al-Jawiya"
+  },
+  {
+    "no": 21,
+    "pos": "MF",
+    "name": "Nizar Al-Rashdan",
+    "born": "1999-03-23",
+    "caps": 47,
+    "goals": 4,
+    "club": "Qatar SC"
+  },
+  {
+    "no": 22,
+    "pos": "TW",
+    "name": "Abdallah Al-Fakhouri",
+    "born": "2000-01-22",
+    "caps": 11,
+    "goals": 0,
+    "club": "Al-Wehdat"
+  },
+  {
+    "no": 23,
+    "pos": "AB",
+    "name": "Ihsan Haddad",
+    "born": "1994-02-05",
+    "caps": 92,
+    "goals": 2,
+    "club": "Al-Hussein",
+    "captain": true
+  },
+  {
+    "no": 24,
+    "pos": "ST",
+    "name": "Ali Azaizeh",
+    "born": "2004-04-13",
+    "caps": 4,
+    "goals": 0,
+    "club": "Al-Shabab"
+  },
+  {
+    "no": 25,
+    "pos": "MF",
+    "name": "Mohammad Al-Dawoud",
+    "born": "1992-04-12",
+    "caps": 13,
+    "goals": 1,
+    "club": "Al-Wehdat"
+  },
+  {
+    "no": 26,
+    "pos": "AB",
+    "name": "Anas Badawi",
+    "born": "1997-09-13",
+    "caps": 1,
+    "goals": 0,
+    "club": "Al-Faisaly"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "id": "KOR",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 25,
+  "wcRecord": "12. Teilnahme (11. in Serie) · Halbfinale 2002",
+  "coach": {
+    "name": "Hong Myung-bo",
+    "since": "2024"
+  },
+  "stars": [
+    {
+      "name": "Son Heung-min",
+      "club": "Los Angeles FC",
+      "role": "Kapitän & Sturm"
+    },
+    {
+      "name": "Kim Min-jae",
+      "club": "Bayern München",
+      "role": "Innenverteidigung"
+    },
+    {
+      "name": "Lee Kang-in",
+      "club": "Paris Saint-Germain",
+      "role": "Offensives Mittelfeld"
+    },
+    {
+      "name": "Hwang Hee-chan",
+      "club": "Wolverhampton Wanderers",
+      "role": "Flügel"
+    }
+  ],
+  "form": "Durchzogene Vorbereitung: Im März setzte es ein 0:4 gegen die Elfenbeinküste und ein 0:1 gegen Österreich. Zuletzt stabilisiert mit einem 5:0 gegen Trinidad und Tobago (30. Mai) und einem 1:0 gegen El Salvador (3. Juni).",
+  "quali": "Souverän als Sieger der AFC-Gruppe B qualifiziert – ohne Niederlage (6 Siege, 4 Remis); über die gesamte Quali in 16 Spielen ungeschlagen bei 40:8 Toren.",
+  "storylines": [
+    "Sons vierte und wohl letzte WM – der Wechsel zu LAFC erfolgte laut ihm gezielt zur WM-Vorbereitung in Nordamerika",
+    "Innenverteidiger Cho Yu-min riss sich Ende Mai die Plantarfaszie – der noch ungekappte Jo Wi-je rückte nach",
+    "Mittelfeld-Stratege Hwang In-beom (Feyenoord) geht mit Sprunggelenkblessur ins Turnier",
+    "Das 0:4 gegen die Elfenbeinküste im März weckte Zweifel an der Defensive vor dem Auftakt gegen Tschechien"
+  ]
+}

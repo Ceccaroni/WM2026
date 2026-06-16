@@ -1,0 +1,35 @@
+{
+  "id": "QAT",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 55,
+  "wcRecord": "2. Teilnahme nach 2022 · damals als Gastgeber Vorrunde ohne Punkt",
+  "coach": {
+    "name": "Julen Lopetegui",
+    "since": "2025"
+  },
+  "stars": [
+    {
+      "name": "Akram Afif",
+      "club": "Al-Sadd SC",
+      "role": "Flügel & Spielmacher"
+    },
+    {
+      "name": "Almoez Ali",
+      "club": "Al-Duhail SC",
+      "role": "Sturm"
+    },
+    {
+      "name": "Meshaal Barsham",
+      "club": "Al-Sadd SC",
+      "role": "Torwart"
+    }
+  ],
+  "form": "Schwache WM-Generalprobe: 0:3 gegen Tunesien (26. März), 0:1 in Irland (28. Mai, Rote Karte für Almoez Ali) und 0:0 gegen El Salvador (6. Juni). Katar blieb 2026 in allen Testspielen ohne eigenes Tor.",
+  "quali": "Erstmals sportlich für eine WM qualifiziert: In der 4. AFC-Quali-Runde gewann Katar die Gruppe A – das entscheidende 2:1 gegen die VAE am 14. Oktober 2025 brachten zwei Kopfballtore von Khoukhi und Pedro Miguel, beide nach Vorlage von Akram Afif.",
+  "storylines": [
+    "Erste erspielte WM-Teilnahme der Geschichte – 2022 war Katar nur als Gastgeber dabei",
+    "Ex-Spanien- und Real-Madrid-Coach Lopetegui (im Amt seit Mai 2025) soll die punktlose Heim-WM 2022 vergessen machen",
+    "Kapitän Hassan Al-Haydos kehrte 2025 auf Lopeteguis Wunsch aus dem internationalen Ruhestand zurück und führt das Team mit 35 zur WM",
+    "Formsorgen vor dem Auftakt gegen die Schweiz: 2026 noch torlos, dazu sah Torjäger Almoez Ali im Test gegen Irland Rot"
+  ]
+}

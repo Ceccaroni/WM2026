@@ -1,0 +1,40 @@
+{
+  "id": "SWE",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 38,
+  "wcRecord": "13. Teilnahme · Vize-Weltmeister 1958 (zuletzt dabei 2018)",
+  "coach": {
+    "name": "Graham Potter",
+    "since": "2025"
+  },
+  "stars": [
+    {
+      "name": "Alexander Isak",
+      "club": "FC Liverpool",
+      "role": "Sturm"
+    },
+    {
+      "name": "Viktor Gyökeres",
+      "club": "FC Arsenal",
+      "role": "Sturm"
+    },
+    {
+      "name": "Anthony Elanga",
+      "club": "Newcastle United",
+      "role": "Flügel"
+    },
+    {
+      "name": "Victor Lindelöf",
+      "club": "Aston Villa",
+      "role": "Kapitän & Innenverteidigung"
+    }
+  ],
+  "form": "Im März-Playoff in Hochform: 3:1 gegen die Ukraine mit einem Gyökeres-Hattrick, dann 3:2 im Finale von Solna gegen Polen dank Gyökeres' Siegtor in der 88. Minute. Die Generalprobe am 4. Juni endete dagegen nur 2:2 gegen Griechenland — das Sturmduo Isak/Gyökeres harmoniert noch nicht.",
+  "quali": "Kuriosester Weg aller Teilnehmer: In der Gruppe mit der Schweiz, Kosovo und Slowenien sieglos Letzter mit nur zwei Punkten — dank des Nations-League-Rankings in die Playoffs gerutscht und dort unter Potter durchmarschiert.",
+  "storylines": [
+    "Graham Potter übernahm im Oktober 2025 nach der Tomasson-Entlassung und rettete die WM-Teilnahme in zwei Playoff-Spielen",
+    "Gyökeres stieg mit Playoff-Hattrick und Final-Siegtor zum Nationalhelden auf",
+    "Isak kehrte erst spät von einer langen Verletzungspause zurück — seine Fitness ist das große Fragezeichen",
+    "Kulusevski fehlt nach einer komplett verpassten Saison; Kapitän Lindelöf reist als frischgebackener Europa-League-Sieger mit Aston Villa an"
+  ]
+}

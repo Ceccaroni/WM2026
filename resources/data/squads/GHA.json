@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Lawrence Ati-Zigi",
+    "born": "1996-11-29",
+    "caps": 29,
+    "goals": 0,
+    "club": "St. Gallen"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Alidu Seidu",
+    "born": "2000-06-04",
+    "caps": 24,
+    "goals": 1,
+    "club": "Rennes"
+  },
+  {
+    "no": 3,
+    "pos": "MF",
+    "name": "Caleb Yirenkyi",
+    "born": "2006-01-15",
+    "caps": 11,
+    "goals": 1,
+    "club": "Nordsjælland"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Jonas Adjetey",
+    "born": "2003-12-13",
+    "caps": 10,
+    "goals": 0,
+    "club": "VfL Wolfsburg"
+  },
+  {
+    "no": 5,
+    "pos": "MF",
+    "name": "Thomas Partey",
+    "born": "1993-06-13",
+    "caps": 57,
+    "goals": 15,
+    "club": "Villarreal"
+  },
+  {
+    "no": 6,
+    "pos": "AB",
+    "name": "Abdul Mumin",
+    "born": "1998-06-06",
+    "caps": 5,
+    "goals": 0,
+    "club": "Rayo Vallecano"
+  },
+  {
+    "no": 7,
+    "pos": "ST",
+    "name": "Abdul Fatawu",
+    "born": "2004-03-08",
+    "caps": 28,
+    "goals": 3,
+    "club": "Leicester City"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Kwasi Sibo",
+    "born": "1998-06-24",
+    "caps": 8,
+    "goals": 0,
+    "club": "Oviedo"
+  },
+  {
+    "no": 9,
+    "pos": "ST",
+    "name": "Jordan Ayew",
+    "born": "1991-09-11",
+    "caps": 120,
+    "goals": 34,
+    "club": "Leicester City",
+    "captain": true
+  },
+  {
+    "no": 10,
+    "pos": "ST",
+    "name": "Brandon Thomas-Asante",
+    "born": "1998-12-29",
+    "caps": 8,
+    "goals": 1,
+    "club": "Coventry City"
+  },
+  {
+    "no": 11,
+    "pos": "MF",
+    "name": "Antoine Semenyo",
+    "born": "2000-01-07",
+    "caps": 34,
+    "goals": 3,
+    "club": "Manchester City"
+  },
+  {
+    "no": 12,
+    "pos": "TW",
+    "name": "Joseph Anang",
+    "born": "2000-06-08",
+    "caps": 1,
+    "goals": 0,
+    "club": "St Patrick's Athletic"
+  },
+  {
+    "no": 13,
+    "pos": "ST",
+    "name": "Christopher Bonsu Baah",
+    "born": "2004-12-14",
+    "caps": 9,
+    "goals": 0,
+    "club": "Al-Qadsiah"
+  },
+  {
+    "no": 14,
+    "pos": "AB",
+    "name": "Gideon Mensah",
+    "born": "1998-07-18",
+    "caps": 40,
+    "goals": 0,
+    "club": "Auxerre"
+  },
+  {
+    "no": 15,
+    "pos": "MF",
+    "name": "Elisha Owusu",
+    "born": "1997-11-07",
+    "caps": 20,
+    "goals": 0,
+    "club": "Auxerre"
+  },
+  {
+    "no": 16,
+    "pos": "TW",
+    "name": "Benjamin Asare",
+    "born": "1992-07-13",
+    "caps": 11,
+    "goals": 0,
+    "club": "Hearts of Oak"
+  },
+  {
+    "no": 17,
+    "pos": "AB",
+    "name": "Abdul Rahman Baba",
+    "born": "1994-07-02",
+    "caps": 51,
+    "goals": 1,
+    "club": "PAOK"
+  },
+  {
+    "no": 18,
+    "pos": "AB",
+    "name": "Jerome Opoku",
+    "born": "1998-10-14",
+    "caps": 11,
+    "goals": 1,
+    "club": "İstanbul Başakşehir"
+  },
+  {
+    "no": 19,
+    "pos": "ST",
+    "name": "Iñaki Williams",
+    "born": "1994-06-15",
+    "caps": 26,
+    "goals": 2,
+    "club": "Athletic Bilbao"
+  },
+  {
+    "no": 20,
+    "pos": "MF",
+    "name": "Augustine Boakye",
+    "born": "2000-11-03",
+    "caps": 0,
+    "goals": 0,
+    "club": "Saint-Étienne"
+  },
+  {
+    "no": 21,
+    "pos": "AB",
+    "name": "Kojo Peprah Oppong",
+    "born": "2004-06-04",
+    "caps": 4,
+    "goals": 0,
+    "club": "Nice"
+  },
+  {
+    "no": 22,
+    "pos": "ST",
+    "name": "Kamaldeen Sulemana",
+    "born": "2002-02-15",
+    "caps": 28,
+    "goals": 1,
+    "club": "Atalanta"
+  },
+  {
+    "no": 23,
+    "pos": "AB",
+    "name": "Derrick Luckassen",
+    "born": "1995-07-03",
+    "caps": 1,
+    "goals": 0,
+    "club": "Pafos"
+  },
+  {
+    "no": 24,
+    "pos": "ST",
+    "name": "Ernest Nuamah",
+    "born": "2003-11-01",
+    "caps": 18,
+    "goals": 4,
+    "club": "Lyon"
+  },
+  {
+    "no": 25,
+    "pos": "ST",
+    "name": "Prince Kwabena Adu",
+    "born": "2003-09-23",
+    "caps": 5,
+    "goals": 0,
+    "club": "Viktoria Plzeň"
+  },
+  {
+    "no": 26,
+    "pos": "AB",
+    "name": "Marvin Senaya",
+    "born": "2001-01-28",
+    "caps": 2,
+    "goals": 0,
+    "club": "Auxerre"
+  }
+]

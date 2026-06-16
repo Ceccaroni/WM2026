@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Alexander Schlager",
+    "born": "1996-02-01",
+    "caps": 26,
+    "goals": 0,
+    "club": "Red Bull Salzburg"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "David Affengruber",
+    "born": "2001-03-19",
+    "caps": 1,
+    "goals": 0,
+    "club": "Elche"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Kevin Danso",
+    "born": "1998-09-19",
+    "caps": 32,
+    "goals": 0,
+    "club": "Tottenham Hotspur"
+  },
+  {
+    "no": 4,
+    "pos": "MF",
+    "name": "Xaver Schlager",
+    "born": "1997-09-28",
+    "caps": 51,
+    "goals": 4,
+    "club": "RB Leipzig"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Stefan Posch",
+    "born": "1997-05-14",
+    "caps": 52,
+    "goals": 5,
+    "club": "Mainz 05"
+  },
+  {
+    "no": 6,
+    "pos": "MF",
+    "name": "Nicolas Seiwald",
+    "born": "2001-05-04",
+    "caps": 47,
+    "goals": 1,
+    "club": "RB Leipzig"
+  },
+  {
+    "no": 7,
+    "pos": "ST",
+    "name": "Marko Arnautović",
+    "born": "1989-04-19",
+    "caps": 133,
+    "goals": 47,
+    "club": "Red Star Belgrade"
+  },
+  {
+    "no": 8,
+    "pos": "AB",
+    "name": "David Alaba",
+    "born": "1992-06-24",
+    "caps": 113,
+    "goals": 15,
+    "club": "Real Madrid",
+    "captain": true
+  },
+  {
+    "no": 9,
+    "pos": "MF",
+    "name": "Marcel Sabitzer",
+    "born": "1994-03-17",
+    "caps": 98,
+    "goals": 26,
+    "club": "Borussia Dortmund"
+  },
+  {
+    "no": 10,
+    "pos": "MF",
+    "name": "Florian Grillitsch",
+    "born": "1995-08-07",
+    "caps": 58,
+    "goals": 1,
+    "club": "Braga"
+  },
+  {
+    "no": 11,
+    "pos": "ST",
+    "name": "Michael Gregoritsch",
+    "born": "1994-04-18",
+    "caps": 75,
+    "goals": 24,
+    "club": "FC Augsburg"
+  },
+  {
+    "no": 12,
+    "pos": "TW",
+    "name": "Florian Wiegele",
+    "born": "2001-03-21",
+    "caps": 1,
+    "goals": 0,
+    "club": "Viktoria Plzeň"
+  },
+  {
+    "no": 13,
+    "pos": "TW",
+    "name": "Patrick Pentz",
+    "born": "1997-01-02",
+    "caps": 18,
+    "goals": 0,
+    "club": "Brøndby"
+  },
+  {
+    "no": 14,
+    "pos": "ST",
+    "name": "Saša Kalajdžić",
+    "born": "1997-07-07",
+    "caps": 22,
+    "goals": 4,
+    "club": "LASK"
+  },
+  {
+    "no": 15,
+    "pos": "AB",
+    "name": "Philipp Lienhart",
+    "born": "1996-07-11",
+    "caps": 41,
+    "goals": 3,
+    "club": "SC Freiburg"
+  },
+  {
+    "no": 16,
+    "pos": "AB",
+    "name": "Phillipp Mwene",
+    "born": "1994-01-29",
+    "caps": 30,
+    "goals": 0,
+    "club": "Mainz 05"
+  },
+  {
+    "no": 17,
+    "pos": "MF",
+    "name": "Carney Chukwuemeka",
+    "born": "2003-10-20",
+    "caps": 3,
+    "goals": 1,
+    "club": "Borussia Dortmund"
+  },
+  {
+    "no": 18,
+    "pos": "MF",
+    "name": "Romano Schmid",
+    "born": "2000-01-27",
+    "caps": 34,
+    "goals": 3,
+    "club": "Werder Bremen"
+  },
+  {
+    "no": 19,
+    "pos": "MF",
+    "name": "Dejan Ljubičić",
+    "born": "1997-10-08",
+    "caps": 9,
+    "goals": 1,
+    "club": "Schalke 04"
+  },
+  {
+    "no": 20,
+    "pos": "MF",
+    "name": "Konrad Laimer",
+    "born": "1997-05-27",
+    "caps": 57,
+    "goals": 7,
+    "club": "Bayern Munich"
+  },
+  {
+    "no": 21,
+    "pos": "ST",
+    "name": "Patrick Wimmer",
+    "born": "2001-05-30",
+    "caps": 30,
+    "goals": 1,
+    "club": "VfL Wolfsburg"
+  },
+  {
+    "no": 22,
+    "pos": "MF",
+    "name": "Alexander Prass",
+    "born": "2001-05-26",
+    "caps": 19,
+    "goals": 0,
+    "club": "TSG Hoffenheim"
+  },
+  {
+    "no": 23,
+    "pos": "AB",
+    "name": "Marco Friedl",
+    "born": "1998-03-16",
+    "caps": 11,
+    "goals": 0,
+    "club": "Werder Bremen"
+  },
+  {
+    "no": 24,
+    "pos": "MF",
+    "name": "Paul Wanner",
+    "born": "2005-12-23",
+    "caps": 3,
+    "goals": 0,
+    "club": "PSV Eindhoven"
+  },
+  {
+    "no": 25,
+    "pos": "AB",
+    "name": "Michael Svoboda",
+    "born": "1998-10-15",
+    "caps": 4,
+    "goals": 0,
+    "club": "Venezia"
+  },
+  {
+    "no": 26,
+    "pos": "MF",
+    "name": "Alessandro Schöpf",
+    "born": "1994-02-07",
+    "caps": 35,
+    "goals": 6,
+    "club": "Wolfsberger AC"
+  }
+]

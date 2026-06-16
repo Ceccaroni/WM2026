@@ -1,0 +1,35 @@
+{
+  "id": "TUN",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 44,
+  "wcRecord": "7. Teilnahme · nie über die Gruppenphase hinaus",
+  "coach": {
+    "name": "Sabri Lamouchi",
+    "since": "2026"
+  },
+  "stars": [
+    {
+      "name": "Ellyes Skhiri",
+      "club": "Eintracht Frankfurt",
+      "role": "Kapitän & Defensives Mittelfeld"
+    },
+    {
+      "name": "Hannibal Mejbri",
+      "club": "FC Burnley",
+      "role": "Offensives Mittelfeld"
+    },
+    {
+      "name": "Sebastian Tounekti",
+      "club": "Celtic Glasgow",
+      "role": "Flügel"
+    }
+  ],
+  "form": "Besorgniserregende Generalprobe: 0:1 gegen Österreich in Wien — trotz Überzahl ab der 37. Minute — und am 6. Juni ein 0:5-Debakel gegen Belgien in Brüssel (inklusive Platzverweis für Gharbi). Vor allem die Harmlosigkeit im Angriff bereitet Sorgen.",
+  "quali": "Historische Quali: Als erstes Team überhaupt ohne ein einziges Gegentor zur WM — ungeschlagen als Sieger der CAF-Gruppe H, damals noch unter dem inzwischen entlassenen Sami Trabelsi.",
+  "storylines": [
+    "Trainerwechsel trotz Rekord-Quali: Trabelsi musste nach dem AFCON-Achtelfinal-Aus gegen Mali gehen, Lamouchi übernahm Anfang 2026",
+    "Das 0:5 gegen Belgien in der Generalprobe nährt Zweifel kurz vor dem Turnierstart",
+    "Quali-Toptorschütze Ben Romdhane wurde überraschend nicht nominiert",
+    "Mission Achtelfinale: Tunesien will erstmals die Gruppenphase überstehen"
+  ]
+}

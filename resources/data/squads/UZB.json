@@ -1,0 +1,237 @@
+[
+  {
+    "no": 1,
+    "pos": "TW",
+    "name": "Utkir Yusupov",
+    "born": "1991-01-04",
+    "caps": 40,
+    "goals": 0,
+    "club": "Navbahor Namangan"
+  },
+  {
+    "no": 2,
+    "pos": "AB",
+    "name": "Abdukodir Khusanov",
+    "born": "2004-02-29",
+    "caps": 27,
+    "goals": 0,
+    "club": "Manchester City"
+  },
+  {
+    "no": 3,
+    "pos": "AB",
+    "name": "Khojiakbar Alijonov",
+    "born": "1997-04-19",
+    "caps": 40,
+    "goals": 2,
+    "club": "Pakhtakor"
+  },
+  {
+    "no": 4,
+    "pos": "AB",
+    "name": "Farrukh Sayfiev",
+    "born": "1991-01-17",
+    "caps": 46,
+    "goals": 1,
+    "club": "Neftchi Fergana"
+  },
+  {
+    "no": 5,
+    "pos": "AB",
+    "name": "Rustam Ashurmatov",
+    "born": "1996-07-07",
+    "caps": 49,
+    "goals": 1,
+    "club": "Esteghlal"
+  },
+  {
+    "no": 6,
+    "pos": "MF",
+    "name": "Akmal Mozgovoy",
+    "born": "1999-04-02",
+    "caps": 25,
+    "goals": 1,
+    "club": "Pakhtakor"
+  },
+  {
+    "no": 7,
+    "pos": "MF",
+    "name": "Otabek Shukurov",
+    "born": "1996-06-22",
+    "caps": 84,
+    "goals": 9,
+    "club": "Baniyas"
+  },
+  {
+    "no": 8,
+    "pos": "MF",
+    "name": "Jamshid Iskanderov",
+    "born": "1993-10-16",
+    "caps": 38,
+    "goals": 4,
+    "club": "Neftchi Fergana"
+  },
+  {
+    "no": 9,
+    "pos": "MF",
+    "name": "Odiljon Hamrobekov",
+    "born": "1996-02-13",
+    "caps": 72,
+    "goals": 1,
+    "club": "Tractor"
+  },
+  {
+    "no": 10,
+    "pos": "MF",
+    "name": "Jaloliddin Masharipov",
+    "born": "1993-09-01",
+    "caps": 74,
+    "goals": 12,
+    "club": "Esteghlal"
+  },
+  {
+    "no": 11,
+    "pos": "MF",
+    "name": "Oston Urunov",
+    "born": "2000-12-19",
+    "caps": 42,
+    "goals": 10,
+    "club": "Persepolis"
+  },
+  {
+    "no": 12,
+    "pos": "TW",
+    "name": "Abduvohid Nematov",
+    "born": "2001-03-20",
+    "caps": 8,
+    "goals": 0,
+    "club": "Nasaf"
+  },
+  {
+    "no": 13,
+    "pos": "AB",
+    "name": "Sherzod Nasrullaev",
+    "born": "1998-07-23",
+    "caps": 31,
+    "goals": 2,
+    "club": "Nasaf"
+  },
+  {
+    "no": 14,
+    "pos": "ST",
+    "name": "Eldor Shomurodov",
+    "born": "1995-06-29",
+    "caps": 92,
+    "goals": 44,
+    "club": "İstanbul Başakşehir",
+    "captain": true
+  },
+  {
+    "no": 15,
+    "pos": "AB",
+    "name": "Umar Eshmurodov",
+    "born": "1992-11-30",
+    "caps": 29,
+    "goals": 0,
+    "club": "Nasaf"
+  },
+  {
+    "no": 16,
+    "pos": "TW",
+    "name": "Botirali Ergashev",
+    "born": "1995-06-23",
+    "caps": 2,
+    "goals": 0,
+    "club": "Neftchi Fergana"
+  },
+  {
+    "no": 17,
+    "pos": "MF",
+    "name": "Dostonbek Khamdamov",
+    "born": "1996-07-24",
+    "caps": 34,
+    "goals": 5,
+    "club": "Pakhtakor"
+  },
+  {
+    "no": 18,
+    "pos": "AB",
+    "name": "Abdulla Abdullaev",
+    "born": "1997-09-01",
+    "caps": 17,
+    "goals": 0,
+    "club": "Dibba"
+  },
+  {
+    "no": 19,
+    "pos": "MF",
+    "name": "Azizjon Ganiev",
+    "born": "1998-02-22",
+    "caps": 19,
+    "goals": 0,
+    "club": "Al Bataeh"
+  },
+  {
+    "no": 20,
+    "pos": "ST",
+    "name": "Azizbek Amonov",
+    "born": "1997-10-30",
+    "caps": 12,
+    "goals": 2,
+    "club": "Dinamo Samarqand"
+  },
+  {
+    "no": 21,
+    "pos": "ST",
+    "name": "Igor Sergeev",
+    "born": "1993-04-30",
+    "caps": 83,
+    "goals": 25,
+    "club": "Persepolis"
+  },
+  {
+    "no": 22,
+    "pos": "MF",
+    "name": "Abbosbek Fayzullaev",
+    "born": "2003-10-03",
+    "caps": 32,
+    "goals": 8,
+    "club": "İstanbul Başakşehir"
+  },
+  {
+    "no": 23,
+    "pos": "MF",
+    "name": "Sherzod Esanov",
+    "born": "2003-02-01",
+    "caps": 1,
+    "goals": 0,
+    "club": "Bukhara"
+  },
+  {
+    "no": 24,
+    "pos": "AB",
+    "name": "Bekhruz Karimov",
+    "born": "2007-08-07",
+    "caps": 2,
+    "goals": 0,
+    "club": "Surkhon Termiz"
+  },
+  {
+    "no": 25,
+    "pos": "AB",
+    "name": "Avazbek Ulmasaliev",
+    "born": "2000-03-27",
+    "caps": 0,
+    "goals": 0,
+    "club": "AGMK"
+  },
+  {
+    "no": 26,
+    "pos": "AB",
+    "name": "Jakhongir Urozov",
+    "born": "2004-01-18",
+    "caps": 4,
+    "goals": 0,
+    "club": "Dinamo Samarqand"
+  }
+]

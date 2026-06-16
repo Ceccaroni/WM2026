@@ -1,0 +1,35 @@
+{
+  "id": "IRN",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 21,
+  "wcRecord": "7. Teilnahme · nie über die Vorrunde hinaus",
+  "coach": {
+    "name": "Amir Ghalenoei",
+    "since": "2023"
+  },
+  "stars": [
+    {
+      "name": "Mehdi Taremi",
+      "club": "Olympiakos Piräus",
+      "role": "Kapitän & Sturm"
+    },
+    {
+      "name": "Alireza Jahanbakhsh",
+      "club": "FCV Dender",
+      "role": "Flügel"
+    },
+    {
+      "name": "Alireza Beiranvand",
+      "club": "Tractor FC",
+      "role": "Torwart"
+    }
+  ],
+  "form": "Drei Siege und eine Niederlage in den vier Testspielen 2026 im Camp in Antalya: Niederlage gegen Nigeria, Siege gegen Costa Rica und Gambia, zuletzt 2:0 gegen Mali (5. Juni, Tore Ezatolahi und Rezaeian). Da die heimische Liga seit Ende Februar ausgesetzt ist, fehlt den Iran-basierten Spielern allerdings Spielrhythmus.",
+  "quali": "Als Sieger der AFC-Gruppe A (23 Punkte aus 10 Spielen, nur eine Niederlage in der gesamten Quali) schon am 25. März 2025 als eines der ersten Teams qualifiziert – ein 2:2 gegen Usbekistan mit Taremi-Doppelpack machte die vierte WM-Teilnahme in Folge perfekt.",
+  "storylines": [
+    "US-Visa-Krimi bis zuletzt: Abreise am 6. Juni zunächst nur ins Basecamp Tijuana (Mexiko); US-Aussenminister Rubio sicherte den Spielern Einreise zu, IRGC-nahe Betreuer bleiben ausgeschlossen",
+    "FIFA strich am 9. Juni das Ticketkontingent für iranische Fans – wenige Tage vor Turnierstart, Hintergrund sind US-Sanktionen",
+    "Sardar Azmoun (57 Länderspieltore) fehlt im Kader: laut Berichten nach einem Instagram-Post mit Dubais Herrscher als illoyal eingestuft und aus dem Team verbannt",
+    "Vorbereitung im Schatten des Kriegs: Liga seit den US-/israelischen Luftangriffen Ende Februar ausgesetzt, Testspielgegner wie Nordmazedonien und Angola sagten ab"
+  ]
+}

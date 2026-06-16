@@ -1,0 +1,40 @@
+{
+  "id": "CPV",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 69,
+  "wcRecord": "WM-Debüt",
+  "coach": {
+    "name": "Pedro Leitão Brito «Bubista»",
+    "since": "2020"
+  },
+  "stars": [
+    {
+      "name": "Ryan Mendes",
+      "club": "Iğdır FK",
+      "role": "Kapitän & Sturm"
+    },
+    {
+      "name": "Logan Costa",
+      "club": "Villarreal",
+      "role": "Innenverteidigung"
+    },
+    {
+      "name": "Dailon Livramento",
+      "club": "Casa Pia",
+      "role": "Sturm"
+    },
+    {
+      "name": "Vozinha",
+      "club": "GD Chaves",
+      "role": "Torwart"
+    }
+  ],
+  "form": "Den Afrika-Cup 2025 in Marokko verpassten die Blauen Haie, zur WM reisen sie aber mit breiter Brust: 3:0 gegen Serbien in Lissabon (30. Mai) und 3:0 gegen Bermuda in Hartford (6. Juni) — zwei Zu-null-Siege in der direkten Vorbereitung.",
+  "quali": "Historisch als Sieger der CAF-Gruppe D vor Kamerun qualifiziert — das 3:0 gegen Eswatini am 13. Oktober 2025 in Praia machte das erste WM-Ticket der Landesgeschichte perfekt, Bubista wurde dafür zum CAF-Trainer des Jahres 2025 gekürt.",
+  "storylines": [
+    "WM-Debüt nach sieben vergeblichen Anläufen — mit rund 525'000 Einwohnern die drittkleinste WM-Nation aller Zeiten (nach Curaçao und Island)",
+    "Diaspora-Elf: Fast der ganze Kader wurde in Portugal, Frankreich, den Niederlanden oder Irland geboren — Verteidiger Roberto Lopes wurde einst per LinkedIn rekrutiert",
+    "Wagnis mit dem Star: Abwehrchef Logan Costa (Villarreal, einziger Top-5-Liga-Profi) kehrte erst am 17. Mai nach Kreuzbandriss zurück und steht trotzdem im Kader",
+    "Auftakt ausgerechnet gegen Europameister Spanien (15. Juni) — Kapitän Ryan Mendes (36, Rekordtorschütze) führt das Team an, Goalie Vozinha ist mit 39 der älteste Spieler"
+  ]
+}

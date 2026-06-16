@@ -1,0 +1,40 @@
+{
+  "id": "PAR",
+  "updatedAt": "2026-06-11",
+  "fifaRank": 40,
+  "wcRecord": "9. Teilnahme · zuletzt 2010 (Viertelfinale)",
+  "coach": {
+    "name": "Gustavo Alfaro",
+    "since": "2024"
+  },
+  "stars": [
+    {
+      "name": "Gustavo Gómez",
+      "club": "Palmeiras",
+      "role": "Kapitän & Innenverteidigung"
+    },
+    {
+      "name": "Miguel Almirón",
+      "club": "Atlanta United",
+      "role": "Offensives Mittelfeld"
+    },
+    {
+      "name": "Julio Enciso",
+      "club": "Racing Straßburg",
+      "role": "Offensives Mittelfeld"
+    },
+    {
+      "name": "Diego Gómez",
+      "club": "Brighton & Hove Albion",
+      "role": "Zentrales Mittelfeld"
+    }
+  ],
+  "form": "Defensiv stabil, offensiv gegen Topgegner harmlos: Im März gab es ein 1:0 gegen Griechenland und ein 1:2 gegen Marokko. Die Generalprobe am 5. Juni gegen Nicaragua wurde 4:0 gewonnen, aber von der Verletzung Julio Encisos überschattet, der nach 25 Minuten auf der Trage vom Feld musste.",
+  "quali": "Sechster der CONMEBOL-Quali 2025 (28 Punkte, nur 10 Gegentore in 18 Spielen) und damit direkt qualifiziert – erste WM seit 2010, mit Heimsiegen gegen Brasilien (1:0) und Argentinien (2:1).",
+  "storylines": [
+    "Schock vor dem Auftakt: Enciso (Oberschenkel- und Hüftverletzung) wurde im Nicaragua-Test vom Platz getragen – Alfaro gibt sich für den US-Auftakt 'hoffnungsvoll'",
+    "Erste WM seit 16 Jahren – Alfaro übernahm 2024 nach dem Quali-Fehlstart und drehte die Kampagne komplett",
+    "Auftakt ausgerechnet gegen Gastgeber USA am 12. Juni in Inglewood",
+    "Abwehrbollwerk um den 33-jährigen Kapitän Gustavo Gómez: nur 10 Gegentore in 18 Quali-Spielen"
+  ]
+}
