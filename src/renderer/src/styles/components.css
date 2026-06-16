@@ -4940,6 +4940,27 @@ button.scorer:hover {
   .chronikmatch__name {
     min-width: 0;
   }
+  /* KO-Tipp-Zeilen: die Score-Stepper fressen die Mitte, Name+Flagge nebeneinander passten
+     nicht → Herkunfts-Labels beidseitig abgeschnitten. Lösung: Name ÜBER die Flagge stapeln
+     (gibt dem Namen die volle Spaltenbreite) + umbrechen statt kürzen, damit die Herkunft
+     beim KO-Tippen (ab 28.06.) lesbar bleibt — egal ob Platzhalter ("Zweiter A") oder langer
+     echter Name ("Deutschland"). Nur KO (.kotip); Gruppenphasen-Tipps bleiben unverändert. */
+  .kotip .tiprow__team {
+    flex-direction: column;
+    gap: 2px;
+    text-align: center;
+  }
+  .kotip .tiprow__name {
+    white-space: normal;
+    overflow-wrap: break-word;
+    font-size: 12px;
+    line-height: 1.15;
+  }
+  /* KO-Sektionskopf: „eigene Wertungskategorie"-Badge unter den Gold-Titel umbrechen
+     statt rechts aus der Karte zu ragen (album__head ist flex mit space-between). */
+  .album__head {
+    flex-wrap: wrap;
+  }
   /* Event-Spalten (Heim/Auswärts) schrumpfbar statt überlaufend. */
   .liverow__events,
   .chronikmatch__events {
@@ -4966,12 +4987,34 @@ button.scorer:hover {
   .matchcard__name {
     min-width: 0;
   }
+  /* Fußzeile (Gruppe · Stadion · „Mein Tipp"): venue hatte flex:1 OHNE min-width:0 und
+     erzwang so seine Inhaltsbreite → Karte zu breit, Tipp-Badge rechts abgeschnitten.
+     min-width:0 lässt den Stadion-Text kürzen; flex-wrap als Sicherheitsnetz. */
+  .matchcard__meta {
+    flex-wrap: wrap;
+    row-gap: var(--space-1);
+  }
+  .matchcard__venue {
+    min-width: 0;
+  }
+  /* Spielplan-Filter: bei Platzmangel umbrechen statt rechts abzuschneiden ("Alle Teams"). */
+  .filters {
+    flex-wrap: wrap;
+  }
 
-  /* Mannschaftsseite: Kopf vertikal stapeln, Wappen & Infos sichtbar halten. */
+  /* Mannschaftsseite: Kopf vertikal stapeln, Wappen & Infos sichtbar halten.
+     Adrian-Wunsch: Verbandslogo, Spielerkarte (Flagge) und Kader-Button zentriert. */
   .teamdetail__head {
     flex-direction: column;
     gap: var(--space-4);
-    align-items: flex-start;
+    align-items: center;
+  }
+  .teamdetail__heroside {
+    align-items: center;
+  }
+  /* Titel/Infos bleiben links lesbar (Fließtext nicht zentrieren). */
+  .teamdetail__title {
+    text-align: left;
   }
   .teamhero {
     width: 160px;
@@ -4986,21 +5029,54 @@ button.scorer:hover {
   .teamdetail__title h2 {
     font-size: 28px;
   }
-  /* Verbandswappen war absolut oben-rechts → mobil in den Fluss holen, sonst überdeckt/weg. */
+  /* Verbandswappen war absolut oben-rechts → mobil in den Fluss holen (zentriert).
+     Adrian-Wunsch: ohne weiße Kachel, direkt auf dem beigen Albumhintergrund. */
   .teamdetail__crest {
     position: static;
     transform: none;
-    margin-bottom: var(--space-2);
+    display: block;
+    width: fit-content;
+    margin: 0 auto var(--space-2);
+  }
+  .teamdetail__crest .crest {
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+    height: auto;
   }
   .teamdetail__cols {
     grid-template-columns: 1fr;
   }
 
-  /* Rangliste-Zeilen: schmalere feste Spalten. */
+  /* Rangliste-Zeilen: Desktop-Grid hat 5 Spalten (rank dot name chips total). Auf dem
+     Handy passten die 5 Items nicht nebeneinander → total (Punkte) fiel in eine 2. Zeile
+     und die Stats ("n× exakt …") liefen rechts raus. Lösung: explizite Areas — Zeile 1
+     rank·dot·name·total (Punkte wieder rechts), Stats umbrechend in Zeile 2. */
   .lbrow {
-    grid-template-columns: 28px 1fr auto 44px;
-    gap: var(--space-2);
+    grid-template-columns: auto auto 1fr auto;
+    grid-template-areas:
+      'rank dot name total'
+      'chips chips chips chips';
+    column-gap: var(--space-2);
+    row-gap: 2px;
     padding: var(--space-2) var(--space-3);
+    align-items: center;
+  }
+  .lbrow__rank {
+    grid-area: rank;
+  }
+  .lbrow__dot {
+    grid-area: dot;
+  }
+  .lbrow__name {
+    grid-area: name;
+  }
+  .lbrow__total {
+    grid-area: total;
+  }
+  .lbrow__chips {
+    grid-area: chips;
+    white-space: normal;
   }
 
   /* Gruppentabellen: kompakter, damit sie in die Breite passen. */
@@ -5015,6 +5091,22 @@ button.scorer:hover {
   /* News-Liste: kompakter Kopf. */
   .newslist__head {
     gap: var(--space-2);
+  }
+
+  /* Chronik-Tagesauswahl: bei bis zu ~35 Turniertagen würde das umbrechende Chip-Raster
+     die halbe Seite füllen. Stattdessen ein horizontaler Streifen, der seitlich scrollt;
+     der aktive Tag wird per JS zentriert (Chronik.tsx). Nur ≤680px — Desktop bleibt Raster. */
+  .chronikbar .groupchips {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin: var(--space-3) 0;
+    padding-bottom: var(--space-1);
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x proximity;
+  }
+  .chronikbar .groupchip {
+    flex: 0 0 auto;
+    scroll-snap-align: center;
   }
 
   /* Spielerkarten-Flip (Safari/iOS): der Vorderseite eine EIGENE 3D-Ebene geben, sonst

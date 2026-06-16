@@ -213,10 +213,13 @@ const SPLASH_HTML = `<!doctype html><html lang="de"><head><meta charset="utf-8">
 </body></html>`
 
 function createWindow(): void {
+  // Debug: WM26_SHOT_W=<px> macht das Fenster schmal (z. B. 390) → rendert das ≤680px-Mobile-Layout
+  // für Hochformat-Screenshots der PWA-Optik. minWidth muss dann mitschrumpfen.
+  const shotW = process.env['WM26_SHOT_W'] ? Number(process.env['WM26_SHOT_W']) : 0
   const win = new BrowserWindow({
-    width: 1320,
+    width: shotW || 1320,
     height: 860,
-    minWidth: 1080,
+    minWidth: shotW || 1080,
     minHeight: 700,
     title: 'WM26 Tipp',
     titleBarStyle: 'hiddenInset',
@@ -267,7 +270,7 @@ function createWindow(): void {
   }
 
   if (SHOT_DIR) {
-    win.webContents.once('did-finish-load', () => void captureScreens(win))
+    win.webContents.once('did-finish-load', () => void (shotW ? captureMobile(win) : captureScreens(win)))
   }
 }
 
@@ -505,6 +508,52 @@ function seedShotData(dir: string): void {
     join(dir, 'wm26-results.json'),
     JSON.stringify({ version: 1, eventMap: {}, results: seeded, lineups: seededLineups, fetchedAt: t })
   )
+}
+
+/** Schlanke Hochformat-Sequenz (WM26_SHOT_W gesetzt): jeder Screen am oberen Rand, ohne
+ *  Detail-Aufklapper — zum Verifizieren des ≤680px-Layouts. Eigenes „m-"-Präfix. */
+async function captureMobile(win: BrowserWindow): Promise<void> {
+  const wait = (ms: number) => new Promise((r) => setTimeout(r, ms))
+  const js = (code: string) => win.webContents.executeJavaScript(code)
+  const shot = async (name: string) => {
+    const img = await win.webContents.capturePage()
+    writeFileSync(join(SHOT_DIR!, name), img.toPNG())
+    console.log(`[shot] ${name}`)
+  }
+  const nav = (i: number) => js(`document.querySelectorAll('.sidebar button')[${i}]?.click()`)
+  const top = () => js(`document.querySelector('.screen')?.scrollTo(0, 0)`)
+  const at = async (i: number, name: string) => {
+    await nav(i)
+    await wait(500)
+    await top()
+    await wait(180)
+    await shot(name)
+  }
+  mkdirSync(SHOT_DIR!, { recursive: true })
+  await wait(2000)
+  await js(`(() => {
+    const i = document.querySelector('.profileform input')
+    if (!i) return false
+    Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value').set.call(i, 'Shot-Test')
+    i.dispatchEvent(new Event('input', { bubbles: true }))
+    document.querySelector('.profileform button.btn--primary')?.click()
+    return true
+  })()`)
+  await wait(900)
+  await at(0, 'm-heute.png')
+  await at(1, 'm-spielplan.png')
+  await at(4, 'm-rangliste.png')
+  await at(5, 'm-ko.png')
+  // Team-Detail: in die Mexiko-Seite und an den Kopf scrollen (Verbandslogo/Flagge/Button).
+  await nav(6)
+  await wait(400)
+  await js(`[...document.querySelectorAll('.teamsticker')].find((b) => b.textContent.includes('Mexiko'))?.click()`)
+  await wait(500)
+  await top()
+  await wait(180)
+  await shot('m-team.png')
+  await at(9, 'm-chronik.png')
+  app.quit()
 }
 
 async function captureScreens(win: BrowserWindow): Promise<void> {

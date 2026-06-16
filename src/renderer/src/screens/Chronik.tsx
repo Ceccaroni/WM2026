@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import emblem from '../assets/wm26-emblem.svg'
 import FlagBadge from '../components/FlagBadge'
 import PlayerPeek from '../components/PlayerPeek'
@@ -263,6 +263,14 @@ export default function Chronik() {
   const days = useMemo(() => buildChronik(profiles, entries, results, scoring), [profiles, entries, results, scoring])
   const day = days.find((d) => d.key === selected) ?? days.at(-1)
 
+  // Im horizontalen Tages-Streifen (Mobile) den aktiven Tag in die Mitte scrollen.
+  // Auf dem Desktop (Raster, nicht horizontal scrollbar) ein No-Op.
+  const chipsRef = useRef<HTMLDivElement>(null)
+  useEffect(() => {
+    const el = chipsRef.current?.querySelector<HTMLElement>('.groupchip--active')
+    el?.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' })
+  }, [day?.key])
+
   // PDF-Export zweiphasig: erst den Print-Modus rendern (Deckblatt + ALLE Tagesseiten
   // im @media-print-DOM), dann druckt der Main-Prozess via printToPDF.
   useEffect(() => {
@@ -292,7 +300,7 @@ export default function Chronik() {
       ) : (
         <>
           <div className="chronikbar">
-            <div className="groupchips">
+            <div className="groupchips" ref={chipsRef}>
               {days.map((d) => (
                 <button
                   key={d.key}
