@@ -21,7 +21,10 @@ export default defineConfig({
   define: {
     __MARTIN__: JSON.stringify(process.env.VITE_MARTIN === '1'),
     __LATE_NAME__: JSON.stringify(process.env.VITE_MARTIN_NAME ?? 'Martin'),
-    __APP_VERSION__: JSON.stringify(pkg.version)
+    __APP_VERSION__: JSON.stringify(pkg.version),
+    // Web-Build → true. Schaltet PWA-Verhalten frei (z. B. „Aktivieren" auch für
+    // importierte Profile, da jede Gerätekopie isoliert ist — keine Fairness-Sperre nötig).
+    __WEB__: JSON.stringify(true)
   },
   plugins: [
     react(),

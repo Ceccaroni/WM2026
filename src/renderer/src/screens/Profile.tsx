@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { IS_WEB } from '../lib/env'
 import { isMuted, playCheer, setMuted } from '../lib/sound'
 import { cmpVersion } from '../lib/update'
 import type { UpdateSnapshot } from '../lib/types'
@@ -140,7 +141,9 @@ export default function Profile() {
             {p.id === activeProfileId ? (
               <span className="badge badge--tip">Aktiv</span>
             ) : (
-              !p.imported && (
+              // Auf dem geteilten Mac bleiben importierte (fremde) Profile gesperrt; in der PWA
+              // ist jede Gerätekopie isoliert → alle aktivierbar, damit sich jede:r selbst wählen kann.
+              (IS_WEB || !p.imported) && (
                 <button className="btn" onClick={() => void setActiveProfile(p.id)}>
                   Aktivieren
                 </button>
