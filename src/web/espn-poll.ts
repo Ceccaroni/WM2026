@@ -175,10 +175,18 @@ export class WebResultsService {
   }
 
   private async pollEspn(): Promise<void> {
+    const now = Date.now()
     const mappingComplete = Object.keys(this.eventMap).length >= SCHEDULE.length
     const eventsComplete = !SCHEDULE.some((m) => hasGoalGap(this.results[m.match]))
-    const now = Date.now()
-    const from = mappingComplete && eventsComplete ? ymd(Math.max(now - 36 * 3600_000, TOURNAMENT_START)) : ymd(TOURNAMENT_START)
+    // Selbstheilung gegen Lücken im Offline-Cache: ist ein Spiel längst angepfiffen
+    // (> 2,5 h), fehlt aber als „finished", ist der Cache unvollständig (PWA war eine
+    // Weile zu) → ganzen Turnierzeitraum neu laden statt nur die letzten 36 h, sonst
+    // füllt das schmale Fenster die Lücke nie nach (halbe Punkte). Danach wieder sparsam.
+    const resultsComplete = !SCHEDULE.some(
+      (m) => Date.parse(m.dateUtc) < now - 150 * 60_000 && this.results[m.match]?.status !== 'finished'
+    )
+    const incremental = mappingComplete && eventsComplete && resultsComplete
+    const from = incremental ? ymd(Math.max(now - 36 * 3600_000, TOURNAMENT_START)) : ymd(TOURNAMENT_START)
     const to = mappingComplete ? ymd(Math.min(now + 36 * 3600_000, TOURNAMENT_END)) : ymd(TOURNAMENT_END)
     const res = await fetch(espnScoreboardUrl(from, to), { signal: AbortSignal.timeout(15_000) })
     if (!res.ok) throw new Error(`HTTP ${res.status}`)

@@ -3,9 +3,18 @@ import { isLocked, kickoffTime } from '../lib/time'
 import type { ScheduledMatch, Tip } from '../lib/types'
 import FlagBadge from './FlagBadge'
 
-export default function MatchCard({ match, tip }: { match: ScheduledMatch; tip?: Tip }) {
-  const home = slotInfo(match.home)
-  const away = slotInfo(match.away)
+export default function MatchCard({
+  match,
+  tip,
+  slots
+}: {
+  match: ScheduledMatch
+  tip?: Tip
+  /** echte Paarung (KO), sobald bekannt — sonst greift die statische Schedule-Paarung */
+  slots?: { home: string; away: string }
+}) {
+  const home = slotInfo(slots?.home ?? match.home)
+  const away = slotInfo(slots?.away ?? match.away)
   const stadium = STADIUM_BY_ID.get(match.stadium)!
   const locked = isLocked(match.dateUtc)
 

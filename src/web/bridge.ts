@@ -56,14 +56,32 @@ export async function installWebBridge(): Promise<void> {
     exportProfile: async (profileId): Promise<ExportResult> => {
       const data = store.buildExport(profileId)
       if (!data) return { ok: false, error: 'Profil nicht gefunden.' }
-      downloadBlob(JSON.stringify(data, null, 2), `${data.profile.name}.wm26tipp`)
+      const json = JSON.stringify(data, null, 2)
+      const base = data.profile.name
+      // Mobil: natives Teilen-Menü (WhatsApp/Mail) statt Datei-Download. WICHTIG:
+      // Chrome/Android teilt nur Dateien mit erlaubter Endung (Bild/Video/Text/PDF) —
+      // „.wm26tipp" wird abgelehnt → es käme KEIN Teilen-Menü. Darum als „.txt"
+      // (text/plain) teilen; der Inhalt ist JSON, der Import (Web + Mac-Dialog) nimmt beides.
+      const shareFile = new File([json], `${base}-WM-Tipps.txt`, { type: 'text/plain' })
+      if (navigator.canShare?.({ files: [shareFile] })) {
+        try {
+          await navigator.share({ files: [shareFile], title: 'WM-Tipps', text: `WM-Tipps von ${base}` })
+          return { ok: true }
+        } catch (e) {
+          // Teilen abgebrochen → kein Fehler, NICHT zusätzlich downloaden
+          if (e instanceof DOMException && e.name === 'AbortError') return { ok: true }
+          // anderer Fehler → klassischer Download als Fallback
+        }
+      }
+      // Desktop-Browser ohne Datei-Teilen: klassischer Download
+      downloadBlob(json, `${base}.wm26tipp`)
       return { ok: true }
     },
     importProfile: (): Promise<ImportResult> =>
       new Promise<ImportResult>((resolve) => {
         const input = document.createElement('input')
         input.type = 'file'
-        input.accept = '.wm26tipp,application/json'
+        input.accept = '.wm26tipp,.json,.txt,application/json,text/plain'
         input.oncancel = () => resolve({ ok: true, canceled: true, state: store.state })
         input.onchange = async () => {
           const file = input.files?.[0]

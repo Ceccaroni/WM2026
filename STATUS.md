@@ -4,60 +4,40 @@
 > lassen (hartes Limit: ~60 Zeilen): Erledigtes als Block oben in HISTORIE.md einfügen, hier nur
 > Stand / Wächter / Nächstes. Rollen aller Dokumente: CLAUDE.md.
 
-## Stand: 17. Juni 2026
+## Stand: 9. Juli 2026
 
-**v1.8.11 live** (Daten **v29**); PWA live: **https://ceccaroni.github.io/WM2026/**.
+**PWA live: https://ceccaroni.github.io/WM2026/** — Deploy über **GitHub Actions**, Seed `2026-07-09T17:32:48Z`, Bundle `index-DEJrj88L.js`. **Live verifiziert** (HTML referenziert neuen Hash, Seed-Chunk trägt seedVersion). **Viertelfinale läuft** (Spiel 97 FRA–MAR heute 22:00 Zürich).
 
-**Dodo (Adrians Vater) aufgenommen.** Von der kollabierten SRF-Tipprunde übernommen: Profil **Dodo** (#DC2626), alle
-**104 Tipps** (1–72 + KO 73–104, keine Lücke) am Mac via **Martin-Modus** erfasst, vorher Store gesichert
-(`wm26-store.backup-2026-06-17.json`). Auf der PWA live (im Seed verifiziert). Export `~/Downloads/Dodo.wm26tipp`
-(104 Tipps, gleiche Profil-ID) — **Adrian verteilt sie an die anderen zum Mac-Import** (sein Job, läuft).
+Heute: **Viertelfinaltipps (`fromQF` = 97–100) ALLER 8 Profile eingebunden + deployt** (via Projektskill `ko-tipps-einlesen`). 4 frische PWA-Exporte (Adrian/Benjamin/Franzipani/Leonor), Dodo manuell nachgereicht (Minimal-Export gebaut), Lisa+Martin später nachgeliefert → **erstmals kein Nachzügler**. Claude fair generiert (alle 4 VF ungespielt): 97 FRA 2:1, 98 ESP 1:0, 99 ENG 1:2, 100 ARG 2:0. **adv-Artefakt** bei Adrians Spiel 99 (3:1 mit verwaistem `adv:away`) bereinigt + `merge-ko-tips.py`-`clean_tip` gehärtet (adv nur bei Remis). Details: HISTORIE.
 
-**PWA: alle Profile aktivierbar.** Importierte Profile (Benjamin/Franzipani/Claude/Martin) ließen sich am Handy nicht
-aktivieren (`!p.imported`-Sperre). Neu via Build-Flag **`__WEB__`**: im Web zeigt „Aktivieren" bei ALLEN Profilen
-(PWA-Gerätekopie isoliert → Fairness-Sperre wirkungslos). **Desktop/Mac unverändert.** Am Bundle verifiziert, deployt,
-committet (26acdb7).
+## 🔴 Offene Fäden (Priorität oben)
 
-**Tunesien-Trainer: Hervé Renard** (Kebaier war interim). coaches.json + **OTA** (Daten v29, live verifiziert) + PWA +
-Cloud-Routine-Baseline — alle drei Kanäle bedient. Mac-Apps ziehen es beim nächsten Update-Check.
-
-## 🔴 Offene Fäden
-
-- **Adrian verteilt `Dodo.wm26tipp`** an die Mitspieler (Mac-Import). PWA-seitig ist Dodo schon live.
-- **iOS-PWA-Reload:** neuer Deploy wird NICHT durch App-Neustart übernommen → Seite einmal frisch in Safari laden
-  (App ganz schließen+neu, ggf. Safari). **Niemand muss neu installieren.**
-- **28.06.:** alle tippen zusätzlich `fromR32` (Gold-Banner); Claude-Profil `Claude.wm26tipp` mit fromR32 nachliefern.
-  Dodo hat noch kein fromR32 — gehört auch dazu.
-- **Finaler Gegencheck der 6 Hochformat-Fixes am echten iPhone** (Adrian war heute am Gerät ohne Layout-Klage — sehr
-  wahrscheinlich ok, aber nicht explizit bestätigt).
-- Danach: PWA-Feinschliff (In-App-Update-Hinweis, Web-Badging), restliche Feature-Ideen (Memory `projekt-feature-ideen`).
+- **Alle müssen PWA hart neu laden** (Mac ⌘R 2× / iPhone Safari-URL neu) — sonst greift `mergeSeed` nicht und die VF-Runde zählt bei ihnen nicht. Deploy ist live-verifiziert; Gruppe noch auffordern (siehe Nächstes 2).
+- **Rest KO-Anzeige:** der Weiterkommer-Bonus (`advance`) in LiveRow kommt für KO-Spiele weiter aus der main-Breakdown, nicht der Runden-Breakdown (Heute/Live `bonusPts`). Bewusst nicht gefixt — bei Bedarf fromQF-Breakdown durchreichen.
+- **Deploy-Mechanik (Actions, bewährt):** `deploy:web` pusht nur gh-pages; danach **`gh workflow run deploy-pages.yml --ref main`** + `gh run watch`. Noch NICHT in `deploy-web.mjs` automatisiert — Feinschliff offen. Legacy-Build ist tot/deaktiviert.
+- **ALLES VOM 28.06. + 04.07. UNCOMMITTED** (Renderer-Runden-Modell, `espn-poll.ts`, Shot-Hook, Tool-Scripts, KO-Anzeige-Fix). Auf PWA live, aber nicht committet, nicht in einem `.dmg`. Zusätzlich untracked: `.claude/skills/ko-tipps-einlesen/` (inkl. heute gehärtetem Script). Commit-Entscheidung offen.
+- **`bridge.ts` Desktop-Export → direkter Download** (statt Mac-Teilen-Sheet); vereinfacht künftiges Einsammeln. Zurückgestellt.
+- **Dodo macht keinen eigenen PWA-Export** (Android/Teilen-Bug, echtes Gerät weiter offen) → Adrian reicht Dodos Tipps mündlich nach, ich baue einen Minimal-Export mit Dodos Profil-ID. Für fromSF wieder so.
+- **Martin** weiter ohne `fromR32`/`fromR16` (nur main+fromQF), **Dodo** ohne `fromR16` (hat fromR32+fromQF) — nur relevant, falls jemand alte Runden rückwirkend nachliefern will; für die laufende Wertung egal.
 
 ## ⚠️ Wächter — nicht übersehen
 
-- **Web vs. Desktop divergiert jetzt bewusst** über **`__WEB__`** (vite.web.config.ts=true / electron.vite.config.ts=false,
-  deklariert in `src/renderer/src/lib/env.ts`). Erste Nutzung: „Aktivieren" für importierte Profile nur im Web. Nicht „zurückfixen".
-- **Web-Update online: `npm run publish:web`** (= build:web + deploy:web). Backt aktuellen Mac-Store als Seed, baut
-  `dist-web/`, force-pusht als **Orphan in `gh-pages`** (`scripts/deploy-web.mjs`, `.nojekyll`). CI baut NICHT (Seed nur
-  lokal). `gh`=**Ceccaroni**. Repo-Name MUSS `WM2026` bleiben (`base '/WM2026/'`).
-- **Trainerwechsel = 4 Schritte:** coaches.json ändern → **`publish:update -- --notes '…'`** (OHNE `--dmg`, dataVersion +1,
-  `--notes` nur EINFACHE Quotes) für Mac-OTA → **`publish:web`** für die PWA → **Cloud-Routine „Trainerwechsel"-Baseline**
-  (`trig_01F2EfZDT3kCTKLPaB6dYiKL`, tgl. 08:00 = 06:00 UTC) nachziehen. Die `.wm26tipp`-Verteilung trägt NUR Profile, NICHT coaches.json.
-- **Nachzügler erfassen:** `VITE_MARTIN=1 VITE_MARTIN_NAME=<Name> npm run dev` hebt die Tipp-Sperre auf (schreibt in den
-  ECHTEN Store!). Vorher Store sichern; installierte App schließen (sonst zwei Prozesse auf einem Store); Fenster NICHT übers Dock öffnen.
-- **PWA-Bridge spiegelt `Wm26Api`:** neue `window.wm26`-Methode im Preload MUSS `src/web/bridge.ts` mitziehen. Polling/Parse via `src/shared/results.ts`.
-- **`seed-state.json` ist gitignored** (generiert bei jedem `build:web`) — nie im Source-Branch committen.
-- **Datenschutz Seed:** öffentlich live — Namen+Tipps der Gruppe unter der URL abrufbar (Adrian ok).
-- **Versionsnummern NIE wiederverwenden:** 1.8.3 verbrannt; 1.8.4–1.8.11 vergeben. Nächste frische ≥ 1.8.12.
-- **App-Update (mit Binary):** `publish:update -- --notes '…' --dmg`; `--dmg` globt `dist/*.dmg` mit Versions-Substring ⇒ vor Publish genau EINE Ziel-.dmg dieser Version in `dist/`.
-- **Cloud-Routine „Nati-Spielerfotos" tgl. 09:00 (07:00 UTC):** Funde lokal einpflegen. Offen: Manzambi, Vargas, Aebischer,
-  Keller, Rieder, Amenda, Jaquez, Itten. Alle 8 ⇒ Routine löschen (nur via claude.ai/code/routines).
-- **`npm run data:schedule` GESPERRT**, solange fixturedownload Spiel 29/31 alte Zeiten führt (sonst Patch 00:30Z/03:00Z weg).
-- **Shot-Tooling:** Desktop 1320px `WM26_SHOT_DIR=/tmp/x npm run dev`; Mobile `WM26_SHOT_W=390 WM26_SHOT_DIR=/tmp/x npm run dev`
-  (≤680px-Layout, `m-*.png`). Isoliertes userData, echte Tipps unberührt. Mobile-CSS am ENDE von components.css.
-- Echte Tippdaten in `~/Library/Application Support/WM26 Tipp/` — nie verändern (Seed liest nur). Port 5173 fremd → 5174+.
-- **App bleibt „WM26 Tipp"** (Rename „TSCHUTTINI '26" verworfen, macOS-26-Dock-Problem).
+- **🩹 Punkte-Beschwerde? ZUERST den PWA-Stand verdächtigen, nicht die Wertung.** Wertung (`scoring.ts`, 4/3/2) mehrfach verifiziert; SW cached ESPN nie; Live-Bundle selbstheilend. „Halbe/zu wenig Punkte" war bisher IMMER veralteter Cache/altes Bundle → Fix = hartes Neuladen. Memory [[projekt-punkte-beschwerde-pwa-stand]].
+- **🪤 Adrian arbeitet am Mac in der Safari-Web-App** (Dock „Tschuttini"), NICHT Electron. Eigene IndexedDB, getrennt vom JSON-Store. **Tippen/Importieren dort erreicht den Deploy-Store NICHT** (der baut aus `…/WM26 Tipp/wm26-store.json`). Einsammeln = je Profil aus der Web-App exportieren (`*-WM-Tipps.txt`) → in den Store mergen. Memory [[projekt-pwa-zwei-stores]].
+- **🔧 Tipps chirurgisch mergen — IMMER via Skill `ko-tipps-einlesen` + `merge-ko-tips.py`.** Exporte können Kategorien VERLIEREN (Lisa hatte mal kein fromR32). Darum NIE die ganze Datei importieren — nur die Ziel-Kategorie je Profil-ID setzen, Nicht-Ziel-Kategorien per SHA256 vorher/nachher gegenprüfen. Script macht Backup + `lsof`-Guard + atomic write; `clean_tip` behält nur `h/a` + `adv` (letzteres nur bei Remis).
+- **⚖️ Claude-Fairness:** Claude nur für Spiele tippen, die noch NICHT angepfiffen sind (ESPN-Status prüfen). Läuft eins schon → blind (nur Vorab-Quoten) oder weglassen, offen ausweisen. Memory [[projekt-claude-tippt-mit]].
+- **`mergeSeed` (store-web.ts) ersetzt bei NEUEM seedVersion die entries jedes Seed-Profils komplett.** Neuer-Version-Deploy NUR, wenn der Store die volle Wahrheit ist. Sonst gepinnt (`SEED_VERSION=<live-Wert>`) → kein mergeSeed.
+- **PWA-Reload:** neuer Deploy greift erst nach hartem Neuladen. SW cached App-Shell; ESPN-API NICHT (nur Bilder `CacheFirst`).
+- **Versionsnummern NIE wiederverwenden:** ≤1.8.11 vergeben, 1.8.3 verbrannt. Nächste frische ≥ 1.8.12.
+- **Tool-Scripts:** `npx tsx --tsconfig scripts/tsconfig.tools.json scripts/<x>.ts`. `standings.ts` (read-only) rechnet die Rangliste, `r32-pairings.ts` die Paarungen (lokaler results-Store ggf. veraltet → für Live-Paarungen ESPN-Scoreboard direkt).
+- **Trainerwechsel = 4 Schritte** (coaches.json → `publish:update` OHNE `--dmg` → `publish:web` → Cloud-Routine `trig_01F2EfZDT3kCTKLPaB6dYiKL`).
+- **Cloud-Routine „Nati-Spielerfotos" tgl. 09:00** (Stand nicht neu geprüft): offen ggf. Manzambi, Vargas, Aebischer, Keller, Rieder, Amenda, Jaquez, Itten. Alle da ⇒ Routine löschen.
+- **`npm run data:schedule` GESPERRT**, solange fixturedownload Spiel 29/31 alte Zeiten führt.
+- **Echte Tippdaten** in `~/Library/Application Support/WM26 Tipp/`. `gh`=**Ceccaroni**, Repo MUSS `WM2026` bleiben (`base '/WM2026/'`).
+- **Shot-Tooling:** Desktop `WM26_SHOT_DIR=/tmp/x npm run dev`; Mobile `WM26_SHOT_W=390 …`. Navigiert per Sidebar-LABEL.
 
 ## Nächstes
 
-- Warten, ob die anderen Dodo importieren und der iPhone-Reload bei allen zieht; bei Restbefunden nachfixen → `publish:web`.
-- **Bracket-Minimap verworfen** (Kompaktmodus deckt den Nutzen ab — Adrian-Entscheid 16.06.).
+1. **Halbfinal-Tipps (`fromSF`, 101–102) einlesen → Skill `ko-tipps-einlesen`**, sobald die VF durch sind (HF: 14./15.07.). Gleicher Ablauf. Für Dodo wieder Minimal-Export bauen, Claude fair (Anpfiff prüfen).
+2. **Gruppe zum harten Neuladen auffordern** (PWA ⌘R 2× / iPhone neu) — bringt die VF-Tipps in ihre Wertung.
+3. `deploy-web.mjs` um automatischen `gh workflow run` ergänzen; Commit-Entscheidung für die 28.06.+04.07.+09.07.-Arbeit; ggf. Mac-`.dmg` ≥1.8.12.

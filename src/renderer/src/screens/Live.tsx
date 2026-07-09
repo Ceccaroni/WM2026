@@ -10,7 +10,7 @@ import { buildRealWorld, resultsAsTips } from '../lib/results'
 import { computeBreakdown } from '../lib/scoring'
 import { dayKey, dayLabel, kickoffTime, todayKey } from '../lib/time'
 import type { ScheduledMatch } from '../lib/types'
-import { useApp, useMyTips } from '../store'
+import { useApp, useMyTips, useMyTipsMerged } from '../store'
 
 type View = 'spiele' | 'tabellen' | 'baum'
 
@@ -48,6 +48,8 @@ export default function Live() {
   const refreshResults = useApp((s) => s.refreshResults)
   const scoring = useApp((s) => s.scoring)
   const tips = useMyTips()
+  // Anzeige-Tipps: bei echten KO-Paarungen der Rundentipp, sonst main (breakdown bleibt main).
+  const displayTips = useMyTipsMerged()
   const [refreshing, setRefreshing] = useState(false)
   const compareFor = useCompare()
 
@@ -98,7 +100,7 @@ export default function Live() {
       key={m.match}
       match={m}
       result={results[m.match]}
-      tip={tips[m.match]}
+      tip={displayTips[m.match]}
       slots={m.round === 'group' ? undefined : realBracket.teams[m.match]}
       scoring={scoring}
       bonusPts={breakdown.perMatch[m.match]?.advance ?? 0}

@@ -1,10 +1,12 @@
 import { useMemo, useState } from 'react'
 import MatchCard from '../components/MatchCard'
+import { resolveTipBracket } from '../lib/bracket'
 import { GROUPS, ROUND_LABEL, SCHEDULE, TEAMS } from '../lib/data'
 import { buildIcs } from '../lib/ics'
+import { resolveMatchSlots, resultsAsTips } from '../lib/results'
 import { dayKey, dayLabel, todayKey } from '../lib/time'
 import type { Round } from '../lib/types'
-import { useMyTips } from '../store'
+import { useApp, useMyTipsMerged } from '../store'
 
 type RoundFilter = 'all' | Round
 
@@ -12,7 +14,10 @@ export default function Spielplan() {
   const [round, setRound] = useState<RoundFilter>('all')
   const [group, setGroup] = useState('all')
   const [team, setTeam] = useState('all')
-  const tips = useMyTips()
+  // Anzeige-Tipps: bei echten KO-Paarungen der Rundentipp (fromR16 …), sonst main.
+  const tips = useMyTipsMerged()
+  const results = useApp((s) => s.results)
+  const realBracket = useMemo(() => resolveTipBracket(resultsAsTips(results)), [results])
   const today = todayKey()
 
   const days = useMemo(() => {
@@ -95,7 +100,7 @@ export default function Spielplan() {
           </header>
           <div className="day__grid">
             {matches.map((m) => (
-              <MatchCard key={m.match} match={m} tip={tips[m.match]} />
+              <MatchCard key={m.match} match={m} tip={tips[m.match]} slots={resolveMatchSlots(results, realBracket, m)} />
             ))}
           </div>
         </section>

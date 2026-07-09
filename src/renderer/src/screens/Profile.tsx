@@ -109,7 +109,7 @@ export default function Profile() {
 
   const doExport = async () => {
     const r = await exportActive()
-    setStatus(r.ok ? `Exportiert nach ${r.path}` : (r.error ?? ''))
+    setStatus(r.ok ? (r.path ? `Exportiert nach ${r.path}` : 'Tipps exportiert ✓') : (r.error ?? ''))
   }
 
   const doImport = async () => {
@@ -159,7 +159,7 @@ export default function Profile() {
       <h2 className="sectiontitle">Austausch</h2>
       <div className="exchange">
         <button className="btn btn--primary" onClick={() => void doExport()}>
-          Meine Tipps exportieren …
+          {IS_WEB ? 'Meine Tipps senden …' : 'Meine Tipps exportieren …'}
         </button>
         <button className="btn" onClick={() => void doImport()}>
           Tipps importieren …

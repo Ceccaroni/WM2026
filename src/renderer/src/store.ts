@@ -1,4 +1,6 @@
+import { useMemo } from 'react'
 import { create } from 'zustand'
+import { mergeDisplayTips } from './lib/lateEntry'
 import { DEFAULT_SCORING } from './lib/types'
 import type {
   Entry,
@@ -144,6 +146,16 @@ export const useMyTips = (entry: EntryKind = 'main'): Record<number, Tip> =>
   useApp((s) => (s.activeProfileId ? (s.entries[s.activeProfileId]?.[entry]?.tips ?? EMPTY) : EMPTY))
 
 const EMPTY: Record<number, Tip> = {}
+
+/**
+ * Anzeige-Tipps des aktiven Profils über alle Kategorien: pro Spiel der Tipp aus der
+ * zuständigen Kategorie (echte KO-Paarung → Rundentipp fromR16 …, sonst main). Für
+ * Heute/Live/Spielplan gedacht — die Hauptwertung (main-Breakdown) bleibt getrennt.
+ */
+export const useMyTipsMerged = (): Record<number, Tip> => {
+  const entries = useApp((s) => (s.activeProfileId ? s.entries[s.activeProfileId] : undefined))
+  return useMemo(() => mergeDisplayTips(entries), [entries])
+}
 
 export const useActiveProfile = (): Profile | undefined =>
   useApp((s) => s.profiles.find((p) => p.id === s.activeProfileId))

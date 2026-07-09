@@ -80,20 +80,21 @@ const assert = (label: string, actual: unknown, expected: unknown): void => {
   assert('R32 fertig: Total', bd.total, 88 * 4 + 16 + 16) // Basis zählt nur beendete Spiele (1–88)
 }
 
-// Fall 5: Späteinstieg ab Achtelfinale — Einstiegsrunde gibt keine Teilnehmer-Boni,
-// danach normale Wertung; alles exakt getroffen.
+// Fall 5: KO-Runden-Tipp Achtelfinale — es wird NUR die Runde selbst getippt (8 Spiele),
+// keine Durchtipp-/Teilnehmer-Boni, kein Kategorie-Champion; alles exakt getroffen.
 {
   const results = finished(1, 0)
   const realBracket = resolveTipBracket(resultsAsTips(results))
   const real = buildRealWorld(results, realBracket)
   const def = LATE_ENTRIES.find((d) => d.kind === 'fromR16')!
   const sched = entrySchedule(def)
+  assert('Runden-Tipp: nur die Achtelfinal-Runde (8 Spiele)', sched.length, 8)
   const tips: Record<number, Tip> = Object.fromEntries(sched.map((m) => [m.match, { h: 1, a: 0 }]))
   const late = resolveLateBracket(tips, results, realBracket)
   const bd = computeBreakdown(tips, late, results, real, sched, DEFAULT_SCORING, def.bonusRounds)
-  assert('Späteinstieg: Basis', bd.base, 16 * 4)
-  assert('Späteinstieg: Weiterkommer', bd.advanceCount, 16)
-  assert('Späteinstieg: keine Boni für die Einstiegsrunde', bd.durchtipp, { r16: 0, qf: 8, sf: 4, final: 2, champion: true })
-  assert('Späteinstieg: Total', bd.total, 64 + 16 + (16 + 12 + 8 + 10))
+  assert('Runden-Tipp: Basis', bd.base, 8 * 4)
+  assert('Runden-Tipp: Weiterkommer', bd.advanceCount, 8)
+  assert('Runden-Tipp: keine Durchtipp-/Champion-Boni', bd.durchtipp, { r16: 0, qf: 0, sf: 0, final: 0, champion: false })
+  assert('Runden-Tipp: Total', bd.total, 32 + 8)
 }
 console.log('fertig.')

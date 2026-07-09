@@ -1,7 +1,7 @@
 import { SCHEDULE } from './data'
 import type { TipBracket } from './bracket'
 import type { RealWorld } from './scoring'
-import type { LiveResult, Tip } from './types'
+import type { LiveResult, ScheduledMatch, Tip } from './types'
 
 /**
  * Echte Ergebnisse in Tipp-Form (h/a/adv) — damit laufen sie unverändert durch
@@ -24,6 +24,26 @@ export function resultsAsTips(results: Record<number, LiveResult>, includeLive =
 }
 
 const isTeamId = (slot: string | undefined): slot is string => !!slot && /^[A-Z]{3}$/.test(slot)
+
+/**
+ * Anzeige-Teams eines Spiels für Spielplan/Vorschau: echte Paarung statt KO-Platzhalter,
+ * sobald sie feststeht. Quelle wie in buildRealWorld — ESPN (`homeTeam/awayTeam`, auch vor
+ * Anpfiff), sonst die eigene Auflösung der echten Endstände (realBracket), sonst Platzhalter.
+ * Gruppenspiele tragen schon echte Teams → undefined (Karte nutzt die statische Paarung).
+ */
+export function resolveMatchSlots(
+  results: Record<number, LiveResult>,
+  realBracket: TipBracket,
+  match: ScheduledMatch
+): { home: string; away: string } | undefined {
+  if (match.round === 'group') return undefined
+  const r = results[match.match]
+  const t = realBracket.teams[match.match]
+  return {
+    home: isTeamId(r?.homeTeam) ? r.homeTeam : (t?.home ?? match.home),
+    away: isTeamId(r?.awayTeam) ? r.awayTeam : (t?.away ?? match.away)
+  }
+}
 
 /**
  * Echte Turnierfakten für die Wertung: Weiterkommer und Runden-Teilnehmer, soweit bekannt.

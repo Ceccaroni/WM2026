@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": "..",
+    "paths": { "@data/*": ["resources/data/*"] },
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "target": "esnext",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": false
+  }
+}

@@ -5,13 +5,14 @@ import LiveRow, { isRunning } from '../components/LiveRow'
 import MatchCard from '../components/MatchCard'
 import { SCHEDULE, TEAM_BY_ID } from '../lib/data'
 import { resolveTipBracket } from '../lib/bracket'
+import { entrySchedule, LATE_ENTRIES } from '../lib/lateEntry'
 import { useCompare } from '../lib/compare'
-import { buildRealWorld, resultsAsTips } from '../lib/results'
+import { buildRealWorld, resolveMatchSlots, resultsAsTips } from '../lib/results'
 import { computeBreakdown } from '../lib/scoring'
 import { dayKey, dayLabel, kickoffTime, todayKey } from '../lib/time'
 import { openTipMatches } from '../lib/watch'
 import type { ScheduledMatch } from '../lib/types'
-import { useActiveProfile, useApp, useMyTips } from '../store'
+import { useActiveProfile, useApp, useMyTips, useMyTipsMerged } from '../store'
 
 const dateFmt = new Intl.DateTimeFormat('de-CH', {
   weekday: 'long',
@@ -33,7 +34,11 @@ export default function Heute({ goTo }: { goTo: (id: 'tipps' | 'ko' | 'live') =>
   const lineups = useApp((s) => s.lineups)
   const scoring = useApp((s) => s.scoring)
   const tips = useMyTips()
-  const lateTips = useMyTips('fromR32')
+  // Anzeige-Tipps: bei echten KO-Paarungen der Rundentipp (fromR16 …), sonst main.
+  // Die Hauptwertung unten (breakdown) rechnet weiter mit `tips` (= main).
+  const displayTips = useMyTipsMerged()
+  const entries = useApp((s) => s.entries)
+  const activeProfileId = useApp((s) => s.activeProfileId)
   const profile = useActiveProfile()
   const compareFor = useCompare()
   const [now, setNow] = useState(() => Date.now())
@@ -62,17 +67,24 @@ export default function Heute({ goTo }: { goTo: (id: 'tipps' | 'ko' | 'live') =>
   const next = todayMatches.find((m) => Date.parse(m.dateUtc) > now) ?? SCHEDULE.find((m) => Date.parse(m.dateUtc) > now)
   const open = useMemo(() => openTipMatches(tips, now), [tips, now])
 
-  // KO-Aufruf: sobald alle 16 Sechzehntelfinal-Paarungen real feststehen (ESPN-Teams
-  // oder echte Tabellen-Auflösung), sollen alle zusätzlich die Kategorie „ab 1/16" tippen
-  const r32Matches = useMemo(() => SCHEDULE.filter((m) => m.round === 'r32'), [])
-  const r32Fixed = r32Matches.every((m) => {
-    const r = results[m.match]
-    const t = realBracket.teams[m.match]
-    return (r?.homeTeam && r?.awayTeam) || (TEAM_BY_ID.has(t.home) && TEAM_BY_ID.has(t.away))
-  })
-  const r32Tipped = r32Matches.filter((m) => lateTips[m.match]).length
-  const lastR32Kickoff = Math.max(...r32Matches.map((m) => Date.parse(m.dateUtc)))
-  const showKoCall = r32Fixed && r32Tipped < r32Matches.length && now < lastR32Kickoff
+  // KO-Runden-Aufruf: sobald die echten Paarungen einer KO-Runde feststehen (ESPN-Teams
+  // oder echte Tabellen-Auflösung) und sie noch nicht angepfiffen ist, ruft ein Gold-Banner
+  // dazu auf, diese Runde frisch zu tippen — pro Runde eine eigene Wertung.
+  const koCalls = useMemo(() => {
+    const mine = activeProfileId ? entries[activeProfileId] : undefined
+    return LATE_ENTRIES.map((def) => {
+      const roundMatches = entrySchedule(def)
+      const fixed = roundMatches.every((m) => {
+        const r = results[m.match]
+        const t = realBracket.teams[m.match]
+        return (r?.homeTeam && r?.awayTeam) || (TEAM_BY_ID.has(t.home) && TEAM_BY_ID.has(t.away))
+      })
+      const myTips = mine?.[def.kind]?.tips ?? {}
+      const tipped = roundMatches.filter((m) => myTips[m.match]).length
+      const lastKickoff = Math.max(...roundMatches.map((m) => Date.parse(m.dateUtc)))
+      return { kind: def.kind, label: def.label, title: def.title, fixed, tipped, total: roundMatches.length, lastKickoff }
+    }).filter((k) => k.fixed && k.tipped < k.total && now < k.lastKickoff)
+  }, [results, realBracket, entries, activeProfileId, now])
 
   const tomorrow = useMemo(() => {
     const after = SCHEDULE.filter((m) => dayKey(m.dateUtc) > today).sort((a, b) => a.dateUtc.localeCompare(b.dateUtc))
@@ -86,7 +98,7 @@ export default function Heute({ goTo }: { goTo: (id: 'tipps' | 'ko' | 'live') =>
       key={m.match}
       match={m}
       result={results[m.match]}
-      tip={tips[m.match]}
+      tip={displayTips[m.match]}
       slots={m.round === 'group' ? undefined : realBracket.teams[m.match]}
       scoring={scoring}
       bonusPts={breakdown.perMatch[m.match]?.advance ?? 0}
@@ -134,12 +146,12 @@ export default function Heute({ goTo }: { goTo: (id: 'tipps' | 'ko' | 'live') =>
         </button>
       )}
 
-      {showKoCall && (
-        <button className="tipalert tipalert--gold" onClick={() => goTo('ko')}>
-          🏁 Die KO-Paarungen stehen fest! Jetzt zusätzlich die Kategorie «ab 1/16» tippen — echte Teams, eigene
-          Wertung ({r32Tipped}/{r32Matches.length} getippt) →
+      {koCalls.map((k) => (
+        <button key={k.kind} className="tipalert tipalert--gold" onClick={() => goTo('ko')}>
+          🏁 Die Paarungen im {k.title} stehen fest! Jetzt die Runde «{k.label}» tippen — echte Teams, eigene
+          Wertung ({k.tipped}/{k.total} getippt) →
         </button>
-      )}
+      ))}
 
       {todayMatches.length > 0 ? (
         <section className="day">
@@ -177,7 +189,7 @@ export default function Heute({ goTo }: { goTo: (id: 'tipps' | 'ko' | 'live') =>
           </header>
           <div className="day__grid">
             {tomorrow.map((m) => (
-              <MatchCard key={m.match} match={m} tip={tips[m.match]} />
+              <MatchCard key={m.match} match={m} tip={displayTips[m.match]} slots={resolveMatchSlots(results, realBracket, m)} />
             ))}
           </div>
         </section>

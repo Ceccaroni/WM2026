@@ -41,6 +41,17 @@ export const TIPS: Record<number, Tip> = {
   103: { h: 2, a: 1 }, 104: { h: 2, a: 1 }
 }
 
+// fromR32 (28.06.26): Runden-Tipp NUR fürs Sechzehntelfinale (73–88) mit den ECHTEN
+// Paarungen. Eigene Wertung, gegen die echten Resultate aufgelöst (resolveLateBracket).
+// Werte: Recherche-Agent nach EV-Rezeptbuch (Quoten 28.06.): 1:0 Standard, 2:0 nur bei
+// echten Kantern (74,77,80,84,86). Der Weltmeister-Tipp läuft separat in der main-Wertung.
+export const FROM_R32: Record<number, Tip> = {
+  73: { h: 0, a: 1 }, 74: { h: 2, a: 0 }, 75: { h: 1, a: 0 }, 76: { h: 1, a: 0 },
+  77: { h: 2, a: 0 }, 78: { h: 0, a: 1 }, 79: { h: 1, a: 0 }, 80: { h: 2, a: 0 },
+  81: { h: 1, a: 0 }, 82: { h: 1, a: 0 }, 83: { h: 1, a: 0 }, 84: { h: 2, a: 0 },
+  85: { h: 1, a: 0 }, 86: { h: 2, a: 0 }, 87: { h: 1, a: 0 }, 88: { h: 1, a: 0 }
+}
+
 const bracket = resolveTipBracket(TIPS)
 const name = (id: string): string => TEAM_BY_ID.get(id)?.name ?? id
 for (let n = 73; n <= 104; n++) {
@@ -51,11 +62,12 @@ console.log('Champion:', bracket.champion ? name(bracket.champion) : '—')
 
 // Scoring-Probe: Breakdown mit leeren Ergebnissen und mit Volltreffer-Welt — darf nicht werfen
 import { SCHEDULE } from '../src/renderer/src/lib/data'
-import { buildRealWorld } from '../src/renderer/src/lib/results'
+import { buildRealWorld, resultsAsTips } from '../src/renderer/src/lib/results'
+import { resolveLateBracket, LATE_ENTRIES, entrySchedule } from '../src/renderer/src/lib/lateEntry'
 import { computeBreakdown } from '../src/renderer/src/lib/scoring'
 import { DEFAULT_SCORING } from '../src/shared/types'
 import type { ExchangeFileV1, LiveResult } from '../src/shared/types'
-import { writeFileSync } from 'node:fs'
+import { writeFileSync, readFileSync } from 'node:fs'
 
 const empty = computeBreakdown(TIPS, bracket, {}, buildRealWorld({}, resolveTipBracket({})), SCHEDULE, DEFAULT_SCORING)
 const world: Record<number, LiveResult> = Object.fromEntries(
@@ -67,13 +79,47 @@ const world: Record<number, LiveResult> = Object.fromEntries(
 const full = computeBreakdown(TIPS, bracket, world, buildRealWorld(world, resolveTipBracket({})), SCHEDULE, DEFAULT_SCORING)
 console.log(`Scoring-Probe: leer=${empty.total} P, 1:0-Welt=${full.total} P, Tipps=${Object.keys(TIPS).length}`)
 
+// === fromR32-Verifikation: Claudes KO-Neuauflage gegen die ECHTEN Paarungen ===
+// (spiegelt die App: resolveLateBracket mit echten Resultaten, nicht mit Gruppentipps)
+const resJson = JSON.parse(
+  readFileSync(`${process.env.HOME}/Library/Application Support/WM26 Tipp/wm26-results.json`, 'utf8')
+)
+const realResults: Record<number, LiveResult> = {}
+for (const [k, v] of Object.entries<any>(resJson.results)) realResults[Number(k)] = v as LiveResult
+const realBracket = resolveTipBracket(resultsAsTips(realResults))
+const lateDef = LATE_ENTRIES.find((d) => d.kind === 'fromR32')!
+const koSchedule = entrySchedule(lateDef)
+
+// Guard: alle KO-Spiele (73–104) müssen getippt sein, sonst KEIN Export.
+const missing = koSchedule.filter((m) => !FROM_R32[m.match]).map((m) => m.match)
+if (missing.length) {
+  throw new Error(`FROM_R32 unvollständig — fehlende Spiele: ${missing.join(', ')}. Kein Export.`)
+}
+
+const lateBracket = resolveLateBracket(FROM_R32, realResults, realBracket)
+const isTeam = (s: string | undefined): s is string => !!s && /^[A-Z]{3}$/.test(s)
+const unresolved = koSchedule.filter((m) => {
+  const t = lateBracket.teams[m.match]
+  return !t || !isTeam(t.home) || !isTeam(t.away)
+})
+console.log('\n=== Claudes fromR32-Tipps (echtes Sechzehntelfinale) ===')
+for (const m of koSchedule) {
+  const t = lateBracket.teams[m.match]
+  const tip = FROM_R32[m.match]
+  const win = tip.h > tip.a ? name(t.home) : tip.h < tip.a ? name(t.away) : '(adv?)'
+  console.log(`  ${m.match}: ${name(t.home)} ${tip.h}:${tip.a} ${name(t.away)}  → ${win}`)
+}
+if (unresolved.length) {
+  throw new Error(`Paarungen nicht voll aufgelöst bei Spielen: ${unresolved.map((m) => m.match).join(', ')}`)
+}
+
 const file: ExchangeFileV1 = {
   formatVersion: 1,
   exportedAt: new Date().toISOString(),
   scoring: DEFAULT_SCORING,
   profile: { id: 'claude-fable', name: 'Claude', color: '#D97757' },
-  entries: { main: { tips: TIPS } }
+  entries: { main: { tips: TIPS }, fromR32: { tips: FROM_R32 } }
 }
 const out = `${process.env.HOME}/Desktop/Claude.wm26tipp`
 writeFileSync(out, JSON.stringify(file, null, 2))
-console.log('geschrieben:', out)
+console.log('\ngeschrieben:', out, `(main: ${Object.keys(TIPS).length} Tipps, fromR32: ${Object.keys(FROM_R32).length} Tipps)`)

@@ -24,20 +24,21 @@ import { openTipMatches } from './lib/watch'
 import type { UpdateSnapshot } from './lib/types'
 import { useActiveProfile, useApp, useMyTips } from './store'
 
+// Reihenfolge frei umstellbar: Der Screenshot-Hook (src/main/index.ts) navigiert
+// per Label-Text, nicht mehr per Sidebar-Index — Umsortieren bricht ihn nicht.
 const RUBRIKEN = [
   { id: 'heute', label: 'Heute' },
   { id: 'spielplan', label: 'Spielplan' },
-  { id: 'tipps', label: 'Meine Tipps' },
+  { id: 'ko', label: 'KO-Runde' },
   { id: 'live', label: 'Live' },
   { id: 'rangliste', label: 'Rangliste' },
-  { id: 'ko', label: 'KO-Einstieg' },
   { id: 'teams', label: 'Teams' },
   { id: 'stadien', label: 'Stadien' },
-  // Neue Rubriken bewusst NACH den bestehenden anfügen — der Screenshot-Hook klickt Sidebar-Indizes
   { id: 'erfolge', label: 'Erfolge' },
   { id: 'chronik', label: 'Chronik' },
   { id: 'torschuetzen', label: 'Torschützen' },
   { id: 'profile', label: 'Profile' },
+  { id: 'tipps', label: 'Meine Tipps' },
   { id: 'siegerehrung', label: 'Siegerehrung' }
 ] as const
 

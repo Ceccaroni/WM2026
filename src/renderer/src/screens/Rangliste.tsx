@@ -74,7 +74,7 @@ function Punktesystem({ scoring }: { scoring: ScoringConfig }) {
             . Gutgeschrieben wird, sobald die jeweilige Runde in echt feststeht.
           </p>
           <p className="rules__note">
-            Der KO-Einstieg (ab 1/16, 1/8 …) ist eine eigene Kategorie, in der alle mit den echten Paarungen frisch
+            Die KO-Runde (ab 1/16, 1/8 …) ist eine eigene Kategorie, in der alle mit den echten Paarungen frisch
             tippen: Die Einstiegsrunde selbst bringt keine Teilnehmer-Boni (ihr Feld steht ja fest) — ab der nächsten
             Runde gilt alles wie hier.
           </p>
@@ -208,8 +208,8 @@ export default function Rangliste() {
       return [
         {
           key: def.kind,
-          title: `KO-Einstieg ${def.label} — ${def.title}`,
-          hint: 'Hier tippen alle frisch mit den echten Paarungen — eigene Wertung, die Hauptwertung läuft parallel weiter. Die Einstiegsrunde bringt keine Teilnehmer-Boni (ihr Feld steht fest), danach gilt das normale Punktesystem.',
+          title: `KO-Runde ${def.label} — ${def.title}`,
+          hint: 'Hier tippen alle nur diese KO-Runde frisch mit den echten Paarungen — eigene Wertung, die Hauptwertung läuft parallel weiter. 4/3/2 je Spiel plus 1 pro richtigem Weiterkommer; der Weltmeister-Tipp zählt allein in der Hauptwertung.',
           rows: rankRows(
             entrants.map((profile) => {
               const tips = entries[profile.id]?.[def.kind]?.tips ?? {}

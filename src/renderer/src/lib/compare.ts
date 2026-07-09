@@ -4,6 +4,7 @@
 import { useCallback, useMemo } from 'react'
 import { SCHEDULE } from './data'
 import { resolveTipBracket } from './bracket'
+import { mergeDisplayTips } from './lateEntry'
 import { buildRealWorld, resultsAsTips } from './results'
 import { computeBreakdown } from './scoring'
 import { isLocked } from './time'
@@ -39,7 +40,9 @@ export function useCompare(): (match: ScheduledMatch) => CompareEntry[] {
     return profiles.map((profile) => {
       const tips = entries[profile.id]?.main?.tips ?? {}
       const bd = computeBreakdown(tips, resolveTipBracket(tips), results, real, SCHEDULE, scoring)
-      return { profile, tips, perMatch: bd.perMatch }
+      // Anzeige: bei echten KO-Paarungen den Rundentipp zeigen (nicht den main-Durchtipp);
+      // die Breakdown/advance oben bleibt bewusst auf main.
+      return { profile, tips: mergeDisplayTips(entries[profile.id]), perMatch: bd.perMatch }
     })
   }, [profiles, entries, results, scoring])
 

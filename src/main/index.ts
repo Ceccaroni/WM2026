@@ -171,7 +171,7 @@ function registerIpc(): void {
 
   ipcMain.handle('profile:import', async () => {
     const { canceled, filePaths } = await dialog.showOpenDialog({
-      filters: [{ name: 'WM26-Tipps', extensions: ['wm26tipp', 'json'] }],
+      filters: [{ name: 'WM26-Tipps', extensions: ['wm26tipp', 'json', 'txt'] }],
       properties: ['openFile']
     })
     if (canceled || !filePaths[0]) return { ok: false, canceled: true, state: store.state }
@@ -520,10 +520,11 @@ async function captureMobile(win: BrowserWindow): Promise<void> {
     writeFileSync(join(SHOT_DIR!, name), img.toPNG())
     console.log(`[shot] ${name}`)
   }
-  const nav = (i: number) => js(`document.querySelectorAll('.sidebar button')[${i}]?.click()`)
+  const navTo = (label: string) =>
+    js(`[...document.querySelectorAll('.sidebar button')].find((b) => b.textContent.trim().startsWith(${JSON.stringify(label)}))?.click()`)
   const top = () => js(`document.querySelector('.screen')?.scrollTo(0, 0)`)
-  const at = async (i: number, name: string) => {
-    await nav(i)
+  const at = async (label: string, name: string) => {
+    await navTo(label)
     await wait(500)
     await top()
     await wait(180)
@@ -540,19 +541,19 @@ async function captureMobile(win: BrowserWindow): Promise<void> {
     return true
   })()`)
   await wait(900)
-  await at(0, 'm-heute.png')
-  await at(1, 'm-spielplan.png')
-  await at(4, 'm-rangliste.png')
-  await at(5, 'm-ko.png')
+  await at('Heute', 'm-heute.png')
+  await at('Spielplan', 'm-spielplan.png')
+  await at('Rangliste', 'm-rangliste.png')
+  await at('KO-Runde', 'm-ko.png')
   // Team-Detail: in die Mexiko-Seite und an den Kopf scrollen (Verbandslogo/Flagge/Button).
-  await nav(6)
+  await navTo('Teams')
   await wait(400)
   await js(`[...document.querySelectorAll('.teamsticker')].find((b) => b.textContent.includes('Mexiko'))?.click()`)
   await wait(500)
   await top()
   await wait(180)
   await shot('m-team.png')
-  await at(9, 'm-chronik.png')
+  await at('Chronik', 'm-chronik.png')
   app.quit()
 }
 
@@ -576,13 +577,15 @@ async function captureScreens(win: BrowserWindow): Promise<void> {
     return true
   })()`)
   await wait(900)
-  // Sidebar-Indizes: 0 Heute · 1 Spielplan · 2 Tipps · 3 Live · 4 Rangliste · 5 KO · 6 Teams · 7 Stadien
-  await js(`document.querySelectorAll('.sidebar button')[1]?.click()`)
+  // Navigation per Sidebar-Label (reihenfolge-unabhängig): findet den Button per Text.
+  const navTo = (label: string) =>
+    js(`[...document.querySelectorAll('.sidebar button')].find((b) => b.textContent.trim().startsWith(${JSON.stringify(label)}))?.click()`)
+  await navTo('Spielplan')
   await wait(500)
   await shot('1-spielplan.png')
   const chip = (label: string) =>
     js(`[...document.querySelectorAll('.groupchip')].find((b) => b.textContent.trim().startsWith('${label}'))?.click()`)
-  await js(`document.querySelectorAll('.sidebar button')[2]?.click()`)
+  await navTo('Meine Tipps')
   await wait(500)
   await shot('2-tipps-gruppe-a.png')
   await chip('1/16')
@@ -594,10 +597,10 @@ async function captureScreens(win: BrowserWindow): Promise<void> {
   await chip('Baum')
   await wait(400)
   await shot('5-baum.png')
-  await js(`document.querySelectorAll('.sidebar button')[6]?.click()`)
+  await navTo('Teams')
   await wait(500)
   await shot('6-teams.png')
-  await js(`document.querySelectorAll('.sidebar button')[3]?.click()`)
+  await navTo('Live')
   await wait(500)
   await shot('7-live-spiele.png')
   // Aufstellungen: erste Live-Zeile aufklappen → Spielfeld mit beiden Startelfen
@@ -614,13 +617,13 @@ async function captureScreens(win: BrowserWindow): Promise<void> {
   await chip('Baum')
   await wait(400)
   await shot('9-live-baum.png')
-  await js(`document.querySelectorAll('.sidebar button')[4]?.click()`)
+  await navTo('Rangliste')
   await wait(500)
   await js(`document.querySelector('.rules__toggle')?.click()`)
   await js(`document.querySelector('.lbrow')?.click()`)
   await wait(400)
   await shot('10-rangliste.png')
-  await js(`document.querySelectorAll('.sidebar button')[5]?.click()`)
+  await navTo('KO-Runde')
   await wait(500)
   await shot('11-ko-einstieg.png')
   // KO-Tipp-Hilfe: erstes „Form & Quoten"-Panel aufklappen (Gruppe + Tabelle + Quoten, Vergleich)
@@ -630,7 +633,7 @@ async function captureScreens(win: BrowserWindow): Promise<void> {
   await wait(250)
   await shot('28-ko-hilfe.png')
   // M4: Team-Detailseite (Dossier + Quote) und Stadien
-  await js(`document.querySelectorAll('.sidebar button')[6]?.click()`)
+  await navTo('Teams')
   await wait(400)
   await js(`[...document.querySelectorAll('.teamsticker')].find((b) => b.textContent.includes('Schweiz'))?.click()`)
   await wait(500)
@@ -639,20 +642,20 @@ async function captureScreens(win: BrowserWindow): Promise<void> {
   await js(`document.querySelector('.newslist')?.scrollIntoView({ block: 'center' })`)
   await wait(400)
   await shot('12-team-detail.png')
-  await js(`document.querySelectorAll('.sidebar button')[7]?.click()`)
+  await navTo('Stadien')
   await wait(600)
   await shot('13-stadien.png')
   await js(`document.querySelector('.flipcard')?.click()`)
   await wait(900)
   await shot('14-stadion-flip.png')
   // Heute-Dashboard mit aufgeklapptem Tipp-Vergleich
-  await js(`document.querySelectorAll('.sidebar button')[0]?.click()`)
+  await navTo('Heute')
   await wait(500)
   await js(`document.querySelector('.liverow--expandable')?.click()`)
   await wait(400)
   await shot('15-heute.png')
   // Turnierbaum im Kompaktmodus (alles im Blick, Connectors neu vermessen)
-  await js(`document.querySelectorAll('.sidebar button')[2]?.click()`)
+  await navTo('Meine Tipps')
   await wait(400)
   await chip('Baum')
   await wait(400)
@@ -660,7 +663,7 @@ async function captureScreens(win: BrowserWindow): Promise<void> {
   await wait(500)
   await shot('16-baum-kompakt.png')
   // Kader-Unterseite mit umgedrehter Spielerkarte
-  await js(`document.querySelectorAll('.sidebar button')[6]?.click()`)
+  await navTo('Teams')
   await wait(400)
   await js(`[...document.querySelectorAll('.teamsticker')].find((b) => b.textContent.includes('Schweiz'))?.click()`)
   await wait(400)
@@ -669,41 +672,41 @@ async function captureScreens(win: BrowserWindow): Promise<void> {
   await js(`document.querySelectorAll('.stargrid--squad .flipcard')[1]?.click()`)
   await wait(900)
   await shot('17-kader.png')
-  // Erfolgs-Sticker (Sidebar-Index 8 — „Erfolge" steht bewusst nach den Indizes 0–7)
-  await js(`document.querySelectorAll('.sidebar button')[8]?.click()`)
+  // Erfolgs-Sticker
+  await navTo('Erfolge')
   await wait(500)
   await shot('18-erfolge.png')
   // Live-Ereignisse: Klick auf den Torschützen öffnet seine Panini-Karte (PlayerPeek)
-  await js(`document.querySelectorAll('.sidebar button')[3]?.click()`)
+  await navTo('Live')
   await wait(500)
   await js(`document.querySelector('.liverow__ev--card')?.click()`)
   await wait(600)
   await shot('19-playerpeek.png')
   // Team-Detail mit ECHTEM Verbandswappen (Schweiz in Shot 12 zeigt das Fallback-Schild)
   await js(`document.querySelector('.peek')?.click()`)
-  await js(`document.querySelectorAll('.sidebar button')[6]?.click()`)
+  await navTo('Teams')
   await wait(400)
   await js(`[...document.querySelectorAll('.teamsticker')].find((b) => b.textContent.includes('Deutschland'))?.click()`)
   await wait(500)
   await shot('20-team-crest.png')
-  // Turnier-Chronik (Sidebar-Index 9): letzte Tagesseite mit Tagespunkten + Stand
-  await js(`document.querySelectorAll('.sidebar button')[9]?.click()`)
+  // Turnier-Chronik: letzte Tagesseite mit Tagespunkten + Stand
+  await navTo('Chronik')
   await wait(500)
   await shot('21-chronik.png')
   // Chronik-PDF (Shot-Modus schreibt dialogfrei nach SHOT_DIR/chronik.pdf)
   await js(`[...document.querySelectorAll('.filters__ics')].find((b) => b.textContent.includes('PDF'))?.click()`)
   await wait(2500)
   console.log('[shot] chronik.pdf')
-  // Torschützen-Rubrik (Sidebar-Index 10): Torjägerliste mit Goldenem Schuh
-  await js(`document.querySelectorAll('.sidebar button')[10]?.click()`)
+  // Torschützen-Rubrik: Torjägerliste mit Goldenem Schuh
+  await navTo('Torschützen')
   await wait(500)
   await shot('22-torschuetzen.png')
-  // Profile-Rubrik (Sidebar-Index 11): Austausch, Ton und „Nach Updates suchen"
-  await js(`document.querySelectorAll('.sidebar button')[11]?.click()`)
+  // Profile-Rubrik: Austausch, Ton und „Nach Updates suchen"
+  await navTo('Profile')
   await wait(500)
   await shot('23-profile.png')
-  // Siegerehrung-Rubrik (Sidebar-Index 12): Vorschau (vor Finale), dann Zeremonie + Triple per dev-Buttons
-  await js(`document.querySelectorAll('.sidebar button')[12]?.click()`)
+  // Siegerehrung-Rubrik: Vorschau (vor Finale), dann Zeremonie + Triple per dev-Buttons
+  await navTo('Siegerehrung')
   await wait(700)
   await shot('24-siegerehrung-vorschau.png')
   await js(`document.querySelectorAll('.cer-devbar button')[0]?.click()`)
